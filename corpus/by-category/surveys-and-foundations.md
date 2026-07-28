@@ -12,11 +12,11 @@
 
 - [A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools](https://arxiv.org/abs/2506.20743)
   - `arxiv:2506.20743` · cited by 1: LJ
-  - summary: TODO
+  - summary: Surveys foundation models and LLM agents in materials science across six application areas (data extraction, atomistic simulation, property prediction, design, process planning, multiscale modeling), flagging generalizability, interpretability, and multimodal fusion as the persistent gaps.
 
 - [A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers](https://arxiv.org/abs/2508.21148)
   - `arxiv:2508.21148` · cited by 1: LJ
-  - summary: TODO
+  - summary: Reframes scientific-LLM progress as co-evolving with its data substrate rather than model architecture alone, reviewing 270+ training datasets and 190+ benchmarks and arguing the field is shifting from static exams toward closed-loop autonomous agents that experiment and validate.
 
 - [A survey on large language model based autonomous agents](https://arxiv.org/abs/2308.11432)
   - `arxiv:2308.11432` · cited by 1: LJ
@@ -24,7 +24,7 @@
 
 - [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/pdf/2404.02039)
   - `arxiv:2404.02039` · cited by 1: LJ
-  - summary: TODO
+  - summary: A reference architecture for LLM-based game agents built around memory, reasoning, and perception-action at the single-agent level and communication/coordination at the multi-agent level, mapped to six game genres by their dominant requirement (e.g. low-latency control vs open-ended goal formation).
 
 - [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387)
   - `arxiv:2404.14387` · cited by 1: LJ
@@ -44,15 +44,15 @@
 
 - [AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways](https://dl.acm.org/doi/abs/10.1145/3716628)
   - `url:https://dl.acm.org/doi/abs/10.1145/3716628` · cited by 1: LJ
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](https://arxiv.org/pdf/2501.02189)
   - `arxiv:2501.02189` · cited by 1: LJ
-  - summary: TODO
+  - summary: Surveys vision-language models through 2025 covering architecture evolution, alignment methods, and benchmarks, and names hallucination, alignment, fairness, and safety as the open issues across current VLMs.
 
 - [Computational Experiments Meet Large Language Model Based Agents: A Survey and Perspective](https://arxiv.org/abs/2402.00262)
   - `arxiv:2402.00262` · cited by 1: LJ
-  - summary: TODO
+  - summary: Argues LLM-based agents and agent-based social simulation are complementary: LLMs supply the anthropomorphism (reasoning, learning) ABM lacks, while computational experiments supply the causal explainability LLMs lack on their own.
 
 - [Deconstructing The Ethics of Large Language Models from Long-standing Issues to New-emerging Dilemmas: A Surveyhttps://ui.adsabs.harvard.edu/](https://ui.adsabs.harvard.edu/abs/2024arXiv240605392D/abstract)
   - `url:https://ui.adsabs.harvard.edu/abs/2024arXiv240605392D/abstract` · cited by 1: LJ
@@ -64,7 +64,7 @@
 
 - [Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects](https://arxiv.org/abs/2401.03428)
   - `arxiv:2401.03428` · cited by 1: LJ
-  - summary: TODO
+  - summary: A methodology-agnostic survey of LLM-based agents covering single- and multi-agent architecture, cognitive/planning components, tool use, and inter-agent communication, aimed at unifying fragmented agent-design terminology.
 
 - [Foundation Models and Fair Use](https://www.jmlr.org/papers/v24/23-0569.html)
   - `url:https://jmlr.org/papers/v24/23-0569.html` · cited by 1: LJ
@@ -72,23 +72,23 @@
 
 - [Inferring the Goals of Communicating Agents from Actions and Instructions](https://arxiv.org/abs/2306.16207)
   - `arxiv:2306.16207` · cited by 1: LJ
-  - summary: TODO
+  - summary: Models a listener inferring a two-agent team's shared goal from both actions and natural-language instructions via Bayesian inverse planning with GPT-3 as the utterance likelihood, matching human goal judgments at R=0.96 and showing instructions speed up inference over actions alone.
 
 - [Large Language Model Alignment: A Survey](https://arxiv.org/abs/2309.15025)
   - `arxiv:2309.15025` · cited by 1: LJ
-  - summary: TODO
+  - summary: Surveys LLM alignment techniques split into outer (specifying the right objective) and inner (getting the model to actually pursue it) alignment, alongside interpretability and adversarial-robustness concerns and the benchmarks used to evaluate them.
 
 - [Large Language Model based Multi-Agents: A Survey of Progress and Challenges](https://arxiv.org/abs/2402.01680)
   - `arxiv:2402.01680` · cited by 1: LJ
-  - summary: TODO
+  - summary: Surveys LLM-based multi-agent systems along what domains they simulate, how agents are profiled and communicate, and what mechanisms drive their capability growth over time, with a maintained list of datasets and benchmarks.
 
 - [Large Language Model based Multi-Agents: A Survey of Progress and Challenges](https://www.ijcai.org/proceedings/2024/0890.pdf)
   - `url:https://ijcai.org/proceedings/2024/0890.pdf` · cited by 1: LJ
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [Large Language Models and Games: A Survey and Roadmap](https://arxiv.org/pdf/2402.18659)
   - `arxiv:2402.18659` · cited by 1: LJ
-  - summary: TODO
+  - summary: The first comprehensive survey mapping the different roles LLMs can take within games (as agents, tools, or content generators), identifying underexplored directions and the current limitations of using LLMs in game systems.
 
 - [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116)
   - `arxiv:2402.15116` · cited by 1: LJ
@@ -96,7 +96,7 @@
 
 - [LLaMA: Open and Efficient Foundation Language Models](https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/)
   - `url:https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models` · cited by 1: LJ
-  - summary: TODO
+  - summary: Trains a 7B-65B foundation model family on trillions of tokens from public data only, showing LLaMA-13B beats GPT-3 (175B) on most benchmarks and LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B, and releases all weights to researchers.
 
 - [LLM With Tools: A Survey](http://arxiv.org/abs/2409.18807)
   - `arxiv:2409.18807` · cited by 1: LJ
@@ -120,7 +120,7 @@
 
 - [Position Paper: Agent AI Towards a Holistic Intelligence](https://arxiv.org/abs/2403.00833)
   - `arxiv:2403.00833` · cited by 1: LJ
-  - summary: TODO
+  - summary: A position paper arguing AI research should move from narrow reductionist models toward a unified 'Agent Foundation Model' that integrates large foundation models directly into embodied agent action across robotics, gaming, and healthcare.
 
 - [Ranking Engineer Agent (REA): Meta's Autonomous AI System for Ads Ranking](https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/)
   - `url:https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation` · cited by 1: HE
@@ -128,7 +128,7 @@
 
 - [Read our survey paper here](https://arxiv.org/abs/2503.21460)
   - `arxiv:2503.21460` · cited by 1: LJ
-  - summary: TODO
+  - summary: A methodology-centered survey linking LLM-agent architectural choices to their collaboration mechanisms and evolution over time, unifying evaluation, tool use, and application-domain threads under one taxonomy.
 
 - [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/)
   - `url:https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem` · cited by 1: HE
@@ -136,7 +136,7 @@
 
 - [TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs](https://spj.science.org/doi/10.34133/icomputing.0063)
   - `url:https://spj.science.org/doi/10.34133/icomputing.0063` · cited by 1: LJ
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies](https://arxiv.org/pdf/2407.19354)
   - `arxiv:2407.19354` · cited by 1: LJ
@@ -152,7 +152,7 @@
 
 - [The rise and potential of large language model based agents: a survey](https://arxiv.org/abs/2309.07864)
   - `arxiv:2309.07864` · cited by 1: LJ
-  - summary: TODO
+  - summary: Traces the concept of 'agent' from its philosophical roots into AI, proposes a brain/perception/action framework for LLM-based agents, and surveys single-agent, multi-agent, and human-agent cooperation scenarios plus emergent agent-society phenomena.
 
 - [Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047)
   - `arxiv:2503.24047` · cited by 1: LJ
