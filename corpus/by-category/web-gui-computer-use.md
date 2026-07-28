@@ -4,31 +4,31 @@
 
 - [Anthropic Computer Use Demo](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo)
   - `gh:anthropics/anthropic-quickstarts` · cited by 1: HE
-  - summary: TODO
+  - summary: Anthropic's reference computer-use setup (a Dockerized Linux desktop, the agent loop, the computer-use tools, and a Streamlit UI) showing how Claude can see and control a screen over X11/VNC.
 
 - [browser-use](https://github.com/browser-use/browser-use)
   - `gh:browser-use/browser-use` · cited by 1: HE
-  - summary: TODO
+  - summary: An agent framework that lets an LLM drive a real web browser like a person (clicking, typing, navigating) to automate form-filling, extraction, and QA across model providers.
 
 - [bux](https://github.com/browser-use/bux)
   - `gh:browser-use/bux` · cited by 1: HE
-  - summary: TODO
+  - summary: A 24/7 Claude Code agent for Playwright-style browser automation on any Ubuntu VPS, keeping persistent logged-in sessions and a Telegram control channel instead of brittle credential-stuffing.
 
 - [CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation](https://arxiv.org/pdf/2601.21253v1)
   - `arxiv:2601.21253` · cited by 1: VA
-  - summary: TODO
+  - summary: Breaks the ~30% coverage ceiling in Android GUI testing with agents that read decompiled Smali and the transition graph to infer unmet activation conditions, then generate instrumentation to reach hidden activities (up to 179% more activity coverage).
 
 - [GUITester: Enabling GUI Agents for Exploratory Defect Discovery](https://arxiv.org/pdf/2601.04500v1)
   - `arxiv:2601.04500` · cited by 1: VA
-  - summary: TODO
+  - summary: Turns GUI-navigation agents into defect finders by splitting navigation from verification, with a module that actively probes for anomalies and one that stops blaming the agent for real system bugs, reaching 48.9% F1 on a new exploratory-testing benchmark.
 
 - [Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training](https://arxiv.org/pdf/2601.22781v1)
   - `arxiv:2601.22781` · cited by 1: VA
-  - summary: TODO
+  - summary: Generates mobile-GUI training trajectories matched to an agent's current skill by profiling its capability frontier along trajectory length and task goal, improving GUI-agent performance 1.57x over prior data-generation methods.
 
 - [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html)
   - `url:https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html` · cited by 1: LJ
-  - summary: TODO
+  - summary: A lightweight 2B vision-language-action model for GUI agents that keeps only non-redundant screenshot tokens via a UI-connected graph and interleaves vision/language/action, hitting 75.1% zero-shot screenshot grounding while cutting a third of visual tokens.
 
 - [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332)
   - `arxiv:2112.09332` · cited by 1: LJ

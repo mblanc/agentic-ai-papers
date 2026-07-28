@@ -19,7 +19,7 @@ reporting an 84% token reduction on a 100-turn eval {{url:https://platform.claud
 LangChain's approach differs in *when* compaction triggers: rather than a
 fixed threshold, the agent itself decides when to consolidate, which avoids
 the failure mode where compression interrupts a subtask mid-flight
-{{url:https://blog.langchain.com/autonomous-context-compression/}}. The same
+{{url:https://blog.langchain.com/autonomous-context-compression}}. The same
 idea appears in the research literature as a "Focus Agent" that decides when
 to consolidate and prune, cutting tokens 22.7% with no accuracy loss
 {{arxiv:2601.07190}}.
@@ -27,7 +27,7 @@ to consolidate and prune, cutting tokens 22.7% with no accuracy loss
 ## Origin
 
 The framing that context is a finite curated resource — not just prompt
-wording — comes from {{url:https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents}}.
+wording — comes from {{url:https://anthropic.com/engineering/effective-context-engineering-for-ai-agents}}.
 
 ## Open problems
 
@@ -38,5 +38,6 @@ trusted to preserve them.
 
 ## See also
 
+- [[context-engineering]]
 - [[memory]]
 - [[harness-engineering]]
