@@ -12,7 +12,7 @@
 
 - [Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale](https://arxiv.org/pdf/2601.10338v1)
   - `arxiv:2601.10338` · cited by 1: VA
-  - summary: TODO
+  - summary: The first large-scale security study of agent 'skills' (42,447 collected, 31,132 analyzed) finds 26.1% contain a vulnerability across prompt injection, data exfiltration, privilege escalation, and supply-chain risk, and that skills bundling executable scripts are 2.12x more likely to be vulnerable than instruction-only ones.
 
 - [Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws)
   - `gh:aws/agent-toolkit-for-aws` · cited by 1: HE
@@ -48,7 +48,7 @@
 
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/)
   - `acl:2023.emnlp-main.187` · cited by 1: LJ
-  - summary: TODO
+  - summary: A 73-tool runnable benchmark plus 1,888-dialogue training set for tool-augmented LLMs, showing GPT-4 leads on planning while a fine-tuned Alpaca-based model (Lynx) closes most of the gap to GPT-3.5 on tool use.
 
 - [AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness](https://arxiv.org/abs/2603.03329)
   - `arxiv:2603.03329` · cited by 1: HE
@@ -56,7 +56,7 @@
 
 - [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
   - `gh:appcypher/awesome-mcp-servers` · cited by 1: HE
-  - summary: TODO
+  - summary: A curated directory of production and experimental MCP servers spanning file access, databases, APIs, and communication platforms, useful as a lookup when wiring an agent to a new external system.
 
 - [AWS Bedrock AgentCore with WebRTC Support](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/)
   - `url:https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc` · cited by 1: HE
@@ -64,19 +64,19 @@
 
 - [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](https://arxiv.org/pdf/2601.10955v1)
   - `arxiv:2601.10955` · cited by 1: VA
-  - summary: TODO
+  - summary: A stealthy multi-turn denial-of-service attack at the MCP tool layer that edits only text-visible fields to steer agents into verbose tool-calling chains, pushing per-query cost up to 658x and GPU cache occupancy to 35-74% while evading standard prompt filters and output monitors.
 
 - [Beyond Rule-Based Workflows: An Information-Flow-Orchestrated Multi-Agents Paradigm via A2A Communication from CORAL](https://arxiv.org/pdf/2601.09883v1)
   - `arxiv:2601.09883` · cited by 1: VA
-  - summary: TODO
+  - summary: Replaces predefined multi-agent workflow rules with an orchestrator that monitors task progress and routes agents dynamically via natural-language A2A communication, beating a workflow-based baseline 63.64% vs 55.15% on GAIA at comparable token cost.
 
 - [Beyond Single-Shot: Multi-step Tool Retrieval via Query Planning](https://arxiv.org/pdf/2601.07782v1)
   - `arxiv:2601.07782` · cited by 1: VA
-  - summary: TODO
+  - summary: Models tool retrieval as iterative query planning instead of single-shot dense matching, decomposing a request into sub-tasks and generating targeted queries per sub-task, trained via RL with verifiable rewards for state-of-the-art zero-shot retrieval generalization.
 
 - [Breaking the Protocol: Security Analysis of the Model Context Protocol Specification](https://arxiv.org/pdf/2601.17549v1)
   - `arxiv:2601.17549` · cited by 1: VA
-  - summary: TODO
+  - summary: The first formal security analysis of the MCP specification itself, finding architectural vulnerabilities (no capability attestation, unauthenticated bidirectional sampling, implicit multi-server trust) that raise attack success 23-41% over non-MCP integrations, then proposes a backward-compatible extension cutting attack success from 52.8% to 12.4% at 8.3ms overhead.
 
 - [Chain of Tools: Large Language Model is an Automatic Multi-tool Learner](http://arxiv.org/abs/2405.16533)
   - `arxiv:2405.16533` · cited by 1: LJ
@@ -84,7 +84,7 @@
 
 - [ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://aclanthology.org/2023.findings-emnlp.985/)
   - `acl:2023.findings-emnlp.985` · cited by 1: LJ
-  - summary: TODO
+  - summary: Lets a chat-based LLM alternate between invoking tools and reasoning within one multi-turn conversation rather than a fixed pipeline, improving ~7.9% over baselines on MATH and HotpotQA.
 
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
   - `gh:chromedevtools/chrome-devtools-mcp` · cited by 1: HE
@@ -108,15 +108,15 @@
 
 - [CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models](https://aclanthology.org/2023.findings-emnlp.462/)
   - `acl:2023.findings-emnlp.462` · cited by 1: LJ
-  - summary: TODO
+  - summary: Separates tool creation from tool use: the LLM writes its own tool via documentation and code when no existing API fits, then executes it, outperforming chain-of-thought and program-of-thought baselines on math and tabular reasoning.
 
 - [CUA-Skill: Develop Skills for Computer Using Agent](https://arxiv.org/pdf/2601.21123v2)
   - `arxiv:2601.21123` · cited by 1: VA
-  - summary: TODO
+  - summary: A large skill library encoding how humans operate Windows applications as parameterized, composable execution graphs, giving a computer-using agent reusable skills plus memory-aware failure recovery for state-of-the-art 57.5% success on WindowsAgentArena.
 
 - [DALIA: Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems](https://arxiv.org/pdf/2601.17435v1)
   - `arxiv:2601.17435` · cited by 1: VA
-  - summary: TODO
+  - summary: A declarative architectural layer that formalizes capabilities, exposes tasks via discovery protocol, and builds deterministic task graphs grounded only in declared operations, aiming to fix hallucinated actions and brittle coordination that stem from missing structure rather than model limits.
 
 - [Dataverse Skills: Your Coding Agent Now Speaks Dataverse](https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse)
   - `url:https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse` · cited by 1: HE
@@ -140,15 +140,15 @@
 
 - [Enhancing Model Context Protocol (MCP) with Context-Aware Server Collaboration](https://arxiv.org/pdf/2601.11595v2)
   - `arxiv:2601.11595` · cited by 1: VA
-  - summary: TODO
+  - summary: Adds a shared context store to MCP so otherwise-stateless servers can read and write shared memory instead of routing everything back through the LLM, cutting redundant LLM calls and response failures on TravelPlanner and REALM-Bench.
 
 - [ET-Agent: Incentivizing Effective Tool-Integrated Reasoning Agent via Behavior Calibration](https://arxiv.org/pdf/2601.06860v2)
   - `arxiv:2601.06860` · cited by 1: VA
-  - summary: TODO
+  - summary: Trains a tool-integrated reasoning agent to fix its own behavior patterns (redundant or insufficient tool calls) via a self-evolving data flywheel plus two-phase behavior-calibration training, rather than optimizing only for answer accuracy.
 
 - [From Self-Evolving Synthetic Data to Verifiable-Reward RL: Post-Training Multi-turn Interactive Tool-Using Agents](https://arxiv.org/pdf/2601.22607v2)
   - `arxiv:2601.22607` · cited by 1: VA
-  - summary: TODO
+  - summary: A hierarchical multi-agent engine that synthesizes tool-grounded multi-turn dialogues with executable per-instance checkers, then post-trains on that data with verifier-based RL, matching or beating frontier models on tau^2-bench (73.0% Airline, 98.3% Telecom).
 
 - [Function Calling — OpenAI Docs](https://platform.openai.com/docs/guides/function-calling)
   - `url:https://platform.openai.com/docs/guides/function-calling` · cited by 1: HE
@@ -184,7 +184,7 @@
 
 - [Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study](https://arxiv.org/pdf/2602.06547v1)
   - `arxiv:2602.06547` · cited by 1: VA
-  - summary: TODO
+  - summary: A security study of 98,380 agent skills finds 157 deliberately malicious ones spanning 632 vulnerabilities, dominated by credential theft via remote code execution and adversarial instructions hidden in documentation, over half traced to one threat actor impersonating brands at scale.
 
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
   - `gh:modelcontextprotocol/inspector` · cited by 1: HE
@@ -200,11 +200,11 @@
 
 - [MCP-ITP: An Automated Framework for Implicit Tool Poisoning in MCP](https://arxiv.org/pdf/2601.07395v1)
   - `arxiv:2601.07395` · cited by 1: VA
-  - summary: TODO
+  - summary: An automated black-box optimization framework that plants malicious instructions in tool metadata (not the tool itself) to trick an MCP agent into misusing a legitimate high-privilege tool, reaching 84.2% attack success while keeping malicious-tool detection under 0.3%.
 
 - [MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools](https://arxiv.org/pdf/2601.01241v1)
   - `arxiv:2601.01241` · cited by 1: VA
-  - summary: TODO
+  - summary: An audit framework that runs MCP tools under WebAssembly sandboxing or unmodified over stdio to trace source-to-sink data flows, recovering security-sensitive capability declarations for 886 of 1,127 profiled tools across 71 real repositories.
 
 - [Microsoft Skills Framework](https://github.com/microsoft/skills)
   - `gh:microsoft/skills` · cited by 1: HE
@@ -224,15 +224,15 @@
 
 - [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting](https://aclanthology.org/2023.acl-short.130/)
   - `acl:2023.acl-short.130` · cited by 1: LJ
-  - summary: TODO
+  - summary: Uses chain-of-thought prompting to let GPT-3 call multiple external tools (calculator, retriever) mid-reasoning on numerical-plus-knowledge tasks, beating strong baselines on NumGLUE.
 
 - [On Effectiveness and Efficiency of Agentic Tool-calling and RL Training](https://arxiv.org/pdf/2606.00135)
   - `arxiv:2606.00135` · cited by 1: VA
-  - summary: TODO
+  - summary: Shows tool-calling benchmark results are highly sensitive to undocumented implementation choices (seed, system prompt, multi-turn template), making leaderboard rankings unreliable without standardization, then introduces two RL efficiency fixes that cut wasted rollouts and update cost.
 
 - [On the Tool Manipulation Capability of Open-source Large Language Models](http://arxiv.org/abs/2305.16504)
   - `arxiv:2305.16504` · cited by 1: LJ
-  - summary: TODO
+  - summary: Boosts open-source LLMs' tool-manipulation ability via curated training examples, in-context demonstration retrievers, and generation-style regulation, closing most of the gap to GPT-4 on a new benchmark (ToolBench) with about one developer-day of data curation per tool.
 
 - [outlines](https://github.com/dottxt-ai/outlines)
   - `gh:dottxt-ai/outlines` · cited by 1: HE
@@ -240,7 +240,7 @@
 
 - [Ponytail](https://github.com/DietrichGebert/ponytail)
   - `gh:dietrichgebert/ponytail` · cited by 1: HE
-  - summary: TODO
+  - summary: A skill system enforcing a 'laziness ladder' that checks whether code needs to exist or can be reused before an agent writes anything new, cutting code output ~54% and cost ~20% while keeping safety guardrails.
 
 - [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](http://arxiv.org/abs/2408.01875)
   - `arxiv:2408.01875` · cited by 1: LJ
@@ -248,7 +248,7 @@
 
 - [SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments](https://arxiv.org/pdf/2601.09750v1)
   - `arxiv:2601.09750` · cited by 1: VA
-  - summary: TODO
+  - summary: A conversational tool-use interface built on the OPACA framework for dynamic tool discovery and integration, letting new domain-specific tools be added without retraining and comparing several agentic prompting strategies for selecting and executing them.
 
 - [Scaling Parallel Tool Calling for Efficient Deep Research](https://arxiv.org/abs/2602.07359)
   - `arxiv:2602.07359` · cited by 1: HE
@@ -256,7 +256,7 @@
 
 - [SCRIBE: Structured Mid-Level Supervision for Tool-Using Language Models](https://arxiv.org/pdf/2601.03555v1)
   - `arxiv:2601.03555` · cited by 1: VA
-  - summary: TODO
+  - summary: Grounds reward modeling in a curated library of skill prototypes rather than open-ended LLM judging, cutting reward-signal noise in multi-step tool use and lifting a small model's AIME25 accuracy from 43.3% to 63.3%.
 
 - [Shell + Skills + Compaction: Tips for Long-Running Agents](https://developers.openai.com/blog/skills-shell-tips)
   - `url:https://developers.openai.com/blog/skills-shell-tips` · cited by 1: HE
@@ -280,7 +280,7 @@
 
 - [SMCP: Secure Model Context Protocol](https://arxiv.org/pdf/2602.01129v1)
   - `arxiv:2602.01129` · cited by 1: VA
-  - summary: TODO
+  - summary: Extends MCP with unified identity management, mutual authentication, security-context propagation, and audit logging to close the unauthorized-access, tool-poisoning, and privilege-escalation gaps the base protocol leaves open.
 
 - [superpowers](https://github.com/obra/superpowers)
   - `gh:obra/superpowers` · cited by 1: HE
@@ -292,11 +292,11 @@
 
 - [The 2026-07-28 MCP Specification Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/)
   - `url:https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate` · cited by 1: HE
-  - summary: TODO
+  - summary: The MCP spec's 2026-07-28 release candidate moves to a stateless core that scales over ordinary HTTP and adds extensions for server-rendered UIs (MCP Apps) and long-running work (Tasks).
 
 - [Think-Augmented Function Calling: Improving LLM Parameter Accuracy Through Embedded Reasoning](https://arxiv.org/pdf/2601.18282v2)
   - `arxiv:2601.18282` · cited by 1: VA
-  - summary: TODO
+  - summary: Adds a universal 'think' parameter to function-calling schemas so a model can articulate its reasoning before filling in complex, interdependent arguments, improving parameter accuracy with no architecture changes and full API compatibility.
 
 - [Tool Annotations as Risk Vocabulary](https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations/)
   - `url:https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations` · cited by 1: HE
@@ -308,11 +308,11 @@
 
 - [ToolACE-MCP: Generalizing History-Aware Routing from MCP Tools to the Agent Web](https://arxiv.org/pdf/2601.08276v1)
   - `arxiv:2601.08276` · cited by 1: VA
-  - summary: TODO
+  - summary: Trains a lightweight, history-aware router that generalizes from MCP tool selection to the broader Agent Web, scaling to massive candidate-tool spaces and multi-agent collaboration with minimal adaptation.
 
 - [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](http://arxiv.org/abs/2306.05301)
   - `arxiv:2306.05301` · cited by 1: LJ
-  - summary: TODO
+  - summary: Auto-generates a 3,938-instance tool-use corpus from a multi-agent simulation covering 400+ real APIs, then fine-tunes 7B/13B models to reach generalized tool-use ability on unseen tools comparable to GPT-3.5, without needing GPT-4-scale models.
 
 - [ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models](http://arxiv.org/abs/2502.11404)
   - `arxiv:2502.11404` · cited by 1: LJ
@@ -320,7 +320,7 @@
 
 - [Toolformer: Language Models Can Teach Themselves to Use Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html)
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html` · cited by 1: LJ
-  - summary: TODO
+  - summary: Trains a model to decide which API to call, when, and with what arguments in a fully self-supervised way from a handful of demonstrations per tool, the origin point for teaching LLMs tool use without manual annotation.
 
 - [ToolGen: Unified Tool Retrieval and Calling via Generation](http://arxiv.org/abs/2410.03439)
   - `arxiv:2410.03439` · cited by 1: LJ
@@ -340,7 +340,7 @@
 
 - [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/pdf/2602.02548v1)
   - `arxiv:2602.02548` · cited by 1: VA
-  - summary: TODO
+  - summary: Represents GUI operations as a sequence of learnable tool-token embeddings instead of raw coordinates, using semantic anchoring and a curriculum to reach performance competitive with a 235B model using under 1% of its training data.
 
 - [TopoCurate: Modeling Interaction Topology for Tool-Use Agent Training](https://arxiv.org/abs/2603.01714)
   - `arxiv:2603.01714` · cited by 1: HE
@@ -348,7 +348,7 @@
 
 - [Towards Verifiably Safe Tool Use for LLM Agents](https://arxiv.org/pdf/2601.08012v1)
   - `arxiv:2601.08012` · cited by 1: VA
-  - summary: TODO
+  - summary: Applies System-Theoretic Process Analysis to derive formal safety specifications for agent tool sequences, then enforces them via an MCP extension requiring structured capability, confidentiality, and trust labels, moving tool safety from ad hoc reliability fixes to a designed guarantee.
 
 - [tui-use](https://github.com/onesuper/tui-use)
   - `gh:onesuper/tui-use` · cited by 1: HE
@@ -380,7 +380,7 @@
 
 - [You can't whisper at an AI agent](https://stripe.dev/blog/ai-steering-experiments)
   - `url:https://stripe.dev/blog/ai-steering-experiments` · cited by 1: HE
-  - summary: TODO
+  - summary: Stripe's steering experiments find 'hard' constraints (errors, explicit blocking instructions) reliably redirect agent tool use while 'soft' cues (warnings, hints) get ignored, because agents pursue a narrow goal-directed path rather than exploring context the way a human developer would.
 
 - [zerolang](https://github.com/vercel-labs/zerolang)
   - `gh:vercel-labs/zerolang` · cited by 1: HE
