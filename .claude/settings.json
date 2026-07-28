@@ -1,0 +1,36 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if git diff --name-only HEAD 2>/dev/null | grep -qE '^(corpus/|wiki/)'; then python tools/validate_corpus.py; fi"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python tools/guard_generated.py"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python tools/validate_corpus.py || echo 'NOTE: corpus starts dirty — fix before adding entries.'"
+          }
+        ]
+      }
+    ]
+  }
+}
