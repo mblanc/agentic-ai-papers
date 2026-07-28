@@ -1,6 +1,6 @@
 # surveys-and-foundations
 
-47 entries.
+42 entries.
 
 - [A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems](https://arxiv.org/abs/2508.07407)
   - `arxiv:2508.07407` · cited by 1: LJ
@@ -42,21 +42,9 @@
   - `arxiv:2401.03568` · cited by 1: LJ
   - summary: Multimodal interaction framing.
 
-- [AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection](https://arxiv.org/pdf/2601.19138v1)
-  - `arxiv:2601.19138` · cited by 1: VA
-  - summary: TODO
-
 - [AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways](https://dl.acm.org/doi/abs/10.1145/3716628)
   - `url:https://dl.acm.org/doi/abs/10.1145/3716628` · cited by 1: LJ
   - summary: TODO
-
-- [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
-  - `gh:alibaba/open-code-review` · cited by 1: HE
-  - summary: TODO
-
-- [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071)
-  - `arxiv:2604.18071` · cited by 1: HE
-  - summary: Empirical study of 70 public agent systems across five recurring design dimensions.
 
 - [Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](https://arxiv.org/pdf/2501.02189)
   - `arxiv:2501.02189` · cited by 1: LJ
@@ -118,10 +106,6 @@
   - `arxiv:2501.06322` · cited by 1: LJ
   - summary: Collaboration framework, applications and open challenges.
 
-- [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
-  - `arxiv:2603.25723` · cited by 1: HE
-  - summary: Externalizes control logic as portable natural-language artifacts run by a shared runtime.
-
 - [Navigating the Risks: A Survey of Security, Privacy, and Ethics Threats in LLM-Based Agents](https://arxiv.org/pdf/2411.09523?)
   - `arxiv:2411.09523` · cited by 1: LJ
   - summary: Combined taxonomy across all three.
@@ -144,10 +128,6 @@
 
 - [Read our survey paper here](https://arxiv.org/abs/2503.21460)
   - `arxiv:2503.21460` · cited by 1: LJ
-  - summary: TODO
-
-- [Securing AI Agents in Cyber-Physical Systems: A Survey of Environmental Interactions, Deepfake Threats, and Defenses](https://arxiv.org/pdf/2601.20184v1)
-  - `arxiv:2601.20184` · cited by 1: VA
   - summary: TODO
 
 - [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/)

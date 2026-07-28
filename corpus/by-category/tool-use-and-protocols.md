@@ -1,6 +1,6 @@
 # tool-use-and-protocols
 
-76 entries.
+96 entries.
 
 - [A2A Protocol](https://github.com/a2aproject/A2A)
   - `gh:a2aproject/a2a` · cited by 1: HE
@@ -46,6 +46,10 @@
   - `gh:sickn33/antigravity-awesome-skills` · cited by 1: HE
   - summary: 1,400+ installable skills with npm installer and role bundles.
 
+- [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/)
+  - `acl:2023.emnlp-main.187` · cited by 1: LJ
+  - summary: TODO
+
 - [AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness](https://arxiv.org/abs/2603.03329)
   - `arxiv:2603.03329` · cited by 1: HE
   - summary: Synthesizes runtime constraint guards from tool schemas; smaller model beats larger.
@@ -58,12 +62,28 @@
   - `url:https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc` · cited by 1: HE
   - summary: P2P UDP streaming for sub-800ms voice turn-around.
 
+- [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](https://arxiv.org/pdf/2601.10955v1)
+  - `arxiv:2601.10955` · cited by 1: VA
+  - summary: TODO
+
 - [Beyond Rule-Based Workflows: An Information-Flow-Orchestrated Multi-Agents Paradigm via A2A Communication from CORAL](https://arxiv.org/pdf/2601.09883v1)
   - `arxiv:2601.09883` · cited by 1: VA
   - summary: TODO
 
+- [Beyond Single-Shot: Multi-step Tool Retrieval via Query Planning](https://arxiv.org/pdf/2601.07782v1)
+  - `arxiv:2601.07782` · cited by 1: VA
+  - summary: TODO
+
 - [Breaking the Protocol: Security Analysis of the Model Context Protocol Specification](https://arxiv.org/pdf/2601.17549v1)
   - `arxiv:2601.17549` · cited by 1: VA
+  - summary: TODO
+
+- [Chain of Tools: Large Language Model is an Automatic Multi-tool Learner](http://arxiv.org/abs/2405.16533)
+  - `arxiv:2405.16533` · cited by 1: LJ
+  - summary: Black-box probing so the model learns unfamiliar tools without demos.
+
+- [ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://aclanthology.org/2023.findings-emnlp.985/)
+  - `acl:2023.findings-emnlp.985` · cited by 1: LJ
   - summary: TODO
 
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
@@ -86,6 +106,10 @@
   - `arxiv:2604.14572` · cited by 1: VA
   - summary: Compiles a corpus into a navigable skill tree, replacing retrieval with traversal.
 
+- [CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models](https://aclanthology.org/2023.findings-emnlp.462/)
+  - `acl:2023.findings-emnlp.462` · cited by 1: LJ
+  - summary: TODO
+
 - [CUA-Skill: Develop Skills for Computer Using Agent](https://arxiv.org/pdf/2601.21123v2)
   - `arxiv:2601.21123` · cited by 1: VA
   - summary: TODO
@@ -106,12 +130,20 @@
   - `url:https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols` · cited by 1: HE
   - summary: Maps six interop protocols (MCP, A2A, UCP, AP2, A2UI, AG-UI) to boundary problems.
 
+- [EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction](http://arxiv.org/abs/2401.06201)
+  - `arxiv:2401.06201` · cited by 1: LJ
+  - summary: Compresses verbose tool docs into concise instructions.
+
 - [EigentSearch-Q+](https://arxiv.org/abs/2604.07927)
   - `arxiv:2604.07927` · cited by 1: HE
   - summary: Dedicated reasoning tools that externalize intermediate decisions as typed arguments.
 
 - [Enhancing Model Context Protocol (MCP) with Context-Aware Server Collaboration](https://arxiv.org/pdf/2601.11595v2)
   - `arxiv:2601.11595` · cited by 1: VA
+  - summary: TODO
+
+- [ET-Agent: Incentivizing Effective Tool-Integrated Reasoning Agent via Behavior Calibration](https://arxiv.org/pdf/2601.06860v2)
+  - `arxiv:2601.06860` · cited by 1: VA
   - summary: TODO
 
 - [From Self-Evolving Synthetic Data to Verifiable-Reward RL: Post-Training Multi-turn Interactive Tool-Using Agents](https://arxiv.org/pdf/2601.22607v2)
@@ -134,9 +166,21 @@
   - `url:https://python.useinstructor.com/` · cited by 1: HE
   - summary: Pydantic models for structured extraction with retry and validation feedback.
 
+- [Internal Representations as Indicators of Hallucinations in Agent Tool Selection](https://arxiv.org/pdf/2601.05214v1)
+  - `arxiv:2601.05214` · cited by 1: VA
+  - summary: Detects wrong-tool, wrong-parameter and bypass errors from a single forward pass.
+
+- [LARGE LANGUAGE MODELS AS TOOL MAKERS](https://arxiv.org/abs/2305.17126)
+  - `arxiv:2305.17126` · cited by 1: LJ
+  - summary: Closed loop where the model creates its own reusable tools.
+
 - [LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error](https://aclanthology.org/2024.acl-long.570/)
   - `acl:2024.acl-long.570` · cited by 1: LJ
   - summary: Biologically inspired trial, imagination and memory loop.
+
+- [Making Language Models Better Tool Learners with Execution Feedback](https://aclanthology.org/2024.naacl-long.195/)
+  - `acl:2024.naacl-long.195` · cited by 1: LJ
+  - summary: Learns *when* to use a tool from execution outcomes, not just how.
 
 - [Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study](https://arxiv.org/pdf/2602.06547v1)
   - `arxiv:2602.06547` · cited by 1: VA
@@ -178,12 +222,32 @@
   - `gh:modelcontextprotocol/servers` · cited by 1: HE
   - summary: Official reference server implementations; the structural baseline.
 
+- [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting](https://aclanthology.org/2023.acl-short.130/)
+  - `acl:2023.acl-short.130` · cited by 1: LJ
+  - summary: TODO
+
+- [On Effectiveness and Efficiency of Agentic Tool-calling and RL Training](https://arxiv.org/pdf/2606.00135)
+  - `arxiv:2606.00135` · cited by 1: VA
+  - summary: TODO
+
+- [On the Tool Manipulation Capability of Open-source Large Language Models](http://arxiv.org/abs/2305.16504)
+  - `arxiv:2305.16504` · cited by 1: LJ
+  - summary: TODO
+
 - [outlines](https://github.com/dottxt-ai/outlines)
   - `gh:dottxt-ai/outlines` · cited by 1: HE
   - summary: Constrains sampling by regex/CFG/JSON Schema at the decoding layer.
 
 - [Ponytail](https://github.com/DietrichGebert/ponytail)
   - `gh:dietrichgebert/ponytail` · cited by 1: HE
+  - summary: TODO
+
+- [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](http://arxiv.org/abs/2408.01875)
+  - `arxiv:2408.01875` · cited by 1: LJ
+  - summary: Unsupervised retrieval via query synthesis and multi-view ranking.
+
+- [SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments](https://arxiv.org/pdf/2601.09750v1)
+  - `arxiv:2601.09750` · cited by 1: VA
   - summary: TODO
 
 - [Scaling Parallel Tool Calling for Efficient Deep Research](https://arxiv.org/abs/2602.07359)
@@ -258,6 +322,10 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html` · cited by 1: LJ
   - summary: TODO
 
+- [ToolGen: Unified Tool Retrieval and Calling via Generation](http://arxiv.org/abs/2410.03439)
+  - `arxiv:2410.03439` · cited by 1: LJ
+  - summary: Bakes tools into the vocabulary as tokens, making retrieval a generation step.
+
 - [ToolGym: an Open-world Tool-using Environment for Scalable Agent Testing and Data Curation](https://arxiv.org/pdf/2601.06328v1)
   - `arxiv:2601.06328` · cited by 1: VA
   - summary: 5,571 tools across 204 apps with injected failures for robustness testing.
@@ -265,6 +333,14 @@
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](http://arxiv.org/abs/2307.16789)
   - `arxiv:2307.16789` · cited by 1: LJ
   - summary: Large-scale API corpus plus a DFS-based decision strategy for tool selection.
+
+- [ToolPlanner: A Tool Augmented LLM for Multi Granularity Instructions with Path Planning and Feedback](http://arxiv.org/abs/2409.14826)
+  - `arxiv:2409.14826` · cited by 1: LJ
+  - summary: Path planning plus feedback over multi-granularity instructions.
+
+- [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/pdf/2602.02548v1)
+  - `arxiv:2602.02548` · cited by 1: VA
+  - summary: TODO
 
 - [TopoCurate: Modeling Interaction Topology for Tool-Use Agent Training](https://arxiv.org/abs/2603.01714)
   - `arxiv:2603.01714` · cited by 1: HE
@@ -289,6 +365,10 @@
 - [What's New with GitHub Copilot Coding Agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/)
   - `url:https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent` · cited by 1: HE
   - summary: `.github/agents/` files, self-review and security scanning as harness primitives.
+
+- [When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems](https://arxiv.org/pdf/2601.16280v1)
+  - `arxiv:2601.16280` · cited by 1: VA
+  - summary: 12-category error taxonomy for multi-agent tool-use failures.
 
 - [When Single-Agent with Skills Replace Multi-Agent Systems and When They Fail](https://arxiv.org/pdf/2601.04748v2)
   - `arxiv:2601.04748` · cited by 1: VA

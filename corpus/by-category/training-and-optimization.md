@@ -1,6 +1,6 @@
 # training-and-optimization
 
-18 entries.
+16 entries.
 
 - [AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering](https://arxiv.org/pdf/2601.04620v1)
   - `arxiv:2601.04620` · cited by 1: VA
@@ -30,10 +30,6 @@
   - `arxiv:2601.18510` · cited by 1: VA
   - summary: TODO
 
-- [On Effectiveness and Efficiency of Agentic Tool-calling and RL Training](https://arxiv.org/pdf/2606.00135)
-  - `arxiv:2606.00135` · cited by 1: VA
-  - summary: TODO
-
 - [OpenTinker: Separating Concerns in Agentic Reinforcement Learning](https://arxiv.org/pdf/2601.07376v1)
   - `arxiv:2601.07376` · cited by 1: VA
   - summary: TODO
@@ -57,10 +53,6 @@
 - [SELFEVOLVE: A Code Evolution Framework via Large Language Models](https://arxiv.org/pdf/2306.02907)
   - `arxiv:2306.02907` · cited by 1: LJ
   - summary: Two-step knowledge-provider then self-reflective-programmer pipeline.
-
-- [STeCa: Step-level Trajectory Calibration for LLM Agent Learning](https://arxiv.org/abs/2502.14276)
-  - `arxiv:2502.14276` · cited by 1: LJ
-  - summary: Builds calibrated trajectories via step-level reward comparison and reflection.
 
 - [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/pdf/2601.11658v1)
   - `arxiv:2601.11658` · cited by 1: VA

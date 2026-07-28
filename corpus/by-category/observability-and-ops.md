@@ -1,6 +1,6 @@
 # observability-and-ops
 
-50 entries.
+55 entries.
 
 - [TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code](https://arxiv.org/abs/2602.06875)
   - `arxiv:2602.06875` · cited by 2: HE, VA
@@ -52,6 +52,14 @@
 
 - [Amazon Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/)
   - `url:https://aws.amazon.com/bedrock/agentcore` · cited by 1: HE
+  - summary: TODO
+
+- [An Update on Recent Claude Code Quality Reports](https://www.anthropic.com/engineering/april-23-postmortem)
+  - `url:https://anthropic.com/engineering/april-23-postmortem` · cited by 1: HE
+  - summary: Three independent harness-level changes compounding into visible regression. Best postmortem in the corpus.
+
+- [Architecting AgentOps Needs CHANGE](https://arxiv.org/pdf/2601.06456v1)
+  - `arxiv:2601.06456` · cited by 1: VA
   - summary: TODO
 
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix)
@@ -111,6 +119,10 @@
   - `url:https://infoworld.com/article/4138748/finops-for-agents-loop-limits-tool-call-caps-and-the-new-unit-economics-of-agentic-saas.html` · cited by 1: HE
   - summary: TODO
 
+- [From Features to Actions: Explainability in Traditional and Agentic AI Systems](https://arxiv.org/pdf/2602.06841v1)
+  - `arxiv:2602.06841` · cited by 1: VA
+  - summary: Attribution vs trace-based diagnostics for multi-step trajectories.
+
 - [Future AGI](https://github.com/future-agi/future-agi)
   - `gh:future-agi/future-agi` · cited by 1: HE
   - summary: TODO
@@ -126,6 +138,10 @@
 - [How We Build Azure SRE Agent with Agentic Workflows](https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753)
   - `url:https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753` · cited by 1: HE
   - summary: 35,000+ production incidents; time-to-mitigation 40.5 hours → 3 minutes.
+
+- [Interpreting Agentic Systems: Beyond Model Explanations to System-Level Accountability](https://arxiv.org/pdf/2601.17168v1)
+  - `arxiv:2601.17168` · cited by 1: VA
+  - summary: Gaps in explaining temporal dynamics and compounding decisions.
 
 - [Introducing BigQuery Agent Analytics](https://cloud.google.com/blog/products/data-analytics/introducing-bigquery-agent-analytics/)
   - `url:https://cloud.google.com/blog/products/data-analytics/introducing-bigquery-agent-analytics` · cited by 1: HE
@@ -183,13 +199,13 @@
   - `url:https://langchain.com/state-of-agent-engineering` · cited by 1: HE
   - summary: TODO
 
-- [Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses](https://arxiv.org/pdf/2602.06495v1)
-  - `arxiv:2602.06495` · cited by 1: VA
-  - summary: TODO
-
 - [Syncause/debug-skill](https://github.com/Syncause/debug-skill)
   - `gh:syncause/debug-skill` · cited by 1: HE
   - summary: TODO
+
+- [TriCEGAR: A Trace-Driven Abstraction Mechanism for Agentic AI](https://arxiv.org/pdf/2601.22997v1)
+  - `arxiv:2601.22997` · cited by 1: VA
+  - summary: Predicate-tree state abstraction from traces for runtime verification.
 
 - [Weights & Biases Weave](https://github.com/wandb/weave)
   - `gh:wandb/weave` · cited by 1: HE
@@ -198,6 +214,10 @@
 - [What Is an Agent Harness? Running Governed Managed Agents in Production](https://www.truefoundry.com/blog/agent-harness-managed-ai-agents)
   - `url:https://truefoundry.com/blog/agent-harness-managed-ai-agents` · cited by 1: HE
   - summary: TODO
+
+- [When AI Agents Touch CI/CD Configurations: Frequency and Success](https://arxiv.org/pdf/2601.17413v1)
+  - `arxiv:2601.17413` · cited by 1: VA
+  - summary: Modification frequency, merge and build success across 8,031 PRs.
 
 - [Where LLM Agents Fail and How They Can Learn From Failures (AgentDebug)](https://arxiv.org/abs/2509.25370)
   - `arxiv:2509.25370` · cited by 1: HE

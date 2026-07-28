@@ -1,6 +1,6 @@
 # evaluation-and-benchmarks
 
-146 entries.
+151 entries.
 
 - [A Systemic Evaluation of Multimodal RAG Privacy](https://arxiv.org/pdf/2601.17644v2)
   - `arxiv:2601.17644` · cited by 1: VA
@@ -34,6 +34,10 @@
   - `url:https://blog.langchain.com/agent-evaluation-readiness-checklist` · cited by 1: HE
   - summary: TODO
 
+- [Agent-as-a-Judge](https://arxiv.org/pdf/2601.05111v1)
+  - `arxiv:2601.05111` · cited by 1: VA
+  - summary: Survey of the shift from LLM-judge to agentic judges with tools and memory.
+
 - [Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://aclanthology.org/2024.findings-acl.557/)
   - `acl:2024.findings-acl.557` · cited by 1: LJ
   - summary: Decomposes the agent corpus and uses negatives to reduce hallucination.
@@ -62,9 +66,21 @@
   - `arxiv:2601.12560` · cited by 1: VA
   - summary: TODO
 
+- [Agentic Confidence Calibration](https://arxiv.org/pdf/2601.15778v1)
+  - `arxiv:2601.15778` · cited by 1: VA
+  - summary: Holistic Trajectory Calibration using process-level features across the run.
+
 - [Agentic Harness for Real-World Compilers: A Case Study in Specialized Tool Design](https://arxiv.org/abs/2603.20075)
   - `arxiv:2603.20075` · cited by 1: HE
   - summary: TODO
+
+- [Agentic Uncertainty Quantification](https://arxiv.org/pdf/2601.15703v1)
+  - `arxiv:2601.15703` · cited by 1: VA
+  - summary: TODO
+
+- [Agentic Uncertainty Reveals Agentic Overconfidence](https://arxiv.org/pdf/2602.06948v1)
+  - `arxiv:2602.06948` · cited by 1: VA
+  - summary: Agents predict their own success rates poorly.
 
 - [AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation](https://arxiv.org/abs/2605.12925)
   - `arxiv:2605.12925` · cited by 1: HE
@@ -104,10 +120,6 @@
 
 - [An evaluation framework for clinical use of large language models in patient interaction tasks](https://doi.org/10.1038/s41591-024-03328-5)
   - `url:https://doi.org/10.1038/s41591-024-03328-5` · cited by 1: LJ
-  - summary: TODO
-
-- [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/)
-  - `acl:2023.emnlp-main.187` · cited by 1: LJ
   - summary: TODO
 
 - [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901)
@@ -189,6 +201,10 @@
 - [CODET: CODE GENERATION WITH GENERATED TESTS](https://openreview.net/pdf?id=ktrw68Cmu9c)
   - `openreview:ktrw68Cmu9c` · cited by 1: LJ
   - summary: Auto-generates test cases to select among candidate programs.
+
+- [Confucius Code Agent (CCA)](https://github.com/facebookresearch/cca-swebench)
+  - `gh:facebookresearch/cca-swebench` · cited by 1: HE
+  - summary: Production coding agent organized around Agent/User/Developer experience; 59% Resolve@1 on SWE-Bench-Pro.
 
 - [CRAB: Cross-platfrom agent benchmark for multi-modal embodied language model agents](https://openreview.net/pdf?id=kyExS4V0H7)
   - `openreview:kyExS4V0H7` · cited by 1: LJ
@@ -290,10 +306,6 @@
   - `arxiv:2601.10923` · cited by 1: VA
   - summary: TODO
 
-- [HiL-Bench: Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408)
-  - `arxiv:2604.09408` · cited by 1: HE
-  - summary: TODO
-
 - [Humanity's Last Exam](https://arxiv.org/abs/2501.14249)
   - `arxiv:2501.14249` · cited by 1: LJ
   - summary: Broad-coverage multimodal frontier benchmark.
@@ -326,16 +338,20 @@
   - `arxiv:2602.06486` · cited by 1: VA
   - summary: Decomposes responses into claims checked against expert knowledge.
 
+- [JAF: Judge Agent Forest](https://arxiv.org/pdf/2601.22269v1)
+  - `arxiv:2601.22269` · cited by 1: VA
+  - summary: Judges across a cohort rather than per-instance, using in-context neighbourhoods.
+
+- [JudgeFlow: Agentic Workflow Optimization via Block Judge](https://arxiv.org/pdf/2601.07477v2)
+  - `arxiv:2601.07477` · cited by 1: VA
+  - summary: TODO
+
 - [LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs](https://arxiv.org/abs/2312.04372)
   - `arxiv:2312.04372` · cited by 1: LJ
   - summary: Autonomous driving with language model programs.
 
 - [Leveraging Large Language Models to Improve REST API Testing](https://dl.acm.org/doi/10.1145/3639476.3639769)
   - `url:https://dl.acm.org/doi/10.1145/3639476.3639769` · cited by 1: LJ
-  - summary: TODO
-
-- [Live-SWE-agent: Autonomous Software Agent with Self-Evolving Harness](https://arxiv.org/html/2511.13646v3)
-  - `arxiv:2511.13646` · cited by 1: HE
   - summary: TODO
 
 - [LiveMCP-101: Stress Testing and Diagnosing MCP-enabled Agents on Challenging Queries](https://arxiv.org/abs/2508.15760)
@@ -481,6 +497,10 @@
 - [STATE-Bench](https://github.com/microsoft/STATE-Bench)
   - `gh:microsoft/state-bench` · cited by 1: HE
   - summary: TODO
+
+- [STeCa: Step-level Trajectory Calibration for LLM Agent Learning](https://arxiv.org/abs/2502.14276)
+  - `arxiv:2502.14276` · cited by 1: LJ
+  - summary: Builds calibrated trajectories via step-level reward comparison and reflection.
 
 - [Stress-testing the resilience of the Austrian healthcare system using agent-based simulation](https://doi.org/10.1038/s41467-022-31766-7)
   - `url:https://doi.org/10.1038/s41467-022-31766-7` · cited by 1: LJ

@@ -1,6 +1,6 @@
 # planning-and-reasoning
 
-70 entries.
+66 entries.
 
 - [Agyn: A Multi-Agent System for Team-Based Autonomous Software Engineering](https://arxiv.org/abs/2602.01465)
   - `arxiv:2602.01465` · cited by 2: HE, VA
@@ -30,10 +30,6 @@
   - `arxiv:2601.04767` · cited by 1: VA
   - summary: TODO
 
-- [Beyond Single-Shot: Multi-step Tool Retrieval via Query Planning](https://arxiv.org/pdf/2601.07782v1)
-  - `arxiv:2601.07782` · cited by 1: VA
-  - summary: TODO
-
 - [Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning](https://arxiv.org/pdf/2601.07641v1)
   - `arxiv:2601.07641` · cited by 1: VA
   - summary: TODO
@@ -50,10 +46,6 @@
   - `url:https://developer.nvidia.com/blog/building-nvidia-nemotron-3-agents-for-reasoning-multimodal-rag-voice-and-safety` · cited by 1: HE
   - summary: TODO
 
-- [ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://aclanthology.org/2023.findings-emnlp.985/)
-  - `acl:2023.findings-emnlp.985` · cited by 1: LJ
-  - summary: TODO
-
 - [Choosing the Right Multi-Agent Architecture](https://blog.langchain.com/choosing-the-right-multi-agent-architecture/)
   - `url:https://blog.langchain.com/choosing-the-right-multi-agent-architecture` · cited by 1: HE
   - summary: Four patterns with data: subagents process 67% fewer tokens than skills multi-domain.
@@ -64,10 +56,6 @@
 
 - [Controlling Long-Horizon Behavior in Language Model Agents with Explicit State Dynamics](https://arxiv.org/pdf/2601.16087v1)
   - `arxiv:2601.16087` · cited by 1: VA
-  - summary: TODO
-
-- [CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models](https://aclanthology.org/2023.findings-emnlp.462/)
-  - `acl:2023.findings-emnlp.462` · cited by 1: LJ
   - summary: TODO
 
 - [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://openreview.net/pdf?id=Sx038qxjek)
@@ -104,10 +92,6 @@
 
 - [Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning](https://arxiv.org/abs/2403.19962)
   - `arxiv:2403.19962` · cited by 1: LJ
-  - summary: TODO
-
-- [ET-Agent: Incentivizing Effective Tool-Integrated Reasoning Agent via Behavior Calibration](https://arxiv.org/pdf/2601.06860v2)
-  - `arxiv:2601.06860` · cited by 1: VA
   - summary: TODO
 
 - [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
@@ -154,10 +138,6 @@
   - `url:https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont` · cited by 1: HE
   - summary: Treat handoffs as distributed-system interfaces with typed schemas.
 
-- [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting](https://aclanthology.org/2023.acl-short.130/)
-  - `acl:2023.acl-short.130` · cited by 1: LJ
-  - summary: TODO
-
 - [Perceive, Reflect, and Plan: Designing LLM Agent for Goal-Directed City Navigation without Instructions](http://arxiv.org/abs/2408.04168)
   - `arxiv:2408.04168` · cited by 1: LJ
   - summary: TODO
@@ -189,6 +169,14 @@
 - [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104)
   - `arxiv:2508.21104` · cited by 1: LJ
   - summary: Advantage reference anchor plus pre-sampling to cut rollout dependence.
+
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+  - `arxiv:2210.03629` · cited by 1: HE
+  - summary: Interleaves reasoning traces with actions in a Thought/Action/Observation loop; the structure nearly every agent harness still uses.
+
+- [Real-Time Deadlines Reveal Temporal Awareness Failures in LLM Strategic Reasoning](https://arxiv.org/abs/2601.13206)
+  - `arxiv:2601.13206` · cited by 1: HE
+  - summary: Temporal awareness is orthogonal to reasoning; deadlines must be injected into context.
 
 - [Refining Guideline Knowledge for Agent Planning Using Textgrad](https://www.computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2)
   - `url:https://computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2` · cited by 1: LJ
@@ -261,10 +249,6 @@
 - [Too Helpful to Be Safe: User-Mediated Attacks on Planning and Web-Use Agents](https://arxiv.org/pdf/2601.10758v1)
   - `arxiv:2601.10758` · cited by 1: VA
   - summary: TODO
-
-- [ToolPlanner: A Tool Augmented LLM for Multi Granularity Instructions with Path Planning and Feedback](http://arxiv.org/abs/2409.14826)
-  - `arxiv:2409.14826` · cited by 1: LJ
-  - summary: Path planning plus feedback over multi-granularity instructions.
 
 - [TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](http://arxiv.org/abs/2311.11315)
   - `arxiv:2311.11315` · cited by 1: LJ

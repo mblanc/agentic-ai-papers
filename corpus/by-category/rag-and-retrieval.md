@@ -1,10 +1,6 @@
 # rag-and-retrieval
 
-32 entries.
-
-- ["Someone Hid It": Query-Agnostic Black-Box Attacks on LLM-Based Retrieval](https://arxiv.org/pdf/2602.00364v2)
-  - `arxiv:2602.00364` · cited by 1: VA
-  - summary: TODO
+28 entries.
 
 - [Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward](https://arxiv.org/abs/2508.12800)
   - `arxiv:2508.12800` · cited by 1: LJ
@@ -17,10 +13,6 @@
 - [CIRAG: Construction-Integration Retrieval and Adaptive Generation for Multi-hop Question Answering](https://arxiv.org/pdf/2601.06799v1)
   - `arxiv:2601.06799` · cited by 1: VA
   - summary: Preserves multiple evidence chains, expanding granularity from triples to passages.
-
-- [CODE: A Contradiction-Based Deliberation Extension Framework for Overthinking Attacks on Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.13112v1)
-  - `arxiv:2601.13112` · cited by 1: VA
-  - summary: TODO
 
 - [Deep GraphRAG: A Balanced Approach to Hierarchical Retrieval and Adaptive Integration](https://arxiv.org/pdf/2601.11144v3)
   - `arxiv:2601.11144` · cited by 1: VA
@@ -78,10 +70,6 @@
   - `arxiv:2601.21912` · cited by 1: VA
   - summary: MCTS step-level rewards to locate flawed reasoning in multi-hop retrieval.
 
-- [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](http://arxiv.org/abs/2408.01875)
-  - `arxiv:2408.01875` · cited by 1: LJ
-  - summary: Unsupervised retrieval via query synthesis and multi-view ranking.
-
 - [SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.11199v1)
   - `arxiv:2601.11199` · cited by 1: VA
   - summary: TODO
@@ -101,10 +89,6 @@
 - [Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems](https://arxiv.org/pdf/2601.10681v1)
   - `arxiv:2601.10681` · cited by 1: VA
   - summary: Balances relevance, coverage and redundancy under strict token budgets.
-
-- [ToolGen: Unified Tool Retrieval and Calling via Generation](http://arxiv.org/abs/2410.03439)
-  - `arxiv:2410.03439` · cited by 1: LJ
-  - summary: Bakes tools into the vocabulary as tokens, making retrieval a generation step.
 
 - [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html)
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html` · cited by 1: LJ

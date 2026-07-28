@@ -1,14 +1,22 @@
 # safety-security-governance
 
-130 entries.
+163 entries.
 
 - [AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security](https://arxiv.org/abs/2601.18491)
   - `arxiv:2601.18491` · cited by 2: HE, VA
   - summary: Three-dimensional risk taxonomy with 4B–8B diagnostic models at 91.8% accuracy.
 
+- ["Someone Hid It": Query-Agnostic Black-Box Attacks on LLM-Based Retrieval](https://arxiv.org/pdf/2602.00364v2)
+  - `arxiv:2602.00364` · cited by 1: VA
+  - summary: TODO
+
 - [A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment](https://arxiv.org/abs/2504.15585)
   - `arxiv:2504.15585` · cited by 1: LJ
   - summary: Data, training and deployment as one safety lifecycle.
+
+- [A Dual-Loop Agent Framework for Automated Vulnerability Reproduction](https://arxiv.org/pdf/2602.05721v1)
+  - `arxiv:2602.05721` · cited by 1: VA
+  - summary: TODO
 
 - [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
   - `arxiv:2402.10196` · cited by 1: LJ
@@ -58,6 +66,10 @@
   - `openreview:m1YYAQjO3w` · cited by 1: LJ
   - summary: Dynamic environment for evaluating prompt-injection attacks *and* defenses. The reference testbed.
 
+- [AgentGuardian: Learning Access Control Policies to Govern AI Agent Behavior](https://arxiv.org/pdf/2601.10440v1)
+  - `arxiv:2601.10440` · cited by 1: VA
+  - summary: TODO
+
 - [AGENTHARM: A BENCHMARK FOR MEASURING HARMFULNESS OF LLM AGENTS](https://arxiv.org/pdf/2410.09024)
   - `arxiv:2410.09024` · cited by 1: LJ
   - summary: TODO
@@ -66,8 +78,24 @@
   - `arxiv:2601.15630` · cited by 1: VA
   - summary: TODO
 
+- [Agentic LLMs as Powerful Deanonymizers: Re-identification of Participants in the Anthropic Interviewer Dataset](https://arxiv.org/pdf/2601.05918v1)
+  - `arxiv:2601.05918` · cited by 1: VA
+  - summary: TODO
+
+- [AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection](https://arxiv.org/pdf/2601.19138v1)
+  - `arxiv:2601.19138` · cited by 1: VA
+  - summary: TODO
+
+- [AgentMark: Utility-Preserving Behavioral Watermarking for Agents](https://arxiv.org/pdf/2601.03294v1)
+  - `arxiv:2601.03294` · cited by 1: VA
+  - summary: TODO
+
 - [AGENTPOISON: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://proceedings.neurips.cc/paper_files/paper/2024/file/eb113910e9c3f6242541c1652e30dfd6-Paper-Conference.pdf)
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/eb113910e9c3f6242541c1652e30dfd6-Paper-Conference.pdf` · cited by 1: LJ
+  - summary: TODO
+
+- [AgenTRIM: Tool Risk Mitigation for Agentic AI](https://arxiv.org/pdf/2601.12449v1)
+  - `arxiv:2601.12449` · cited by 1: VA
   - summary: TODO
 
 - [AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways](https://dl.acm.org/doi/pdf/10.1145/3716628)
@@ -106,9 +134,25 @@
   - `arxiv:2403.04783` · cited by 1: LJ
   - summary: Multi-agent response filtering; small models successfully defending larger ones.
 
+- [AutoGen — Human-in-the-Loop](https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop/)
+  - `url:https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop` · cited by 1: HE
+  - summary: TODO
+
 - [AUTOHIJACKER: AUTOMATIC INDIRECT PROMPT INJECTION AGAINST BLACK-BOX LLM AGENTS](https://openreview.net/pdf?id=2VmB01D9Ef)
   - `openreview:2VmB01D9Ef` · cited by 1: LJ
   - summary: Automatic black-box indirect injection using LLMs as optimizers.
+
+- [AutoResearchClaw HITL Co-Pilot](https://github.com/aiming-lab/AutoResearchClaw)
+  - `gh:aiming-lab/autoresearchclaw` · cited by 1: HE
+  - summary: TODO
+
+- [aws-samples/sample-human-in-the-loop-patterns](https://github.com/aws-samples/sample-human-in-the-loop-patterns)
+  - `gh:aws-samples/sample-human-in-the-loop-patterns` · cited by 1: HE
+  - summary: TODO
+
+- [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents](https://arxiv.org/pdf/2601.04566v2)
+  - `arxiv:2601.04566` · cited by 1: VA
+  - summary: TODO
 
 - [Beyond Data Privacy: New Privacy Risks for Large Language Models](https://arxiv.org/abs/2509.14278)
   - `arxiv:2509.14278` · cited by 1: LJ
@@ -121,6 +165,10 @@
 - [BlockAgents: Towards Byzantine-Robust LLM-Based Multi-Agent Coordination via Blockchain](https://dl.acm.org/doi/pdf/10.1145/3674399.3674445)
   - `url:https://dl.acm.org/doi/pdf/10.1145/3674399.3674445` · cited by 1: LJ
   - summary: Blockchain proof-of-thought for Byzantine-robust multi-agent coordination.
+
+- [Blue Teaming Function-Calling Agents](https://arxiv.org/pdf/2601.09292v1)
+  - `arxiv:2601.09292` · cited by 1: VA
+  - summary: TODO
 
 - [Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In](https://arxiv.org/pdf/2410.16950)
   - `arxiv:2410.16950` · cited by 1: LJ
@@ -138,12 +186,20 @@
   - `url:https://platform.claude.com/docs/en/agent-sdk/permissions` · cited by 1: HE
   - summary: Five-layer evaluation order and the subagent inheritance warning.
 
+- [Claude Agent SDK — Handle Approvals and User Input](https://platform.claude.com/docs/en/agent-sdk/user-input)
+  - `url:https://platform.claude.com/docs/en/agent-sdk/user-input` · cited by 1: HE
+  - summary: TODO
+
 - [Claude Code Auto Mode: A Safer Way to Skip Permissions](https://www.anthropic.com/engineering/claude-code-auto-mode)
   - `url:https://anthropic.com/engineering/claude-code-auto-mode` · cited by 1: HE
   - summary: Users approve 93% of prompts, so approvals stop meaning anything; two-stage classifier instead.
 
 - [Cloudflare Dynamic Workers](https://blog.cloudflare.com/dynamic-workers/)
   - `url:https://blog.cloudflare.com/dynamic-workers` · cited by 1: HE
+  - summary: TODO
+
+- [CODE: A Contradiction-Based Deliberation Extension Framework for Overthinking Attacks on Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.13112v1)
+  - `arxiv:2601.13112` · cited by 1: VA
   - summary: TODO
 
 - [Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks](https://arxiv.org/abs/2502.08586)
@@ -185,6 +241,10 @@
 - [DemonAgent: Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-based Agent](https://arxiv.org/abs/2502.12575)
   - `arxiv:2502.12575` · cited by 1: LJ
   - summary: Dynamically encrypted multi-backdoor implantation that evades safety audits.
+
+- [Dify Human-in-the-Loop Node](https://github.com/langgenius/dify/discussions/32245)
+  - `url:https://github.com/langgenius/dify/discussions/32245` · cited by 1: HE
+  - summary: TODO
 
 - [DRAINCODE: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning](https://arxiv.org/pdf/2601.20615v3)
   - `arxiv:2601.20615` · cited by 1: VA
@@ -238,12 +298,32 @@
   - `arxiv:2601.01090` · cited by 1: VA
   - summary: TODO
 
+- [HiL-Bench: Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408)
+  - `arxiv:2604.09408` · cited by 1: HE
+  - summary: TODO
+
+- [HITL Protocol](https://github.com/rotorstar/hitl-protocol)
+  - `gh:rotorstar/hitl-protocol` · cited by 1: HE
+  - summary: TODO
+
 - [How we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
   - `url:https://anthropic.com/engineering/how-we-contain-claude` · cited by 1: HE
   - summary: TODO
 
+- [Human Judgment in the Agent Improvement Loop](https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/)
+  - `url:https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop` · cited by 1: HE
+  - summary: TODO
+
 - [Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework](https://arxiv.org/pdf/2602.01942v1)
   - `arxiv:2602.01942` · cited by 1: VA
+  - summary: TODO
+
+- [Humans and Agents in Software Engineering Loops](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html)
+  - `url:https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html` · cited by 1: HE
+  - summary: TODO
+
+- [Identifying Adversary Tactics and Techniques in Malware Binaries with an LLM Agent](https://arxiv.org/pdf/2602.06325v1)
+  - `arxiv:2602.06325` · cited by 1: VA
   - summary: TODO
 
 - [IETF draft-klrc-aiagent-auth: AI Agent Authentication and Authorization](https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth/)
@@ -266,12 +346,20 @@
   - `arxiv:2603.23509` · cited by 1: VA
   - summary: TODO
 
+- [Interoperable Architecture for Digital Identity Delegation for AI Agents with Blockchain Integration](https://arxiv.org/pdf/2601.14982v1)
+  - `arxiv:2601.14982` · cited by 1: VA
+  - summary: TODO
+
 - [IronClaw](https://github.com/nearai/ironclaw)
   - `gh:nearai/ironclaw` · cited by 1: HE
   - summary: TODO
 
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)
   - `gh:kubernetes-sigs/agent-sandbox` · cited by 1: HE
+  - summary: TODO
+
+- [LangGraph — Human-in-the-Loop Concepts](https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/)
+  - `url:https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop` · cited by 1: HE
   - summary: TODO
 
 - [LangSmith Sandboxes: Secure Code Execution for Agents](https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/)
@@ -297,6 +385,14 @@
 - [mcpguard-dynamic](https://github.com/facebook/mcpguard-dynamic)
   - `gh:facebook/mcpguard-dynamic` · cited by 1: HE
   - summary: TODO
+
+- [Measuring AI Agent Autonomy in Practice](https://www.anthropic.com/news/measuring-agent-autonomy)
+  - `url:https://anthropic.com/news/measuring-agent-autonomy` · cited by 1: HE
+  - summary: TODO
+
+- [Medical large language models are susceptible to targeted misinformation attacks](https://doi.org/10.1038/s41746-024-01282-7)
+  - `url:https://doi.org/10.1038/s41746-024-01282-7` · cited by 1: LJ
+  - summary: 1.1% weight manipulation injects false facts.
 
 - [Medical large language models are vulnerable to data-poisoning attacks](https://www.nature.com/articles/s41591-024-03445-1)
   - `url:https://nature.com/articles/s41591-024-03445-1` · cited by 1: LJ
@@ -402,6 +498,10 @@
   - `arxiv:2401.11880` · cited by 1: LJ
   - summary: TODO
 
+- [Query-Efficient Agentic Graph Extraction Attacks on GraphRAG Systems](https://arxiv.org/pdf/2601.14662v1)
+  - `arxiv:2601.14662` · cited by 1: VA
+  - summary: TODO
+
 - [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](https://arxiv.org/abs/2401.10019)
   - `arxiv:2401.10019` · cited by 1: LJ
   - summary: Benchmarks whether agents *recognize* safety risk in their own trajectories.
@@ -434,6 +534,10 @@
   - `url:https://developers.openai.com/api/docs/guides/agents/sandboxes` · cited by 1: HE
   - summary: TODO
 
+- [Securing AI Agents in Cyber-Physical Systems: A Survey of Environmental Interactions, Deepfake Threats, and Defenses](https://arxiv.org/pdf/2601.20184v1)
+  - `arxiv:2601.20184` · cited by 1: VA
+  - summary: TODO
+
 - [Security of AI Agents](https://arxiv.org/pdf/2406.08689)
   - `arxiv:2406.08689` · cited by 1: LJ
   - summary: Systems-level vulnerability view rather than model-level.
@@ -442,12 +546,32 @@
   - `acl:2023.acl-long.754.pdf` · cited by 1: LJ
   - summary: Near annotation-free instruction generation from the model itself.
 
+- [SHIELD: An Auto-Healing Agentic Defense Framework for LLM Resource Exhaustion Attacks](https://arxiv.org/pdf/2601.19174v1)
+  - `arxiv:2601.19174` · cited by 1: VA
+  - summary: TODO
+
+- [Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/pdf/2601.22952v1)
+  - `arxiv:2601.22952` · cited by 1: VA
+  - summary: Compares Aider, OpenHands and SWE-agent on triage.
+
 - [StackOne Defender](https://github.com/stackoneHQ/defender)
   - `gh:stackonehq/defender` · cited by 1: HE
   - summary: TODO
 
+- [StepShield: When, Not Whether to Intervene on Rogue Agents](https://arxiv.org/pdf/2601.22136v1)
+  - `arxiv:2601.22136` · cited by 1: VA
+  - summary: TODO
+
 - [Structural Representations for Cross-Attack Generalization in AI Agent Threat Detection](https://arxiv.org/pdf/2601.01723v1)
   - `arxiv:2601.01723` · cited by 1: VA
+  - summary: TODO
+
+- [Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses](https://arxiv.org/pdf/2602.06495v1)
+  - `arxiv:2602.06495` · cited by 1: VA
+  - summary: TODO
+
+- [Taming Various Privilege Escalation in LLM-Based Agent Systems: A Mandatory Access Control Framework](https://arxiv.org/pdf/2601.11893v1)
+  - `arxiv:2601.11893` · cited by 1: VA
   - summary: TODO
 
 - [TARGETING THE CORE: A SIMPLE AND EFFECTIVE METHOD TO ATTACK RAG-BASED AGENTS VIA DIRECT LLM MANIPULATION](https://arxiv.org/pdf/2412.04415)
@@ -470,6 +594,10 @@
   - `gh:tldrsec/prompt-injection-defenses` · cited by 1: HE
   - summary: TODO
 
+- [To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack](https://arxiv.org/pdf/2602.02595v1)
+  - `arxiv:2602.02595` · cited by 1: VA
+  - summary: TODO
+
 - [TrustAgent: Towards Safe and Trustworthy LLM-based Agents](https://arxiv.org/abs/2402.01586)
   - `arxiv:2402.01586` · cited by 1: LJ
   - summary: Agent-constitution framework with three safety strategies, and its helpfulness cost.
@@ -481,6 +609,10 @@
 - [Two Different Types of Agent Authorization](https://blog.langchain.com/two-different-types-of-agent-authorization/)
   - `url:https://blog.langchain.com/two-different-types-of-agent-authorization` · cited by 1: HE
   - summary: On-behalf-of vs fixed-credential models have different threat surfaces.
+
+- [TxRay: Agentic Postmortem of Live Blockchain Attacks](https://arxiv.org/pdf/2602.01317v4)
+  - `arxiv:2602.01317` · cited by 1: VA
+  - summary: TODO
 
 - [Under the Hood: Security Architecture of GitHub Agentic Workflows](https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/)
   - `url:https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows` · cited by 1: HE

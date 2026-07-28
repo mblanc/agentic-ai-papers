@@ -1,6 +1,6 @@
 # web-gui-computer-use
 
-9 entries.
+8 entries.
 
 - [Anthropic Computer Use Demo](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo)
   - `gh:anthropics/anthropic-quickstarts` · cited by 1: HE
@@ -28,10 +28,6 @@
 
 - [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html)
   - `url:https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html` · cited by 1: LJ
-  - summary: TODO
-
-- [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/pdf/2602.02548v1)
-  - `arxiv:2602.02548` · cited by 1: VA
   - summary: TODO
 
 - [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332)

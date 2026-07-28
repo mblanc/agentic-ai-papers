@@ -14,10 +14,6 @@
   - `arxiv:2506.13131` · cited by 1: LJ
   - summary: Evolutionary coding agent that autonomously improves and discovers algorithms.
 
-- [An Update on Recent Claude Code Quality Reports](https://www.anthropic.com/engineering/april-23-postmortem)
-  - `url:https://anthropic.com/engineering/april-23-postmortem` · cited by 1: HE
-  - summary: Three independent harness-level changes compounding into visible regression. Best postmortem in the corpus.
-
 - [Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests](https://arxiv.org/pdf/2601.04886v2)
   - `arxiv:2601.04886` · cited by 1: VA
   - summary: Whether PR descriptions match the actual diff.
@@ -34,13 +30,17 @@
   - `arxiv:2601.17406` · cited by 1: VA
   - summary: Behavioural signatures attributing PRs to specific agents.
 
+- [Hooks – Codex](https://developers.openai.com/codex/hooks)
+  - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
+  - summary: Lifecycle hooks for injecting deterministic scripts at loop events.
+
 - [How to Build AI Agents by Augmenting LLMs with Codified Human Expert Domain Knowledge? A Software Engineering Framework](https://arxiv.org/pdf/2601.15153v1)
   - `arxiv:2601.15153` · cited by 1: VA
   - summary: TODO
 
-- [Humans and Agents in Software Engineering Loops](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html)
-  - `url:https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html` · cited by 1: HE
-  - summary: TODO
+- [Introducing dynamic workflows in Claude Code](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)
+  - `url:https://claude.com/blog/introducing-dynamic-workflows-in-claude-code` · cited by 1: HE
+  - summary: Plan lives in executable JavaScript that fans out to hundreds of parallel subagents.
 
 - [Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests](https://arxiv.org/pdf/2601.18749v1)
   - `arxiv:2601.18749` · cited by 1: VA

@@ -231,7 +231,9 @@ def is_content_link(url: str, text: str) -> bool:
 
 TAXONOMY: list[tuple[str, list[str]]] = [
     ("harness-engineering", [
-        r"\bharness\b", r"agent loop", r"scaffold", r"agent.?computer interface",
+        # \bharness (no trailing \b) so plural section headers "Demo Harnesses"
+        # and "Meta-Harnesses" match — the harness list files its tools there.
+        r"\bharness", r"agent loop", r"scaffold", r"agent.?computer interface",
     ]),
     ("context-engineering", [
         r"context engineering", r"compact", r"context window", r"prompt compress",
@@ -247,6 +249,11 @@ TAXONOMY: list[tuple[str, list[str]]] = [
         r"\bmcp\b", r"model context protocol", r"\ba2a\b", r"agent.?to.?agent",
         r"toolformer", r"toolllm", r"\bapi\b.*agent", r"\bskills?\b",
         r"structured output", r"\btool learning\b",
+        # Tool-centric verbs, not bare "tool" — bare "tool" wrongly pulled a
+        # prompt-injection defense and the LangChain SDK out of their homes.
+        r"\btool[- ]?(?:use|using|augment|learn|retriev|call|invok|invocat|"
+        r"creat|manipulat|integrat|token|maker|planner|selection|instruct)",
+        r"\b(?:external|massive|multi[- ]?)tools?\b", r"\bchain of tools?\b",
     ]),
     ("planning-and-reasoning", [
         r"\bplan(?:ning|ner)?\b", r"reason", r"chain.?of.?thought", r"\bcot\b",
@@ -263,17 +270,23 @@ TAXONOMY: list[tuple[str, list[str]]] = [
         r"\beval", r"benchmark", r"\bbench\b", r"swe.?bench", r"webarena",
         r"\bagentbench\b", r"\bosworld\b", r"\bgaia\b", r"llm.?as.?a?.?judge",
         r"\btau.?bench", r"\bverif", r"\bci gate", r"\btest",
+        r"\bjudge\b", r"calibrat", r"uncertainty", r"overconfiden", r"hallucinat",
     ]),
     ("safety-security-governance", [
         r"\bsafety\b", r"\bsecurity\b", r"prompt injection", r"\bjailbreak\b",
         r"\bguardrail", r"\bsandbox", r"permission", r"\bauthoriz", r"\bauthent",
         r"\bowasp\b", r"red.?team", r"\bgovernan", r"\bpolicy\b", r"least privilege",
-        r"\battack\b", r"\bpoison", r"\baudit\b", r"\balign",
+        r"\battack", r"\bpoison", r"\baudit\b", r"\balign",
+        r"access control", r"watermark", r"deanonym", r"identity delegation",
+        r"\bmalware\b", r"vulnerab", r"adversar", r"risk mitigat", r"\bthreat",
+        r"\bexploit", r"blue team", r"\brogue\b", r"human.?in.?the.?loop", r"\bhitl\b",
     ]),
     ("observability-and-ops", [
         r"observab", r"\btracing\b", r"\btelemetry\b", r"\bmonitor",
         r"\bdebug", r"\bcost\b", r"\blatency\b", r"\bphoenix\b", r"\bopentelemetry\b",
         r"\blangsmith\b", r"\bdeploy", r"\bproduction\b", r"\bsre\b", r"\bincident\b",
+        r"agentops", r"ci/cd", r"postmortem", r"explainab", r"interpretab",
+        r"\binterpreting\b", r"trace.?driven",
     ]),
     ("coding-agents", [
         r"\bcoding agent", r"software engineer", r"\bswe.?agent\b", r"code gener",
@@ -343,11 +356,14 @@ def classify(text: str, section_path: str, url: str) -> tuple[str, list[str]]:
     hay_text = f"{text} || {url}".lower()
 
     scores: dict[str, float] = {}
+    text_hit: dict[str, bool] = {}   # category matched the item's own title/url
     for idx, (cat, pats) in enumerate(TAXONOMY):
+        on_section = any(re.search(p, hay_section) for p in pats)
+        on_text = any(re.search(p, hay_text) for p in pats)
         score = 0.0
-        if any(re.search(p, hay_section) for p in pats):
+        if on_section:
             score += SECTION_WEIGHT
-        if any(re.search(p, hay_text) for p in pats):
+        if on_text:
             score += TEXT_WEIGHT
         if score == 0.0:
             continue
@@ -356,9 +372,22 @@ def classify(text: str, section_path: str, url: str) -> tuple[str, list[str]]:
         # earlier taxonomy position = more specific; small nudge to break ties
         score += (len(TAXONOMY) - idx) * 0.01
         scores[cat] = score
+        text_hit[cat] = on_text
 
     if not scores:
         return FALLBACK, []
+    # A "Demo Harnesses" / "Meta-Harnesses" section labels the delivery vehicle,
+    # not the topic. When harness-engineering matched only via that header (no
+    # title signal) but the item's own title matches a specific category, the
+    # function wins — Aider is a coding agent that happens to ship as a harness.
+    if scores.get("harness-engineering") and not text_hit.get("harness-engineering"):
+        rival = max(
+            (c for c in scores
+             if c != "harness-engineering" and c not in GENERIC and text_hit.get(c)),
+            key=lambda c: scores[c], default=None,
+        )
+        if rival:
+            scores["harness-engineering"] = scores[rival] - 0.001
     ranked = sorted(scores, key=lambda c: -scores[c])
     return ranked[0], ranked
 

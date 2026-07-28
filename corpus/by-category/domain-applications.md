@@ -1,6 +1,6 @@
 # domain-applications
 
-6 entries.
+5 entries.
 
 - [Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents](https://arxiv.org/abs/2405.02957)
   - `arxiv:2405.02957` · cited by 1: LJ
@@ -17,10 +17,6 @@
 - [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376)
   - `arxiv:2304.05376` · cited by 1: LJ
   - summary: 13 expert chemistry tools augmenting an LLM for synthesis planning.
-
-- [Medical large language models are susceptible to targeted misinformation attacks](https://doi.org/10.1038/s41746-024-01282-7)
-  - `url:https://doi.org/10.1038/s41746-024-01282-7` · cited by 1: LJ
-  - summary: 1.1% weight manipulation injects false facts.
 
 - [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](http://arxiv.org/abs/2308.16505)
   - `arxiv:2308.16505` · cited by 1: LJ

@@ -1,6 +1,6 @@
 # multi-agent
 
-157 entries.
+153 entries.
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
@@ -76,10 +76,6 @@
 
 - [AutoGen](https://github.com/microsoft/autogen)
   - `gh:microsoft/autogen` · cited by 1: HE
-  - summary: TODO
-
-- [AutoGen — Human-in-the-Loop](https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop/)
-  - `url:https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop` · cited by 1: HE
   - summary: TODO
 
 - [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
@@ -422,10 +418,6 @@
   - `arxiv:2508.18669` · cited by 1: LJ
   - summary: TODO
 
-- [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314)
-  - `arxiv:2306.03314` · cited by 1: LJ
-  - summary: TODO
-
 - [Multi-Agent Collaborative Intrusion Detection for LAE-IoT](https://arxiv.org/pdf/2601.17817v1)
   - `arxiv:2601.17817` · cited by 1: VA
   - summary: TODO
@@ -530,10 +522,6 @@
   - `arxiv:2602.06232` · cited by 1: VA
   - summary: TODO
 
-- [SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments](https://arxiv.org/pdf/2601.09750v1)
-  - `arxiv:2601.09750` · cited by 1: VA
-  - summary: TODO
-
 - [sandcastle](https://github.com/mattpocock/sandcastle)
   - `gh:mattpocock/sandcastle` · cited by 1: HE
   - summary: TODO
@@ -621,10 +609,6 @@
 - [When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](https://arxiv.org/pdf/2602.00428v1)
   - `arxiv:2602.00428` · cited by 1: VA
   - summary: TODO
-
-- [When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems](https://arxiv.org/pdf/2601.16280v1)
-  - `arxiv:2601.16280` · cited by 1: VA
-  - summary: 12-category error taxonomy for multi-agent tool-use failures.
 
 - [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657)
   - `arxiv:2503.13657` · cited by 1: LJ

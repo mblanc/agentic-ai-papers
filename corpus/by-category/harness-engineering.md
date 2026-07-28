@@ -1,6 +1,6 @@
 # harness-engineering
 
-51 entries.
+78 entries.
 
 - [A Scheduler-Theoretic Framework for LLM Agent Execution](https://arxiv.org/abs/2604.11378)
   - `arxiv:2604.11378` · cited by 1: HE
@@ -22,6 +22,26 @@
   - `gh:scaleml/agentspex` · cited by 1: HE
   - summary: Declarative YAML spec language for agent workflows with sandbox, checkpointing and trajectory logs.
 
+- [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+  - `gh:alibaba/open-code-review` · cited by 1: HE
+  - summary: TODO
+
+- [AOHP](https://github.com/aohp-os/aohp)
+  - `gh:aohp-os/aohp` · cited by 1: HE
+  - summary: TODO
+
+- [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071)
+  - `arxiv:2604.18071` · cited by 1: HE
+  - summary: Empirical study of 70 public agent systems across five recurring design dimensions.
+
+- [AutoAgent](https://github.com/kevinrgu/autoagent)
+  - `gh:kevinrgu/autoagent` · cited by 1: HE
+  - summary: TODO
+
+- [autocontext](https://github.com/greyhaven-ai/autocontext)
+  - `gh:greyhaven-ai/autocontext` · cited by 1: HE
+  - summary: TODO
+
 - [AutoJunjie/awesome-agent-harness](https://github.com/AutoJunjie/awesome-agent-harness)
   - `gh:autojunjie/awesome-agent-harness` · cited by 1: HE
   - summary: TODO
@@ -38,21 +58,53 @@
   - `arxiv:2603.05344` · cited by 1: HE
   - summary: Practitioner paper on eager-construction scaffolding and compound multi-model architecture.
 
+- [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
+  - `url:https://platform.claude.com/docs/en/agent-sdk/overview` · cited by 1: HE
+  - summary: TODO
+
+- [ClawGUI](https://github.com/ZJU-REAL/ClawGUI)
+  - `gh:zju-real/clawgui` · cited by 1: HE
+  - summary: TODO
+
 - [Code as Agent Harness](https://arxiv.org/abs/2605.18747)
   - `arxiv:2605.18747` · cited by 1: HE
   - summary: Survey arguing code is the substrate unifying harness interface, mechanism and multi-agent scaling.
 
-- [Confucius Code Agent (CCA)](https://github.com/facebookresearch/cca-swebench)
-  - `gh:facebookresearch/cca-swebench` · cited by 1: HE
-  - summary: Production coding agent organized around Agent/User/Developer experience; 59% Resolve@1 on SWE-Bench-Pro.
+- [CodeWhale](https://github.com/Hmbown/CodeWhale)
+  - `gh:hmbown/codewhale` · cited by 1: HE
+  - summary: TODO
+
+- [coleam00/your-claude-engineer](https://github.com/coleam00/your-claude-engineer)
+  - `gh:coleam00/your-claude-engineer` · cited by 1: HE
+  - summary: TODO
 
 - [Continual Harness](https://github.com/sethkarten/continual-harness)
   - `gh:sethkarten/continual-harness` · cited by 1: HE
   - summary: TODO
 
+- [cua](https://github.com/trycua/cua)
+  - `gh:trycua/cua` · cited by 1: HE
+  - summary: TODO
+
+- [danielrosehill/AI-Harnesses](https://github.com/danielrosehill/AI-Harnesses)
+  - `gh:danielrosehill/ai-harnesses` · cited by 1: HE
+  - summary: TODO
+
 - [deepclaude](https://github.com/aattaran/deepclaude)
   - `gh:aattaran/deepclaude` · cited by 1: HE
   - summary: Ports a full agent loop to other backends, isolating loop architecture from model identity.
+
+- [DeerFlow](https://github.com/bytedance/deer-flow)
+  - `gh:bytedance/deer-flow` · cited by 1: HE
+  - summary: TODO
+
+- [desloppify](https://github.com/peteromallet/desloppify)
+  - `gh:peteromallet/desloppify` · cited by 1: HE
+  - summary: TODO
+
+- [everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+  - `gh:affaan-m/everything-claude-code` · cited by 1: HE
+  - summary: TODO
 
 - [Extended Thinking — Claude API Docs](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking)
   - `url:https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking` · cited by 1: HE
@@ -60,6 +112,18 @@
 
 - [Getting started with loops](https://claude.com/blog/getting-started-with-loops)
   - `url:https://claude.com/blog/getting-started-with-loops` · cited by 1: HE
+  - summary: TODO
+
+- [GitHub Agentic Workflows](https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/)
+  - `url:https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview` · cited by 1: HE
+  - summary: TODO
+
+- [Goose](https://github.com/aaif-goose/goose)
+  - `gh:aaif-goose/goose` · cited by 1: HE
+  - summary: TODO
+
+- [grok-build](https://github.com/xai-org/grok-build)
+  - `gh:xai-org/grok-build` · cited by 1: HE
   - summary: TODO
 
 - [Harness Books](https://github.com/wquguru/harness-books)
@@ -82,24 +146,28 @@
   - `url:https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development` · cited by 1: HE
   - summary: Red Hat's enterprise four-pillar model: vibes, specs, skills, agents.
 
-- [Hooks – Codex](https://developers.openai.com/codex/hooks)
-  - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
-  - summary: Lifecycle hooks for injecting deterministic scripts at loop events.
+- [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)
+  - `gh:hkuds/openharness` · cited by 1: HE
+  - summary: TODO
 
 - [How Middleware Lets You Customize Your Agent Harness](https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/)
   - `url:https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness` · cited by 1: HE
   - summary: Six composable hooks for cross-cutting concerns without touching agent logic.
 
+- [HyperAgents: Self-Improving AI Systems](https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026/)
+  - `url:https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026` · cited by 1: HE
+  - summary: TODO
+
 - [Improving Deep Agents with Harness Engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/)
   - `url:https://blog.langchain.com/improving-deep-agents-with-harness-engineering` · cited by 1: HE
   - summary: Harness-only changes moved a coding agent from rank 30 to top 5 on Terminal Bench 2.0.
 
-- [Introducing dynamic workflows in Claude Code](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)
-  - `url:https://claude.com/blog/introducing-dynamic-workflows-in-claude-code` · cited by 1: HE
-  - summary: Plan lives in executable JavaScript that fans out to hundreds of parallel subagents.
-
 - [jiji262/awesome-harness-engineering](https://github.com/jiji262/awesome-harness-engineering)
   - `gh:jiji262/awesome-harness-engineering` · cited by 1: HE
+  - summary: TODO
+
+- [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)
+  - `gh:langchain-ai/deepagents` · cited by 1: HE
   - summary: TODO
 
 - [LangGraph — Low Level Concepts](https://langchain-ai.github.io/langgraph/concepts/low_level/)
@@ -114,6 +182,10 @@
   - `gh:tianshi-xu/life-harness` · cited by 1: HE
   - summary: Lifecycle-aware runtime layer; gains transfer across 18 model backbones.
 
+- [Live-SWE-agent: Autonomous Software Agent with Self-Evolving Harness](https://arxiv.org/html/2511.13646v3)
+  - `arxiv:2511.13646` · cited by 1: HE
+  - summary: TODO
+
 - [Loop Engineering](https://github.com/cobusgreyling/loop-engineering)
   - `gh:cobusgreyling/loop-engineering` · cited by 1: HE
   - summary: TODO
@@ -122,29 +194,53 @@
   - `gh:lopopolo/harness-engineering` · cited by 1: HE
   - summary: TODO
 
+- [meta-agent](https://github.com/canvas-org/meta-agent)
+  - `gh:canvas-org/meta-agent` · cited by 1: HE
+  - summary: TODO
+
 - [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052)
   - `arxiv:2603.28052` · cited by 1: HE
   - summary: TODO
 
+- [metaharness](https://github.com/SuperagenticAI/metaharness)
+  - `gh:superagenticai/metaharness` · cited by 1: HE
+  - summary: TODO
+
+- [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314)
+  - `arxiv:2306.03314` · cited by 1: LJ
+  - summary: TODO
+
+- [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
+  - `arxiv:2603.25723` · cited by 1: HE
+  - summary: Externalizes control logic as portable natural-language artifacts run by a shared runtime.
+
 - [neosigmaai/auto-harness](https://github.com/neosigmaai/auto-harness)
   - `gh:neosigmaai/auto-harness` · cited by 1: HE
+  - summary: TODO
+
+- [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)
+  - `gh:yeachan-heo/oh-my-claudecode` · cited by 1: HE
+  - summary: TODO
+
+- [Omnigent](https://github.com/omnigent-ai/omnigent)
+  - `gh:omnigent-ai/omnigent` · cited by 1: HE
+  - summary: TODO
+
+- [Pi](https://github.com/earendil-works/pi)
+  - `gh:earendil-works/pi` · cited by 1: HE
   - summary: TODO
 
 - [Picrew/awesome-agent-harness](https://github.com/Picrew/awesome-agent-harness)
   - `gh:picrew/awesome-agent-harness` · cited by 1: HE
   - summary: TODO
 
+- [Pipecat: Python Framework for Real-Time Voice Agent Pipelines](https://github.com/pipecat-ai/pipecat)
+  - `gh:pipecat-ai/pipecat` · cited by 1: HE
+  - summary: Voice and multimodal conversational AI pipelines.
+
 - [raphaelchristi/harness-evolver](https://github.com/raphaelchristi/harness-evolver)
   - `gh:raphaelchristi/harness-evolver` · cited by 1: HE
   - summary: TODO
-
-- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
-  - `arxiv:2210.03629` · cited by 1: HE
-  - summary: Interleaves reasoning traces with actions in a Thought/Action/Observation loop; the structure nearly every agent harness still uses.
-
-- [Real-Time Deadlines Reveal Temporal Awareness Failures in LLM Strategic Reasoning](https://arxiv.org/abs/2601.13206)
-  - `arxiv:2601.13206` · cited by 1: HE
-  - summary: Temporal awareness is orthogonal to reasoning; deadlines must be injected into context.
 
 - [Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents](https://arxiv.org/pdf/2601.15322v1)
   - `arxiv:2601.15322` · cited by 1: VA
@@ -162,12 +258,24 @@
   - `gh:rucaibox/awesome-agent-harness` · cited by 1: HE
   - summary: Academic survey and 500+ reference reading list on harness engineering.
 
+- [RyanAlberts/best-of-Agent-Harnesses](https://github.com/RyanAlberts/best-of-Agent-Harnesses)
+  - `gh:ryanalberts/best-of-agent-harnesses` · cited by 1: HE
+  - summary: TODO
+
 - [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498)
   - `arxiv:2606.09498` · cited by 1: HE
   - summary: TODO
 
 - [Skill Issue: Harness Engineering for Coding Agents](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents)
   - `url:https://humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents` · cited by 1: HE
+  - summary: TODO
+
+- [SmallCode](https://github.com/Doorman11991/smallcode)
+  - `gh:doorman11991/smallcode` · cited by 1: HE
+  - summary: TODO
+
+- [Squad](https://github.com/bradygaster/squad)
+  - `gh:bradygaster/squad` · cited by 1: HE
   - summary: TODO
 
 - [stanford-iris-lab/meta-harness](https://github.com/stanford-iris-lab/meta-harness)
