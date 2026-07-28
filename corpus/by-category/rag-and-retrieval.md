@@ -8,7 +8,7 @@
 
 - [Augmenting Question Answering with A Hybrid RAG Approach](https://arxiv.org/pdf/2601.12658v2)
   - `arxiv:2601.12658` · cited by 1: VA
-  - summary: TODO
+  - summary: A hybrid QA retriever combining query rewriting, agentic routing, and vector-plus-graph structured retrieval, improving answer accuracy over standard RAG across TruthfulQA, SQuAD, and WikiQA.
 
 - [CIRAG: Construction-Integration Retrieval and Adaptive Generation for Multi-hop Question Answering](https://arxiv.org/pdf/2601.06799v1)
   - `arxiv:2601.06799` · cited by 1: VA
@@ -28,11 +28,11 @@
 
 - [Efficient Privacy-Preserving Retrieval Augmented Generation with Distance-Preserving Encryption](https://arxiv.org/pdf/2601.12331v1)
   - `arxiv:2601.12331` · cited by 1: VA
-  - summary: TODO
+  - summary: Lets you run RAG on untrusted cloud storage by encrypting embeddings with a scheme that preserves only distance ordering, so the server can still rank matches but cannot reconstruct text or read queries.
 
 - [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/pdf/2601.09465v2)
   - `arxiv:2601.09465` · cited by 1: VA
-  - summary: TODO
+  - summary: Makes a self-evolving deep-research agent controllable by evolving an explicit finite state machine (separating flow logic from per-state skills) instead of free-form self-rewriting, curbing the instability and instruction drift of unconstrained optimization (58% on DeepSearch).
 
 - [FastInsight: Fast and Insightful Retrieval via Fusion Operators for Graph RAG](https://arxiv.org/pdf/2601.18579v1)
   - `arxiv:2601.18579` · cited by 1: VA
@@ -52,11 +52,11 @@
 
 - [Language as reality: a co-creative storytelling game experience in 1001 nights using generative AI](https://ojs.aaai.org/index.php/AIIDE/article/view/27539)
   - `url:https://ojs.aaai.org/index.php/AIIDE/article/view/27539` · cited by 1: LJ
-  - summary: TODO
+  - summary: An AI-native narrative game where a player steers an LLM-driven king and spoken keywords materialize as in-game objects, using generative models as a core mechanic rather than a feature.
 
 - [On Architecture of LLM agents](http://www.injoit.ru/index.php/j1/article/view/2057)
   - `url:https://injoit.ru/index.php/j1/article/view/2057` · cited by 1: LJ
-  - summary: TODO
+  - summary: A short position piece framing LLM agents as the next step past generative models, comparing them to earlier web mashups and software robots and surveying the frameworks that streamline building them.
 
 - [OpenDecoder: Open LLM Decoding to Incorporate Document Quality in RAG](https://arxiv.org/pdf/2601.09028v2)
   - `arxiv:2601.09028` · cited by 1: VA
@@ -72,7 +72,7 @@
 
 - [SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.11199v1)
   - `arxiv:2601.11199` · cited by 1: VA
-  - summary: TODO
+  - summary: Enforces access-control and privacy in RAG during retrieval rather than via prompt instructions, so sensitive passages never reach the model, staying resilient to prompt injection and up to 58% better on privacy score.
 
 - [Seeing through the Conflict: Transparent Knowledge Conflict Handling in RAG](https://arxiv.org/pdf/2601.06842v1)
   - `arxiv:2601.06842` · cited by 1: VA
@@ -80,7 +80,7 @@
 
 - [SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems](https://arxiv.org/pdf/2601.03979v1)
   - `arxiv:2601.03979` · cited by 1: VA
-  - summary: TODO
+  - summary: Systematizes the privacy risks of RAG, from extraction attacks to leakage through embeddings, into a taxonomy of risks, mitigations, and evaluation methods, and gauges how mature current defenses are.
 
 - [SOPRAG: Multi-view Graph Experts Retrieval for Industrial Standard Operating Procedures](https://arxiv.org/pdf/2602.01858v1)
   - `arxiv:2602.01858` · cited by 1: VA
@@ -92,7 +92,7 @@
 
 - [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html)
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html` · cited by 1: LJ
-  - summary: TODO
+  - summary: Represents each of many tools as a learned 'toolken' embedding a frozen LLM can emit like a token, adding new tools without fine-tuning or in-context demos across numerical reasoning, KBQA, and embodied tasks.
 
 - [Topo-RAG: Topology-aware retrieval for hybrid text-table documents](https://arxiv.org/pdf/2601.10215v1)
   - `arxiv:2601.10215` · cited by 1: VA
@@ -104,7 +104,7 @@
 
 - [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://aclanthology.org/2023.acl-long.499/)
   - `acl:2023.acl-long.499` · cited by 1: LJ
-  - summary: TODO
+  - summary: The first Chinese long-form QA dataset built on interactive web search, recording 125k human search actions so models can be trained to browse and synthesize answers that match human ones about a third of the time.
 
 - [When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in Scientific Multi-hop Question Answering](https://arxiv.org/pdf/2601.19827v2)
   - `arxiv:2601.19827` · cited by 1: VA
