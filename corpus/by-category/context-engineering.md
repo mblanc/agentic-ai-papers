@@ -16,7 +16,7 @@
 
 - [Awesome Context Engineering](https://github.com/Meirtz/Awesome-Context-Engineering)
   - `gh:meirtz/awesome-context-engineering` · cited by 1: HE
-  - summary: TODO
+  - summary: A curated survey of context-engineering work spanning RAG, memory, agent protocols, and production patterns, tracking the shift from static prompting to dynamic per-request context assembly.
 
 - [ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context](https://arxiv.org/abs/2604.01599)
   - `arxiv:2604.01599` · cited by 1: HE
@@ -24,7 +24,7 @@
 
 - [CEDAR: Context Engineering for Agentic Data Science](https://arxiv.org/pdf/2601.06606v1)
   - `arxiv:2601.06606` · cited by 1: VA
-  - summary: TODO
+  - summary: Structures a data-science agent's context as interleaved plan-and-code blocks written by separate LLM agents and keeps raw data local, injecting only aggregate statistics, so Kaggle-style tasks stay within context limits.
 
 - [Claude Code Compaction: How Context Compression Works](https://okhlopkov.com/claude-code-compaction-explained/)
   - `url:https://okhlopkov.com/claude-code-compaction-explained` · cited by 1: HE
@@ -96,7 +96,7 @@
 
 - [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/pdf/2601.21557v2)
   - `arxiv:2601.21557` · cited by 1: VA
-  - summary: TODO
+  - summary: Replaces hand-crafted context-engineering harnesses with a bi-level loop: a meta-agent evolves the context-engineering skills while a base-agent applies them and optimizes context as editable files and code, averaging 16.9% over prior agentic methods.
 
 - [MinishLab/semble](https://github.com/MinishLab/semble)
   - `gh:minishlab/semble` · cited by 1: HE
@@ -112,11 +112,11 @@
 
 - [OpenWiki](https://github.com/langchain-ai/openwiki)
   - `gh:langchain-ai/openwiki` · cited by 1: HE
-  - summary: TODO
+  - summary: A CLI that generates and maintains a codebase or knowledge-base wiki formatted for agent consumption, so an agent reads a synthesized local doc set instead of re-deriving a repo's structure each session.
 
 - [PRO-LONG](https://github.com/alexisfox7/PRO-LONG)
   - `gh:alexisfox7/pro-long` · cited by 1: HE
-  - summary: TODO
+  - summary: Gives long-horizon agents memory by appending every observation and action to a structured log they search programmatically, reaching 97.4% on ARC-AGI-3 with far fewer tokens than specialized retrieval and arguing code-based recall can beat complex retrieval.
 
 - [Prompt Caching — Claude API Docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching)
   - `url:https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching` · cited by 1: HE
@@ -128,11 +128,11 @@
 
 - [Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/pdf/2602.05447v1)
   - `arxiv:2602.05447` · cited by 1: VA
-  - summary: TODO
+  - summary: A 9,649-run study of how to structure context for data-querying agents that finds file-based retrieval helps only frontier models, serialization format (YAML/JSON/Markdown/TOON) barely moves accuracy, and model capability dwarfs both, so context structure should track model tier rather than a universal best practice.
 
 - [SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents](https://arxiv.org/pdf/2601.16746v2)
   - `arxiv:2601.16746` · cited by 1: VA
-  - summary: TODO
+  - summary: Prunes a coding agent's context with a 0.6B 'skimmer' model that keeps only the lines relevant to an explicit per-step goal, cutting 23-54% of tokens on SWE-Bench Verified while raising success rates.
 
 - [Token Savior](https://github.com/Mibayy/token-savior)
   - `gh:mibayy/token-savior` · cited by 1: HE
