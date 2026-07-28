@@ -129,6 +129,10 @@ def check_wiki_links(wiki: Path, corpus: Path) -> list[str]:
         if l.strip()
     }
     for page in wiki.rglob("*.md"):
+        # Files prefixed with "_" are templates (e.g. _TEMPLATE.md), not pages;
+        # their example citations are deliberately placeholders, not real ids.
+        if page.name.startswith("_"):
+            continue
         for cid in re.findall(r"\{\{(arxiv:[^}]+|gh:[^}]+)\}\}", page.read_text(encoding="utf-8")):
             if cid not in known:
                 errs.append(f"{page} cites unknown entry {{{{{cid}}}}}")
@@ -139,10 +143,21 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--corpus", type=Path, default=Path("corpus"))
     ap.add_argument("--wiki", type=Path, default=Path("wiki"))
+    ap.add_argument(
+        "--jsonl",
+        type=str,
+        default=None,
+        help="filename inside --corpus to validate. Default: curated.jsonl if it "
+             "exists (pre-pipeline state), else corpus.jsonl (post-pipeline).",
+    )
     args = ap.parse_args()
 
+    jsonl_name = args.jsonl
+    if jsonl_name is None:
+        jsonl_name = "curated.jsonl" if (args.corpus / "curated.jsonl").exists() else "corpus.jsonl"
+
     groups = {
-        "corpus schema + dedup + collisions": check_jsonl(args.corpus / "corpus.jsonl"),
+        "corpus schema + dedup + collisions": check_jsonl(args.corpus / jsonl_name),
         "generated files untouched": check_generated_not_edited(args.corpus),
         "wiki citations resolve": check_wiki_links(args.wiki, args.corpus),
     }

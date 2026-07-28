@@ -26,7 +26,7 @@ import argparse
 import json
 import re
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
@@ -45,6 +45,7 @@ except ImportError:
 SOURCES = [
     dict(
         key="harness",
+        code="HE",
         repo="ai-boost/awesome-harness-engineering",
         branch="main",
         path="README.md",
@@ -54,6 +55,7 @@ SOURCES = [
     ),
     dict(
         key="voltagent",
+        code="VA",
         repo="VoltAgent/awesome-ai-agent-papers",
         branch="main",
         path="README.md",
@@ -63,6 +65,7 @@ SOURCES = [
     ),
     dict(
         key="luojunyu",
+        code="LJ",
         repo="luo-junyu/awesome-agent-papers",
         branch="main",
         path="README.md",
@@ -72,6 +75,7 @@ SOURCES = [
     ),
     dict(
         key="kyrolabs",
+        code="KY",
         repo="kyrolabs/awesome-agents",
         branch="main",
         path="README.md",
@@ -81,6 +85,7 @@ SOURCES = [
     ),
     dict(
         key="zjunlp",
+        code="ZJ",
         repo="zjunlp/LLMAgentPapers",
         branch="main",
         path="README.md",
@@ -90,6 +95,7 @@ SOURCES = [
     ),
     dict(
         key="berkeley",
+        code="BK",
         repo="arvindcr4/awesome-agents",
         branch="main",
         path="README.md",
@@ -99,6 +105,7 @@ SOURCES = [
     ),
     dict(
         key="xi-survey",
+        code="XI",
         repo="WooooDyy/LLM-Agent-Paper-List",
         branch="main",
         path="README.md",
@@ -180,7 +187,13 @@ def canonical_id(url: str) -> tuple[str, str]:
     if m:
         owner, repo = m.group(1), m.group(2)
         repo = re.sub(r"\.git$", "", repo)
-        # A deep link into a repo still identifies that repo.
+        # A discussion / issue / PR / commit / release is its own resource, not
+        # the repo. Collapsing it onto gh:owner/repo produces a false title
+        # collision (a Dify HITL discussion thread reading as "the Dify repo").
+        # A plain deep link into files (blob/tree) still identifies the repo.
+        tail = u[m.end():]
+        if re.match(r"/(?:discussions|issues|pull|pulls|commit|releases)/", tail, re.I):
+            return f"url:{normalize_url(u)}", "web"
         return f"gh:{owner.lower()}/{repo.lower()}", "github"
     m = ACL.search(u)
     if m:
@@ -380,6 +393,7 @@ class Entry:
     occurrences: list[Occurrence] = field(default_factory=list)
     category: str = FALLBACK
     categories: list[str] = field(default_factory=list)
+    summary: str = "TODO"
 
     @property
     def sources(self) -> list[str]:
@@ -401,8 +415,17 @@ class Entry:
 
     @property
     def best_title(self) -> str:
-        # longest title text is usually the most descriptive
-        return max(self.titles, key=len) if self.titles else self.url
+        if not self.titles:
+            return self.url
+        # When every occurrence points at one resource, the differing anchor
+        # texts label the same thing ("LangGraph" vs "LangGraph 2.0 Release"),
+        # not competing descriptions. Prefer the most-used, then the shortest —
+        # the bare canonical name over a contextual label.
+        if len({o.raw_url for o in self.occurrences}) == 1 and len(self.titles) > 1:
+            counts = Counter(o.text for o in self.occurrences)
+            return min(self.titles, key=lambda t: (-counts[t], len(t)))
+        # Otherwise the longest title is usually the most descriptive.
+        return max(self.titles, key=len)
 
 
 def strip_badges(line: str) -> str:
@@ -518,14 +541,30 @@ def fetch(src: dict, timeout: int = 30) -> str | None:
         return None
 
 
-def build(sources: list[dict]) -> dict[str, Entry]:
+def load_seed(path: Path) -> dict[str, dict]:
+    """Load a previously curated corpus.jsonl/curated.jsonl as seed. Keyed by
+    canonical id so a fresh ingest can keep hand-written summaries instead of
+    overwriting them with 'TODO'."""
+    seed: dict[str, dict] = {}
+    if not path.exists():
+        return seed
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        rec = json.loads(line)
+        if rec.get("id"):
+            seed[rec["id"]] = rec
+    return seed
+
+
+def build(sources: list[dict], seed: dict[str, dict] | None = None) -> dict[str, Entry]:
     entries: dict[str, Entry] = {}
     for src in sources:
         print(f"-> {src['repo']}")
         md = fetch(src)
         if md is None:
             continue
-        occs = parse_markdown(md, src["key"])
+        occs = parse_markdown(md, src["code"])
         print(f"   {len(occs)} candidate links")
         for occ in occs:
             cid, id_type = canonical_id(occ.raw_url)
@@ -541,6 +580,10 @@ def build(sources: list[dict]) -> dict[str, Entry]:
         section_blob = " ; ".join(o.section_path for o in e.occurrences)
         title_blob = " ; ".join(e.titles)
         e.category, e.categories = classify(title_blob, section_blob, e.url)
+        if seed and e.cid in seed:
+            e.summary = seed[e.cid].get("summary", "TODO")
+        else:
+            e.summary = "TODO"
     return entries
 
 
@@ -554,7 +597,7 @@ def write_outputs(entries: dict[str, Entry], out: Path, fmt: str) -> None:
                 id=e.cid, id_type=e.id_type, url=e.url, title=e.best_title,
                 category=e.category, categories=e.categories,
                 sources=e.sources, n_sources=len(e.sources), related=e.related,
-                date=e.date,
+                date=e.date, summary=e.summary,
                 occurrences=[asdict(o) for o in e.occurrences],
             )
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
@@ -574,7 +617,7 @@ def write_outputs(entries: dict[str, Entry], out: Path, fmt: str) -> None:
             lines.append(f"  - `{e.cid}` · cited by {len(e.sources)}: {', '.join(e.sources)}")
             if e.related:
                 lines.append("  - related: " + " ".join(f"<{r}>" for r in e.related[:4]))
-            lines.append("  - summary: TODO")
+            lines.append("  - summary: " + e.summary)
             lines.append("")
         (out / "by-category" / f"{cat}.md").write_text("\n".join(lines), encoding="utf-8")
 
@@ -600,13 +643,24 @@ def write_outputs(entries: dict[str, Entry], out: Path, fmt: str) -> None:
             words = set(other.split())
             if not base or not words:
                 continue
+            # One title's words being a subset of the other's = an anchor
+            # variant / refinement of the same item ("LangGraph" ⊂ "LangGraph
+            # 2.0 Release"), not a wrong link. Only disjoint-and-dissimilar
+            # titles signal a mislink (FireAct pointed at Voyager's arXiv id).
+            if base <= words or words <= base:
+                continue
             jaccard = len(base & words) / len(base | words)
             if jaccard < 0.34:
                 collisions.append((e.cid, e.titles, e.sources))
                 break
 
-    rep = ["# Dedup report", "", f"Canonical entries: **{len(entries)}**", "",
-           "## Entries per source", ""]
+    rep = ["# Dedup report", "", f"Canonical entries: **{len(entries)}**", ""]
+    seeded = sum(1 for e in entries.values() if e.summary != "TODO")
+    if seeded:
+        rep.append(f"Summaries kept from seed: **{seeded}** ({seeded/max(len(entries),1):.0%}) — "
+                    f"remainder need the write-summaries pass.")
+        rep.append("")
+    rep += ["## Entries per source", ""]
     for k, v in sorted(per_source.items(), key=lambda kv: -kv[1]):
         rep.append(f"- `{k}`: {v}")
     if collisions:
@@ -632,13 +686,18 @@ def main() -> None:
     ap.add_argument("--format", default="jsonl", choices=["jsonl"])
     ap.add_argument("--only", nargs="*", help="restrict to these source keys")
     ap.add_argument("--max-tier", type=int, default=3)
+    ap.add_argument("--seed", type=Path, default=None,
+                     help="prior corpus.jsonl/curated.jsonl to preserve summaries from")
     args = ap.parse_args()
 
     srcs = [s for s in SOURCES if s["tier"] <= args.max_tier]
     if args.only:
         srcs = [s for s in srcs if s["key"] in args.only]
 
-    entries = build(srcs)
+    seed = load_seed(args.seed) if args.seed else {}
+    if args.seed and not seed:
+        print(f"  !! --seed {args.seed} had no usable entries", file=sys.stderr)
+    entries = build(srcs, seed)
     write_outputs(entries, args.out, args.format)
     print(f"\n{len(entries)} canonical entries -> {args.out}")
     print(f"see {args.out / 'report.md'}")
