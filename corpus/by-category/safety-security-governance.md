@@ -1,6 +1,6 @@
 # safety-security-governance
 
-163 entries.
+164 entries.
 
 - [AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security](https://arxiv.org/abs/2601.18491)
   - `arxiv:2601.18491` · cited by 2: HE, VA
@@ -44,6 +44,10 @@
 
 - [Agent Vault](https://github.com/Infisical/agent-vault)
   - `gh:infisical/agent-vault` · cited by 1: HE
+  - summary: TODO
+
+- [agent-chief](https://github.com/SmileLikeYe/agent-chief)
+  - `gh:smilelikeye/agent-chief` · cited by 1: HE
   - summary: TODO
 
 - [Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization](https://aclanthology.org/2024.acl-long.292.pdf)

@@ -1,12 +1,12 @@
 # Dedup report
 
-Canonical entries: **1118**
+Canonical entries: **1120**
 
-Summaries kept from seed: **722** (65%) — remainder need the write-summaries pass.
+Summaries kept from seed: **774** (69%) — remainder need the write-summaries pass.
 
 ## Entries per source
 
-- `HE`: 410
+- `HE`: 412
 - `VA`: 373
 - `LJ`: 340
 
@@ -14,19 +14,19 @@ Summaries kept from seed: **722** (65%) — remainder need the write-summaries p
 
 | cited by N sources | entries |
 | --- | --- |
-| 1 | 1113 |
+| 1 | 1115 |
 | 2 | 5 |
 
 ## Category sizes
 
 | category | entries |
 | --- | --- |
-| safety-security-governance | 163 |
+| safety-security-governance | 164 |
 | multi-agent | 153 |
 | evaluation-and-benchmarks | 151 |
 | unsorted | 102 |
 | tool-use-and-protocols | 96 |
-| harness-engineering | 78 |
+| harness-engineering | 79 |
 | memory | 70 |
 | planning-and-reasoning | 66 |
 | observability-and-ops | 55 |
