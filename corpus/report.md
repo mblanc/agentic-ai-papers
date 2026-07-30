@@ -1,12 +1,12 @@
 # Dedup report
 
-Canonical entries: **1120**
+Canonical entries: **1121**
 
-Summaries kept from seed: **918** (82%) — remainder need the write-summaries pass.
+Summaries kept from seed: **965** (86%) — remainder need the write-summaries pass.
 
 ## Entries per source
 
-- `HE`: 412
+- `HE`: 413
 - `VA`: 373
 - `LJ`: 340
 
@@ -14,7 +14,7 @@ Summaries kept from seed: **918** (82%) — remainder need the write-summaries p
 
 | cited by N sources | entries |
 | --- | --- |
-| 1 | 1115 |
+| 1 | 1116 |
 | 2 | 5 |
 
 ## Category sizes
@@ -26,7 +26,7 @@ Summaries kept from seed: **918** (82%) — remainder need the write-summaries p
 | evaluation-and-benchmarks | 151 |
 | unsorted | 102 |
 | tool-use-and-protocols | 96 |
-| harness-engineering | 79 |
+| harness-engineering | 80 |
 | memory | 70 |
 | planning-and-reasoning | 66 |
 | observability-and-ops | 55 |

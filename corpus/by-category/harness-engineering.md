@@ -1,6 +1,6 @@
 # harness-engineering
 
-79 entries.
+80 entries.
 
 - [A Scheduler-Theoretic Framework for LLM Agent Execution](https://arxiv.org/abs/2604.11378)
   - `arxiv:2604.11378` · cited by 1: HE
@@ -229,6 +229,10 @@
 - [Omnigent](https://github.com/omnigent-ai/omnigent)
   - `gh:omnigent-ai/omnigent` · cited by 1: HE
   - summary: An open-source meta-harness providing a common orchestration layer across multiple coding agents (Claude Code, Codex, Cursor) in unified sessions, letting teams swap model backends and enforce governance across devices.
+
+- [OpenSRE](https://github.com/Tracer-Cloud/opensre)
+  - `gh:tracer-cloud/opensre` · cited by 1: HE
+  - summary: TODO
 
 - [Pi](https://github.com/earendil-works/pi)
   - `gh:earendil-works/pi` · cited by 1: HE
