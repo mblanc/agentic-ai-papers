@@ -216,7 +216,7 @@
 
 - [Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents](https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf)
   - `url:https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf` · cited by 1: LJ
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [Effects of Personality Steering on Cooperative Behavior in LLM Agents](https://arxiv.org/pdf/2601.05302v2)
   - `arxiv:2601.05302` · cited by 1: VA
@@ -312,7 +312,7 @@
 
 - [Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets via Public Governance Graphs](https://arxiv.org/pdf/2601.11369v2)
   - `arxiv:2601.11369` · cited by 1: VA
-  - summary: TODO
+  - summary: Models multi-agent LLM price-fixing as an institutional-design problem, using a public governance graph plus an enforcing Oracle/Controller instead of prompt-only rules, cutting severe collusion incidence from 50% to 5.6% across 90 runs per condition where prompt bans did nothing.
 
 - [Interpreting Emergent Extreme Events in Multi-Agent Systems](https://arxiv.org/pdf/2601.20538v1)
   - `arxiv:2601.20538` · cited by 1: VA
@@ -320,11 +320,11 @@
 
 - [LangGraph](https://github.com/langchain-ai/langgraph)
   - `gh:langchain-ai/langgraph` · cited by 1: HE
-  - summary: TODO
+  - summary: Low-level orchestration framework for building long-running, stateful agents with durable execution, human-in-the-loop checkpoints, and memory management baked in.
 
 - [Large Model Based Agents: State-of-the-Art, Cooperation Paradigms, Security and Privacy, and Future Trends](https://arxiv.org/abs/2409.14457)
   - `arxiv:2409.14457` · cited by 1: LJ
-  - summary: TODO
+  - summary: Survey of LLM-agent collaboration paradigms across data, compute, and knowledge sharing, plus the security and privacy risks that show up specifically when multiple agents cooperate autonomously.
 
 - [Learning Decentralized LLM Collaboration with Multi-Agent Actor Critic](https://arxiv.org/pdf/2601.21972v2)
   - `arxiv:2601.21972` · cited by 1: VA
@@ -344,43 +344,43 @@
 
 - [Linear formation control of multi-agent systems](https://www.sciencedirect.com/science/article/pii/S0005109824004291)
   - `url:https://sciencedirect.com/science/article/pii/S0005109824004291` · cited by 1: LJ
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [LiteLLM](https://github.com/BerriAI/litellm)
   - `gh:berriai/litellm` · cited by 1: HE
-  - summary: TODO
+  - summary: Unified OpenAI-format gateway to 100+ LLM providers (OpenAI, Anthropic, Gemini, Bedrock, Azure, etc.), so agent code doesn't hardcode a provider and gets virtual keys, cost tracking, guardrails, and load balancing for free.
 
 - [LLM Collaboration With Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2508.04652)
   - `arxiv:2508.04652` · cited by 1: LJ
-  - summary: TODO
+  - summary: Frames LLM-agent collaboration as cooperative multi-agent RL and introduces MAGRPO, a multi-agent multi-turn policy optimization method, so agents fine-tuned jointly on writing/coding tasks cooperate well without hand-crafting per-agent reward functions.
 
 - [Lying with Truths: Open-Channel Multi-Agent Collusion for Belief Manipulation via Generative Montage](https://arxiv.org/pdf/2601.01685v1)
   - `arxiv:2601.01685` · cited by 1: VA
-  - summary: TODO
+  - summary: Shows colluding LLM agents can manipulate a victim's beliefs using only true evidence fragments posted publicly (no covert channels or fake docs), via a Writer-Editor-Director attack framework that hits 74.4% success on proprietary models and works better the stronger the model's reasoning is.
 
 - [M-ASK: Multi-Agent Search and Knowledge Optimization Framework](https://arxiv.org/pdf/2601.04703v1)
   - `arxiv:2601.04703` · cited by 1: VA
-  - summary: TODO
+  - summary: Splits agentic search into separate Search Behavior Agents and Knowledge Management Agents with turn-level rewards instead of one monolithic agent, fixing the bloated trajectories and unstable training that come from sparse outcome-only rewards on multi-hop QA.
 
 - [M3MAD-Bench: Are Multi-Agent Debates Really Effective Across Domains and Modalities?](https://arxiv.org/pdf/2601.02854v1)
   - `arxiv:2601.02854` · cited by 1: VA
-  - summary: TODO
+  - summary: Benchmarks whether Multi-Agent Debate actually helps, testing 9 base models across five domains (knowledge, math, medicine, science, complex reasoning) and both text and vision-language settings, tracking accuracy alongside token cost and latency rather than just accuracy.
 
 - [MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability](https://arxiv.org/pdf/2601.00481v1)
   - `arxiv:2601.00481` · cited by 1: VA
-  - summary: TODO
+  - summary: MAESTRO standardizes how you configure, run, and trace multi-agent systems across different frameworks, and finds that architecture choice — not backend model or tool config — is the dominant factor in cost, latency, and run-to-run reliability across 12 tested MAS.
 
 - [MagicGUI-RMS: A Multi-Agent Reward Model System for Self-Evolving GUI Agents via Automated Feedback Reflux](https://arxiv.org/pdf/2601.13060v1)
   - `arxiv:2601.13060` · cited by 1: VA
-  - summary: TODO
+  - summary: Pairs a domain-specific reward model with a general one to auto-score GUI-agent trajectories and flag/correct bad actions, replacing manual annotation with an automated feedback loop that keeps improving the agent without more labeled data.
 
 - [Mapping Human Anti-collusion Mechanisms to Multi-agent AI](https://arxiv.org/pdf/2601.00360v1)
   - `arxiv:2601.00360` · cited by 1: VA
-  - summary: TODO
+  - summary: Builds a taxonomy of human anti-collusion mechanisms (sanctions, whistleblowing, auditing, market design, governance) and maps each to a concrete intervention for multi-agent AI, while flagging the hard parts — attributing emergent coordination to specific agents, agents forking/changing identity, and telling beneficial cooperation from harmful collusion.
 
 - [MASCOT: Towards Multi-Agent Socio-Collaborative Companion Systems](https://arxiv.org/pdf/2601.14230v1)
   - `arxiv:2601.14230` · cited by 1: VA
-  - summary: TODO
+  - summary: MASCOT tackles persona collapse and social-sycophancy in multi-agent companion systems with a two-level fix: RLAIF-tuned per-agent personas plus group-level dialogue optimization, improving persona consistency by up to +14.1 and cutting redundant chatter.
 
 - [Mastra](https://github.com/mastra-ai/mastra)
   - `gh:mastra-ai/mastra` · cited by 1: HE
@@ -388,11 +388,11 @@
 
 - [MegaFlow: Large-Scale Distributed Orchestration System for the Agentic Era](https://arxiv.org/pdf/2601.07526v2)
   - `arxiv:2601.07526` · cited by 1: VA
-  - summary: TODO
+  - summary: MegaFlow is a distributed orchestration system that splits agent training infra into independent Model/Agent/Environment services, letting you scale each independently and run tens of thousands of concurrent agent-environment tasks — filling a gap where no open-source infra handled agentic-task training at that scale.
 
 - [Meta-Prompting: Enhancing Language Models with Task-Agnostic Scaffolding](https://arxiv.org/abs/2401.12954)
   - `arxiv:2401.12954` · cited by 1: LJ
-  - summary: TODO
+  - summary: Meta-prompting turns one LLM into a conductor that decomposes a task and dispatches subtasks to differently-prompted instances of itself, beating standard, expert, and multipersona prompting by 15-17% on GPT-4 once you add a Python-interpreter tool — no task-specific setup required.
 
 - [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352)
   - `arxiv:2308.00352` · cited by 1: LJ
@@ -400,11 +400,11 @@
 
 - [Microsoft Agent Framework 1.0](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/)
   - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0` · cited by 1: HE
-  - summary: TODO
+  - summary: Announces Microsoft Agent Framework 1.0, a production SDK merging Semantic Kernel and AutoGen into one .NET/Python framework with multi-agent orchestration, middleware, memory, YAML-declarative agents, and multi-provider model support (OpenAI, Anthropic, Gemini, Bedrock).
 
 - [Microsoft Agent Framework at BUILD 2026: Agent Harness, Hosted Agents, CodeAct, and more](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce/)
   - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce` · cited by 1: HE
-  - summary: TODO
+  - summary: Covers three BUILD 2026 additions to Microsoft Agent Framework: Agent Harness (built-in context compaction and file memory), Foundry Hosted Agents (scale-to-zero deployment), and CodeAct, which has the model write executable Python instead of tool calls for 52% faster runs and 64% fewer tokens.
 
 - [MiRAGE: A Multiagent Framework for Generating Multimodal Multihop Question-Answer Dataset for RAG Evaluation](https://arxiv.org/pdf/2601.15487v1)
   - `arxiv:2601.15487` · cited by 1: VA
@@ -416,11 +416,11 @@
 
 - [MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use](https://arxiv.org/abs/2508.18669)
   - `arxiv:2508.18669` · cited by 1: LJ
-  - summary: TODO
+  - summary: MUA-RL puts LLM-simulated users inside the RL training loop for tool-using agents, so the agent learns to clarify ambiguous requests and call tools together instead of just chaining tool calls; MUA-RL-32B matches or beats larger open models like DeepSeek-V3 and Qwen3-235B on TAU2 and BFCL-V3 multi-turn benchmarks.
 
 - [Multi-Agent Collaborative Intrusion Detection for LAE-IoT](https://arxiv.org/pdf/2601.17817v1)
   - `arxiv:2601.17817` · cited by 1: VA
-  - summary: TODO
+  - summary: Proposes an LLM-enhanced multi-agent framework for intrusion detection on low-altitude-economy IoT (drones etc.), where specialized agents handle the 3D mobility and resource constraints static ground-network IDS can't, hitting over 90% classification accuracy across benchmark datasets.
 
 - [Multi-Agent Constraint Factorization Reveals Latent Invariant Solution Structure](https://arxiv.org/pdf/2601.15077v1)
   - `arxiv:2601.15077` · cited by 1: VA
@@ -440,15 +440,15 @@
 
 - [Multimodal Multi-Agent Ransomware Analysis Using AutoGen](https://arxiv.org/pdf/2601.20346v1)
   - `arxiv:2601.20346` · cited by 1: VA
-  - summary: TODO
+  - summary: Splits ransomware analysis across specialized agents for static, dynamic, and network data (each with autoencoder feature extraction), fuses their outputs through a transformer classifier, and lets agents iteratively refine each other's low-confidence features — beating single-modality baselines by up to 0.936 Macro-F1.
 
 - [O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL](https://arxiv.org/pdf/2601.03743v1)
   - `arxiv:2601.03743` · cited by 1: VA
-  - summary: TODO
+  - summary: O-Researcher uses a multi-agent workflow to synthesize research-grade tool-use training data end-to-end, then a two-stage SFT-plus-RL pipeline on top of it, letting open-source models hit new state-of-the-art on deep-research benchmarks without proprietary data.
 
 - [OmniRoute: Multi-Provider LLM Gateway](https://github.com/diegosouzapw/OmniRoute)
   - `gh:diegosouzapw/omniroute` · cited by 1: HE
-  - summary: TODO
+  - summary: Free MIT-licensed AI gateway routing across 290+ providers (90+ free tiers) through one endpoint, aimed at cutting agent costs via fallback routing and 15-95% token compression, with support for 33+ coding tools like Claude Code and Cursor.
 
 - [open-multi-agent](https://github.com/JackChen-me/open-multi-agent)
   - `gh:jackchen-me/open-multi-agent` · cited by 1: HE
@@ -456,35 +456,35 @@
 
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)
   - `gh:openai/openai-agents-python` · cited by 1: HE
-  - summary: TODO
+  - summary: Lightweight framework for building multi-agent workflows across OpenAI and 100+ other LLMs, with tool integration, agent-to-agent handoffs, built-in tracing, and human-in-the-loop hooks.
 
 - [OpenSquilla](https://github.com/opensquilla/opensquilla)
   - `gh:opensquilla/opensquilla` · cited by 1: HE
-  - summary: TODO
+  - summary: Token-efficient agent that routes each task to the cheapest capable model while keeping behavior consistent across Web UI, CLI, and chat, with persistent memory and 20+ LLM providers supported out of the box.
 
 - [Orca](https://github.com/stablyai/orca)
   - `gh:stablyai/orca` · cited by 1: HE
-  - summary: TODO
+  - summary: Orca fans a single prompt out across multiple coding agents (Claude Code, Codex, OpenCode) running in parallel git worktrees, then lets you compare and merge the best result.
 
 - [ORCH: many analyses, one merge — a deterministic multi-agent orchestrator](https://arxiv.org/pdf/2602.01797v1)
   - `arxiv:2602.01797` · cited by 1: VA
-  - summary: TODO
+  - summary: ORCH replaces stochastic multi-agent routing with a deterministic 'many analyses, one merge' pipeline, gaining over 10 points on MMLU-Pro and 50+ points on GSM8K versus the best single-model baseline.
 
 - [Orchestral AI: A Framework for Agent Orchestration](https://arxiv.org/pdf/2601.02577v1)
   - `arxiv:2601.02577` · cited by 1: VA
-  - summary: TODO
+  - summary: Orchestral is a lightweight Python framework giving one type-safe interface across LLM providers (auto tool-schemas from type hints, synchronous streaming, sub-agents, MCP) so you're not locked into a single vendor's agent SDK.
 
 - [Orchestrating Ambient Agents with Temporal](https://temporal.io/blog/orchestrating-ambient-agents-with-temporal)
   - `url:https://temporal.io/blog/orchestrating-ambient-agents-with-temporal` · cited by 1: HE
-  - summary: TODO
+  - summary: Walks through building an always-on crypto trading system as three cooperating agents (broker, execution, judge) on Temporal, using Schedules/Signals/Queries for durable, auditable multi-agent coordination instead of hand-rolled retry logic.
 
 - [Orchestrating Intelligence: Confidence-Aware Routing for Multi-Agent Collaboration](https://arxiv.org/pdf/2601.04861v2)
   - `arxiv:2601.04861` · cited by 1: VA
-  - summary: TODO
+  - summary: OI-MAS routes each reasoning step to a differently-sized model based on a confidence score instead of running every agent role on the same large LLM, cutting cost by up to 79.78% while improving accuracy by up to 12.88%.
 
 - [PatchIsland: Orchestration of LLM Agents for Continuous Vulnerability Repair](https://arxiv.org/pdf/2601.17471v1)
   - `arxiv:2601.17471` · cited by 1: VA
-  - summary: TODO
+  - summary: PatchIsland wires multiple LLM agents into continuous fuzzing pipelines (OSS-Fuzz-style) with patch-based crash deduplication, patching 31 of 43 AIxCC vulnerabilities for a 72.1% repair rate.
 
 - [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/pdf/2606.08878)
   - `arxiv:2606.08878` · cited by 1: VA
@@ -496,7 +496,7 @@
 
 - [PosterForest: Hierarchical Multi-Agent Collaboration for Scientific Poster Generation](https://arxiv.org/abs/2508.21720)
   - `arxiv:2508.21720` · cited by 1: LJ
-  - summary: TODO
+  - summary: PosterForest builds a hierarchical 'Poster Tree' representation and runs content/layout agents over it recursively to turn a paper into a scientific poster without any training.
 
 - [PRISMA: Reinforcement Learning Guided Two-Stage Policy Optimization in Multi-Agent Architecture for Open-Domain Multi-Hop QA](https://arxiv.org/pdf/2601.05465v1)
   - `arxiv:2601.05465` · cited by 1: VA
@@ -504,15 +504,15 @@
 
 - [ProAgent: Building Proactive Cooperative Agents with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219)
   - `url:https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219` · cited by 1: LJ
-  - summary: TODO
+  - summary: ProAgent has an LLM agent infer teammates' intentions from observed behavior and adapt its own policy accordingly, beating fixed-policy baselines by over 10% in Overcooked-AI human-proxy cooperation tests.
 
 - [Pydantic AI v2](https://github.com/pydantic/pydantic-ai)
   - `gh:pydantic/pydantic-ai` · cited by 1: HE
-  - summary: TODO
+  - summary: Pydantic AI brings Pydantic's type validation to agent-building, giving FastAPI-style ergonomics, multi-provider model support, and built-in Logfire observability so you're not hand-rolling schema validation for LLM outputs.
 
 - [ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs](https://arxiv.org/abs/2309.13007)
   - `arxiv:2309.13007` · cited by 1: LJ
-  - summary: TODO
+  - summary: ReConcile runs a multi-round round-table debate among diverse LLM agents with confidence-weighted voting, beating single- and multi-agent baselines by up to 11.4% and outperforming GPT-4 on three benchmarks.
 
 - [ResMAS: Resilience Optimization in LLM-based Multi-Agent Systems](https://arxiv.org/pdf/2601.04694v1)
   - `arxiv:2601.04694` · cited by 1: VA
@@ -520,15 +520,15 @@
 
 - [RuleSmith: Multi-Agent LLMs for Automated Game Balancing](https://arxiv.org/pdf/2602.06232v1)
   - `arxiv:2602.06232` · cited by 1: VA
-  - summary: TODO
+  - summary: RuleSmith automates game balancing by having multi-agent LLMs self-play a rule set while Bayesian optimization searches the parameter space, converging on balanced configs without manual playtesting.
 
 - [sandcastle](https://github.com/mattpocock/sandcastle)
   - `gh:mattpocock/sandcastle` · cited by 1: HE
-  - summary: TODO
+  - summary: Sandcastle runs multiple coding agents in isolated sandboxes, handling branch and commit strategy automatically so you can parallelize agents or build review pipelines without them stepping on each other's changes.
 
 - [Scaling Managed Agents: Decoupling the Brain from the Hands](https://www.anthropic.com/engineering/managed-agents)
   - `url:https://anthropic.com/engineering/managed-agents` · cited by 1: HE
-  - summary: TODO
+  - summary: Anthropic's Managed Agents decouples the model/harness from the sandbox and session-management layer, so either side can be swapped or fail independently as capabilities evolve instead of hardcoding assumptions about what Claude can't do into the harness.
 
 - [Scaling Multiagent Systems with Process Rewards](https://arxiv.org/pdf/2601.23228v2)
   - `arxiv:2601.23228` · cited by 1: VA
@@ -540,23 +540,23 @@
 
 - [Shopify Roast](https://github.com/Shopify/roast)
   - `gh:shopify/roast` · cited by 1: HE
-  - summary: TODO
+  - summary: Roast is a Ruby DSL for chaining LLM calls, code execution, and shell commands into declarative multi-step workflows ('cogs') without building custom orchestration infrastructure.
 
 - [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)
   - `gh:strands-agents/harness-sdk` · cited by 1: HE
-  - summary: TODO
+  - summary: Strands Agents is a Python/TypeScript SDK for building model- and cloud-agnostic agents with built-in context management, hooks, and guardrails, so you can swap providers without rewriting agent logic.
 
 - [Swarm Autonomy: From Agent Functionalization to Machine Intelligence](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956)
   - `url:https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956` · cited by 1: LJ
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [Symphony](https://github.com/openai/symphony)
   - `gh:openai/symphony` · cited by 1: HE
-  - summary: TODO
+  - summary: Symphony deploys autonomous agents to handle whole units of project work so teams manage outcomes rather than babysit individual coding-agent sessions.
 
 - [thClaws](https://github.com/thClaws/thClaws)
   - `gh:thclaws/thclaws` · cited by 1: HE
-  - summary: TODO
+  - summary: thClaws is a single-binary, native-Rust agent workspace (GUI/CLI/headless/web) that runs multiple coordinating agents locally with multi-provider LLM and MCP support, so nothing leaves your machine.
 
 - [The End of Reward Engineering: How LLMs Are Redefining Multi-Agent Coordination](https://arxiv.org/pdf/2601.08237v1)
   - `arxiv:2601.08237` · cited by 1: VA
@@ -564,11 +564,11 @@
 
 - [The Future is Agentic: Definitions, Perspectives, and Open Challenges of Multi-Agent Recommender Systems](https://arxiv.org/abs/2507.02097)
   - `arxiv:2507.02097` · cited by 1: LJ
-  - summary: TODO
+  - summary: This perspective paper formalizes multi-agent recommender systems as agent-environment-protocol triples, then shows on Amazon-2023 data that a single-shot pipeline is often Pareto-efficient and multi-agent decomposition only pays off on high-diversity user histories.
 
 - [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/)
   - `url:https://openai.com/index/the-next-evolution-of-the-agents-sdk` · cited by 1: HE
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption](https://arxiv.org/pdf/2601.13671v1)
   - `arxiv:2601.13671` · cited by 1: VA
@@ -576,15 +576,15 @@
 
 - [The Rise of Agentic Testing: Multi-Agent Systems for Robust Software Quality Assurance](https://arxiv.org/pdf/2601.02454v1)
   - `arxiv:2601.02454` · cited by 1: VA
-  - summary: TODO
+  - summary: A closed-loop testing framework splits test generation, execution/analysis, and review into separate agents that iterate until convergence, cutting invalid tests by 60% and lifting coverage 30% over single-model generators.
 
 - [The Virtual Biotech: Multi-Agent AI Framework for Drug Discovery](https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1)
   - `url:https://biorxiv.org/content/10.64898/2026.02.23.707551v1` · cited by 1: HE
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [Thought Communication in Multiagent Collaboration](https://arxiv.org/abs/2510.20733)
   - `arxiv:2510.20733` · cited by 1: LJ
-  - summary: TODO
+  - summary: Proposes swapping token-based agent-to-agent messaging for direct latent-thought exchange, proving shared and private thoughts between agents are theoretically identifiable and recoverable without natural language as the bottleneck.
 
 - [TopoDIM: One-shot Topology Generation of Diverse Interaction Modes for Multi-Agent Systems](https://arxiv.org/pdf/2601.10120v1)
   - `arxiv:2601.10120` · cited by 1: VA
@@ -592,23 +592,23 @@
 
 - [TradingAgents: Multi-Agents LLM Financial Trading Framework](https://arxiv.org/abs/2412.20138)
   - `arxiv:2412.20138` · cited by 1: LJ
-  - summary: TODO
+  - summary: TradingAgents models a trading firm as LLM agents with specialized roles (fundamental/sentiment/technical analysts, bull/bear researchers, risk team, traders) debating before a decision, improving cumulative returns, Sharpe ratio, and drawdown over baseline models.
 
 - [Vercel AI SDK](https://github.com/vercel/ai)
   - `gh:vercel/ai` · cited by 1: HE
-  - summary: TODO
+  - summary: The AI SDK is a provider-agnostic TypeScript toolkit (OpenAI, Anthropic, Google, more) for building agents and AI apps, with unified tool-calling, structured outputs, and UI-streaming hooks so you're not rewriting integration code per provider.
 
 - [waggle](https://github.com/modiqo/waggle)
   - `gh:modiqo/waggle` · cited by 1: HE
-  - summary: TODO
+  - summary: Waggle replaces pasting full context between agents with ~30-byte tokens that resolve lazily to only what's needed, cutting token overhead and giving you a receipt of exactly what each subagent actually read.
 
 - [War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars](https://arxiv.org/abs/2311.17227)
   - `arxiv:2311.17227` · cited by 1: LJ
-  - summary: TODO
+  - summary: WarAgent simulates WWI, WWII, and China's Warring States period with LLM agents playing each nation, using emergent agent interactions to probe what conditions and decisions actually trigger war.
 
 - [When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](https://arxiv.org/pdf/2602.00428v1)
   - `arxiv:2602.00428` · cited by 1: VA
-  - summary: TODO
+  - summary: Introduces MANBENCH to measure the Mandela effect (collective false-memory formation) in LLM multi-agent systems across four task types and five interaction protocols, and shows prompt- and alignment-level defenses cut it by 74.40% on average.
 
 - [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657)
   - `arxiv:2503.13657` · cited by 1: LJ

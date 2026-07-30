@@ -2,7 +2,7 @@
 
 Canonical entries: **1121**
 
-Summaries kept from seed: **965** (86%) — remainder need the write-summaries pass.
+Summaries kept from seed: **1120** (100%) — remainder need the write-summaries pass.
 
 ## Entries per source
 

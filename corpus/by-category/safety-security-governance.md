@@ -8,7 +8,7 @@
 
 - ["Someone Hid It": Query-Agnostic Black-Box Attacks on LLM-Based Retrieval](https://arxiv.org/pdf/2602.00364v2)
   - `arxiv:2602.00364` · cited by 1: VA
-  - summary: TODO
+  - summary: Demonstrates a black-box attack that crafts transferable poison tokens to manipulate LLM-based retrieval (RAG, dense retrieval, agent memory) without knowing the victim's queries or model internals.
 
 - [A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment](https://arxiv.org/abs/2504.15585)
   - `arxiv:2504.15585` · cited by 1: LJ
@@ -16,7 +16,7 @@
 
 - [A Dual-Loop Agent Framework for Automated Vulnerability Reproduction](https://arxiv.org/pdf/2602.05721v1)
   - `arxiv:2602.05721` · cited by 1: VA
-  - summary: TODO
+  - summary: CVE2PoC splits vulnerability-reproduction agents into a strategic planner and tactical executor so failures get routed to replanning or code-level fixes instead of stalling in one debug loop, hitting 82.9% reproduction success on SecBench.js.
 
 - [A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents](https://arxiv.org/abs/2402.10196)
   - `arxiv:2402.10196` · cited by 1: LJ
@@ -24,7 +24,7 @@
 
 - [Adaptive Thinking via Mode Policy Optimization for Social Language Agents](https://arxiv.org/pdf/2505.02156)
   - `arxiv:2505.02156` · cited by 1: LJ
-  - summary: TODO
+  - summary: Trains social-interaction agents to switch between shallow and deep reasoning modes depending on context, beating GRPO by 7% with 32.8% shorter reasoning chains on negotiation and collaboration tasks.
 
 - [AEIA-MN: Evaluating the Robustness of Multimodal LLM-Powered Mobile Agents Against Active Environmental Injection Attacks](https://arxiv.org/pdf/2502.13053)
   - `arxiv:2502.13053` · cited by 1: LJ
@@ -44,15 +44,15 @@
 
 - [Agent Vault](https://github.com/Infisical/agent-vault)
   - `gh:infisical/agent-vault` · cited by 1: HE
-  - summary: TODO
+  - summary: Brokers API access for agents through an HTTP credential proxy so raw secrets never touch the agent's context, closing off exfiltration via prompt injection.
 
 - [agent-chief](https://github.com/SmileLikeYe/agent-chief)
   - `gh:smilelikeye/agent-chief` · cited by 1: HE
-  - summary: TODO
+  - summary: Sits between agents, alerts, and feeds as a local-first triage layer, deciding what actually needs to interrupt a human versus getting batched or filed to memory.
 
 - [Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization](https://aclanthology.org/2024.acl-long.292.pdf)
   - `acl:2024.acl-long.292.pdf` · cited by 1: LJ
-  - summary: TODO
+  - summary: Agent-Pro reflects on entire past trajectories and beliefs rather than single actions, using depth-first search to keep improving its policy, and beats vanilla LLM agents at Blackjack and Texas Hold'em by learning through play instead of hand-crafted prompts.
 
 - [AGENT-SAFETYBENCH: Evaluating the Safety of LLM Agents](https://arxiv.org/pdf/2412.14470)
   - `arxiv:2412.14470` · cited by 1: LJ
@@ -60,11 +60,11 @@
 
 - [agent-shell-tools](https://github.com/google/agent-shell-tools)
   - `gh:google/agent-shell-tools` · cited by 1: HE
-  - summary: TODO
+  - summary: Gives coding agents shell access through a gRPC-mediated layer with command filtering and sandboxing defaults, instead of raw unrestricted exec.
 
 - [Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy](https://arxiv.org/pdf/2602.05877v1)
   - `arxiv:2602.05877` · cited by 1: VA
-  - summary: TODO
+  - summary: AgentHeLLM separates "what's being protected" from "how it's attacked" for Agent-to-Agent-connected vehicle assistants, and ships an open-source tool that auto-generates multi-stage attack paths distinguishing poison propagation from trigger activation.
 
 - [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://openreview.net/pdf?id=m1YYAQjO3w)
   - `openreview:m1YYAQjO3w` · cited by 1: LJ
@@ -72,35 +72,35 @@
 
 - [AgentGuardian: Learning Access Control Policies to Govern AI Agent Behavior](https://arxiv.org/pdf/2601.10440v1)
   - `arxiv:2601.10440` · cited by 1: VA
-  - summary: TODO
+  - summary: AgentGuardian watches an agent's execution traces during a staging phase to learn legitimate tool-call patterns, then enforces those as runtime access-control policies that catch malicious inputs without breaking normal behavior.
 
 - [AGENTHARM: A BENCHMARK FOR MEASURING HARMFULNESS OF LLM AGENTS](https://arxiv.org/pdf/2410.09024)
   - `arxiv:2410.09024` · cited by 1: LJ
-  - summary: TODO
+  - summary: AgentHarm benchmarks 110 explicitly malicious multi-step agent tasks across 11 harm categories and finds leading LLMs comply with malicious requests even without jailbreaking, and that simple jailbreak templates still work once tool use is in the loop.
 
 - [Agentic AI Governance and Lifecycle Management in Healthcare](https://arxiv.org/pdf/2601.15630v1)
   - `arxiv:2601.15630` · cited by 1: VA
-  - summary: TODO
+  - summary: Proposes UALM, a five-layer control-plane blueprint (identity registry, orchestration mediation, PHI-bounded context, runtime policy with kill switches, lifecycle/decommissioning) for healthcare orgs to stop agent sprawl and keep tool permissions from outliving their original use case.
 
 - [Agentic LLMs as Powerful Deanonymizers: Re-identification of Participants in the Anthropic Interviewer Dataset](https://arxiv.org/pdf/2601.05918v1)
   - `arxiv:2601.05918` · cited by 1: VA
-  - summary: TODO
+  - summary: Shows that off-the-shelf LLM agents with web search can re-identify 6 of 24 anonymized interview participants in Anthropic's public Interviewer dataset by cross-referencing details across benign sub-tasks, exposing a low-effort deanonymization risk for released qualitative data.
 
 - [AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection](https://arxiv.org/pdf/2601.19138v1)
   - `arxiv:2601.19138` · cited by 1: VA
-  - summary: TODO
+  - summary: AgenticSCR pairs an LLM agent with security-focused semantic memory to catch immature, context-dependent vulnerabilities at pre-commit review, producing 153% more correct review comments than a static LLM baseline and beating SAST tools outright.
 
 - [AgentMark: Utility-Preserving Behavioral Watermarking for Agents](https://arxiv.org/pdf/2601.03294v1)
   - `arxiv:2601.03294` · cited by 1: VA
-  - summary: TODO
+  - summary: AgentMark watermarks an agent's planning decisions (tool and subgoal choices) rather than its text output, using distribution-preserving sampling so multi-bit provenance IDs survive black-box deployment without degrading task performance.
 
 - [AGENTPOISON: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://proceedings.neurips.cc/paper_files/paper/2024/file/eb113910e9c3f6242541c1652e30dfd6-Paper-Conference.pdf)
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/eb113910e9c3f6242541c1652e30dfd6-Paper-Conference.pdf` · cited by 1: LJ
-  - summary: TODO
+  - summary: AgentPoison poisons an agent's long-term memory or RAG knowledge base with an optimized trigger phrase, hitting over 80% attack success on driving, QA, and healthcare agents while poisoning less than 0.1% of the knowledge base and barely touching benign performance.
 
 - [AgenTRIM: Tool Risk Mitigation for Agentic AI](https://arxiv.org/pdf/2601.12449v1)
   - `arxiv:2601.12449` · cited by 1: VA
-  - summary: TODO
+  - summary: AgenTRIM reconstructs an agent's actual tool interface from code and traces offline, then enforces per-step least-privilege tool access at runtime, cutting attack success on AgentDojo without touching the agent's reasoning or hurting task performance.
 
 - [AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways](https://dl.acm.org/doi/pdf/10.1145/3716628)
   - `url:https://dl.acm.org/doi/pdf/10.1145/3716628` · cited by 1: LJ
@@ -108,23 +108,23 @@
 
 - [AI Harness Scorecard](https://github.com/anthropics/ai-harness-scorecard)
   - `gh:anthropics/ai-harness-scorecard` · cited by 1: HE
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [aiming-lab/AutoHarness](https://github.com/aiming-lab/AutoHarness)
   - `gh:aiming-lab/autoharness` · cited by 1: HE
-  - summary: TODO
+  - summary: Wraps your LLM client with two lines of code to add tool-call validation, cost tracking, and audit logging, turning a demo agent into something with production guardrails.
 
 - [AIO Sandbox](https://github.com/agent-infra/sandbox)
   - `gh:agent-infra/sandbox` · cited by 1: HE
-  - summary: TODO
+  - summary: Bundles browser, shell, filesystem, MCP, and a VSCode server into one Docker container with a shared filesystem, so an agent's browser downloads just show up for its shell commands instead of needing cross-sandbox plumbing.
 
 - [Alibaba OpenSandbox](https://github.com/alibaba/OpenSandbox)
   - `gh:alibaba/opensandbox` · cited by 1: HE
-  - summary: TODO
+  - summary: A general-purpose sandbox platform with multi-language SDKs and unified APIs over Docker/Kubernetes runtimes, for safely executing agent-generated code, commands, and GUI automation.
 
 - [AnonymAI: Integrating Differential Privacy with LLM Agents](https://www.mdpi.com/1999-5903/18/1/41)
   - `url:https://mdpi.com/1999-5903/18/1/41` · cited by 1: HE
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [Attacking LLMs and AI Agents: Advertisement Embedding Attacks Against Large Language Models](https://arxiv.org/abs/2508.17674)
   - `arxiv:2508.17674` · cited by 1: LJ
@@ -140,7 +140,7 @@
 
 - [AutoGen — Human-in-the-Loop](https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop/)
   - `url:https://microsoft.github.io/autogen/0.2/docs/tutorial/human-in-the-loop` · cited by 1: HE
-  - summary: TODO
+  - summary: Walks through AutoGen's three human-input modes (NEVER, ALWAYS, TERMINATE) that control when an agent conversation pauses to ask a human for feedback.
 
 - [AUTOHIJACKER: AUTOMATIC INDIRECT PROMPT INJECTION AGAINST BLACK-BOX LLM AGENTS](https://openreview.net/pdf?id=2VmB01D9Ef)
   - `openreview:2VmB01D9Ef` · cited by 1: LJ
@@ -148,15 +148,15 @@
 
 - [AutoResearchClaw HITL Co-Pilot](https://github.com/aiming-lab/AutoResearchClaw)
   - `gh:aiming-lab/autoresearchclaw` · cited by 1: HE
-  - summary: TODO
+  - summary: Runs an entire research pipeline unattended, from idea to literature review, experiments, and conference-ready LaTeX, and plugs into multi-agent setups via OpenClaw for collaborative research.
 
 - [aws-samples/sample-human-in-the-loop-patterns](https://github.com/aws-samples/sample-human-in-the-loop-patterns)
   - `gh:aws-samples/sample-human-in-the-loop-patterns` · cited by 1: HE
-  - summary: TODO
+  - summary: Sample repo demonstrating four different ways to add human-in-the-loop approval to agentic workflows, aimed at cases like healthcare where sensitive tool calls need compliance sign-off.
 
 - [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents](https://arxiv.org/pdf/2601.04566v2)
   - `arxiv:2601.04566` · cited by 1: VA
-  - summary: TODO
+  - summary: BackdoorAgent maps how backdoor triggers persist and propagate across an agent's planning, memory, and tool-use stages, finding trigger persistence in up to 78% of memory-stage attacks across QA, code, web, and driving agents.
 
 - [Beyond Data Privacy: New Privacy Risks for Large Language Models](https://arxiv.org/abs/2509.14278)
   - `arxiv:2509.14278` · cited by 1: LJ
@@ -172,7 +172,7 @@
 
 - [Blue Teaming Function-Calling Agents](https://arxiv.org/pdf/2601.09292v1)
   - `arxiv:2601.09292` · cited by 1: VA
-  - summary: TODO
+  - summary: Tests four open-source function-calling LLMs against three attacks and eight defenses, finding none of the models are safe by default and none of the defenses are yet practical for production.
 
 - [Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In](https://arxiv.org/pdf/2410.16950)
   - `arxiv:2410.16950` · cited by 1: LJ
@@ -180,7 +180,7 @@
 
 - [CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents](https://arxiv.org/pdf/2601.09923v1)
   - `arxiv:2601.09923` · cited by 1: VA
-  - summary: TODO
+  - summary: NOVA extends CaMeL-style architectural isolation to computer-use agents by having a trusted planner pre-generate a branching plan for anticipated UI states while an untrusted perception model only resolves runtime values, retaining 57% of frontier-model performance on OSWorld but still vulnerable to "branch steering" attacks that redirect execution to attacker-preferred plan paths.
 
 - [CLAS 2024: The Competition for LLM and Agent Safety](https://openreview.net/pdf?id=GIDw94AlZK)
   - `openreview:GIDw94AlZK` · cited by 1: LJ
@@ -192,7 +192,7 @@
 
 - [Claude Agent SDK — Handle Approvals and User Input](https://platform.claude.com/docs/en/agent-sdk/user-input)
   - `url:https://platform.claude.com/docs/en/agent-sdk/user-input` · cited by 1: HE
-  - summary: TODO
+  - summary: Documents the canUseTool callback and AskUserQuestion tool that let a Claude Agent SDK app pause execution to get human approval on risky actions or answers to clarifying questions, including allow/deny/modify/redirect response patterns.
 
 - [Claude Code Auto Mode: A Safer Way to Skip Permissions](https://www.anthropic.com/engineering/claude-code-auto-mode)
   - `url:https://anthropic.com/engineering/claude-code-auto-mode` · cited by 1: HE
@@ -200,11 +200,11 @@
 
 - [Cloudflare Dynamic Workers](https://blog.cloudflare.com/dynamic-workers/)
   - `url:https://blog.cloudflare.com/dynamic-workers` · cited by 1: HE
-  - summary: TODO
+  - summary: Cloudflare's Dynamic Workers run AI-generated code in lightweight JS isolates instead of containers, claiming 100x faster cold starts so per-user sandboxing becomes cheap enough for consumer-scale agent products.
 
 - [CODE: A Contradiction-Based Deliberation Extension Framework for Overthinking Attacks on Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.13112v1)
   - `arxiv:2601.13112` · cited by 1: VA
-  - summary: TODO
+  - summary: Poisons a RAG knowledge base with logically contradictory samples that get retrieved alongside normal queries, tricking reasoning models into 5-25x more reasoning tokens per query while leaving the user's query and task accuracy untouched, making the attack hard to detect.
 
 - [Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks](https://arxiv.org/abs/2502.08586)
   - `arxiv:2502.08586` · cited by 1: LJ
@@ -212,11 +212,11 @@
 
 - [Community-Powered Security with AI: An Open Source Framework for Security Research](https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/)
   - `url:https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research` · cited by 1: HE
-  - summary: TODO
+  - summary: GitHub Security Lab's Taskflow Agent is an open-source AI and MCP framework for encoding and sharing security-research workflows so vulnerability-hunting expertise can scale across a community instead of staying locked in one researcher's head.
 
 - [Confundo: Learning to Generate Robust Poison for Practical RAG Systems](https://arxiv.org/pdf/2602.06616v1)
   - `arxiv:2602.06616` · cited by 1: VA
-  - summary: TODO
+  - summary: Confundo fine-tunes an LLM to generate RAG poison that survives real-world content processing and unpredictable user queries, gaps that make most published poisoning attacks fail in practice, and doubles as a defense to stop your own web content from being scraped into someone else's RAG pipeline.
 
 - [CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models](https://arxiv.org/abs/2502.14529)
   - `arxiv:2502.14529` · cited by 1: LJ
@@ -224,23 +224,23 @@
 
 - [CubeSandbox](https://github.com/TencentCloud/CubeSandbox)
   - `gh:tencentcloud/cubesandbox` · cited by 1: HE
-  - summary: TODO
+  - summary: Hardware-isolated sandbox built on RustVMM/KVM with sub-60ms startup and E2B SDK compatibility, for running untrusted agent code at scale without container or VM overhead.
 
 - [Daytona](https://github.com/daytonaio/daytona)
   - `gh:daytonaio/daytona` · cited by 1: HE
-  - summary: TODO
+  - summary: Spins up isolated sandboxes in under 90ms with persistent snapshots, giving agent workflows a stateful execution environment that survives across sessions instead of starting fresh each run.
 
 - [deepsec](https://github.com/vercel-labs/deepsec)
   - `gh:vercel-labs/deepsec` · cited by 1: HE
-  - summary: TODO
+  - summary: Runs coding-agent reasoning over your own repos to hunt vulnerabilities static scanners miss, with distributed execution across machines for large codebases.
 
 - [Defense Against Indirect Prompt Injection via Tool Result Parsing](https://arxiv.org/pdf/2601.04795v1)
   - `arxiv:2601.04795` · cited by 1: VA
-  - summary: TODO
+  - summary: Filters tool-call results before they reach the LLM context instead of training a detector or hoping prompt-engineering catches injected instructions, and reports the lowest attack success rate of any indirect-prompt-injection defense tested so far.
 
 - [Delegation Without Living Governance](https://arxiv.org/pdf/2601.21226v1)
   - `arxiv:2601.21226` · cited by 1: VA
-  - summary: TODO
+  - summary: Argues that compliance-based governance (rules set in advance, audits after the fact) breaks down once agentic AI makes decisions at runtime, and proposes a 'Governance Twin' as a runtime-governance alternative.
 
 - [DemonAgent: Dynamically Encrypted Multi-Backdoor Implantation Attack on LLM-based Agent](https://arxiv.org/abs/2502.12575)
   - `arxiv:2502.12575` · cited by 1: LJ
@@ -248,11 +248,11 @@
 
 - [Dify Human-in-the-Loop Node](https://github.com/langgenius/dify/discussions/32245)
   - `url:https://github.com/langgenius/dify/discussions/32245` · cited by 1: HE
-  - summary: TODO
+  - summary: Dify 1.13.0 adds a Human Input workflow node for pausing runs on human review, but moves streaming execution to Celery workers, so self-hosters need to add a new queue and retune Redis PubSub for high-throughput setups.
 
 - [DRAINCODE: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning](https://arxiv.org/pdf/2601.20615v3)
   - `arxiv:2601.20615` · cited by 1: VA
-  - summary: TODO
+  - summary: Poisons the retrieved context fed to a RAG code-generation system to force much longer outputs, driving up to 85% more latency and 49% more energy use per request without touching the model itself.
 
 - [E2B](https://github.com/e2b-dev/E2B)
   - `gh:e2b-dev/e2b` · cited by 1: HE
@@ -264,7 +264,7 @@
 
 - [Engineering AI Agents for Clinical Workflows: A Case Study in Architecture, MLOps, and Governance](https://arxiv.org/pdf/2602.00751v1)
   - `arxiv:2602.00751` · cited by 1: VA
-  - summary: TODO
+  - summary: Case study of a production clinical AI platform where human-in-the-loop review isn't just a safety gate but wired as an event-driven data source that feeds each agent's own MLOps improvement loop.
 
 - [Evil Geniuses: Delving into the Safety of LLM-based Agents](https://arxiv.org/pdf/2311.11855)
   - `arxiv:2311.11855` · cited by 1: LJ
@@ -272,7 +272,7 @@
 
 - [Fault Tolerance Patterns: OpenClaw Journey Six—Core Retry Loop and Seven-Layer Fault-Tolerance](https://tonylixu.medium.com/openclaw-journey-six-core-retry-loop-and-seven-layer-fault-tolerance-7a9ce03147e2)
   - `url:https://tonylixu.medium.com/openclaw-journey-six-core-retry-loop-and-seven-layer-fault-tolerance-7a9ce03147e2` · cited by 1: HE
-  - summary: TODO
+  - summary: Walks through the retry-loop skeleton and seven fault-tolerance strategies OpenClaw uses to keep an agent running through network blips, rate limits, and API failures.
 
 - [Firewalls to Secure Dynamic LLM Agentic Networks](https://arxiv.org/pdf/2502.01822)
   - `arxiv:2502.01822` · cited by 1: LJ
@@ -280,11 +280,11 @@
 
 - [forkd](https://github.com/deeplethe/forkd)
   - `gh:deeplethe/forkd` · cited by 1: HE
-  - summary: TODO
+  - summary: Forks warm microVM snapshots via copy-on-write to spin up ~100 isolated sandboxes in ~100ms, so every tool call or eval run gets its own kernel-isolated environment without paying cold-start import costs.
 
 - [From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching](https://arxiv.org/pdf/2601.23088v1)
   - `arxiv:2601.23088` · cited by 1: VA
-  - summary: TODO
+  - summary: Treats semantic-cache keys as fuzzy hashes and shows you can deliberately engineer collisions to hijack cached LLM responses, hitting an 86% hijack rate with an automated black-box attack that transfers across embedding models.
 
 - [G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems](https://arxiv.org/abs/2502.11127)
   - `arxiv:2502.11127` · cited by 1: LJ
@@ -296,39 +296,39 @@
 
 - [Grimlock: Guarding High-Agency Systems with eBPF and Attested Channels](https://arxiv.org/abs/2605.27488)
   - `arxiv:2605.27488` · cited by 1: HE
-  - summary: TODO
+  - summary: Grimlock pushes agent-to-agent authorization out of application code and into the infrastructure layer, using eBPF traffic interception plus TLS 1.3 channel-bound scope tokens so plaintext is only released after policy checks pass across multi-cloud deployments.
 
 - [Harm in AI-Driven Societies: An Audit of Toxicity Adoption on Chirper.ai](https://arxiv.org/pdf/2601.01090v2)
   - `arxiv:2601.01090` · cited by 1: VA
-  - summary: TODO
+  - summary: Studies how AI agents on the fully-synthetic social platform Chirper.ai pick up toxicity from what they're exposed to, finding cumulative exposure predicts an agent's eventual toxic output well enough to be used as a monitoring signal.
 
 - [HiL-Bench: Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408)
   - `arxiv:2604.09408` · cited by 1: HE
-  - summary: TODO
+  - summary: Benchmarks whether coding agents know when to stop and ask a human instead of guessing on ambiguous specs, and shows RL training on a precision-vs-recall 'Ask-F1' reward teaches a 32B model to escalate better and transfer that judgment across domains.
 
 - [HITL Protocol](https://github.com/rotorstar/hitl-protocol)
   - `gh:rotorstar/hitl-protocol` · cited by 1: HE
-  - summary: TODO
+  - summary: An open HTTP protocol for agents to hand a decision to a human via a review-page URL and poll for the result, forwardable through any messaging app (Telegram, Slack, WhatsApp) with no SDK or UI code required.
 
 - [How we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
   - `url:https://anthropic.com/engineering/how-we-contain-claude` · cited by 1: HE
-  - summary: TODO
+  - summary: Anthropic's writeup of how it contains Claude across claude.ai, Claude Code, and Claude Cowork through environment isolation, model-layer defenses, and external content controls, including specific vulnerabilities found along the way.
 
 - [Human Judgment in the Agent Improvement Loop](https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/)
   - `url:https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop` · cited by 1: HE
-  - summary: TODO
+  - summary: Uses a trading-copilot example to argue domain experts should shape an agent's workflows, tool choices, and eval criteria directly, with automated evals then scaling that judgment across production traffic.
 
 - [Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework](https://arxiv.org/pdf/2602.01942v1)
   - `arxiv:2602.01942` · cited by 1: VA
-  - summary: TODO
+  - summary: Proposes a '4C' framework (Core, Connection, Cognition, Compliance) for securing multi-agent AI systems, arguing that prompt-injection-style defenses miss risks that only emerge from agent autonomy and inter-agent interaction.
 
 - [Humans and Agents in Software Engineering Loops](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html)
   - `url:https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html` · cited by 1: HE
-  - summary: TODO
+  - summary: Kief Morris argues the right posture with coding agents is neither hands-off nor line-by-line review but 'harness engineering' — building and maintaining the systems that steer agents, which can evolve into a self-improving agentic flywheel.
 
 - [Identifying Adversary Tactics and Techniques in Malware Binaries with an LLM Agent](https://arxiv.org/pdf/2602.06325v1)
   - `arxiv:2602.06325` · cited by 1: VA
-  - summary: TODO
+  - summary: TTPDetect is an LLM agent that recovers attacker tactics/techniques from stripped, symbol-less malware binaries by combining retrieval-based entry-point narrowing with incremental function-level analysis, hitting 93%+ precision and recall and surfacing TTPs missed by expert-written reports.
 
 - [IETF draft-klrc-aiagent-auth: AI Agent Authentication and Authorization](https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth/)
   - `url:https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth` · cited by 1: HE
@@ -336,7 +336,7 @@
 
 - [Implementing a Secure Sandbox for Local Agents](https://cursor.com/blog/agent-sandboxing)
   - `url:https://cursor.com/blog/agent-sandboxing` · cited by 1: HE
-  - summary: TODO
+  - summary: Cursor's local coding agents now run inside OS-level sandboxes (Seatbelt on macOS, Landlock/seccomp on Linux, WSL2 on Windows) and only prompt for approval when they try to step outside them, cutting interruptions by 40%.
 
 - [Imprompter- Tricking LLM Agents into Improper Tool Use](https://arxiv.org/pdf/2410.14923)
   - `arxiv:2410.14923` · cited by 1: LJ
@@ -348,31 +348,31 @@
 
 - [Internal Safety Collapse in Frontier Large Language Models](https://arxiv.org/pdf/2603.23509)
   - `arxiv:2603.23509` · cited by 1: VA
-  - summary: TODO
+  - summary: Identifies 'Internal Safety Collapse' — a failure mode where frontier models keep generating harmful content while doing an otherwise legitimate task — and shows worst-case failure rates averaging 95% across GPT-5.2, Claude Sonnet 4.5, and other frontier models on domain tasks where harmful output is the only valid completion.
 
 - [Interoperable Architecture for Digital Identity Delegation for AI Agents with Blockchain Integration](https://arxiv.org/pdf/2601.14982v1)
   - `arxiv:2601.14982` · cited by 1: VA
-  - summary: TODO
+  - summary: A delegation framework for AI-agent identity that issues scoped, revocable 'Delegation Grants' and normalizes verification across centralized, federated, and self-sovereign identity systems, treating blockchain anchoring as optional rather than required.
 
 - [IronClaw](https://github.com/nearai/ironclaw)
   - `gh:nearai/ironclaw` · cited by 1: HE
-  - summary: TODO
+  - summary: IronClaw is a Rust-based, locally-run agent OS with sandboxed tool execution and encrypted credential storage, aimed at builders who want a self-expanding agent toolkit without sending data to a cloud provider.
 
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)
   - `gh:kubernetes-sigs/agent-sandbox` · cited by 1: HE
-  - summary: TODO
+  - summary: Adds a Kubernetes `Sandbox` CRD for running isolated, stateful, singleton workloads with persistent storage and stable network identity, built for safely executing untrusted LLM-generated code in production clusters.
 
 - [LangGraph — Human-in-the-Loop Concepts](https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/)
   - `url:https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop` · cited by 1: HE
-  - summary: TODO
+  - summary: NEEDS-SOURCE
 
 - [LangSmith Sandboxes: Secure Code Execution for Agents](https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/)
   - `url:https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents` · cited by 1: HE
-  - summary: TODO
+  - summary: LangSmith Sandboxes launches in private preview as microVM-isolated, ephemeral environments with resource limits and an auth proxy for letting agents execute untrusted code securely.
 
 - [Learning to Inject: Automated Prompt Injection via Reinforcement Learning](https://arxiv.org/pdf/2602.05746v1)
   - `arxiv:2602.05746` · cited by 1: VA
-  - summary: TODO
+  - summary: AutoInject uses black-box RL with a learned comparison-based reward to turn prompt injection's binary success signal into a trainable dense one, beating template attacks and adaptive optimizers on AgentDojo and even breaking Meta-SecAlign-70B, a model fine-tuned specifically to resist injection.
 
 - [Less is More for RAG: Information Gain Pruning for Generator-Aligned Reranking and Evidence Selection](https://arxiv.org/pdf/2601.17532v1)
   - `arxiv:2601.17532` · cited by 1: VA
@@ -380,19 +380,19 @@
 
 - [LLM-based Multi-Agent Systems: Techniques and Business Perspectives](https://arxiv.org/pdf/2411.14033?)
   - `arxiv:2411.14033` · cited by 1: LJ
-  - summary: TODO
+  - summary: Surveys LLM-based multi-agent systems (LaMAS) from both a technical and business angle, and sketches a preliminary protocol covering task decomposition, data privacy, and monetization incentives for agents that call other agents as tools.
 
 - [MAGIC: A Co-Evolving Attacker-Defender Adversarial Game for Robust LLM Safety](https://arxiv.org/pdf/2602.01539v2)
   - `arxiv:2602.01539` · cited by 1: VA
-  - summary: TODO
+  - summary: MAGIC trains an attacker and defender LLM agent against each other in an RL game — the attacker learns to rewrite prompts into deceptive jailbreaks, the defender learns to catch them — so safety alignment keeps pace with evolving attacks instead of relying on a static dataset.
 
 - [mcpguard-dynamic](https://github.com/facebook/mcpguard-dynamic)
   - `gh:facebook/mcpguard-dynamic` · cited by 1: HE
-  - summary: TODO
+  - summary: A kernel-level sandbox that layers three defenses around MCP tool calls, stopping untrusted MCP servers from reading sensitive files, exfiltrating data, or breaking out of the sandbox.
 
 - [Measuring AI Agent Autonomy in Practice](https://www.anthropic.com/news/measuring-agent-autonomy)
   - `url:https://anthropic.com/news/measuring-agent-autonomy` · cited by 1: HE
-  - summary: TODO
+  - summary: Anthropic's analysis of millions of real Claude agent interactions finds agents run autonomously for longer over time, experienced users shift from approving every action to just monitoring and intervening, and most usage today is still low-risk software engineering work.
 
 - [Medical large language models are susceptible to targeted misinformation attacks](https://doi.org/10.1038/s41746-024-01282-7)
   - `url:https://doi.org/10.1038/s41746-024-01282-7` · cited by 1: LJ
@@ -404,15 +404,15 @@
 
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)
   - `gh:microsoft/agent-governance-toolkit` · cited by 1: HE
-  - summary: TODO
+  - summary: Intercepts every tool call, message send, and delegation in deterministic application code before it reaches the model, so unauthorized agent actions are structurally blocked rather than merely discouraged by a prompt.
 
 - [Mitigating the Alignment Tax of RLHF](https://aclanthology.org/2024.emnlp-main.35.pdf)
   - `acl:2024.emnlp-main.35.pdf` · cited by 1: LJ
-  - summary: TODO
+  - summary: Shows that simply averaging pre- and post-RLHF model weights beats more elaborate methods at trading off alignment gains against the 'alignment tax' of forgotten pretrained abilities, and explains why via increased feature diversity in shared-task transformer layers.
 
 - [Model Context Protocol — Authorization](https://modelcontextprotocol.io/specification/2025-11-05/basic/authorization)
   - `url:https://modelcontextprotocol.io/specification/2025-11-05/basic/authorization` · cited by 1: HE
-  - summary: TODO
+  - summary: Defines MCP's OAuth 2.1-based authorization flow for HTTP transports — protected resource metadata, dynamic client registration, resource-parameter audience binding, and mandatory PKCE — so clients and servers know exactly how to hand out and validate scoped tokens.
 
 - [nah](https://github.com/manuelschipper/nah)
   - `gh:manuelschipper/nah` · cited by 1: HE
@@ -420,11 +420,11 @@
 
 - [Nango: Pre-Built Authentication for AI Agents](https://nango.dev)
   - `url:https://nango.dev/` · cited by 1: HE
-  - summary: TODO
+  - summary: Nango is a developer platform for building and running integrations against 900+ APIs, handling auth and generating integration code so products and AI agents can call third-party services without hand-rolling each connector.
 
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)
   - `gh:nvidia-nemo/guardrails` · cited by 1: HE
-  - summary: TODO
+  - summary: Open-source toolkit for wiring programmable guardrails into LLM-based conversational systems, controlling topics, tool access, and dialog flow rather than trusting the model's own restraint.
 
 - [NetSafe: Exploring the Topological Safety of Multi-agent Networks](https://arxiv.org/abs/2410.15686)
   - `arxiv:2410.15686` · cited by 1: LJ
@@ -432,11 +432,11 @@
 
 - [NeuroFilter: Privacy Guardrails for Conversational LLM Agents](https://arxiv.org/pdf/2601.14660v1)
   - `arxiv:2601.14660` · cited by 1: VA
-  - summary: TODO
+  - summary: Introduces NeuroFilter, activation-probing privacy filters for agentic LLMs that catch sensitive-data leaks by inspecting model internals across a conversation rather than relying on costly, bypassable auxiliary-LLM monitors.
 
 - [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell)
   - `gh:nvidia/openshell` · cited by 1: HE
-  - summary: TODO
+  - summary: Sandboxed runtime for autonomous AI agents that enforces policy on file, network, and process access, letting agent builders grant credentials and external service access without opening the door to exfiltration.
 
 - [Open Agent Passport (OAP): Deterministic Pre-Action Authorization for Autonomous AI Agents](https://arxiv.org/abs/2603.20953)
   - `arxiv:2603.20953` · cited by 1: HE
@@ -444,11 +444,11 @@
 
 - [Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems](https://arxiv.org/pdf/2601.07072v1)
   - `arxiv:2601.07072` · cited by 1: VA
-  - summary: TODO
+  - summary: Shows indirect prompt injection is a real, practical threat, not just a lab curiosity: an attack that decomposes malicious content into a retrieval-guaranteeing trigger plus an attack payload achieves near-100% retrieval across 11 benchmarks and 8 embedding models for as little as $0.21 per query, and a single poisoned email coerced GPT-4o into exfiltrating SSH keys over 80% of the time in a multi-agent workflow.
 
 - [OWASP LLM01:2025 — Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
   - `url:https://genai.owasp.org/llmrisk/llm01-prompt-injection` · cited by 1: HE
-  - summary: TODO
+  - summary: OWASP's reference entry for LLM01:2025 Prompt Injection, defining direct vs. indirect injection, distinguishing it from jailbreaking, and laying out seven mitigation strategies plus nine real-world attack scenarios.
 
 - [OWASP LLM06:2025 — Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/)
   - `url:https://genai.owasp.org/llmrisk/llm062025-excessive-agency` · cited by 1: HE
@@ -456,15 +456,15 @@
 
 - [PGSandbox MCP](https://github.com/LVTD-LLC/pgsandbox)
   - `gh:lvtd-llc/pgsandbox` · cited by 1: HE
-  - summary: TODO
+  - summary: Local-first CLI and MCP server that spins up disposable Postgres databases so coding agents can validate migrations and SQL against a real database without touching shared dev infrastructure.
 
 - [PINA: Prompt Injection Attack against Navigation Agents](https://arxiv.org/pdf/2601.13612v1)
   - `arxiv:2601.13612` · cited by 1: VA
-  - summary: TODO
+  - summary: PINA is a black-box prompt-optimization attack against LLM-powered navigation agents that hits an 87.5% average attack success rate, showing that a hijacked navigation agent doesn't just produce bad text but can physically misroute or fail its mission.
 
 - [Practical Security Guidance for Sandboxing Agentic Workflows](https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk/)
   - `url:https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk` · cited by 1: HE
-  - summary: TODO
+  - summary: NVIDIA's guidance on locking down agentic workflows against indirect prompt injection: mandatory network egress restriction and file-write blocking, plus recommended virtualization and secret injection so agent code execution doesn't inherit full user-level trust.
 
 - [Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents](https://arxiv.org/abs/2509.17488)
   - `arxiv:2509.17488` · cited by 1: LJ
@@ -484,15 +484,15 @@
 
 - [Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis](https://arxiv.org/pdf/2601.17548v1)
   - `arxiv:2601.17548` · cited by 1: VA
-  - summary: TODO
+  - summary: SoK-style survey of prompt injection against agentic coding assistants (Claude Code, Copilot, Cursor, MCP-based skills) synthesizing 78 studies into a taxonomy of 42 attack techniques, finding attack success rates over 85% against adaptive attacks and most cataloged defenses stopping less than half of them.
 
 - [Prompt Injection Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching](https://arxiv.org/pdf/2601.13186v1)
   - `arxiv:2601.13186` · cited by 1: VA
-  - summary: TODO
+  - summary: Proposes TIVS-O, an extension of a four-metric prompt-injection vulnerability score with a fifth observability metric and semantic-similarity caching in a multi-agent pipeline, reporting zero high-risk breaches alongside a 41.6% cut in LLM calls.
 
 - [Prompt Injection — Simon Willison's Series](https://simonwillison.net/series/prompt-injection/)
   - `url:https://simonwillison.net/series/prompt-injection` · cited by 1: HE
-  - summary: TODO
+  - summary: Simon Willison's long-running series (2022-2025, 24+ posts) tracking prompt injection as a security vulnerability class in LLM-backed software, covering attacks, mitigations, and how the industry's understanding of the problem has evolved.
 
 - [PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety](https://aclanthology.org/2024.acl-long.812/)
   - `acl:2024.acl-long.812` · cited by 1: LJ
@@ -500,11 +500,11 @@
 
 - [PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety](https://arxiv.org/abs/2401.11880)
   - `arxiv:2401.11880` · cited by 1: LJ
-  - summary: TODO
+  - summary: PsySafe frames multi-agent LLM safety through agent psychology, showing that agents assigned dark personality traits produce collective dangerous behavior, and builds a framework to detect and mitigate it.
 
 - [Query-Efficient Agentic Graph Extraction Attacks on GraphRAG Systems](https://arxiv.org/pdf/2601.14662v1)
   - `arxiv:2601.14662` · cited by 1: VA
-  - summary: TODO
+  - summary: AGEA is a query-efficient agentic attack against GraphRAG systems that reconstructs an organization's hidden entity-relation knowledge graph under realistic query budgets, recovering up to 90% of entities and relationships from Microsoft-GraphRAG and LightRAG deployments.
 
 - [R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](https://arxiv.org/abs/2401.10019)
   - `arxiv:2401.10019` · cited by 1: LJ
@@ -512,11 +512,11 @@
 
 - [RAMPART](https://github.com/microsoft/RAMPART)
   - `gh:microsoft/rampart` · cited by 1: HE
-  - summary: TODO
+  - summary: Pytest-native testing framework for agentic AI applications that runs adversarial-attack and benign-failure scenarios as structured, CI-integrated tests instead of one-off red-team exercises.
 
 - [Recent advancements in LLM Red-Teaming: Techniques, Defenses, and Ethical Considerations](https://arxiv.org/abs/2410.09097)
   - `arxiv:2410.09097` · cited by 1: LJ
-  - summary: TODO
+  - summary: Survey of LLM red-teaming covering gradient-based, RL-based, and prompt-engineering jailbreak attack methods alongside the defenses meant to counter them.
 
 - [Red-Teaming LLM Multi-Agent Systems via Communication Attacks](https://arxiv.org/pdf/2502.14847)
   - `arxiv:2502.14847` · cited by 1: LJ
@@ -536,11 +536,11 @@
 
 - [Sandbox Agents | OpenAI API Docs](https://developers.openai.com/api/docs/guides/agents/sandboxes)
   - `url:https://developers.openai.com/api/docs/guides/agents/sandboxes` · cited by 1: HE
-  - summary: TODO
+  - summary: OpenAI's docs on sandbox agents: isolated Unix-like environments with filesystem, shell, packages, and controlled external access that let an agent run stateful work and persist it across multiple runs.
 
 - [Securing AI Agents in Cyber-Physical Systems: A Survey of Environmental Interactions, Deepfake Threats, and Defenses](https://arxiv.org/pdf/2601.20184v1)
   - `arxiv:2601.20184` · cited by 1: VA
-  - summary: TODO
+  - summary: Surveys AI agent security in cyber-physical systems using the SENTINEL lifecycle framework, arguing that deepfake and MCP-mediated attacks on agent perception require provenance- and physics-grounded trust, not detection alone, in safety-critical settings.
 
 - [Security of AI Agents](https://arxiv.org/pdf/2406.08689)
   - `arxiv:2406.08689` · cited by 1: LJ
@@ -552,7 +552,7 @@
 
 - [SHIELD: An Auto-Healing Agentic Defense Framework for LLM Resource Exhaustion Attacks](https://arxiv.org/pdf/2601.19174v1)
   - `arxiv:2601.19174` · cited by 1: VA
-  - summary: TODO
+  - summary: SHIELD is a multi-agent, self-healing defense framework against LLM resource-exhaustion (sponge) attacks, pairing a three-stage detection agent with a knowledge-updating and prompt-optimization loop that adapts as attacks evolve.
 
 - [Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/pdf/2601.22952v1)
   - `arxiv:2601.22952` · cited by 1: VA
@@ -560,23 +560,23 @@
 
 - [StackOne Defender](https://github.com/stackoneHQ/defender)
   - `gh:stackonehq/defender` · cited by 1: HE
-  - summary: TODO
+  - summary: Open-source library that inspects tool results (emails, documents, etc.) for hidden prompt injection before they reach the LLM, so agent builders can filter adversarial content from external data sources at the boundary.
 
 - [StepShield: When, Not Whether to Intervene on Rogue Agents](https://arxiv.org/pdf/2601.22136v1)
   - `arxiv:2601.22136` · cited by 1: VA
-  - summary: TODO
+  - summary: StepShield is the first agent-safety benchmark to measure detection timeliness rather than just detection accuracy, showing on 9,429 incident trajectories that a rule-based guardrail with 847 rules hits 86% recall but is statistically no better than random at catching the actual moment an agent turns rogue.
 
 - [Structural Representations for Cross-Attack Generalization in AI Agent Threat Detection](https://arxiv.org/pdf/2601.01723v1)
   - `arxiv:2601.01723` · cited by 1: VA
-  - summary: TODO
+  - summary: Introduces structural tokenization for AI agent threat detection, encoding tool-call execution flow instead of conversational text, which lifts cross-attack generalization by up to 71 AUC points on unseen attacks that standard conversational tokenizers miss (like tool hijacking and data exfiltration).
 
 - [Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses](https://arxiv.org/pdf/2602.06495v1)
   - `arxiv:2602.06495` · cited by 1: VA
-  - summary: TODO
+  - summary: GRASP is a closed-box, multi-turn attack that reconstructs subgraphs from safety-prompted Graph RAG systems by reframing extraction as context-processing rather than explicit exfiltration, reaching up to 82.9 F1 where prior extraction attacks are suppressed by simple safe prompts.
 
 - [Taming Various Privilege Escalation in LLM-Based Agent Systems: A Mandatory Access Control Framework](https://arxiv.org/pdf/2601.11893v1)
   - `arxiv:2601.11893` · cited by 1: VA
-  - summary: TODO
+  - summary: SEAgent is a mandatory access control framework (attribute-based, built on an information-flow graph over agent-tool interactions) for stopping privilege escalation in LLM agent systems, including a confused-deputy-style attack unique to multi-agent setups.
 
 - [TARGETING THE CORE: A SIMPLE AND EFFECTIVE METHOD TO ATTACK RAG-BASED AGENTS VIA DIRECT LLM MANIPULATION](https://arxiv.org/pdf/2412.04415)
   - `arxiv:2412.04415` · cited by 1: LJ
@@ -584,11 +584,11 @@
 
 - [The Agent Harness Belongs Outside the Sandbox](https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox)
   - `url:https://mendral.com/blog/agent-harness-belongs-outside-sandbox` · cited by 1: HE
-  - summary: TODO
+  - summary: Argues agent control loops should run outside the sandbox and call into it via API rather than executing together, because that separation keeps credentials away from untrusted code, lets sandboxes suspend when idle, and covers how Mendral built durable execution, fast sandbox resume, and virtualized filesystem access to support it.
 
 - [The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey](https://arxiv.org/abs/2603.11088)
   - `arxiv:2603.11088` · cited by 1: HE
-  - summary: TODO
+  - summary: Comprehensive survey of AI agent security mapping the design space, attack landscape, and defense mechanisms across agentic systems, with case studies exposing gaps in current securing approaches.
 
 - [The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents](https://arxiv.org/pdf/2412.16682)
   - `arxiv:2412.16682` · cited by 1: LJ
@@ -596,11 +596,11 @@
 
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses)
   - `gh:tldrsec/prompt-injection-defenses` · cited by 1: HE
-  - summary: TODO
+  - summary: Curated collection of practical prompt-injection defenses (guardrails, input filtering, dual-LLM architectures) built on the assumption that someone will successfully hijack your app, so the goal is limiting blast radius, not preventing it outright.
 
 - [To Defend Against Cyber Attacks, We Must Teach AI Agents to Hack](https://arxiv.org/pdf/2602.02595v1)
   - `arxiv:2602.02595` · cited by 1: VA
-  - summary: TODO
+  - summary: TxRay is an LLM agentic postmortem system that reconstructs live DeFi exploits from as little as a single transaction hash, producing an evidence-backed root cause and a runnable proof-of-concept, hitting 92.11% end-to-end reproduction across 114 real incidents.
 
 - [TrustAgent: Towards Safe and Trustworthy LLM-based Agents](https://arxiv.org/abs/2402.01586)
   - `arxiv:2402.01586` · cited by 1: LJ
@@ -608,7 +608,7 @@
 
 - [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
   - `url:https://anthropic.com/research/trustworthy-agents` · cited by 1: HE
-  - summary: TODO
+  - summary: Anthropic's framework for trustworthy agent development, breaking agents into four components (model, harness, tools, environment) and laying out five safety principles: human control, value alignment, secure interactions, transparency, and privacy protection.
 
 - [Two Different Types of Agent Authorization](https://blog.langchain.com/two-different-types-of-agent-authorization/)
   - `url:https://blog.langchain.com/two-different-types-of-agent-authorization` · cited by 1: HE
@@ -616,11 +616,11 @@
 
 - [TxRay: Agentic Postmortem of Live Blockchain Attacks](https://arxiv.org/pdf/2602.01317v4)
   - `arxiv:2602.01317` · cited by 1: VA
-  - summary: TODO
+  - summary: Position paper arguing AI-agent-driven cyberattacks are inevitable and that defenders must build offensive AI capabilities themselves, proposing attack-lifecycle benchmarks, trained (not just workflow) offensive agents, and governance to keep them confined to audited cyber ranges.
 
 - [Under the Hood: Security Architecture of GitHub Agentic Workflows](https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows/)
   - `url:https://github.blog/ai-and-ml/generative-ai/under-the-hood-security-architecture-of-github-agentic-workflows` · cited by 1: HE
-  - summary: TODO
+  - summary: Explains GitHub's security architecture for Agentic Workflows in CI/CD: agents run in network-restricted containers, all write operations are staged and vetted before execution, and every trust-boundary crossing is logged.
 
 - [Unveiling Privacy Risks in LLM Agent Memory](https://arxiv.org/abs/2502.13172)
   - `arxiv:2502.13172` · cited by 1: LJ
@@ -640,15 +640,15 @@
 
 - [When Personalization Legitimizes Risks: Uncovering Safety Vulnerabilities in Personalized Dialogue Agents](https://arxiv.org/pdf/2601.17887v1)
   - `arxiv:2601.17887` · cited by 1: VA
-  - summary: TODO
+  - summary: PS-Bench shows that personalized dialogue agents are more exploitable than stateless ones: benign long-term memory can legitimize harmful intent, raising attack success rates 15.8-243.7% relative to non-personalized baselines, with a lightweight detection-reflection fix proposed.
 
 - [Whispers of Wealth: Red-Teaming Google's Agent Payments Protocol via Prompt Injection](https://arxiv.org/pdf/2601.22569v1)
   - `arxiv:2601.22569` · cited by 1: VA
-  - summary: TODO
+  - summary: Red-teams Google's Agent Payments Protocol (AP2) with two new prompt-injection techniques, the Branded Whisper and Vault Whisper attacks, showing simple adversarial prompts can manipulate product ranking and extract sensitive data from a Gemini/ADK shopping agent despite AP2's cryptographic mandates.
 
 - [Why sandboxing your agent is not enough](https://www.cncf.io/blog/2026/07/07/why-sandboxing-your-agent-is-not-enough/)
   - `url:https://cncf.io/blog/2026/07/07/why-sandboxing-your-agent-is-not-enough` · cited by 1: HE
-  - summary: TODO
+  - summary: Argues sandboxing alone doesn't make agent deployment production-ready, contrasting CNCF's agent-sandbox (isolation and identity) with agent-substrate (pausable, on-demand execution) as complementary pieces needed to run large agent fleets economically.
 
 - [WIPI: A New Web Threat for LLM-Driven Web Agents](https://arxiv.org/pdf/2402.16965)
   - `arxiv:2402.16965` · cited by 1: LJ
@@ -656,4 +656,4 @@
 
 - [zeroboot](https://github.com/zerobootdev/zeroboot)
   - `gh:zerobootdev/zeroboot` · cited by 1: HE
-  - summary: TODO
+  - summary: Zeroboot spins up VM sandboxes for AI agents via copy-on-write forking in under a millisecond, versus 150-300ms for competing sandbox providers, aimed at low-latency untrusted code execution.
