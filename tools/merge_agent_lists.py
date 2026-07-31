@@ -127,7 +127,10 @@ ARXIV_PATTERNS = [
     re.compile(r"doi\.org/10\.48550/arxiv\.(\d{4}\.\d{4,5})", re.I),
     re.compile(r"arxiv\.org/html/(\d{4}\.\d{4,5})", re.I),
 ]
-GITHUB_REPO = re.compile(r"github\.com/([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)", re.I)
+# Anchored to "://github.com/" (optionally www.) so a GitHub Pages subdomain
+# like wellarchitected.github.com doesn't get parsed as owner=wellarchitected,
+# repo=<first path segment> — that subdomain isn't a repo at all.
+GITHUB_REPO = re.compile(r"://(?:www\.)?github\.com/([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)", re.I)
 ACL = re.compile(r"aclanthology\.org/([A-Za-z0-9.-]+?)/?$", re.I)
 OPENREVIEW = re.compile(r"openreview\.net/(?:forum|pdf)\?id=([A-Za-z0-9_-]+)", re.I)
 

@@ -575,8 +575,8 @@
   - summary: Walks through the retry-loop skeleton and seven fault-tolerance strategies OpenClaw uses to keep an agent running through network blips, rate limits, and API failures.
 
 - [GitHub Enterprise — Governing Agents](https://wellarchitected.github.com/library/governance/recommendations/governing-agents/)
-  - `gh:library/governance` · cited by 1: HE
-  - summary: MCP registry curation, environment standardization, ephemeral runners, firewall allowlists.
+  - `url:https://wellarchitected.github.com/library/governance/recommendations/governing-agents` · cited by 1: HE
+  - summary: TODO
 
 - [How we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
   - `url:https://anthropic.com/engineering/how-we-contain-claude` · cited by 1: HE
