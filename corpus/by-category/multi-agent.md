@@ -4,7 +4,7 @@
 
 ## Timeline
 
-173 dated entries, oldest first.
+174 dated entries, oldest first.
 
 - [Language Model Cascades](https://arxiv.org/abs/2207.10342) · 2022-07
   - `arxiv:2207.10342` · cited by 1: ZJ
@@ -379,6 +379,10 @@
   - `arxiv:2601.14567` · cited by 1: VA
   - summary: Proposes an agent:// URI scheme binding agent identity to a trust root and capability path instead of network location, so identity survives migration across providers or organizations, with cryptographic attestation and evaluated 100% capability coverage across 369 production tools.
 
+- [Agentic AI Meets Edge Computing in Autonomous UAV Swarms](https://arxiv.org/pdf/2601.14437v1) · 2026-01
+  - `arxiv:2601.14437` · cited by 1: VA
+  - summary: Compares standalone, edge-enabled, and edge-cloud hybrid architectures for LLM-driven UAV swarms, showing the edge-enabled option gives higher search-and-rescue coverage and more autonomy than traditional approaches in a wildfire response case study.
+
 - [AgenticSimLaw: A Juvenile Courtroom Multi-Agent Debate Simulation for Explainable High-Stakes Tabular Decision Making](https://arxiv.org/pdf/2601.21936v1) · 2026-01
   - `arxiv:2601.21936` · cited by 1: VA
   - summary: Role-structured courtroom debate for auditable high-stakes decisions.
@@ -703,7 +707,7 @@
 
 ## Tools & Undated
 
-15 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+14 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
@@ -737,10 +741,6 @@
 - [Linear formation control of multi-agent systems](https://www.sciencedirect.com/science/article/pii/S0005109824004291)
   - `url:https://sciencedirect.com/science/article/pii/S0005109824004291` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Maestro Orchestrate](https://github.com/josstei/maestro-orchestrate)
-  - `gh:josstei/maestro-orchestrate` · cited by 1: KY
-  - summary: TODO
 
 - [Multi-Agent AI](https://www.youtube.com/watch?v=SrLcGdVOb9w)
   - `url:https://youtube.com/watch?v=SrLcGdVOb9w` · cited by 1: BK

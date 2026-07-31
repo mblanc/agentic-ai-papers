@@ -1,10 +1,10 @@
 # coding-agents
 
-33 entries.
+69 entries.
 
 ## Timeline
 
-24 dated entries, oldest first.
+25 dated entries, oldest first.
 
 - [Aider](https://github.com/Aider-AI/aider) · 2023-05
   - `gh:aider-ai/aider` · cited by 2: HE, KY
@@ -78,6 +78,10 @@
   - `arxiv:2601.21276` · cited by 1: VA
   - summary: Code quality and reviewer sentiment on agent PRs vs human.
 
+- [REprompt: Prompt Generation for Intelligent Software Development Guided by Requirements Engineering](https://arxiv.org/pdf/2601.16507v1) · 2026-01
+  - `arxiv:2601.16507` · cited by 1: VA
+  - summary: REprompt grounds automated prompt engineering in requirements-engineering principles via a multi-agent optimization pipeline, producing system and user prompts that better conform to formal software requirement specifications than existing prompt-optimization methods.
+
 - [The Quiet Contributions: Insights into AI-Generated Silent Pull Requests](https://arxiv.org/pdf/2601.21102v1) · 2026-01
   - `arxiv:2601.21102` · cited by 1: VA
   - summary: Impact of no-comment agent PRs on complexity and vulnerabilities.
@@ -104,7 +108,15 @@
 
 ## Tools & Undated
 
-9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+44 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [DSPy](https://github.com/stanfordnlp/dspy)
+  - `gh:stanfordnlp/dspy` · cited by 2: BK, KY
+  - summary: TODO
+
+- [MetaGPT](https://github.com/geekan/MetaGPT)
+  - `gh:geekan/metagpt` · cited by 2: KY, ZJ
+  - summary: TODO
 
 - [SWE Agent](https://github.com/princeton-nlp/swe-agent)
   - `gh:princeton-nlp/swe-agent` · cited by 2: BK, KY
@@ -114,13 +126,109 @@
   - `url:https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf` · cited by 1: HE
   - summary: Finds harness configuration alone can swing benchmarks by 5+ points.
 
+- [Agency](https://github.com/neurocult/agency)
+  - `gh:neurocult/agency` · cited by 1: KY
+  - summary: TODO
+
+- [Agent Teams AI](https://github.com/777genius/agent-teams-ai)
+  - `gh:777genius/agent-teams-ai` · cited by 1: KY
+  - summary: TODO
+
+- [AgentRun](https://github.com/Jonathan-Adly/AgentRun)
+  - `gh:jonathan-adly/agentrun` · cited by 1: KY
+  - summary: TODO
+
+- [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
+  - `gh:agentsmesh/agentsmesh` · cited by 1: KY
+  - summary: TODO
+
+- [amux](https://github.com/mixpeek/amux)
+  - `gh:mixpeek/amux` · cited by 1: KY
+  - summary: TODO
+
+- [blade-deepseek](https://github.com/echoVic/blade-deepseek)
+  - `gh:echovic/blade-deepseek` · cited by 1: KY
+  - summary: TODO
+
+- [Cate](https://github.com/0-AI-UG/cate)
+  - `gh:0-ai-ug/cate` · cited by 1: KY
+  - summary: TODO
+
+- [Claude Engineer](https://github.com/Doriandarko/claude-engineer)
+  - `gh:doriandarko/claude-engineer` · cited by 1: KY
+  - summary: TODO
+
 - [Cline](https://github.com/cline/cline)
   - `gh:cline/cline` · cited by 1: KY
+  - summary: TODO
+
+- [Codel](https://github.com/semanser/codel)
+  - `gh:semanser/codel` · cited by 1: KY
+  - summary: TODO
+
+- [ctop](https://github.com/aakashadesara/ctop)
+  - `gh:aakashadesara/ctop` · cited by 1: KY
+  - summary: TODO
+
+- [DB GPT](https://github.com/csunny/DB-GPT)
+  - `gh:csunny/db-gpt` · cited by 1: KY
+  - summary: TODO
+
+- [Devika](https://github.com/stitionai/devika)
+  - `gh:stitionai/devika` · cited by 1: KY
+  - summary: TODO
+
+- [Dorothy](https://github.com/Charlie85270/Dorothy)
+  - `gh:charlie85270/dorothy` · cited by 1: KY
+  - summary: TODO
+
+- [fractal](https://github.com/plasma-ai/fractal)
+  - `gh:plasma-ai/fractal` · cited by 1: KY
+  - summary: TODO
+
+- [Frontman](https://www.github.com/frontman-ai/frontman)
+  - `gh:frontman-ai/frontman` · cited by 1: KY
+  - summary: TODO
+
+- [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)
+  - `gh:pythagora-io/gpt-pilot` · cited by 1: KY
+  - summary: TODO
+
+- [Greywall](https://github.com/GreyhavenHQ/greywall)
+  - `gh:greyhavenhq/greywall` · cited by 1: KY
+  - summary: TODO
+
+- [h5i](https://github.com/h5i-dev/h5i)
+  - `gh:h5i-dev/h5i` · cited by 1: KY
   - summary: TODO
 
 - [Hooks – Codex](https://developers.openai.com/codex/hooks)
   - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
   - summary: Lifecycle hooks for injecting deterministic scripts at loop events.
+
+- [KubeStellar Console](https://github.com/kubestellar/console)
+  - `gh:kubestellar/console` · cited by 1: KY
+  - summary: TODO
+
+- [Maestro](https://github.com/RunMaestro/Maestro)
+  - `gh:runmaestro/maestro` · cited by 1: KY
+  - summary: TODO
+
+- [Maestro Orchestrate](https://github.com/josstei/maestro-orchestrate)
+  - `gh:josstei/maestro-orchestrate` · cited by 1: KY
+  - summary: TODO
+
+- [MicroAgent](https://github.com/aymenfurter/microagents)
+  - `gh:aymenfurter/microagents` · cited by 1: KY
+  - summary: TODO
+
+- [Nanocoder](https://github.com/Nano-Collective/nanocoder)
+  - `gh:nano-collective/nanocoder` · cited by 1: KY
+  - summary: TODO
+
+- [Nous](https://github.com/TrafficGuard/nous)
+  - `gh:trafficguard/nous` · cited by 1: KY
+  - summary: TODO
 
 - [OpenCode](https://github.com/sst/opencode)
   - `gh:sst/opencode` · cited by 1: KY
@@ -134,10 +242,46 @@
   - `gh:xlang-ai/openhands` · cited by 1: BK
   - summary: TODO
 
+- [Paperclip](https://github.com/paperclipai/paperclip)
+  - `gh:paperclipai/paperclip` · cited by 1: KY
+  - summary: TODO
+
 - [Plandex](https://github.com/plandex-ai/plandex)
   - `gh:plandex-ai/plandex` · cited by 1: KY
   - summary: TODO
 
+- [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI)
+  - `gh:chakkaradeep/pycodeagi` · cited by 1: KY
+  - summary: TODO
+
 - [RepoAgent](https://github.com/OpenBMB/RepoAgent)
   - `gh:openbmb/repoagent` · cited by 1: KY
+  - summary: TODO
+
+- [ReviewCerberus](https://github.com/Kirill89/reviewcerberus)
+  - `gh:kirill89/reviewcerberus` · cited by 1: KY
+  - summary: TODO
+
+- [Stakpak](https://github.com/stakpak/agent)
+  - `gh:stakpak/agent` · cited by 1: KY
+  - summary: TODO
+
+- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
+  - `gh:transformeroptimus/superagi` · cited by 1: KY
+  - summary: TODO
+
+- [ThinkGPT](https://github.com/alaeddine-13/thinkgpt)
+  - `gh:alaeddine-13/thinkgpt` · cited by 1: KY
+  - summary: TODO
+
+- [Tura](https://github.com/Tura-AI/tura)
+  - `gh:tura-ai/tura` · cited by 1: KY
+  - summary: TODO
+
+- [Vision agent](https://github.com/landing-ai/vision-agent)
+  - `gh:landing-ai/vision-agent` · cited by 1: KY
+  - summary: TODO
+
+- [zeroshot](https://github.com/the-open-engine/zeroshot)
+  - `gh:the-open-engine/zeroshot` · cited by 1: KY
   - summary: TODO

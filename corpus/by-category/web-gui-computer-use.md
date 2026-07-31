@@ -1,6 +1,6 @@
 # web-gui-computer-use
 
-16 entries.
+15 entries.
 
 ## Timeline
 
@@ -44,7 +44,7 @@
 
 ## Tools & Undated
 
-7 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+6 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AgentGPT](https://github.com/reworkd/AgentGPT)
   - `gh:reworkd/agentgpt` · cited by 2: KY, ZJ
@@ -60,10 +60,6 @@
 
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents)
   - `gh:xlang-ai/openagents` · cited by 1: KY
-  - summary: TODO
-
-- [Screenpipe](https://github.com/screenpipe/screenpipe)
-  - `gh:screenpipe/screenpipe` · cited by 1: KY
   - summary: TODO
 
 - [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html)

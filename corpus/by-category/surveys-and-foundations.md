@@ -1,10 +1,10 @@
 # surveys-and-foundations
 
-44 entries.
+43 entries.
 
 ## Timeline
 
-39 dated entries, oldest first.
+38 dated entries, oldest first.
 
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) · 2021-08
   - `arxiv:2108.07258` · cited by 1: LJ
@@ -85,10 +85,6 @@
 - [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/pdf/2404.02039) · 2024-04
   - `arxiv:2404.02039` · cited by 1: LJ
   - summary: A reference architecture for LLM-based game agents built around memory, reasoning, and perception-action at the single-agent level and communication/coordination at the multi-agent level, mapped to six game genres by their dominant requirement (e.g. low-latency control vs open-ended goal formation).
-
-- [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) · 2024-04
-  - `arxiv:2404.14387` · cited by 1: LJ
-  - summary: Four-phase framework; the entry point for this whole category.
 
 - [The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey](https://arxiv.org/abs/2404.11584) · 2024-04
   - `arxiv:2404.11584` · cited by 1: LJ

@@ -4,7 +4,11 @@
 
 ## Timeline
 
-21 dated entries, oldest first.
+23 dated entries, oldest first.
+
+- [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf) · 2023
+  - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
+  - summary: Masks tokens by their informativeness rather than randomly, adding a Token-specific Label Smoothing step so masked-language pretraining focuses learning on under-explored tokens instead of uniformly random ones, improving 10 downstream tasks by 1.4-2.1 points on average across different pretrained models.
 
 - [SELFEVOLVE: A Code Evolution Framework via Large Language Models](https://arxiv.org/pdf/2306.02907) · 2023-06
   - `arxiv:2306.02907` · cited by 1: LJ
@@ -13,6 +17,10 @@
 - [Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning](https://arxiv.org/pdf/2311.08182) · 2023-11
   - `arxiv:2311.08182` · cited by 1: LJ
   - summary: Self-evolving selection for label-efficient instruction tuning.
+
+- [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) · 2024-04
+  - `arxiv:2404.14387` · cited by 1: LJ
+  - summary: Four-phase framework; the entry point for this whole category.
 
 - [Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy](https://arxiv.org/abs/2407.06813) · 2024-07
   - `arxiv:2407.06813` · cited by 1: LJ
@@ -95,16 +103,8 @@
 
 ## Tools & Undated
 
-3 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [DSPy](https://github.com/stanfordnlp/dspy)
-  - `gh:stanfordnlp/dspy` · cited by 2: BK, KY
-  - summary: TODO
+1 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AlphaFlow: autonomous discovery and optimization of multi-step chemistry using a self-driven fluidic lab guided by reinforcement learning](https://www.nature.com/articles/s41467-023-37139-y)
   - `url:https://nature.com/articles/s41467-023-37139-y` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Compound AI Systems & DSPy Framework](https://dspy-docs.vercel.app/)
-  - `url:https://dspy-docs.vercel.app/` · cited by 1: BK
-  - summary: TODO

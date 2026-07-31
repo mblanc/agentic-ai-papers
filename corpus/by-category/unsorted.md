@@ -1,10 +1,10 @@
 # unsorted
 
-225 entries.
+143 entries.
 
 ## Timeline
 
-84 dated entries, oldest first.
+80 dated entries, oldest first.
 
 - [Defending Against Neural Fake News](https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html) · 2019
   - `url:https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html` · cited by 1: LJ
@@ -13,10 +13,6 @@
 - [Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://www.jmlr.org/papers/v24/23-0069.html) · 2023
   - `url:https://jmlr.org/papers/v24/23-0069.html` · cited by 1: LJ
   - summary: Full life-cycle accounting including inference.
-
-- [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf) · 2023
-  - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
-  - summary: Masks tokens by their informativeness rather than randomly, adding a Token-specific Label Smoothing step so masked-language pretraining focuses learning on under-explored tokens instead of uniformly random ones, improving 10 downstream tasks by 1.4-2.1 points on average across different pretrained models.
 
 - [Dify](https://github.com/langgenius/dify) · 2023-04
   - `gh:langgenius/dify` · cited by 1: LJ
@@ -71,10 +67,6 @@
   - `arxiv:2402.05120` · cited by 1: LJ
   - summary: Shows LLM performance scales simply by sampling-and-voting across more agent instances (Agent Forest), a method orthogonal to other enhancement techniques, with the degree of benefit correlated to task difficulty.
 
-- [StateFlow: Enhancing LLM Task-Solving through State-Driven Workflows](https://arxiv.org/abs/2403.11322) · 2024-03
-  - `arxiv:2403.11322` · cited by 1: BK
-  - summary: TODO
-
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) · 2024-04
   - `gh:shubhamsaboo/awesome-llm-apps` · cited by 1: HE
   - summary: A collection of 100+ free, open-source, ready-to-use AI agents, agent skills, and RAG applications, for cloning and customizing rather than building from scratch.
@@ -114,10 +106,6 @@
 - [4D-ARE: 4-Dimensional Attribution-Driven Agent Requirements Engineering](https://arxiv.org/pdf/2601.04556v1) · 2026-01
   - `arxiv:2601.04556` · cited by 1: VA
   - summary: Documents a real deployment where an agent that could reason perfectly still returned metrics instead of causal explanation because nobody specified *what* it should reason about, then proposes a four-dimension attribution framework (Results/Process/Support/Long-term) that compiles directly into system prompts to close that design-time specification gap.
-
-- [Agentic AI Meets Edge Computing in Autonomous UAV Swarms](https://arxiv.org/pdf/2601.14437v1) · 2026-01
-  - `arxiv:2601.14437` · cited by 1: VA
-  - summary: Compares standalone, edge-enabled, and edge-cloud hybrid architectures for LLM-driven UAV swarms, showing the edge-enabled option gives higher search-and-rescue coverage and more autonomy than traditional approaches in a wildfire response case study.
 
 - [AI Agent for Reverse-Engineering Legacy Finite-Difference Code](https://arxiv.org/pdf/2601.18381v1) · 2026-01
   - `arxiv:2601.18381` · cited by 1: VA
@@ -194,10 +182,6 @@
 - [Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG](https://arxiv.org/pdf/2601.07192v1) · 2026-01
   - `arxiv:2601.07192` · cited by 1: VA
   - summary: Builds query-specific evidence graphs, discarding distractor facts.
-
-- [REprompt: Prompt Generation for Intelligent Software Development Guided by Requirements Engineering](https://arxiv.org/pdf/2601.16507v1) · 2026-01
-  - `arxiv:2601.16507` · cited by 1: VA
-  - summary: REprompt grounds automated prompt engineering in requirements-engineering principles via a multi-agent optimization pipeline, producing system and user prompts that better conform to formal software requirement specifications than existing prompt-optimization methods.
 
 - [Semantic Laundering in AI Agent Architectures: Why Tool Boundaries Do Not Confer Epistemic Warrant](https://arxiv.org/pdf/2601.08333v1) · 2026-01
   - `arxiv:2601.08333` · cited by 1: VA
@@ -346,94 +330,26 @@
 
 ## Tools & Undated
 
-141 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [AgentVerse](https://github.com/openbmb/agentverse)
-  - `gh:openbmb/agentverse` · cited by 2: KY, ZJ
-  - summary: TODO
+63 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
   - `gh:assafelovic/gpt-researcher` · cited by 2: KY, ZJ
-  - summary: TODO
-
-- [Lagent](https://github.com/InternLM/lagent)
-  - `gh:internlm/lagent` · cited by 2: KY, ZJ
-  - summary: TODO
-
-- [MetaGPT](https://github.com/geekan/MetaGPT)
-  - `gh:geekan/metagpt` · cited by 2: KY, ZJ
   - summary: TODO
 
 - [Storm](https://github.com/stanford-oval/storm)
   - `gh:stanford-oval/storm` · cited by 2: KY, ZJ
   - summary: TODO
 
-- [Transformer Agents](https://huggingface.co/docs/transformers/transformers_agents)
-  - `url:https://huggingface.co/docs/transformers/transformers_agents` · cited by 2: KY, ZJ
-  - summary: TODO
-
 - [ADAS](https://github.com/ShengranHu/ADAS)
   - `gh:shengranhu/adas` · cited by 1: KY
-  - summary: TODO
-
-- [Aeon](https://github.com/aaronjmars/aeon)
-  - `gh:aaronjmars/aeon` · cited by 1: KY
-  - summary: TODO
-
-- [AG2](https://github.com/ag2ai/ag2)
-  - `gh:ag2ai/ag2` · cited by 1: KY
-  - summary: TODO
-
-- [Agency](https://github.com/neurocult/agency)
-  - `gh:neurocult/agency` · cited by 1: KY
-  - summary: TODO
-
-- [Agent Teams AI](https://github.com/777genius/agent-teams-ai)
-  - `gh:777genius/agent-teams-ai` · cited by 1: KY
-  - summary: TODO
-
-- [Agent-LLM](https://github.com/Josh-XT/Agent-LLM)
-  - `gh:josh-xt/agent-llm` · cited by 1: KY
-  - summary: TODO
-
-- [AgentDock](https://github.com/AgentDock/AgentDock)
-  - `gh:agentdock/agentdock` · cited by 1: KY
-  - summary: TODO
-
-- [AgentField](https://github.com/Agent-Field/agentfield)
-  - `gh:agent-field/agentfield` · cited by 1: KY
-  - summary: TODO
-
-- [Agentic Context Engine](https://github.com/kayba-ai/agentic-context-engine)
-  - `gh:kayba-ai/agentic-context-engine` · cited by 1: KY
   - summary: TODO
 
 - [AgentK](https://github.com/mikekelly/AgentK)
   - `gh:mikekelly/agentk` · cited by 1: KY
   - summary: TODO
 
-- [Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS)
-  - `gh:agentlas-ai/agentlas-os` · cited by 1: KY
-  - summary: TODO
-
 - [Agently](https://github.com/Maplemx/Agently)
   - `gh:maplemx/agently` · cited by 1: ZJ
-  - summary: TODO
-
-- [AgentRun](https://github.com/Jonathan-Adly/AgentRun)
-  - `gh:jonathan-adly/agentrun` · cited by 1: KY
-  - summary: TODO
-
-- [AgentScope](https://github.com/modelscope/agentscope)
-  - `gh:modelscope/agentscope` · cited by 1: KY
-  - summary: TODO
-
-- [Agentset](https://github.com/agentset-ai/agentset)
-  - `gh:agentset-ai/agentset` · cited by 1: KY
-  - summary: TODO
-
-- [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
-  - `gh:agentsmesh/agentsmesh` · cited by 1: KY
   - summary: TODO
 
 - [AI Scientist](https://github.com/SakanaAI/AI-Scientist)
@@ -442,18 +358,6 @@
 
 - [AIDE](https://github.com/WecoAI/aideml)
   - `gh:wecoai/aideml` · cited by 1: KY
-  - summary: TODO
-
-- [Ailoy](https://github.com/brekkylab/ailoy)
-  - `gh:brekkylab/ailoy` · cited by 1: KY
-  - summary: TODO
-
-- [amux](https://github.com/mixpeek/amux)
-  - `gh:mixpeek/amux` · cited by 1: KY
-  - summary: TODO
-
-- [Astron](https://github.com/iflytek/astron-agent)
-  - `gh:iflytek/astron-agent` · cited by 1: KY
   - summary: TODO
 
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
@@ -487,10 +391,6 @@
   - related: <https://github.com/connerlambden/bgpt-mcp/blob/main/EVIDENCE_DEMO.md>
   - summary: TODO
 
-- [blade-deepseek](https://github.com/echoVic/blade-deepseek)
-  - `gh:echovic/blade-deepseek` · cited by 1: KY
-  - summary: TODO
-
 - [BlockAGI](https://github.com/blockpipe/blockagi)
   - `gh:blockpipe/blockagi` · cited by 1: KY
   - summary: TODO
@@ -499,57 +399,21 @@
   - `gh:openbmb/bmtools` · cited by 1: ZJ
   - summary: TODO
 
-- [Botpress](https://github.com/botpress/botpress)
-  - `gh:botpress/botpress` · cited by 1: KY
-  - summary: TODO
-
 - [Building Governed AI Agents](https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook)
   - `url:https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook` · cited by 1: HE
   - summary: Describes implementing agent governance via automated guardrails built into core infrastructure rather than compliance checks bolted on at launch time, so teams move fast without treating safety as a bottleneck.
 
-- [Cate](https://github.com/0-AI-UG/cate)
-  - `gh:0-ai-ug/cate` · cited by 1: KY
-  - summary: TODO
-
-- [Claude Engineer](https://github.com/Doriandarko/claude-engineer)
-  - `gh:doriandarko/claude-engineer` · cited by 1: KY
-  - summary: TODO
-
 - [ClaudeClaw](https://github.com/sbusso/claudeclaw)
   - `gh:sbusso/claudeclaw` · cited by 1: KY
-  - summary: TODO
-
-- [CodeAlmanac](https://github.com/AlmanacCode/codealmanac)
-  - `gh:almanaccode/codealmanac` · cited by 1: KY
-  - summary: TODO
-
-- [Codel](https://github.com/semanser/codel)
-  - `gh:semanser/codel` · cited by 1: KY
   - summary: TODO
 
 - [CollosalAI Chat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat)
   - `gh:hpcaitech/colossalai` · cited by 1: KY
   - summary: TODO
 
-- [ConnectOnion](https://github.com/openonion/connectonion)
-  - `gh:openonion/connectonion` · cited by 1: KY
-  - summary: TODO
-
-- [Cordum](https://github.com/cordum-io/cordum)
-  - `gh:cordum-io/cordum` · cited by 1: KY
-  - summary: TODO
-
 - [CREAM: Consistency Regularized Self-Rewarding Language Models](https://openreview.net/pdf?id=Vf6RDObyEF)
   - `openreview:Vf6RDObyEF` · cited by 1: LJ
   - summary: Uses reward consistency to filter unreliable self-generated preference data.
-
-- [CrewAI](https://github.com/joaomdmoura/crewai)
-  - `gh:joaomdmoura/crewai` · cited by 1: KY
-  - summary: TODO
-
-- [ctop](https://github.com/aakashadesara/ctop)
-  - `gh:aakashadesara/ctop` · cited by 1: KY
-  - summary: TODO
 
 - [Cynative](https://github.com/cynative/cynative)
   - `gh:cynative/cynative` · cited by 1: KY
@@ -557,10 +421,6 @@
 
 - [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper)
   - `gh:technion-kishony-lab/data-to-paper` · cited by 1: KY
-  - summary: TODO
-
-- [DB GPT](https://github.com/csunny/DB-GPT)
-  - `gh:csunny/db-gpt` · cited by 1: KY
   - summary: TODO
 
 - [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze)
@@ -571,18 +431,6 @@
   - `gh:melih-unsal/demogpt` · cited by 1: KY
   - summary: TODO
 
-- [Devika](https://github.com/stitionai/devika)
-  - `gh:stitionai/devika` · cited by 1: KY
-  - summary: TODO
-
-- [Dorothy](https://github.com/Charlie85270/Dorothy)
-  - `gh:charlie85270/dorothy` · cited by 1: KY
-  - summary: TODO
-
-- [Dust](https://github.com/dust-tt/dust)
-  - `gh:dust-tt/dust` · cited by 1: KY
-  - summary: TODO
-
 - [Empowering biomedical discovery with AI agents](https://www.cell.com/cell/fulltext/S0092-8674(24)
   - `url:https://cell.com/cell/fulltext/S0092-8674(24` · cited by 1: LJ
   - summary: NEEDS-SOURCE
@@ -590,14 +438,6 @@
 - [Evolutionary optimization of model merging recipes](https://www.nature.com/articles/s42256-024-00975-8)
   - `url:https://nature.com/articles/s42256-024-00975-8` · cited by 1: LJ
   - summary: Evolutionary search over merge recipes across two spaces.
-
-- [fractal](https://github.com/plasma-ai/fractal)
-  - `gh:plasma-ai/fractal` · cited by 1: KY
-  - summary: TODO
-
-- [Frontman](https://www.github.com/frontman-ai/frontman)
-  - `gh:frontman-ai/frontman` · cited by 1: KY
-  - summary: TODO
 
 - [Giselle](https://github.com/giselles-ai/giselle)
   - `gh:giselles-ai/giselle` · cited by 1: KY
@@ -611,10 +451,6 @@
   - `gh:antonosika/gpt-engineer` · cited by 1: ZJ
   - summary: TODO
 
-- [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)
-  - `gh:pythagora-io/gpt-pilot` · cited by 1: KY
-  - summary: TODO
-
 - [GPT-3: Its Nature, Scope, Limits, and Consequences](https://link.springer.com/article/10.1007/s11023-020-09548-1)
   - `url:https://link.springer.com/article/10.1007/s11023-020-09548-1` · cited by 1: LJ
   - summary: NEEDS-SOURCE
@@ -623,29 +459,9 @@
   - `gh:101dotxyz/gpteam` · cited by 1: ZJ
   - summary: TODO
 
-- [Greywall](https://github.com/GreyhavenHQ/greywall)
-  - `gh:greyhavenhq/greywall` · cited by 1: KY
-  - summary: TODO
-
-- [h5i](https://github.com/h5i-dev/h5i)
-  - `gh:h5i-dev/h5i` · cited by 1: KY
-  - summary: TODO
-
-- [hcom](https://github.com/aannoo/hcom)
-  - `gh:aannoo/hcom` · cited by 1: KY
-  - summary: TODO
-
-- [Hermes Agent](https://github.com/nousresearch/hermes-agent)
-  - `gh:nousresearch/hermes-agent` · cited by 1: KY
-  - summary: TODO
-
 - [ICLR 2026 MemAgents Workshop](https://sites.google.com/view/memagent-iclr26/)
   - `url:https://sites.google.com/view/memagent-iclr26` · cited by 1: HE
   - summary: An ICLR 2026 workshop on memory systems for LLM-based agents, covering episodic, semantic, and working memory architectures for improving decision-making in high-stakes applications like robotics.
-
-- [IWE](https://github.com/iwe-org/iwe)
-  - `gh:iwe-org/iwe` · cited by 1: KY
-  - summary: TODO
 
 - [ix](https://github.com/kreneskyp/ix)
   - `gh:kreneskyp/ix` · cited by 1: KY
@@ -657,10 +473,6 @@
 
 - [KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers)
   - `gh:zjunlp/knowledgeeditingpapers` · cited by 1: ZJ
-  - summary: TODO
-
-- [KubeStellar Console](https://github.com/kubestellar/console)
-  - `gh:kubestellar/console` · cited by 1: KY
   - summary: TODO
 
 - [Langroid](https://github.com/langroid/langroid)
@@ -679,40 +491,12 @@
   - `gh:maximilian-winter/llama-cpp-agent` · cited by 1: KY
   - summary: TODO
 
-- [llama-agentic-system](https://github.com/meta-llama/llama-agentic-system)
-  - `gh:meta-llama/llama-agentic-system` · cited by 1: KY
-  - summary: TODO
-
 - [llama-agents](https://github.com/run-llama/llama-agents)
   - `gh:run-llama/llama-agents` · cited by 1: KY
   - summary: TODO
 
-- [LLM Agents](https://github.com/mpaepper/llm_agents)
-  - `gh:mpaepper/llm_agents` · cited by 1: KY
-  - summary: TODO
-
 - [LLM Agents Discord](https://discord.gg/NWVpQ9rBvd)
   - `url:https://discord.gg/NWVpQ9rBvd` · cited by 1: BK
-  - summary: TODO
-
-- [LLocalSearch](https://github.com/nilsherzig/LLocalSearch)
-  - `gh:nilsherzig/llocalsearch` · cited by 1: KY
-  - summary: TODO
-
-- [Local GPT](https://github.com/PromtEngineer/localGPT)
-  - `gh:promtengineer/localgpt` · cited by 1: KY
-  - summary: TODO
-
-- [LoongFlow](https://github.com/baidu-baige/LoongFlow)
-  - `gh:baidu-baige/loongflow` · cited by 1: KY
-  - summary: TODO
-
-- [Maestro](https://github.com/Doriandarko/maestro)
-  - `gh:doriandarko/maestro` · cited by 1: KY
-  - summary: TODO
-
-- [Maestro](https://github.com/RunMaestro/Maestro)
-  - `gh:runmaestro/maestro` · cited by 1: KY
   - summary: TODO
 
 - [MASEval](https://github.com/parameterlab/MASEval)
@@ -723,36 +507,12 @@
   - `gh:matevip/mateclaw` · cited by 1: KY
   - summary: TODO
 
-- [MemClaw](https://github.com/caura-ai/caura-memclaw)
-  - `gh:caura-ai/caura-memclaw` · cited by 1: KY
-  - summary: TODO
-
-- [MicroAgent](https://github.com/aymenfurter/microagents)
-  - `gh:aymenfurter/microagents` · cited by 1: KY
-  - summary: TODO
-
-- [Modus](https://github.com/hypermodeinc/modus)
-  - `gh:hypermodeinc/modus` · cited by 1: KY
-  - summary: TODO
-
-- [Nanocoder](https://github.com/Nano-Collective/nanocoder)
-  - `gh:nano-collective/nanocoder` · cited by 1: KY
-  - summary: TODO
-
-- [Nous](https://github.com/TrafficGuard/nous)
-  - `gh:trafficguard/nous` · cited by 1: KY
-  - summary: TODO
-
 - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922)
   - `url:https://dl.acm.org/doi/10.1145/3442188.3445922` · cited by 1: LJ
   - summary: The foundational critique of scale-first language modelling.
 
 - [OpenAgent](https://github.com/the-open-agent/openagent)
   - `gh:the-open-agent/openagent` · cited by 1: KY
-  - summary: TODO
-
-- [OpenClaw](https://github.com/openclaw/openclaw)
-  - `gh:openclaw/openclaw` · cited by 1: KY
   - summary: TODO
 
 - [OpenLens AI](https://github.com/jarrycyx/openlens-ai)
@@ -763,37 +523,13 @@
   - `gh:orkas-ai/orkas` · cited by 1: KY
   - summary: TODO
 
-- [Paperclip](https://github.com/paperclipai/paperclip)
-  - `gh:paperclipai/paperclip` · cited by 1: KY
-  - summary: TODO
-
 - [Phidata](https://github.com/phidatahq/phidata)
   - `gh:phidatahq/phidata` · cited by 1: KY
-  - summary: TODO
-
-- [piia-engram](https://github.com/Patdolitse/piia-engram)
-  - `gh:patdolitse/piia-engram` · cited by 1: KY
-  - summary: TODO
-
-- [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol)
-  - `gh:teoslayer/pilotprotocol` · cited by 1: KY
-  - summary: TODO
-
-- [PraisonAI](https://github.com/MervinPraison/PraisonAI)
-  - `gh:mervinpraison/praisonai` · cited by 1: KY
   - summary: TODO
 
 - [Predictability and Surprise in Large Generative Models](https://dl.acm.org/doi/abs/10.1145/3531146.3533229)
   - `url:https://dl.acm.org/doi/abs/10.1145/3531146.3533229` · cited by 1: LJ
   - summary: Loss is predictable, capabilities are not; the governance problem that follows.
-
-- [Private GPT](https://github.com/imartinez/privateGPT)
-  - `gh:imartinez/privategpt` · cited by 1: KY
-  - summary: TODO
-
-- [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI)
-  - `gh:chakkaradeep/pycodeagi` · cited by 1: KY
-  - summary: TODO
 
 - [RasaGPT](https://github.com/paulpierre/RasaGPT)
   - `gh:paulpierre/rasagpt` · cited by 1: KY
@@ -803,28 +539,8 @@
   - `gh:yifan-song793/restgpt` · cited by 1: KY
   - summary: TODO
 
-- [ReviewCerberus](https://github.com/Kirill89/reviewcerberus)
-  - `gh:kirill89/reviewcerberus` · cited by 1: KY
-  - summary: TODO
-
-- [SAGE](https://github.com/l33tdawg/sage)
-  - `gh:l33tdawg/sage` · cited by 1: KY
-  - summary: TODO
-
-- [Second Brain AI Agent](https://github.com/flepied/second-brain-agent)
-  - `gh:flepied/second-brain-agent` · cited by 1: KY
-  - summary: TODO
-
 - [SocraticAI](https://github.com/RunzheYang/SocraticAI)
   - `gh:runzheyang/socraticai` · cited by 1: ZJ
-  - summary: TODO
-
-- [Stakpak](https://github.com/stakpak/agent)
-  - `gh:stakpak/agent` · cited by 1: KY
-  - summary: TODO
-
-- [Statewave](https://github.com/smaramwbc/statewave)
-  - `gh:smaramwbc/statewave` · cited by 1: KY
   - summary: TODO
 
 - [SuperAgent](https://github.com/homanp/superagent)
@@ -835,18 +551,6 @@
   - `acl:P17-4017` · cited by 1: ZJ
   - summary: TODO
 
-- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
-  - `gh:transformeroptimus/superagi` · cited by 1: KY
-  - summary: TODO
-
-- [SwarmClaw](https://github.com/swarmclawai/swarmclaw)
-  - `gh:swarmclawai/swarmclaw` · cited by 1: KY
-  - summary: TODO
-
-- [ThinkGPT](https://github.com/alaeddine-13/thinkgpt)
-  - `gh:alaeddine-13/thinkgpt` · cited by 1: KY
-  - summary: TODO
-
 - [ToolBench](https://github.com/OpenBMB/ToolBench)
   - `gh:openbmb/toolbench` · cited by 1: ZJ
   - summary: TODO
@@ -855,36 +559,8 @@
   - `gh:ryoungj/toolemu` · cited by 1: ZJ
   - summary: TODO
 
-- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)
-  - `gh:trpc-group/trpc-agent-go` · cited by 1: KY
-  - summary: TODO
-
-- [Tura](https://github.com/Tura-AI/tura)
-  - `gh:tura-ai/tura` · cited by 1: KY
-  - summary: TODO
-
 - [uAgents](https://github.com/fetchai/uAgents)
   - `gh:fetchai/uagents` · cited by 1: KY
-  - summary: TODO
-
-- [Upsonic](https://github.com/upsonic/upsonic)
-  - `gh:upsonic/upsonic` · cited by 1: KY
-  - summary: TODO
-
-- [Vectara-agentic](https://github.com/vectara/py-vectara-agentic)
-  - `gh:vectara/py-vectara-agentic` · cited by 1: KY
-  - summary: TODO
-
-- [Vision agent](https://github.com/landing-ai/vision-agent)
-  - `gh:landing-ai/vision-agent` · cited by 1: KY
-  - summary: TODO
-
-- [VoltAgent](https://github.com/VoltAgent/voltagent)
-  - `gh:voltagent/voltagent` · cited by 1: KY
-  - summary: TODO
-
-- [WorkArena](https://github.com/ServiceNow/workarena)
-  - `gh:servicenow/workarena` · cited by 1: BK
   - summary: TODO
 
 - [WorkGPT](https://github.com/team-openpm/workgpt)
@@ -909,8 +585,4 @@
 
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLS01nW3RtgoqGkm4UeqNeZLccW-OGc1fJ)
   - `url:https://youtube.com/playlist?list=PLS01nW3RtgoqGkm4UeqNeZLccW-OGc1fJ` · cited by 1: BK
-  - summary: TODO
-
-- [zeroshot](https://github.com/the-open-engine/zeroshot)
-  - `gh:the-open-engine/zeroshot` · cited by 1: KY
   - summary: TODO

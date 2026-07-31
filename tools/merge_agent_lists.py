@@ -323,7 +323,7 @@ TAXONOMY: list[tuple[str, list[str]]] = [
         r"long.?horizon", r"\bself.?consistency\b",
     ]),
     ("multi-agent", [
-        r"multi.?agent", r"\bswarm\b", r"orchestrat", r"\bdebate\b",
+        r"multi.?agent", r"\bswarms?\b", r"orchestrat", r"\bdebate\b",
         r"\bcollaborat", r"\bcooperat", r"role.?play", r"\bcrew\b", r"\bsubagent",
         r"\bautogen\b", r"\bcamel\b", r"agent society", r"\bhandoff",
         r"communicative agents",
@@ -351,7 +351,8 @@ TAXONOMY: list[tuple[str, list[str]]] = [
         r"\binterpreting\b", r"trace.?driven",
     ]),
     ("coding-agents", [
-        r"\bcoding agent", r"software engineer", r"\bswe.?agent\b", r"code gener",
+        r"\bcoding agent", r"software engineer", r"software develop",
+        r"\bswe.?agent\b", r"code gener",
         r"\baider\b", r"\bcline\b", r"\bopenhands\b", r"\bopendevin\b", r"\bcodex\b",
         r"\bclaude code\b", r"\bcopilot\b", r"pull request", r"\brepo",
         r"\bprogram repair\b", r"\bopencode\b", r"\bplandex\b",
@@ -364,18 +365,19 @@ TAXONOMY: list[tuple[str, list[str]]] = [
     ("rag-and-retrieval", [
         r"\brag\b", r"retrieval", r"\bvector\b", r"\bembedding", r"\bsearch\b",
         r"\bindex", r"\bgrounding\b", r"\bhipporag\b", r"deep research",
+        r"knowledge management",
     ]),
     ("training-and-optimization", [
         r"\bfine.?tun", r"\brl\b", r"reinforcement", r"\bdpo\b", r"\bppo\b",
         r"\bdistill", r"agent tuning", r"\btraject", r"\bgepa\b", r"\bdspy\b",
-        r"prompt optim", r"self.?evolv", r"\bcurricul", r"co.?evolving critic",
+        r"prompt optim", r"self.?evol", r"\bcurricul", r"co.?evolving critic",
     ]),
     ("embodied-and-robotics", [
         r"\bembodied\b", r"\brobot", r"\bmanipulat", r"\bminecraft\b",
         r"\bvoyager\b", r"\bsim.?to.?real\b", r"\baffordance", r"\bnavigation\b",
     ]),
     ("frameworks-and-sdks", [
-        r"\bframework\b", r"\bsdk\b", r"\blibrary\b", r"\blangchain\b",
+        r"\bframeworks?\b", r"\bsdks?\b", r"\blibrar(?:y|ies)\b", r"\blangchain\b",
         r"\blanggraph\b", r"\bllamaindex\b", r"\bhaystack\b", r"\bsemantic kernel\b",
         r"\bmastra\b", r"\bpydantic\b", r"\bsmolagents\b", r"\bagno\b",
         r"\bstrands\b", r"\bagent development kit\b", r"\badk\b",

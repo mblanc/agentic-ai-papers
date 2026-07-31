@@ -1,6 +1,6 @@
 # rag-and-retrieval
 
-29 entries.
+40 entries.
 
 ## Timeline
 
@@ -120,8 +120,52 @@
 
 ## Tools & Undated
 
-1 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+12 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [CodeAlmanac](https://github.com/AlmanacCode/codealmanac)
+  - `gh:almanaccode/codealmanac` · cited by 1: KY
+  - summary: TODO
+
+- [IWE](https://github.com/iwe-org/iwe)
+  - `gh:iwe-org/iwe` · cited by 1: KY
+  - summary: TODO
+
+- [LLocalSearch](https://github.com/nilsherzig/LLocalSearch)
+  - `gh:nilsherzig/llocalsearch` · cited by 1: KY
+  - summary: TODO
+
+- [Local GPT](https://github.com/PromtEngineer/localGPT)
+  - `gh:promtengineer/localgpt` · cited by 1: KY
+  - summary: TODO
+
+- [MemClaw](https://github.com/caura-ai/caura-memclaw)
+  - `gh:caura-ai/caura-memclaw` · cited by 1: KY
+  - summary: TODO
 
 - [On Architecture of LLM agents](http://www.injoit.ru/index.php/j1/article/view/2057)
   - `url:https://injoit.ru/index.php/j1/article/view/2057` · cited by 1: LJ
   - summary: A short position piece framing LLM agents as the next step past generative models, comparing them to earlier web mashups and software robots and surveying the frameworks that streamline building them.
+
+- [piia-engram](https://github.com/Patdolitse/piia-engram)
+  - `gh:patdolitse/piia-engram` · cited by 1: KY
+  - summary: TODO
+
+- [Private GPT](https://github.com/imartinez/privateGPT)
+  - `gh:imartinez/privategpt` · cited by 1: KY
+  - summary: TODO
+
+- [SAGE](https://github.com/l33tdawg/sage)
+  - `gh:l33tdawg/sage` · cited by 1: KY
+  - summary: TODO
+
+- [Screenpipe](https://github.com/screenpipe/screenpipe)
+  - `gh:screenpipe/screenpipe` · cited by 1: KY
+  - summary: TODO
+
+- [Second Brain AI Agent](https://github.com/flepied/second-brain-agent)
+  - `gh:flepied/second-brain-agent` · cited by 1: KY
+  - summary: TODO
+
+- [Statewave](https://github.com/smaramwbc/statewave)
+  - `gh:smaramwbc/statewave` · cited by 1: KY
+  - summary: TODO

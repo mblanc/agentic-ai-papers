@@ -1,10 +1,10 @@
 # frameworks-and-sdks
 
-23 entries.
+60 entries.
 
 ## Timeline
 
-15 dated entries, oldest first.
+16 dated entries, oldest first.
 
 - [LangChain](https://github.com/langchain-ai/langchain) · 2022-10
   - `gh:langchain-ai/langchain` · cited by 1: LJ
@@ -28,6 +28,10 @@
 
 - [An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929) · 2024-02
   - `arxiv:2402.05929` · cited by 1: ZJ
+  - summary: TODO
+
+- [StateFlow: Enhancing LLM Task-Solving through State-Driven Workflows](https://arxiv.org/abs/2403.11322) · 2024-03
+  - `arxiv:2403.11322` · cited by 1: BK
   - summary: TODO
 
 - [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736) · 2024-06
@@ -68,14 +72,106 @@
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+44 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [AgentVerse](https://github.com/openbmb/agentverse)
+  - `gh:openbmb/agentverse` · cited by 2: KY, ZJ
+  - summary: TODO
+
+- [Lagent](https://github.com/InternLM/lagent)
+  - `gh:internlm/lagent` · cited by 2: KY, ZJ
+  - summary: TODO
 
 - [LangChain](https://github.com/hwchase17/langchain)
   - `gh:hwchase17/langchain` · cited by 2: KY, ZJ
   - summary: TODO
 
+- [Transformer Agents](https://huggingface.co/docs/transformers/transformers_agents)
+  - `url:https://huggingface.co/docs/transformers/transformers_agents` · cited by 2: KY, ZJ
+  - summary: TODO
+
+- [Aeon](https://github.com/aaronjmars/aeon)
+  - `gh:aaronjmars/aeon` · cited by 1: KY
+  - summary: TODO
+
+- [AG2](https://github.com/ag2ai/ag2)
+  - `gh:ag2ai/ag2` · cited by 1: KY
+  - summary: TODO
+
+- [Agent-LLM](https://github.com/Josh-XT/Agent-LLM)
+  - `gh:josh-xt/agent-llm` · cited by 1: KY
+  - summary: TODO
+
+- [AgentDock](https://github.com/AgentDock/AgentDock)
+  - `gh:agentdock/agentdock` · cited by 1: KY
+  - summary: TODO
+
+- [AgentField](https://github.com/Agent-Field/agentfield)
+  - `gh:agent-field/agentfield` · cited by 1: KY
+  - summary: TODO
+
+- [Agentic Context Engine](https://github.com/kayba-ai/agentic-context-engine)
+  - `gh:kayba-ai/agentic-context-engine` · cited by 1: KY
+  - summary: TODO
+
+- [Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS)
+  - `gh:agentlas-ai/agentlas-os` · cited by 1: KY
+  - summary: TODO
+
+- [AgentScope](https://github.com/modelscope/agentscope)
+  - `gh:modelscope/agentscope` · cited by 1: KY
+  - summary: TODO
+
+- [Agentset](https://github.com/agentset-ai/agentset)
+  - `gh:agentset-ai/agentset` · cited by 1: KY
+  - summary: TODO
+
+- [Ailoy](https://github.com/brekkylab/ailoy)
+  - `gh:brekkylab/ailoy` · cited by 1: KY
+  - summary: TODO
+
+- [Astron](https://github.com/iflytek/astron-agent)
+  - `gh:iflytek/astron-agent` · cited by 1: KY
+  - summary: TODO
+
+- [Botpress](https://github.com/botpress/botpress)
+  - `gh:botpress/botpress` · cited by 1: KY
+  - summary: TODO
+
+- [Compound AI Systems & DSPy Framework](https://dspy-docs.vercel.app/)
+  - `url:https://dspy-docs.vercel.app/` · cited by 1: BK
+  - summary: TODO
+
+- [ConnectOnion](https://github.com/openonion/connectonion)
+  - `gh:openonion/connectonion` · cited by 1: KY
+  - summary: TODO
+
+- [Cordum](https://github.com/cordum-io/cordum)
+  - `gh:cordum-io/cordum` · cited by 1: KY
+  - summary: TODO
+
+- [CrewAI](https://github.com/joaomdmoura/crewai)
+  - `gh:joaomdmoura/crewai` · cited by 1: KY
+  - summary: TODO
+
+- [Dust](https://github.com/dust-tt/dust)
+  - `gh:dust-tt/dust` · cited by 1: KY
+  - summary: TODO
+
 - [Haystack](https://github.com/deepset-ai/haystack)
   - `gh:deepset-ai/haystack` · cited by 1: KY
+  - summary: TODO
+
+- [hcom](https://github.com/aannoo/hcom)
+  - `gh:aannoo/hcom` · cited by 1: KY
+  - summary: TODO
+
+- [Hermes Agent](https://github.com/nousresearch/hermes-agent)
+  - `gh:nousresearch/hermes-agent` · cited by 1: KY
+  - summary: TODO
+
+- [llama-agentic-system](https://github.com/meta-llama/llama-agentic-system)
+  - `gh:meta-llama/llama-agentic-system` · cited by 1: KY
   - summary: TODO
 
 - [LlamaIndex](https://github.com/jerryjliu/llama_index)
@@ -86,6 +182,34 @@
   - `url:https://llamaindex.ai/` · cited by 1: BK
   - summary: TODO
 
+- [LLM Agents](https://github.com/mpaepper/llm_agents)
+  - `gh:mpaepper/llm_agents` · cited by 1: KY
+  - summary: TODO
+
+- [LoongFlow](https://github.com/baidu-baige/LoongFlow)
+  - `gh:baidu-baige/loongflow` · cited by 1: KY
+  - summary: TODO
+
+- [Maestro](https://github.com/Doriandarko/maestro)
+  - `gh:doriandarko/maestro` · cited by 1: KY
+  - summary: TODO
+
+- [Modus](https://github.com/hypermodeinc/modus)
+  - `gh:hypermodeinc/modus` · cited by 1: KY
+  - summary: TODO
+
+- [OpenClaw](https://github.com/openclaw/openclaw)
+  - `gh:openclaw/openclaw` · cited by 1: KY
+  - summary: TODO
+
+- [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol)
+  - `gh:teoslayer/pilotprotocol` · cited by 1: KY
+  - summary: TODO
+
+- [PraisonAI](https://github.com/MervinPraison/PraisonAI)
+  - `gh:mervinpraison/praisonai` · cited by 1: KY
+  - summary: TODO
+
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
   - `gh:microsoft/semantic-kernel` · cited by 1: KY
   - summary: TODO
@@ -94,10 +218,34 @@
   - `gh:strands-agents/sdk-python` · cited by 1: KY
   - summary: TODO
 
+- [SwarmClaw](https://github.com/swarmclawai/swarmclaw)
+  - `gh:swarmclawai/swarmclaw` · cited by 1: KY
+  - summary: TODO
+
 - [Swarms Framework](https://github.com/kyegomez/swarms)
   - `gh:kyegomez/swarms` · cited by 1: KY
   - summary: TODO
 
 - [TapeAgents](https://rdi.berkeley.edu/llm-agents-mooc/assets/tapeagents.pdf)
   - `url:https://rdi.berkeley.edu/llm-agents-mooc/assets/tapeagents.pdf` · cited by 1: BK
+  - summary: TODO
+
+- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)
+  - `gh:trpc-group/trpc-agent-go` · cited by 1: KY
+  - summary: TODO
+
+- [Upsonic](https://github.com/upsonic/upsonic)
+  - `gh:upsonic/upsonic` · cited by 1: KY
+  - summary: TODO
+
+- [Vectara-agentic](https://github.com/vectara/py-vectara-agentic)
+  - `gh:vectara/py-vectara-agentic` · cited by 1: KY
+  - summary: TODO
+
+- [VoltAgent](https://github.com/VoltAgent/voltagent)
+  - `gh:voltagent/voltagent` · cited by 1: KY
+  - summary: TODO
+
+- [WorkArena](https://github.com/ServiceNow/workarena)
+  - `gh:servicenow/workarena` · cited by 1: BK
   - summary: TODO
