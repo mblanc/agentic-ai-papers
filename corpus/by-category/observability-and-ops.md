@@ -1,13 +1,13 @@
 # observability-and-ops
 
-56 entries.
+57 entries.
 
 ## Timeline
 
 48 dated entries, oldest first.
 
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) · 2022-11
-  - `gh:arize-ai/phoenix` · cited by 1: HE
+  - `gh:arize-ai/phoenix` · cited by 2: HE, KY
   - summary: Open-source agent tracing, evaluation and observability.
 
 - [Helicone](https://github.com/Helicone/helicone) · 2023-01
@@ -19,7 +19,7 @@
   - summary: An open-source LLM engineering platform for collaboratively developing, tracing, evaluating, and debugging AI applications, with built-in prompt management alongside observability.
 
 - [Opik](https://github.com/comet-ml/opik) · 2023-05
-  - `gh:comet-ml/opik` · cited by 1: HE
+  - `gh:comet-ml/opik` · cited by 2: HE, ZJ
   - summary: An open-source LLM observability and evaluation platform for tracing multi-step agent workflows, running dataset-based evaluation experiments, and self-hosting production monitoring.
 
 - [Weights & Biases Weave](https://github.com/wandb/weave) · 2023-06
@@ -200,7 +200,7 @@
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AI Agent Cost Optimization Guide 2026: Reduce Spend by 60-80%](https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026)
   - `url:https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026` · cited by 1: HE
@@ -226,6 +226,10 @@
 - [How We Build Azure SRE Agent with Agentic Workflows](https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753)
   - `url:https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753` · cited by 1: HE
   - summary: 35,000+ production incidents; time-to-mitigation 40.5 hours → 3 minutes.
+
+- [Multi-Modal LangChain agents in Production](https://github.com/steamship-packages/langchain-agent-production-starter)
+  - `gh:steamship-packages/langchain-agent-production-starter` · cited by 1: KY
+  - summary: TODO
 
 - [OpenObserve: Unified Observability for LLM Agents](https://openobserve.ai/)
   - `url:https://openobserve.ai/` · cited by 1: HE

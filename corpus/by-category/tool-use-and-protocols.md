@@ -1,10 +1,18 @@
 # tool-use-and-protocols
 
-103 entries.
+125 entries.
 
 ## Timeline
 
-95 dated entries, oldest first.
+117 dated entries, oldest first.
+
+- [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332) · 2021-12
+  - `arxiv:2112.09332` · cited by 2: LJ, ZJ
+  - summary: Browsing agent trained by imitation then preference optimization; the ancestor of deep research.
+
+- [TALM: Tool Augmented Language Models](https://arxiv.org/abs/2205.12255) · 2022-05
+  - `arxiv:2205.12255` · cited by 1: ZJ
+  - summary: TODO
 
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/) · 2023
   - `acl:2023.emnlp-main.187` · cited by 1: LJ
@@ -38,33 +46,103 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
   - summary: ToolQA tests genuine tool-use reasoning (not memorization) by minimizing overlap with pretraining data and providing 13 specialized external-knowledge tools, exposing specific gaps in existing tool-augmented LLMs on hallucination and numerical reasoning.
 
+- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) · 2023-02
+  - `arxiv:2302.04761` · cited by 1: ZJ
+  - summary: TODO
+
+- [ART: Automatic multi-step reasoning and tool-use for large language models](https://arxiv.org/abs/2303.09014) · 2023-03
+  - `arxiv:2303.09014` · cited by 1: ZJ
+  - summary: TODO
+
+- [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580) · 2023-03
+  - `arxiv:2303.17580` · cited by 1: ZJ
+  - summary: TODO
+
+- [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](https://arxiv.org/abs/2303.11381) · 2023-03
+  - `arxiv:2303.11381` · cited by 1: ZJ
+  - summary: TODO
+
 - [outlines](https://github.com/dottxt-ai/outlines) · 2023-03
   - `gh:dottxt-ai/outlines` · cited by 1: HE
   - summary: Constrains sampling by regex/CFG/JSON Schema at the decoding layer.
 
-- [LARGE LANGUAGE MODELS AS TOOL MAKERS](https://arxiv.org/abs/2305.17126) · 2023-05
-  - `arxiv:2305.17126` · cited by 1: LJ
-  - summary: Closed loop where the model creates its own reusable tools.
+- [TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs](https://arxiv.org/abs/2303.16434) · 2023-03
+  - `arxiv:2303.16434` · cited by 1: ZJ
+  - summary: TODO
+
+- [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/abs/2303.04671) · 2023-03
+  - `arxiv:2303.04671` · cited by 1: ZJ
+  - summary: TODO
+
+- [Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models](https://arxiv.org/abs/2304.09842) · 2023-04
+  - `arxiv:2304.09842` · cited by 1: ZJ
+  - summary: TODO
+
+- [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376) · 2023-04
+  - `arxiv:2304.05376` · cited by 2: LJ, ZJ
+  - summary: 13 expert chemistry tools augmenting an LLM for synthesis planning.
+
+- [ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://arxiv.org/abs/2305.14323) · 2023-05
+  - `arxiv:2305.14323` · cited by 1: ZJ
+  - summary: TODO
+
+- [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/pdf/2305.11738.pdf) · 2023-05
+  - `arxiv:2305.11738` · cited by 1: ZJ
+  - related: <https://github.com/microsoft/ProphetNet/tree/master/CRITIC>
+  - summary: TODO
+
+- [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) · 2023-05
+  - `arxiv:2305.15334` · cited by 1: ZJ
+  - summary: TODO
+
+- [Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning](https://arxiv.org/abs/2305.14909) · 2023-05
+  - `arxiv:2305.14909` · cited by 1: ZJ
+  - summary: TODO
+
+- [Making Language Models Better Tool Learners with Execution Feedback](https://arxiv.org/abs/2305.13068) · 2023-05
+  - `arxiv:2305.13068` · cited by 1: ZJ
+  - summary: TODO
 
 - [On the Tool Manipulation Capability of Open-source Large Language Models](http://arxiv.org/abs/2305.16504) · 2023-05
   - `arxiv:2305.16504` · cited by 1: LJ
   - summary: Boosts open-source LLMs' tool-manipulation ability via curated training examples, in-context demonstration retrievers, and generation-style regulation, closing most of the gap to GPT-4 on a new benchmark (ToolBench) with about one developer-day of data curation per tool.
 
-- [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](http://arxiv.org/abs/2306.06624) · 2023-06
-  - `arxiv:2306.06624` · cited by 1: LJ
-  - summary: RestGPT connects an LLM to real-world RESTful APIs via coarse-to-fine online planning for task decomposition and API selection, plus a dedicated API executor for parameter formulation and response parsing, evaluated on a new benchmark (RestBench) of real-world scenarios with gold solution paths.
+- [Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow](https://arxiv.org/abs/2306.07209) · 2023-06
+  - `arxiv:2306.07209` · cited by 1: ZJ
+  - summary: TODO
 
 - [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](http://arxiv.org/abs/2306.05301) · 2023-06
   - `arxiv:2306.05301` · cited by 1: LJ
   - summary: Auto-generates a 3,938-instance tool-use corpus from a multi-agent simulation covering 400+ real APIs, then fine-tunes 7B/13B models to reach generalized tool-use ability on unseen tools comparable to GPT-3.5, without needing GPT-4-scale models.
 
 - [GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution](https://arxiv.org/pdf/2307.08775) · 2023-07
-  - `arxiv:2307.08775` · cited by 1: LJ
+  - `arxiv:2307.08775` · cited by 2: LJ, ZJ
   - summary: Generalizable, efficient tool resolution decoupled from the main model.
 
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](http://arxiv.org/abs/2307.16789) · 2023-07
-  - `arxiv:2307.16789` · cited by 1: LJ
+  - `arxiv:2307.16789` · cited by 2: LJ, ZJ
   - summary: Large-scale API corpus plus a DFS-based decision strategy for tool selection.
+
+- [Gentopia: A Collaborative Platform for Tool-Augmented LLMs](https://arxiv.org/abs/2308.04030) · 2023-08
+  - `arxiv:2308.04030` · cited by 1: ZJ
+  - summary: TODO
+
+- [ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving](https://arxiv.org/abs/2309.17452) · 2023-09
+  - `arxiv:2309.17452` · cited by 1: ZJ
+  - related: <https://github.com/microsoft/ToRA>
+  - summary: TODO
+
+- [Symbol-LLM: Towards Foundational Symbol-centric Interface For Large Language Models](https://arxiv.org/abs/2311.09278) · 2023-11
+  - `arxiv:2311.09278` · cited by 1: ZJ
+  - summary: TODO
+
+- [CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update](https://arxiv.org/abs/2312.10908) · 2023-12
+  - `arxiv:2312.10908` · cited by 1: ZJ
+  - summary: TODO
+
+- [GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension](https://arxiv.org/pdf/2312.17294.pdf) · 2023-12
+  - `arxiv:2312.17294` · cited by 1: ZJ
+  - summary: TODO
 
 - [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html) · 2024
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html` · cited by 1: LJ
@@ -83,7 +161,7 @@
   - summary: Unlocks compositional generalization by putting basic skills in the prompt.
 
 - [EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction](http://arxiv.org/abs/2401.06201) · 2024-01
-  - `arxiv:2401.06201` · cited by 1: LJ
+  - `arxiv:2401.06201` · cited by 2: LJ, ZJ
   - summary: Compresses verbose tool docs into concise instructions.
 
 - [Composio](https://github.com/ComposioHQ/composio) · 2024-02
@@ -94,13 +172,26 @@
   - `arxiv:2403.00839` · cited by 1: LJ
   - summary: Organizes thousands of tools as a graph the model traverses.
 
+- [Agentic Skill Discovery](https://arxiv.org/abs/2405.15019) · 2024-05
+  - `arxiv:2405.15019` · cited by 1: ZJ
+  - related: <https://github.com/xf-zhao/Agentic-Skill-Discovery>
+  - summary: TODO
+
 - [Chain of Tools: Large Language Model is an Automatic Multi-tool Learner](http://arxiv.org/abs/2405.16533) · 2024-05
   - `arxiv:2405.16533` · cited by 1: LJ
   - summary: Black-box probing so the model learns unfamiliar tools without demos.
 
+- [Tulip Agent -- Enabling LLM-Based Agents to Solve Tasks Using Large Tool Libraries](https://arxiv.org/abs/2407.21778) · 2024-07
+  - `arxiv:2407.21778` · cited by 1: ZJ
+  - summary: TODO
+
 - [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](http://arxiv.org/abs/2408.01875) · 2024-08
   - `arxiv:2408.01875` · cited by 1: LJ
   - summary: Unsupervised retrieval via query synthesis and multi-view ranking.
+
+- [OneGen: Efficient One-Pass Unified Generation and Retrieval for LLMs](https://arxiv.org/abs/2409.05152) · 2024-09
+  - `arxiv:2409.05152` · cited by 1: ZJ
+  - summary: TODO
 
 - [ToolPlanner: A Tool Augmented LLM for Multi Granularity Instructions with Path Planning and Feedback](http://arxiv.org/abs/2409.14826) · 2024-09
   - `arxiv:2409.14826` · cited by 1: LJ

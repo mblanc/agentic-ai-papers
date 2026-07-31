@@ -29,7 +29,7 @@ import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 
 try:
     import requests
@@ -245,10 +245,24 @@ def derive_date(cid: str, url: str) -> str:
     return ""
 
 
+# Hosts where a query param IS the identity (video/playlist id), not tracking
+# cruft — dropping it collapses unrelated resources onto one canonical id.
+QUERY_ID_PARAMS = {
+    "youtube.com": ("v", "list"),
+    "youtu.be": ("v", "list"),
+}
+
+
 def normalize_url(url: str) -> str:
     s = urlsplit(url.strip())
     host = s.netloc.lower().removeprefix("www.")
     path = s.path.rstrip("/") or "/"
+    keep = QUERY_ID_PARAMS.get(host, ())
+    if keep:
+        qs = parse_qs(s.query)
+        kept = {k: qs[k][0] for k in keep if k in qs}
+        if kept:
+            return urlunsplit(("https", host, path, urlencode(kept), ""))
     # drop tracking / session query params entirely for identity purposes
     return urlunsplit(("https", host, path, "", ""))
 
@@ -547,6 +561,13 @@ def parse_markdown(md: str, source_key: str) -> list[Occurrence]:
     occurrences: list[Occurrence] = []
     stack: list[str] = []
     in_code = False
+    # Some numbered-list sources (e.g. zjunlp) put the bold title on its own
+    # line, then the link and italic author string on the *next* line:
+    #   21. **HippoRAG: ...**
+    #       *Bernal Jiménez Gutiérrez, ....* [[abs](url)]
+    # Carry a title-only bold line forward so the following link line doesn't
+    # fall back to the author string as its title.
+    pending_title = ""
 
     for line in md.splitlines():
         if line.lstrip().startswith("```"):
@@ -562,6 +583,7 @@ def parse_markdown(md: str, source_key: str) -> list[Occurrence]:
             while len(stack) < level - 1:
                 stack.append("")
             stack.append(title)
+            pending_title = ""
             continue
 
         line = strip_badges(line)
@@ -576,6 +598,12 @@ def parse_markdown(md: str, source_key: str) -> list[Occurrence]:
         ]
         found = [(t, u, p) for t, u, p in found if is_content_link(u, t)]
         if not found:
+            bm_only = BOLD_RUN.search(line)
+            stripped = re.sub(r"^[\s\d.\-*+]*", "", line).strip()
+            # A bare bold run that is the whole (trimmed) line is a title
+            # awaiting its link on a following line, not prose to discard.
+            if bm_only and clean_text(bm_only.group(1)) == clean_text(stripped).strip("*"):
+                pending_title = clean_text(bm_only.group(1))
             continue
 
         # Prose before the first link is the item title in paper-list style:
@@ -588,8 +616,14 @@ def parse_markdown(md: str, source_key: str) -> list[Occurrence]:
             head = head[dm.end():]
         # The bold run is the title; the italic run after it is the author list.
         bm = BOLD_RUN.search(head)
-        prose = clean_text(bm.group(1)) if bm else clean_text(head)
+        if bm:
+            prose = clean_text(bm.group(1))
+        elif pending_title:
+            prose = pending_title
+        else:
+            prose = clean_text(head)
         prose = re.sub(r"^[\s\-*+]*", "", prose).rstrip(".,;:—-[( ")
+        pending_title = ""
 
         primaries = [(t, u) for t, u, _ in found if not is_satellite(t)]
         if primaries:

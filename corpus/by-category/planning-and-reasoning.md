@@ -1,14 +1,38 @@
 # planning-and-reasoning
 
-66 entries.
+142 entries.
 
 ## Timeline
 
-58 dated entries, oldest first.
+132 dated entries, oldest first.
+
+- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://arxiv.org/abs/2201.07207) · 2022-01
+  - `arxiv:2201.07207` · cited by 1: ZJ
+  - summary: TODO
+
+- [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608) · 2022-07
+  - `arxiv:2207.05608` · cited by 1: ZJ
+  - summary: TODO
+
+- [Mind's Eye: Grounded Language Model Reasoning through Simulation](https://arxiv.org/abs/2210.05359) · 2022-10
+  - `arxiv:2210.05359` · cited by 1: ZJ
+  - summary: TODO
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) · 2022-10
-  - `arxiv:2210.03629` · cited by 1: HE
+  - `arxiv:2210.03629` · cited by 3: BK, HE, ZJ
   - summary: Interleaves reasoning traces with actions in a Thought/Action/Observation loop; the structure nearly every agent harness still uses.
+
+- [SurCo: Learning Linear Surrogates For Combinatorial Nonlinear Optimization Problems](https://arxiv.org/abs/2210.12547) · 2022-10
+  - `arxiv:2210.12547` · cited by 1: BK
+  - summary: TODO
+
+- [Don’t Generate, Discriminate: A Proposal for Grounding Language Models to Real-World Environments](https://arxiv.org/abs/2212.09736) · 2022-12
+  - `arxiv:2212.09736` · cited by 1: ZJ
+  - summary: TODO
+
+- [LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models](https://arxiv.org/abs/2212.04088) · 2022-12
+  - `arxiv:2212.04088` · cited by 1: ZJ
+  - summary: TODO
 
 - [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html) · 2023
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html` · cited by 1: LJ
@@ -18,29 +42,173 @@
   - `acl:2023.findings-emnlp.167.pdf` · cited by 1: LJ
   - summary: Backward verification over CoT conclusions.
 
+- [Do Embodied Agents Dream of Pixelated Sheep?: Embodied Decision Making using Language Guided World Modelling](https://arxiv.org/abs/2301.12050) · 2023-01
+  - `arxiv:2301.12050` · cited by 1: ZJ
+  - summary: TODO
+
 - [Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents](https://arxiv.org/pdf/2302.01560) · 2023-02
-  - `arxiv:2302.01560` · cited by 1: LJ
+  - `arxiv:2302.01560` · cited by 2: LJ, ZJ
   - summary: Interactive planning with goal selection for open-world multi-task agents.
+
+- [Chat with the Environment: Interactive Multimodal Perception using Large Language Models](https://arxiv.org/abs/2303.08268) · 2023-03
+  - `arxiv:2303.08268` · cited by 1: ZJ
+  - summary: TODO
+
+- [PaLM-E: An embodied multimodal language model](https://arxiv.org/abs/2303.03378) · 2023-03
+  - `arxiv:2303.03378` · cited by 1: ZJ
+  - summary: TODO
+
+- [Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks](https://arxiv.org/abs/2303.16563) · 2023-03
+  - `arxiv:2303.16563` · cited by 1: ZJ
+  - summary: TODO
+
+- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) · 2023-03
+  - `arxiv:2303.11366` · cited by 1: ZJ
+  - summary: TODO
+
+- [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) · 2023-03
+  - `arxiv:2303.17651` · cited by 1: ZJ
+  - summary: TODO
+
+- [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128) · 2023-04
+  - `arxiv:2304.05128` · cited by 2: BK, ZJ
+  - summary: TODO
+
+- [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244) · 2023-04
+  - `arxiv:2304.12244` · cited by 1: ZJ
+  - summary: TODO
+
+- [AdaPlanner: Adaptive Planning from Feedback with Language Models](https://arxiv.org/abs/2305.16653) · 2023-05
+  - `arxiv:2305.16653` · cited by 1: ZJ
+  - summary: TODO
+
+- [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290) · 2023-05
+  - `arxiv:2305.18290` · cited by 1: BK
+  - summary: TODO
+
+- [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176) · 2023-05
+  - `arxiv:2305.05176` · cited by 1: ZJ
+  - summary: TODO
+
+- [Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory](https://arxiv.org/abs/2305.17144) · 2023-05
+  - `arxiv:2305.17144` · cited by 1: ZJ
+  - summary: TODO
+
+- [Knowledge-enhanced Agents for Interactive Text Games](https://arxiv.org/abs/2305.05091) · 2023-05
+  - `arxiv:2305.05091` · cited by 1: ZJ
+  - summary: TODO
+
+- [Language Models Meet World Models: Embodied Experiences Enhance Language Models](https://arxiv.org/abs/2305.10626.pdf) · 2023-05
+  - `arxiv:2305.10626` · cited by 2: LJ, ZJ
+  - summary: Finetunes an LLM on embodied experiences an agent gathers in a physical-world simulator, using EWC and LoRA to add object-permanence and planning without erasing general language ability, letting small models match ChatGPT on 18 tasks.
+
+- [Plan, Eliminate, and Track -- Language Models are Good Teachers for Embodied Agents](https://arxiv.org/abs/2305.02412) · 2023-05
+  - `arxiv:2305.02412` · cited by 1: ZJ
+  - summary: TODO
 
 - [Plan-and-Execute Agents](https://blog.langchain.com/plan-and-execute-agents/) · 2023-05
   - `url:https://blog.langchain.com/plan-and-execute-agents` · cited by 1: HE
   - summary: Separates one-shot planning from execution, replanning only when needed.
 
+- [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models](https://arxiv.org/abs/2305.04091) · 2023-05
+  - `arxiv:2305.04091` · cited by 1: ZJ
+  - summary: TODO
+
+- [Reasoning with Language Model is Planning with World Model](https://arxiv.org/abs/2305.14992) · 2023-05
+  - `arxiv:2305.14992` · cited by 1: ZJ
+  - summary: TODO
+
+- [SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks](https://arxiv.org/abs/2305.17390) · 2023-05
+  - `arxiv:2305.17390` · cited by 1: ZJ
+  - summary: TODO
+
+- [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) · 2023-05
+  - `arxiv:2305.10601` · cited by 1: ZJ
+  - summary: TODO
+
+- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) · 2023-05
+  - `arxiv:2305.16291` · cited by 1: ZJ
+  - summary: TODO
+
+- [Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach](https://arxiv.org/abs/2306.03604) · 2023-06
+  - `arxiv:2306.03604` · cited by 1: ZJ
+  - summary: TODO
+
+- [RecAgent: A Novel Simulation Paradigm for Recommender Systems](https://arxiv.org/abs/2306.02552) · 2023-06
+  - `arxiv:2306.02552` · cited by 1: ZJ
+  - summary: TODO
+
+- [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://arxiv.org/abs/2307.12856) · 2023-07
+  - `arxiv:2307.12856` · cited by 1: ZJ
+  - summary: TODO
+
+- [PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback](https://arxiv.org/abs/2307.14936) · 2023-07
+  - `arxiv:2307.14936` · cited by 1: ZJ
+  - summary: TODO
+
+- [Towards A Unified Agent with Foundation Models](https://arxiv.org/abs/2307.09668) · 2023-07
+  - `arxiv:2307.09668` · cited by 1: ZJ
+  - summary: TODO
+
+- [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) · 2023-08
+  - `arxiv:2308.10144` · cited by 1: ZJ
+  - summary: TODO
+
+- [Retroformer: Retrospective Large Language Agents with Policy Gradient Optimization](https://arxiv.org/abs/2308.02151) · 2023-08
+  - `arxiv:2308.02151` · cited by 1: ZJ
+  - summary: TODO
+
+- [SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning](https://arxiv.org/abs/2308.00436) · 2023-08
+  - `arxiv:2308.00436` · cited by 1: ZJ
+  - summary: TODO
+
 - [TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage](https://arxiv.org/abs/2308.03427) · 2023-08
   - `arxiv:2308.03427` · cited by 1: LJ
   - summary: Proposes a structured framework for LLM agents with one-step and sequential agent variants and evaluates multiple LLMs on task-planning-plus-tool-use, establishing the baseline TPTU-v2 later extends.
 
-- [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) · 2023-09
-  - `gh:microsoft/taskweaver` · cited by 1: HE
+- [Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495) · 2023-09
+  - `arxiv:2309.11495` · cited by 1: BK
+  - summary: TODO
+
+- [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) · 2023-09
+  - `arxiv:2309.03409` · cited by 1: BK
+  - summary: TODO
+
+- [Self-driven Grounding: Large Language Model Agents with Automatical Language-aligned Skill Learning](https://arxiv.org/abs/2309.01352) · 2023-09
+  - `arxiv:2309.01352` · cited by 1: ZJ
+  - summary: TODO
+
+- [TaskWeaver](https://github.com/microsoft/TaskWeaver) · 2023-09
+  - `gh:microsoft/taskweaver` · cited by 2: HE, KY
   - summary: Code-first planner/executor split with plugins for domain knowledge.
+
+- [Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798) · 2023-10
+  - `arxiv:2310.01798` · cited by 1: BK
+  - summary: TODO
 
 - [LATS: Language Agent Tree Search](https://arxiv.org/abs/2310.04406) · 2023-10
   - `arxiv:2310.04406` · cited by 1: HE
   - summary: MCTS over agent trajectories with environment feedback as the search signal.
 
+- [LEO: An Embodied Generalist Agent in 3D World](https://arxiv.org/abs/2311.12871) · 2023-11
+  - `arxiv:2311.12871` · cited by 1: ZJ
+  - summary: TODO
+
 - [TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](http://arxiv.org/abs/2311.11315) · 2023-11
   - `arxiv:2311.11315` · cited by 1: LJ
   - summary: Adds an API retriever (to fit within token limits), a fine-tuned planner, and an adaptive demo selector (for hard-to-distinguish APIs) on top of TPTU, validated on a real commercial system as well as an open academic benchmark.
+
+- [Chain of Code: Reasoning with a Language Model-Augmented Code Emulator](https://arxiv.org/abs/2312.04474) · 2023-12
+  - `arxiv:2312.04474` · cited by 1: ZJ
+  - summary: TODO
+
+- [ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent](https://arxiv.org/abs/2312.10003) · 2023-12
+  - `arxiv:2312.10003` · cited by 1: ZJ
+  - summary: TODO
+
+- [E2CL: Exploration-based Error Correction Learning for Embodied Agents](https://aclanthology.org/2024.findings-emnlp.448/) · 2024
+  - `acl:2024.findings-emnlp.448` · cited by 1: ZJ
+  - summary: TODO
 
 - [Large Language Models lack essential metacognition for reliable medical reasoning](https://doi.org/10.1038/s41467-024-55628-6) · 2024
   - `url:https://doi.org/10.1038/s41467-024-55628-6` · cited by 1: LJ
@@ -50,29 +218,149 @@
   - `url:https://computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [AutoAct: Automatic Agent Learning from Scratch via Self-Planning](https://arxiv.org/abs/2401.05268) · 2024-01
+  - `arxiv:2401.05268` · cited by 2: LJ, ZJ
+  - summary: Synthesizes its own trajectories with no external supervision.
+
 - [Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios](https://arxiv.org/abs/2401.17167) · 2024-01
   - `arxiv:2401.17167` · cited by 1: LJ
   - summary: Planning, creation and usage across the whole tool pipeline without a fixed toolset.
+
+- [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) · 2024-01
+  - `arxiv:2401.10935` · cited by 1: ZJ
+  - summary: TODO
+
+- [Self-Contrast: Better Reflection Through Inconsistent Solving Perspectives](https://arxiv.org/abs/2401.02009) · 2024-01
+  - `arxiv:2401.02009` · cited by 1: ZJ
+  - summary: TODO
+
+- [Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization](https://arxiv.org/pdf/2402.17574) · 2024-02
+  - `arxiv:2402.17574` · cited by 1: ZJ
+  - summary: TODO
+
+- [Beyond A\: Better Planning with Transformers via Search Dynamics Bootstrapping](https://arxiv.org/abs/2402.14083) · 2024-02
+  - `arxiv:2402.14083` · cited by 1: BK
+  - summary: TODO
+
+- [Chain-of-Thought Empowers Transformers to Solve Inherently Serial Problems](https://arxiv.org/abs/2402.12875) · 2024-02
+  - `arxiv:2402.12875` · cited by 1: BK
+  - summary: TODO
+
+- [Chain-of-Thought Reasoning Without Prompting](https://arxiv.org/abs/2402.10200) · 2024-02
+  - `arxiv:2402.10200` · cited by 1: BK
+  - summary: TODO
+
+- [Empowering Large Language Model Agents through Action Learning](https://arxiv.org/abs/2402.15809) · 2024-02
+  - `arxiv:2402.15809` · cited by 1: ZJ
+  - summary: TODO
+
+- [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456) · 2024-02
+  - `arxiv:2402.07456` · cited by 1: ZJ
+  - summary: TODO
+
+- [Premise Order Matters in Reasoning with Large Language Models](https://arxiv.org/abs/2402.08939) · 2024-02
+  - `arxiv:2402.08939` · cited by 1: BK
+  - summary: TODO
+
+- [TravelPlanner: A Benchmark for Real-World Planning with Language Agents](https://arxiv.org/pdf/2402.01622.pdf) · 2024-02
+  - `arxiv:2402.01622` · cited by 1: ZJ
+  - summary: TODO
+
+- [AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents](https://arxiv.org/abs/2403.08978) · 2024-03
+  - `arxiv:2403.08978` · cited by 1: ZJ
+  - summary: TODO
 
 - [Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning](https://arxiv.org/abs/2403.19962) · 2024-03
   - `arxiv:2403.19962` · cited by 1: LJ
   - summary: Shows supervised fine-tuning on GPT-4-constructed agent-specific data sharply cuts hallucination and formatting errors for 7B/13B open models used as agents, and that multi-path reasoning plus task decomposition further boosts their AgentBench performance.
 
-- [KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/pdf/2403.03101) · 2024-03
-  - `arxiv:2403.03101` · cited by 1: LJ
-  - summary: Action knowledge base plus self-learning to curb planning hallucination.
+- [SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715) · 2024-03
+  - `arxiv:2403.08715` · cited by 1: ZJ
+  - summary: TODO
+
+- [Iterative Reasoning Preference Optimization](https://arxiv.org/abs/2404.19733) · 2024-04
+  - `arxiv:2404.19733` · cited by 1: BK
+  - summary: TODO
+
+- [Agent Planning with World Knowledge Model](https://arxiv.org/abs/2405.14205) · 2024-05
+  - `arxiv:2405.14205` · cited by 1: ZJ
+  - summary: TODO
+
+- [Can Graph Learning Improve Planning in LLM-based Agents?](https://arxiv.org/abs/2405.19119) · 2024-05
+  - `arxiv:2405.19119` · cited by 1: ZJ
+  - summary: TODO
+
+- [Devil's Advocate: Anticipatory Reflection for LLM Agents](https://arxiv.org/abs/2405.16334) · 2024-05
+  - `arxiv:2405.16334` · cited by 2: LJ, ZJ
+  - summary: Gives an LLM agent three introspective interventions (anticipatory reflection before acting, post-action alignment checks, and post-completion review) in a zero-shot approach, raising WebArena success rate 3.5 points over prior zero-shot methods while cutting trial-and-error revisions 45%.
+
+- [Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://arxiv.org/abs/2405.18357) · 2024-05
+  - `arxiv:2405.18357` · cited by 1: ZJ
+  - summary: TODO
+
+- [Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization](https://arxiv.org/abs/2405.15071) · 2024-05
+  - `arxiv:2405.15071` · cited by 1: BK
+  - summary: TODO
+
+- [Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models](https://arxiv.org/abs/2405.15143) · 2024-05
+  - `arxiv:2405.15143` · cited by 1: ZJ
+  - summary: TODO
+
+- [Alice in Wonderland：Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models](https://arxiv.org/abs/2406.02061) · 2024-06
+  - `arxiv:2406.02061` · cited by 1: ZJ
+  - summary: TODO
+
+- [Symbolic Learning Enables Self-Evolving Agents](https://arxiv.org/abs/2406.18532v1) · 2024-06
+  - `arxiv:2406.18532` · cited by 1: ZJ
+  - summary: TODO
+
+- [TextGrad: Automatic “Differentiation” via Text](https://arxiv.org/abs/2406.07496) · 2024-06
+  - `arxiv:2406.07496` · cited by 1: ZJ
+  - summary: TODO
+
+- [Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback](https://arxiv.org/abs/2406.09279) · 2024-06
+  - `arxiv:2406.09279` · cited by 1: BK
+  - summary: TODO
+
+- [WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks](https://arxiv.org/abs/2407.05291) · 2024-07
+  - `arxiv:2407.05291` · cited by 1: BK
+  - summary: TODO
 
 - [Perceive, Reflect, and Plan: Designing LLM Agent for Goal-Directed City Navigation without Instructions](http://arxiv.org/abs/2408.04168) · 2024-08
   - `arxiv:2408.04168` · cited by 1: LJ
   - summary: Fine-tunes a vision-language model to perceive landmark direction/distance for goal-directed city navigation with no explicit instructions, adding a memory-based reflection step and a planning stage that together fix the repeated-visit, short-sighted behavior of a bare react-on-observation baseline.
 
+- [Composing Global Optimizers to Reasoning Tasks via Algebraic Objects in Neural Nets](https://arxiv.org/abs/2410.01779) · 2024-10
+  - `arxiv:2410.01779` · cited by 1: BK
+  - summary: TODO
+
+- [Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces](https://arxiv.org/abs/2410.09918) · 2024-10
+  - `arxiv:2410.09918` · cited by 1: BK
+  - summary: TODO
+
+- [Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents](https://arxiv.org/abs/2411.06559) · 2024-11
+  - `arxiv:2411.06559` · cited by 1: BK
+  - summary: TODO
+
 - [PlanCritic: Formal Planning with Human Feedback](https://arxiv.org/abs/2412.00300) · 2024-12
   - `arxiv:2412.00300` · cited by 1: LJ
   - summary: Uses an evolutionary algorithm plus a trained LSTM validator to repair imprecise LLM-generated PDDL goal specifications against the original natural-language intent, improving adherence over plans generated from a single LLM translation pass.
 
+- [KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/pdf/2403.03101) · 2024/03
+  - `arxiv:2403.03101` · cited by 2: LJ, ZJ
+  - summary: Action knowledge base plus self-learning to curb planning hallucination.
+
+- [Beyond Static Testbeds: An Interaction-Centric Agent Simulation Platform for Dynamic Recommender Systems](https://aclanthology.org/2025.emnlp-main.956/) · 2025
+  - `acl:2025.emnlp-main.956` · cited by 1: ZJ
+  - summary: TODO
+
 - [Planning with Multi-Constraints via Collaborative Language Agents](https://aclanthology.org/2025.coling-main.672/) · 2025
   - `acl:2025.coling-main.672` · cited by 1: LJ
   - summary: Decomposes constraint-heavy planning into a hierarchy of subordinate tasks across a zero-shot multi-agent pipeline, reaching 42.68% success on TravelPlanner versus GPT-4's 2.92%, and working even with an 8B model as the planning core.
+
+- [STeCa: Step-level Trajectory Calibration for LLM Agent Learning](https://arxiv.org/abs/2502.14276) · 2025-02
+  - `arxiv:2502.14276` · cited by 2: LJ, ZJ
+  - summary: Builds calibrated trajectories via step-level reward comparison and reflection.
 
 - [Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks](https://arxiv.org/abs/2503.09572) · 2025-03
   - `arxiv:2503.09572` · cited by 1: HE
@@ -125,6 +413,10 @@
 - [Agentic Reasoning for Large Language Models](https://arxiv.org/pdf/2601.12538v1) · 2026-01
   - `arxiv:2601.12538` · cited by 1: VA
   - summary: A roadmap survey organizing agentic reasoning into three layers (foundational single-agent, self-evolving, and collective multi-agent) and two training modes (in-context orchestration vs RL/SFT post-training), spanning science, robotics, and math applications.
+
+- [AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation](https://arxiv.org/abs/2601.00930) · 2026-01
+  - `arxiv:2601.00930` · cited by 1: ZJ
+  - summary: TODO
 
 - [AT²PO: Agentic Turn-based Policy Optimization via Tree Search](https://arxiv.org/pdf/2601.04767v1) · 2026-01
   - `arxiv:2601.04767` · cited by 1: VA
@@ -234,13 +526,17 @@
   - `url:https://anthropic.com/engineering/harness-design-long-running-apps` · cited by 1: HE
   - summary: Multi-session harness design; every component encodes an assumption that will expire.
 
+- [Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation](https://arxiv.org/abs/2604.09549) · 2026-04
+  - `arxiv:2604.09549` · cited by 2: VA, ZJ
+  - summary: Simulates believable recommender-system users by anchoring their interactions in generated daily-life scenarios (when/where/why they'd engage) and enforcing consistency between an agent's stated thoughts and its actions, showing recommender parameters tuned against the simulation improve real-world engagement.
+
 - [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) · 2026-04
   - `gh:esengine/deepseek-reasonix` · cited by 1: HE
   - summary: A DeepSeek-native terminal coding agent engineered around prefix-cache stability to keep token costs low, distributed as a single dependency-free static binary with config-driven, multi-model, plugin-extensible design.
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+10 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Agent Planning with World Knowledge Model](https://openreview.net/pdf?id=j6kJSS9O6I)
   - `openreview:j6kJSS9O6I` · cited by 1: LJ
@@ -253,6 +549,10 @@
 - [Enhancing Robot Task Planning: Integrating Environmental Information and Feedback Insights through Large Language Models](https://ieeexplore.ieee.org/abstract/document/10661782)
   - `url:https://ieeexplore.ieee.org/abstract/document/10661782` · cited by 1: LJ
   - summary: NEEDS-SOURCE
+
+- [Prompt4ReasoningPapers](https://github.com/zjunlp/Prompt4ReasoningPapers)
+  - `gh:zjunlp/prompt4reasoningpapers` · cited by 1: ZJ
+  - summary: TODO
 
 - [Run Long-Horizon Tasks with Codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex/)
   - `url:https://developers.openai.com/blog/run-long-horizon-tasks-with-codex` · cited by 1: HE
@@ -269,6 +569,10 @@
 - [STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning](https://openreview.net/pdf?id=_3ELRdg2sgI)
   - `openreview:_3ELRdg2sgI` · cited by 1: LJ
   - summary: Bootstraps reasoning from a handful of rationales plus rationale-free data. The origin of the self-improvement line.
+
+- [Tree Search for Language Model Agents](https://jykoh.com/search-agents)
+  - `url:https://jykoh.com/search-agents` · cited by 1: BK
+  - summary: TODO
 
 - [V-STaR: Training Verifiers for Self-Taught Reasoners](https://openreview.net/pdf?id=stmqBSW2dV)
   - `openreview:stmqBSW2dV` · cited by 1: LJ

@@ -1,10 +1,10 @@
 # rag-and-retrieval
 
-27 entries.
+29 entries.
 
 ## Timeline
 
-26 dated entries, oldest first.
+28 dated entries, oldest first.
 
 - [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://aclanthology.org/2023.acl-long.499/) · 2023
   - `acl:2023.acl-long.499` · cited by 1: LJ
@@ -13,6 +13,14 @@
 - [Language as reality: a co-creative storytelling game experience in 1001 nights using generative AI](https://ojs.aaai.org/index.php/AIIDE/article/view/27539) · 2023-10
   - `url:https://ojs.aaai.org/index.php/AIIDE/article/view/27539` · cited by 1: LJ
   - summary: An AI-native narrative game where a player steers an LLM-driven king and spoken keywords materialize as in-game objects, using generative models as a core mechanic rather than a feature.
+
+- [AgentSquare: Automatic LLM Agent Search in Modular Design Space](https://arxiv.org/abs/2410.06153) · 2024-10
+  - `arxiv:2410.06153` · cited by 1: ZJ
+  - summary: TODO
+
+- [OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs](https://arxiv.org/abs/2411.14199) · 2024-11
+  - `arxiv:2411.14199` · cited by 1: BK
+  - summary: TODO
 
 - [Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward](https://arxiv.org/abs/2508.12800) · 2025-08
   - `arxiv:2508.12800` · cited by 1: LJ

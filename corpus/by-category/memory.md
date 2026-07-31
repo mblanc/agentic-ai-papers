@@ -1,14 +1,82 @@
 # memory
 
-70 entries.
+94 entries.
 
 ## Timeline
 
-70 dated entries, oldest first.
+92 dated entries, oldest first.
+
+- [CoLT5: Faster Long-Range Transformers with Conditional Computation](https://arxiv.org/abs/2303.09752) · 2023-03
+  - `arxiv:2303.09752` · cited by 1: ZJ
+  - summary: TODO
+
+- [ChatLog: Recording and Analyzing ChatGPT Across Time](https://arxiv.org/abs/2304.14106) · 2023-04
+  - `arxiv:2304.14106` · cited by 1: ZJ
+  - summary: TODO
+
+- [Emergent and Predictable Memorization in Large Language Models](https://arxiv.org/abs/2304.11158) · 2023-04
+  - `arxiv:2304.11158` · cited by 1: ZJ
+  - summary: TODO
+
+- [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System](https://arxiv.org/abs/2304.13343) · 2023-04
+  - `arxiv:2304.13343` · cited by 1: ZJ
+  - summary: TODO
 
 - [Zep](https://github.com/getzep/zep) · 2023-04
   - `gh:getzep/zep` · cited by 1: HE
   - summary: Agent memory store with automatic summarization, entity extraction and semantic session search.
+
+- [Adapting Language Models to Compress Contexts](https://arxiv.org/abs/2305.14788) · 2023-05
+  - `arxiv:2305.14788` · cited by 1: ZJ
+  - summary: TODO
+
+- [Landmark Attention: Random-Access Infinite Context Length for Transformers](https://arxiv.org/abs/2305.16300) · 2023-05
+  - `arxiv:2305.16300` · cited by 1: ZJ
+  - summary: TODO
+
+- [Learning to Reason and Memorize with Self-Notes](https://arxiv.org/abs/2305.00833) · 2023-05
+  - `arxiv:2305.00833` · cited by 1: ZJ
+  - summary: TODO
+
+- [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) · 2023-05
+  - `arxiv:2305.10250` · cited by 1: ZJ
+  - summary: TODO
+
+- [Monotonic Location Attention for Length Generalization](https://arxiv.org/abs/2305.20019) · 2023-05
+  - `arxiv:2305.20019` · cited by 1: ZJ
+  - summary: TODO
+
+- [Randomized Positional Encodings Boost Length Generalization of Transformers](https://arxiv.org/abs/2305.16843) · 2023-05
+  - `arxiv:2305.16843` · cited by 1: ZJ
+  - summary: TODO
+
+- [RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text](https://arxiv.org/abs/2305.13304) · 2023-05
+  - `arxiv:2305.13304` · cited by 1: ZJ
+  - summary: TODO
+
+- [RET-LLM: Towards a General Read-Write Memory for Large Language Models](https://arxiv.org/abs/2305.14322) · 2023-05
+  - `arxiv:2305.14322` · cited by 1: ZJ
+  - summary: TODO
+
+- [Revisiting Parallel Context Windows: A Frustratingly Simple Alternative and Chain-of-Thought Deterioration](https://arxiv.org/abs/2305.15262) · 2023-05
+  - `arxiv:2305.15262` · cited by 1: ZJ
+  - summary: TODO
+
+- [Small Models are Valuable Plug-ins for Large Language Models](https://arxiv.org/abs/2305.08848) · 2023-05
+  - `arxiv:2305.08848` · cited by 1: ZJ
+  - summary: TODO
+
+- [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://arxiv.org/abs/2305.11554) · 2023-05
+  - `arxiv:2305.11554` · cited by 1: ZJ
+  - summary: TODO
+
+- [Unlimiformer: Long-Range Transformers with Unlimited Length Input](https://arxiv.org/abs/2305.01625) · 2023-05
+  - `arxiv:2305.01625` · cited by 1: ZJ
+  - summary: TODO
+
+- [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://arxiv.org/abs/2306.03901) · 2023-06
+  - `arxiv:2306.03901` · cited by 1: ZJ
+  - summary: TODO
 
 - [mem0](https://github.com/mem0ai/mem0) · 2023-06
   - `gh:mem0ai/mem0` · cited by 1: HE
@@ -18,6 +86,10 @@
   - `gh:topoteretes/cognee` · cited by 1: HE
   - summary: An open-source memory layer that ingests an agent's data into a self-hosted knowledge graph, giving persistent cross-session recall instead of flat vector retrieval.
 
+- [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) · 2023-09
+  - `arxiv:2309.02427` · cited by 2: LJ, ZJ
+  - summary: Modular memory, action space and decision procedure. The most useful organizing framework in the pre-2026 literature.
+
 - [TradingGPT: Multi-Agent System with Layered Memory and Distinct Characters for Enhanced Financial Trading Performance](https://arxiv.org/abs/2309.03736) · 2023-09
   - `arxiv:2309.03736` · cited by 1: LJ
   - summary: A financial-trading multi-agent system whose agents organize history into three decaying memory layers and debate with distinct trading personalities, prioritizing recent high-relevance signals for decisions.
@@ -26,6 +98,22 @@
   - `gh:letta-ai/letta` · cited by 1: HE
   - related: <https://www.letta.com/blog/letta-v1-agent>
   - summary: Reference stateful-agent architecture with core/archival/recall tiers.
+
+- [JARVIS-1: Open-world Multi-task Agents with Memory-Augmented Multimodal Language Models](https://arxiv.org/abs/2311.05997) · 2023-11
+  - `arxiv:2311.05997` · cited by 1: ZJ
+  - summary: TODO
+
+- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) · 2024-04
+  - `arxiv:2404.13501` · cited by 2: LJ, ZJ
+  - summary: Design and evaluation of agent memory.
+
+- [HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831) · 2024-05
+  - `arxiv:2405.14831` · cited by 2: BK, ZJ
+  - summary: TODO
+
+- [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271) · 2024-06
+  - `arxiv:2406.04271` · cited by 1: ZJ
+  - summary: TODO
 
 - [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) · 2024-12
   - `url:https://anthropic.com/research/building-effective-agents` · cited by 1: HE
@@ -52,7 +140,7 @@
   - summary: RL framework with two agents learning to manage external memory actively.
 
 - [Hindsight](https://github.com/vectorize-io/hindsight) · 2025-10
-  - `gh:vectorize-io/hindsight` · cited by 1: HE
+  - `gh:vectorize-io/hindsight` · cited by 2: HE, KY
   - summary: Self-hostable long-term memory with LangChain/CrewAI/LlamaIndex/MCP integrations.
 
 - [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/pdf/2601.20352v2) · 2026-01
@@ -286,3 +374,15 @@
 - [MAGE: Memory as Agent-Guided Exploration](https://arxiv.org/abs/2606.06090) · 2026-06
   - `arxiv:2606.06090` · cited by 1: HE
   - summary: Argues long-horizon agent memory should track execution state, not semantic similarity, storing interactions in a state tree with grow/compress/revise operations that isolate erroneous branches, for +7.8-20.4pp success and 55% fewer tokens on MemoryArena.
+
+## Tools & Undated
+
+2 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [Cortex Memory](https://github.com/sopaco/cortex-mem)
+  - `gh:sopaco/cortex-mem` · cited by 1: KY
+  - summary: TODO
+
+- [Memgpt](https://github.com/cpacker/memgpt)
+  - `gh:cpacker/memgpt` · cited by 1: KY
+  - summary: TODO

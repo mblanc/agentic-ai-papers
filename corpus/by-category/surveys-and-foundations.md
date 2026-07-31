@@ -1,10 +1,10 @@
 # surveys-and-foundations
 
-42 entries.
+44 entries.
 
 ## Timeline
 
-37 dated entries, oldest first.
+39 dated entries, oldest first.
 
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) · 2021-08
   - `arxiv:2108.07258` · cited by 1: LJ
@@ -18,12 +18,12 @@
   - `url:https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models` · cited by 1: LJ
   - summary: Trains a 7B-65B foundation model family on trillions of tokens from public data only, showing LLaMA-13B beats GPT-3 (175B) on most benchmarks and LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B, and releases all weights to researchers.
 
-- [Inferring the Goals of Communicating Agents from Actions and Instructions](https://arxiv.org/abs/2306.16207) · 2023-06
-  - `arxiv:2306.16207` · cited by 1: LJ
-  - summary: Models a listener inferring a two-agent team's shared goal from both actions and natural-language instructions via Bayesian inverse planning with GPT-3 as the utterance likelihood, matching human goal judgments at R=0.96 and showing instructions speed up inference over actions alone.
+- [Interactive Natural Language Processing](https://arxiv.org/abs/2305.13246) · 2023-05
+  - `arxiv:2305.13246` · cited by 1: ZJ
+  - summary: TODO
 
 - [A survey on large language model based autonomous agents](https://arxiv.org/abs/2308.11432) · 2023-08
-  - `arxiv:2308.11432` · cited by 1: LJ
+  - `arxiv:2308.11432` · cited by 2: LJ, ZJ
   - summary: Unified construction framework; the other canonical survey alongside `XI`'s.
 
 - [Large Language Model Alignment: A Survey](https://arxiv.org/abs/2309.15025) · 2023-09
@@ -31,7 +31,7 @@
   - summary: Surveys LLM alignment techniques split into outer (specifying the right objective) and inner (getting the model to actually pursue it) alignment, alongside interpretability and adversarial-robustness concerns and the benchmarks used to evaluate them.
 
 - [The rise and potential of large language model based agents: a survey](https://arxiv.org/abs/2309.07864) · 2023-09
-  - `arxiv:2309.07864` · cited by 1: LJ
+  - `arxiv:2309.07864` · cited by 2: LJ, ZJ
   - summary: Traces the concept of 'agent' from its philosophical roots into AI, proposes a brain/perception/action framework for LLM-based agents, and surveys single-agent, multi-agent, and human-agent cooperation scenarios plus emergent agent-society phenomena.
 
 - [Large Language Model based Multi-Agents: A Survey of Progress and Challenges](https://www.ijcai.org/proceedings/2024/0890.pdf) · 2024
@@ -39,15 +39,19 @@
   - summary: NEEDS-SOURCE
 
 - [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568) · 2024-01
-  - `arxiv:2401.03568` · cited by 1: LJ
+  - `arxiv:2401.03568` · cited by 2: LJ, ZJ
   - summary: Multimodal interaction framing.
 
 - [Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects](https://arxiv.org/abs/2401.03428) · 2024-01
   - `arxiv:2401.03428` · cited by 1: LJ
   - summary: A methodology-agnostic survey of LLM-based agents covering single- and multi-agent architecture, cognitive/planning components, tool use, and inter-agent communication, aimed at unifying fragmented agent-design terminology.
 
+- [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents](https://arxiv.org/abs/2401.00812) · 2024-01
+  - `arxiv:2401.00812` · cited by 1: ZJ
+  - summary: TODO
+
 - [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459) · 2024-01
-  - `arxiv:2401.05459` · cited by 1: LJ
+  - `arxiv:2401.05459` · cited by 2: LJ, ZJ
   - summary: Capability, efficiency and security for personal agents as a software paradigm.
 
 - [Computational Experiments Meet Large Language Model Based Agents: A Survey and Perspective](https://arxiv.org/abs/2402.00262) · 2024-02
@@ -70,6 +74,10 @@
   - `arxiv:2402.02716` · cited by 1: LJ
   - summary: First systematic taxonomy of agent planning.
 
+- [A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond](https://arxiv.org/abs/2403.14734) · 2024-03
+  - `arxiv:2403.14734` · cited by 1: ZJ
+  - summary: TODO
+
 - [Position Paper: Agent AI Towards a Holistic Intelligence](https://arxiv.org/abs/2403.00833) · 2024-03
   - `arxiv:2403.00833` · cited by 1: LJ
   - summary: A position paper arguing AI research should move from narrow reductionist models toward a unified 'Agent Foundation Model' that integrates large foundation models directly into embodied agent action across robotics, gaming, and healthcare.
@@ -81,10 +89,6 @@
 - [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) · 2024-04
   - `arxiv:2404.14387` · cited by 1: LJ
   - summary: Four-phase framework; the entry point for this whole category.
-
-- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) · 2024-04
-  - `arxiv:2404.13501` · cited by 1: LJ
-  - summary: Design and evaluation of agent memory.
 
 - [The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey](https://arxiv.org/abs/2404.11584) · 2024-04
   - `arxiv:2404.11584` · cited by 1: LJ
@@ -122,6 +126,10 @@
   - `arxiv:2503.24047` · cited by 1: LJ
   - summary: How scientific agents differ from general ones.
 
+- [A Survey on Large Language Model based Human-Agent Systems](https://arxiv.org/abs/2505.00753) · 2025-05
+  - `arxiv:2505.00753` · cited by 1: ZJ
+  - summary: TODO
+
 - [A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools](https://arxiv.org/abs/2506.20743) · 2025-06
   - `arxiv:2506.20743` · cited by 1: LJ
   - summary: Surveys foundation models and LLM agents in materials science across six application areas (data extraction, atomistic simulation, property prediction, design, process planning, multiscale modeling), flagging generalizability, interpretability, and multimodal fusion as the persistent gaps.
@@ -143,7 +151,8 @@
   - summary: Unified view of verifier training.
 
 - [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/abs/2509.02547) · 2025-09
-  - `arxiv:2509.02547` · cited by 1: LJ
+  - `arxiv:2509.02547` · cited by 2: LJ, ZJ
+  - related: <https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers>
   - summary: Dual taxonomy of capabilities and applications, RL as the integrating mechanism.
 
 - [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/) · 2026-02

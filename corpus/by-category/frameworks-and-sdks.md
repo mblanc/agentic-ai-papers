@@ -1,21 +1,41 @@
 # frameworks-and-sdks
 
-10 entries.
+23 entries.
 
 ## Timeline
 
-10 dated entries, oldest first.
+15 dated entries, oldest first.
 
 - [LangChain](https://github.com/langchain-ai/langchain) · 2022-10
   - `gh:langchain-ai/langchain` · cited by 1: LJ
   - summary: The widely-used framework for building LLM applications and agents, standardizing model access, tool integration, and composition with built-in monitoring and debugging.
 
+- [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/abs/2309.07870) · 2023-09
+  - `arxiv:2309.07870` · cited by 1: ZJ
+  - summary: TODO
+
 - [AutoAgents: A Framework for Automatic Agent Generation](https://arxiv.org/abs/2309.17288) · 2023-09
   - `arxiv:2309.17288` · cited by 1: LJ
   - summary: Generates the agent roster for a task rather than fixing it upfront.
 
-- [huggingface/smolagents](https://github.com/huggingface/smolagents) · 2024-12
-  - `gh:huggingface/smolagents` · cited by 1: HE
+- [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://arxiv.org/abs/2310.02170) · 2023-10
+  - `arxiv:2310.02170` · cited by 2: LJ, ZJ
+  - summary: DyLAN automatically selects a team of agents from candidates using an unsupervised 'Agent Importance Score' from a preliminary trial, then lets them collaborate in a dynamic communication structure per task, improving MMLU accuracy up to 25% over static fixed-team baselines.
+
+- [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) · 2023-10
+  - `arxiv:2310.10634` · cited by 1: ZJ
+  - summary: TODO
+
+- [An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929) · 2024-02
+  - `arxiv:2402.05929` · cited by 1: ZJ
+  - summary: TODO
+
+- [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736) · 2024-06
+  - `arxiv:2406.11736` · cited by 1: ZJ
+  - summary: TODO
+
+- [smolagents](https://github.com/huggingface/smolagents) · 2024-12
+  - `gh:huggingface/smolagents` · cited by 2: HE, KY
   - summary: Minimal code-writing agents in very few lines.
 
 - [SPeCtrum: A Grounded Framework for Multidimensional Identity Representation in LLM-Based Agent](https://arxiv.org/abs/2502.08599) · 2025-02
@@ -45,3 +65,39 @@
 - [mastra-ai/workshop-mastracode](https://github.com/mastra-ai/workshop-mastracode) · 2026-02
   - `gh:mastra-ai/workshop-mastracode` · cited by 1: HE
   - summary: A hands-on workshop that builds MastraCode, an open-source coding agent, teaching the core pieces: execution harness, memory, modes, streaming, and tool policies.
+
+## Tools & Undated
+
+8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [LangChain](https://github.com/hwchase17/langchain)
+  - `gh:hwchase17/langchain` · cited by 2: KY, ZJ
+  - summary: TODO
+
+- [Haystack](https://github.com/deepset-ai/haystack)
+  - `gh:deepset-ai/haystack` · cited by 1: KY
+  - summary: TODO
+
+- [LlamaIndex](https://github.com/jerryjliu/llama_index)
+  - `gh:jerryjliu/llama_index` · cited by 1: KY
+  - summary: TODO
+
+- [LlamaIndex](https://www.llamaindex.ai/)
+  - `url:https://llamaindex.ai/` · cited by 1: BK
+  - summary: TODO
+
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+  - `gh:microsoft/semantic-kernel` · cited by 1: KY
+  - summary: TODO
+
+- [Strands Agents SDK](https://github.com/strands-agents/sdk-python)
+  - `gh:strands-agents/sdk-python` · cited by 1: KY
+  - summary: TODO
+
+- [Swarms Framework](https://github.com/kyegomez/swarms)
+  - `gh:kyegomez/swarms` · cited by 1: KY
+  - summary: TODO
+
+- [TapeAgents](https://rdi.berkeley.edu/llm-agents-mooc/assets/tapeagents.pdf)
+  - `url:https://rdi.berkeley.edu/llm-agents-mooc/assets/tapeagents.pdf` · cited by 1: BK
+  - summary: TODO

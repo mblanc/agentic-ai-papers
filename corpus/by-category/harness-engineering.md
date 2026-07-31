@@ -4,14 +4,10 @@
 
 ## Timeline
 
-72 dated entries, oldest first.
+71 dated entries, oldest first.
 
-- [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314) · 2023-06
-  - `arxiv:2306.03314` · cited by 1: LJ
-  - summary: An early multi-agent collaboration framework built around case studies of Auto-GPT, BabyAGI, and API-integrating Gorilla, explicitly cataloguing looping, security, scalability, evaluation, and ethics as the open challenges for multi-agent LLM systems.
-
-- [Pipecat: Python Framework for Real-Time Voice Agent Pipelines](https://github.com/pipecat-ai/pipecat) · 2023-12
-  - `gh:pipecat-ai/pipecat` · cited by 1: HE
+- [Pipecat](https://github.com/pipecat-ai/pipecat) · 2023-12
+  - `gh:pipecat-ai/pipecat` · cited by 2: HE, KY
   - summary: Voice and multimodal conversational AI pipelines.
 
 - [Goose](https://github.com/aaif-goose/goose) · 2024-08
@@ -83,7 +79,7 @@
   - summary: Harness-only changes moved a coding agent from rank 30 to top 5 on Terminal Bench 2.0.
 
 - [nanobot](https://github.com/HKUDS/nanobot) · 2026-02
-  - `gh:hkuds/nanobot` · cited by 1: HE
+  - `gh:hkuds/nanobot` · cited by 2: HE, KY
   - summary: ~4,000-line personal assistant framework with MCP and skills.
 
 - [Squad](https://github.com/bradygaster/squad) · 2026-02
@@ -218,10 +214,6 @@
   - `arxiv:2604.14228` · cited by 1: HE
   - summary: Reverse-engineers a production agent's five-stage progressive compaction and hook pipeline.
 
-- [alibaba/open-code-review](https://github.com/alibaba/open-code-review) · 2026-05
-  - `gh:alibaba/open-code-review` · cited by 1: HE
-  - summary: An LLM-based CLI that reviews Git diffs under deterministic engineering constraints for precise line-level comments, reaching higher precision and F1 than general-purpose review agents while using about 1/9 the tokens.
-
 - [AOHP](https://github.com/aohp-os/aohp) · 2026-05
   - `gh:aohp-os/aohp` · cited by 1: HE
   - summary: An OS-level agent harness on Android letting agents compose personalized services by orchestrating system APIs, CLIs, and app GUIs directly, instead of being limited to fixed developer-defined app interfaces.
@@ -245,6 +237,10 @@
 - [Life-Harness](https://github.com/Tianshi-Xu/Life-Harness) · 2026-05
   - `gh:tianshi-xu/life-harness` · cited by 1: HE
   - summary: Lifecycle-aware runtime layer; gains transfer across 18 model backbones.
+
+- [OpenCodeReview](https://github.com/alibaba/open-code-review) · 2026-05
+  - `gh:alibaba/open-code-review` · cited by 2: HE, KY
+  - summary: An LLM-based CLI that reviews Git diffs under deterministic engineering constraints for precise line-level comments, reaching higher precision and F1 than general-purpose review agents while using about 1/9 the tokens.
 
 - [SmallCode](https://github.com/Doorman11991/smallcode) · 2026-05
   - `gh:doorman11991/smallcode` · cited by 1: HE
@@ -296,7 +292,7 @@
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
   - `url:https://platform.claude.com/docs/en/agent-sdk/overview` · cited by 1: HE
@@ -305,6 +301,10 @@
 - [Extended Thinking — Claude API Docs](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking)
   - `url:https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking` · cited by 1: HE
   - summary: Reasoning-budget control; thinking blocks must survive tool-result round-trips.
+
+- [Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime](https://www.preprints.org/manuscript/202603.1756/v2)
+  - `url:https://preprints.org/manuscript/202603.1756/v2` · cited by 1: ZJ
+  - summary: TODO
 
 - [HyperAgents: Self-Improving AI Systems](https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026/)
   - `url:https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026` · cited by 1: HE

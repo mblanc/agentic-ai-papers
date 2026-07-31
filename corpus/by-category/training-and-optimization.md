@@ -1,10 +1,10 @@
 # training-and-optimization
 
-17 entries.
+24 entries.
 
 ## Timeline
 
-16 dated entries, oldest first.
+21 dated entries, oldest first.
 
 - [SELFEVOLVE: A Code Evolution Framework via Large Language Models](https://arxiv.org/pdf/2306.02907) · 2023-06
   - `arxiv:2306.02907` · cited by 1: LJ
@@ -18,13 +18,36 @@
   - `arxiv:2407.06813` · cited by 1: LJ
   - summary: Strategic planning plus self-play evolution without human intervention.
 
+- [Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600) · 2025-02
+  - `arxiv:2502.01600` · cited by 1: ZJ
+  - summary: TODO
+
 - [ATLaS: Agent Tuning via Learning Critical Steps](https://arxiv.org/abs/2503.02197) · 2025-03
   - `arxiv:2503.02197` · cited by 1: LJ
   - summary: Tunes only on critical expert-trajectory steps, cutting cost.
 
+- [Group-in-Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2505.10978) · 2025-05
+  - `arxiv:2505.10978` · cited by 1: ZJ
+  - related: <https://github.com/langfengQ/verl-agent>
+  - summary: TODO
+
+- [SPA-RL: Reinforcing LLM Agents via Stepwise Progress Attribution](https://arxiv.org/abs/2505.20732) · 2025-05
+  - `arxiv:2505.20732` · cited by 1: ZJ
+  - related: <https://github.com/WangHanLinHenry/SPA-RL-Agent>
+  - summary: TODO
+
+- [Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning](https://arxiv.org/abs/2505.03792) · 2025-05
+  - `arxiv:2505.03792` · cited by 1: ZJ
+  - related: <https://github.com/langfengQ/CoSo>
+  - summary: TODO
+
 - [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) · 2025-10
   - `arxiv:2510.16079` · cited by 1: LJ
   - summary: Distills past runs into abstract principles that guide later decisions.
+
+- [In-the-Flow Agentic System Optimization for Effective Planning and Tool Use](https://arxiv.org/abs/2510.05592) · 2025-10
+  - `arxiv:2510.05592` · cited by 1: ZJ
+  - summary: TODO
 
 - [AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering](https://arxiv.org/pdf/2601.04620v1) · 2026-01
   - `arxiv:2601.04620` · cited by 1: VA
@@ -72,8 +95,16 @@
 
 ## Tools & Undated
 
-1 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+3 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [DSPy](https://github.com/stanfordnlp/dspy)
+  - `gh:stanfordnlp/dspy` · cited by 2: BK, KY
+  - summary: TODO
 
 - [AlphaFlow: autonomous discovery and optimization of multi-step chemistry using a self-driven fluidic lab guided by reinforcement learning](https://www.nature.com/articles/s41467-023-37139-y)
   - `url:https://nature.com/articles/s41467-023-37139-y` · cited by 1: LJ
   - summary: NEEDS-SOURCE
+
+- [Compound AI Systems & DSPy Framework](https://dspy-docs.vercel.app/)
+  - `url:https://dspy-docs.vercel.app/` · cited by 1: BK
+  - summary: TODO

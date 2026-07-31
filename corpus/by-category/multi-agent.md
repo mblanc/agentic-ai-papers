@@ -1,66 +1,154 @@
 # multi-agent
 
-154 entries.
+188 entries.
 
 ## Timeline
 
-146 dated entries, oldest first.
+173 dated entries, oldest first.
 
-- [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760) · 2023-03
-  - `arxiv:2303.17760` · cited by 1: LJ
+- [Language Model Cascades](https://arxiv.org/abs/2207.10342) · 2022-07
+  - `arxiv:2207.10342` · cited by 1: ZJ
+  - summary: TODO
+
+- [Collaborating with language models for embodied reasoning](https://arxiv.org/abs/2302.00763) · 2023-02
+  - `arxiv:2302.00763` · cited by 1: ZJ
+  - summary: TODO
+
+- [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society](https://arxiv.org/abs/2303.17760) · 2023-03
+  - `arxiv:2303.17760` · cited by 2: LJ, ZJ
   - summary: Role-playing pair (user/assistant) driven by inception prompting to generate cooperative task-solving data.
 
+- [ChatLLM Network: More brains, More intelligence](https://arxiv.org/abs/2304.12998) · 2023-04
+  - `arxiv:2304.12998` · cited by 1: ZJ
+  - summary: TODO
+
+- [Emergent autonomous scientific research capabilities of large language models](https://arxiv.org/abs/2304.05332) · 2023-04
+  - `arxiv:2304.05332` · cited by 1: ZJ
+  - summary: TODO
+
+- [Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models](https://arxiv.org/abs/2304.13835) · 2023-04
+  - `arxiv:2304.13835` · cited by 1: ZJ
+  - summary: TODO
+
 - [Self-collaboration Code Generation via ChatGPT](https://arxiv.org/abs/2304.07590) · 2023-04
-  - `arxiv:2304.07590` · cited by 1: LJ
+  - `arxiv:2304.07590` · cited by 2: LJ, ZJ
   - summary: Single model playing analyst/coder/tester roles in sequence.
 
+- [ChatGPT/GPT-4 for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) · 2023-05
+  - `arxiv:2305.13168` · cited by 1: ZJ
+  - summary: TODO
+
 - [Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate](https://arxiv.org/abs/2305.19118) · 2023-05
-  - `arxiv:2305.19118` · cited by 1: LJ
+  - `arxiv:2305.19118` · cited by 2: LJ, ZJ
   - summary: Debate as an antidote to degeneration-of-thought.
 
 - [Improving Factuality and Reasoning in Language Models through Multiagent Debate](https://arxiv.org/abs/2305.14325) · 2023-05
-  - `arxiv:2305.14325` · cited by 1: LJ
+  - `arxiv:2305.14325` · cited by 2: LJ, ZJ
   - summary: The foundational debate result.
+
+- [Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback](https://arxiv.org/abs/2305.10142) · 2023-05
+  - `arxiv:2305.10142` · cited by 1: ZJ
+  - summary: TODO
+
+- [LARGE LANGUAGE MODELS AS TOOL MAKERS](https://arxiv.org/abs/2305.17126) · 2023-05
+  - `arxiv:2305.17126` · cited by 2: LJ, ZJ
+  - summary: Closed loop where the model creates its own reusable tools.
 
 - [Vercel AI SDK](https://github.com/vercel/ai) · 2023-05
   - `gh:vercel/ai` · cited by 1: HE
   - summary: The AI SDK is a provider-agnostic TypeScript toolkit (OpenAI, Anthropic, Google, more) for building agents and AI apps, with unified tool-calling, structured outputs, and UI-streaming hooks so you're not rewriting integration code per provider.
 
+- [Inferring the Goals of Communicating Agents from Actions and Instructions](https://arxiv.org/abs/2306.16207) · 2023-06
+  - `arxiv:2306.16207` · cited by 2: LJ, ZJ
+  - summary: Models a listener inferring a two-agent team's shared goal from both actions and natural-language instructions via Bayesian inverse planning with GPT-3 as the utterance likelihood, matching human goal judgments at R=0.96 and showing instructions speed up inference over actions alone.
+
+- [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314) · 2023-06
+  - `arxiv:2306.03314` · cited by 2: LJ, ZJ
+  - summary: An early multi-agent collaboration framework built around case studies of Auto-GPT, BabyAGI, and API-integrating Gorilla, explicitly cataloguing looping, security, scalability, evaluation, and ethics as the open challenges for multi-agent LLM systems.
+
+- [RestGPT: Connecting Large Language Models with Real-World Applications via RESTful APIs](http://arxiv.org/abs/2306.06624) · 2023-06
+  - `arxiv:2306.06624` · cited by 2: LJ, ZJ
+  - summary: RestGPT connects an LLM to real-world RESTful APIs via coarse-to-fine online planning for task decomposition and API selection, plus a dedicated API executor for parameter formulation and response parsing, evaluated on a new benchmark (RestBench) of real-world scenarios with gold solution paths.
+
+- [Building Cooperative Embodied Agents Modularly with Large Language Models](https://arxiv.org/abs/2307.02485) · 2023-07
+  - `arxiv:2307.02485` · cited by 1: ZJ
+  - summary: TODO
+
 - [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) · 2023-07
-  - `arxiv:2307.07924` · cited by 1: LJ
+  - `arxiv:2307.07924` · cited by 2: LJ, ZJ
   - summary: Virtual software company staffed by role-playing agents.
 
 - [LiteLLM](https://github.com/BerriAI/litellm) · 2023-07
   - `gh:berriai/litellm` · cited by 1: HE
   - summary: Unified OpenAI-format gateway to 100+ LLM providers (OpenAI, Anthropic, Gemini, Bedrock, Azure, etc.), so agent code doesn't hardcode a provider and gets virtual keys, cost tracking, guardrails, and load balancing for free.
 
+- [RoCo: Dialectic Multi-Robot Collaboration with Large Language Models](https://arxiv.org/abs/2307.04738) · 2023-07
+  - `arxiv:2307.04738` · cited by 1: ZJ
+  - summary: TODO
+
+- [Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration](https://arxiv.org/abs/2307.05300) · 2023-07
+  - `arxiv:2307.05300` · cited by 1: ZJ
+  - summary: TODO
+
+- [Wireless Multi-Agent Generative AI: From Connected Intelligence to Collective Intelligence](https://arxiv.org/abs/2307.02757) · 2023-07
+  - `arxiv:2307.02757` · cited by 1: ZJ
+  - summary: TODO
+
 - [AutoGen](https://github.com/microsoft/autogen) · 2023-08
-  - `gh:microsoft/autogen` · cited by 1: HE
+  - `gh:microsoft/autogen` · cited by 3: BK, HE, KY
   - summary: A layered, extensible framework for building multi-agent AI applications that act autonomously or alongside humans, offering both high-level APIs for fast prototyping and low-level components for custom architectures.
 
 - [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) · 2023-08
-  - `arxiv:2308.08155` · cited by 1: LJ
+  - `arxiv:2308.08155` · cited by 3: BK, LJ, ZJ
   - summary: Conversable agents as the primitive; multi-agent systems as structured dialogue.
+
+- [CGMI: Configurable General Multi-Agent Interaction Framework](https://arxiv.org/abs/2308.12503) · 2023-08
+  - `arxiv:2308.12503` · cited by 1: ZJ
+  - summary: TODO
+
+- [Exploring the Intersection of Large Language Models and Agent-Based Modeling via Prompt Engineering](https://arxiv.org/abs/2308.07411) · 2023-08
+  - `arxiv:2308.07411` · cited by 1: ZJ
+  - summary: TODO
+
+- [GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems](https://arxiv.org/abs/2308.10435) · 2023-08
+  - `arxiv:2308.10435` · cited by 1: ZJ
+  - summary: TODO
+
+- [InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent](https://arxiv.org/abs/2308.01552) · 2023-08
+  - `arxiv:2308.01552` · cited by 1: ZJ
+  - summary: TODO
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) · 2023-08
   - `gh:langchain-ai/langgraph` · cited by 1: HE
   - summary: Low-level orchestration framework for building long-running, stateful agents with durable execution, human-in-the-loop checkpoints, and memory management baked in.
 
 - [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) · 2023-08
-  - `arxiv:2308.00352` · cited by 1: LJ
+  - `arxiv:2308.00352` · cited by 2: LJ, ZJ
   - summary: Encodes SOPs as agent roles so a one-line requirement yields PRD, design, tasks and code.
+
+- [Neural Amortized Inference for Nested Multi-agent Reasoning](https://arxiv.org/abs/2308.11071) · 2023-08
+  - `arxiv:2308.11071` · cited by 1: ZJ
+  - summary: TODO
+
+- [ProAgent: Building Proactive Cooperative AI with Large Language Models](https://arxiv.org/abs/2308.11339) · 2023-08
+  - `arxiv:2308.11339` · cited by 1: ZJ
+  - summary: TODO
+
+- [Mindagent: Emergent gaming interaction](https://arxiv.org/pdf/2309.09971) · 2023-09
+  - `arxiv:2309.09971` · cited by 2: LJ, ZJ
+  - summary: MindAgent evaluates emergent multi-agent coordination via a new cooking-game benchmark (CUISINEWORLD) requiring in-context learning from few-shot prompts and un-finetuned collaboration with human players, deployable in both VR and Minecraft.
 
 - [ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs](https://arxiv.org/abs/2309.13007) · 2023-09
   - `arxiv:2309.13007` · cited by 1: LJ
   - summary: ReConcile runs a multi-round round-table debate among diverse LLM agents with confidence-weighted voting, beating single- and multi-agent baselines by up to 11.4% and outperforming GPT-4 on three benchmarks.
 
-- [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://arxiv.org/abs/2310.02170) · 2023-10
-  - `arxiv:2310.02170` · cited by 1: LJ
-  - summary: DyLAN automatically selects a team of agents from candidates using an unsupervised 'Agent Importance Score' from a preliminary trial, then lets them collaborate in a dynamic communication structure per task, improving MMLU accuracy up to 25% over static fixed-team baselines.
-
 - [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/pdf/2310.09233) · 2023-10
   - `arxiv:2310.09233` · cited by 1: LJ
   - summary: AgentCF models both users and items as agents in a recommender system and optimizes them together via collaborative reflection on the gap between simulated and real interactions, implicitly capturing collaborative filtering while producing more human-like personalized behavior.
+
+- [Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration](https://arxiv.org/abs/2310.00280) · 2023-10
+  - `arxiv:2310.00280` · cited by 1: ZJ
+  - summary: TODO
 
 - [CrewAI](https://github.com/crewAIInc/crewAI) · 2023-10
   - `gh:crewaiinc/crewai` · cited by 1: HE
@@ -69,6 +157,14 @@
 - [Evolving Diverse Red-team Language Models in Multi-round Multi-agent Games](https://arxiv.org/pdf/2310.00322) · 2023-10
   - `arxiv:2310.00322` · cited by 1: LJ
   - summary: Frames LLM red-teaming as a dynamic multi-round game between red and blue teams, introducing a diversity-aware Gamified Red Team Solver that provably converges toward Nash equilibrium and avoids the mode-collapse that static single-round adversarial optimization suffers from.
+
+- [Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View](https://arxiv.org/abs/2310.02124) · 2023-10
+  - `arxiv:2310.02124` · cited by 1: ZJ
+  - summary: TODO
+
+- [Lumos: Learning Agents with Unified Data, Modular Design, and Open-Source LLMs](https://arxiv.org/pdf/2311.05657.pdf) · 2023-11
+  - `arxiv:2311.05657` · cited by 1: ZJ
+  - summary: TODO
 
 - [War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars](https://arxiv.org/abs/2311.17227) · 2023-11
   - `arxiv:2311.17227` · cited by 1: LJ
@@ -94,10 +190,6 @@
   - `acl:2024.acl-long.782` · cited by 1: LJ
   - summary: Builds four LLM-agent 'societies' varying trait (easy-going/overconfident) and thinking pattern (debate/reflection), finding certain collaboration strategies beat prior top approaches while using fewer tokens, and that agents exhibit human-like social behaviors like conformity, grounding the analysis in social psychology theory.
 
-- [AutoAct: Automatic Agent Learning from Scratch for QA via Self-Planning](https://arxiv.org/abs/2401.05268) · 2024-01
-  - `arxiv:2401.05268` · cited by 1: LJ
-  - summary: Synthesizes its own trajectories with no external supervision.
-
 - [Meta-Prompting: Enhancing Language Models with Task-Agnostic Scaffolding](https://arxiv.org/abs/2401.12954) · 2024-01
   - `arxiv:2401.12954` · cited by 1: LJ
   - summary: Meta-prompting turns one LLM into a conductor that decomposes a task and dispatches subtasks to differently-prompted instances of itself, beating standard, expert, and multipersona prompting by 15-17% on GPT-4 once you add a Python-interpreter tool — no task-specific setup required.
@@ -118,6 +210,10 @@
   - `arxiv:2404.11943` · cited by 1: LJ
   - summary: AgentCoord is a visual exploration tool that converts a user's general goal into a structured, executable multi-agent coordination strategy and lets them interactively refine agent relationships and task dependencies rather than hand-writing ambiguous natural-language coordination instructions.
 
+- [CoMM: Collaborative Multi-Agent, Multi-Reasoning-Path Prompting for Complex Problem Solving](https://arxiv.org/abs/2404.17729) · 2024-04
+  - `arxiv:2404.17729` · cited by 1: ZJ
+  - summary: TODO
+
 - [Pydantic AI v2](https://github.com/pydantic/pydantic-ai) · 2024-06
   - `gh:pydantic/pydantic-ai` · cited by 1: HE
   - summary: Pydantic AI brings Pydantic's type validation to agent-building, giving FastAPI-style ergonomics, multi-provider model support, and built-in Logfire observability so you're not hand-rolling schema validation for LLM outputs.
@@ -126,8 +222,12 @@
   - `arxiv:2407.09811` · cited by 1: LJ
   - summary: CellAgent assigns LLM-driven planner, executor, and evaluator roles to automate single-cell RNA-seq analysis end to end with no human intervention, using hierarchical coordination and self-iterative optimization to pick the right tools and hyperparameters across many tissue and cell types.
 
+- [Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations](https://arxiv.org/abs/2408.15232) · 2024-08
+  - `arxiv:2408.15232` · cited by 1: ZJ
+  - summary: TODO
+
 - [Mastra](https://github.com/mastra-ai/mastra) · 2024-08
-  - `gh:mastra-ai/mastra` · cited by 1: HE
+  - `gh:mastra-ai/mastra` · cited by 2: HE, KY
   - summary: Opinionated TypeScript framework for AI apps and agents.
 
 - [Large Model Based Agents: State-of-the-Art, Cooperation Paradigms, Security and Privacy, and Future Trends](https://arxiv.org/abs/2409.14457) · 2024-09
@@ -143,7 +243,7 @@
   - summary: NEEDS-SOURCE
 
 - [CoMet: Metaphor-Driven Covert Communication for Multi-Agent Language Games](https://aclanthology.org/2025.acl-long.389/) · 2025
-  - `acl:2025.acl-long.389` · cited by 1: LJ
+  - `acl:2025.acl-long.389` · cited by 2: LJ, ZJ
   - summary: CoMet trains LLM agents to interpret and generate metaphors for covert, strategically-evasive communication in social-deduction language games, using a metaphor reasoner refined by self-reflection, improving performance on Undercover and Adversarial Taboo.
 
 - [Chain of Agents: Large language models collaborating on long-context tasks](https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/) · 2025-01
@@ -174,6 +274,10 @@
   - `arxiv:2504.16736` · cited by 1: LJ
   - summary: Classification of agent protocols predating the MCP/A2A consolidation.
 
+- [Achilles Heel of Distributed Multi-Agent Systems](https://arxiv.org/abs/2504.07461) · 2025-04
+  - `arxiv:2504.07461` · cited by 2: LJ, ZJ
+  - summary: Free riding and malicious participation in distributed agent systems.
+
 - [Agent Development Kit: Making it easy to build multi-agent applications](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/) · 2025-04
   - `url:https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications` · cited by 1: HE
   - summary: Google's multi-agent topology, tool registration and eval pipeline rationale.
@@ -190,6 +294,10 @@
   - `arxiv:2505.04997` · cited by 1: LJ
   - summary: Foam-Agent automates the entire CFD simulation workflow from a single natural-language prompt (mesh generation through visualization) via RAG and dependency-aware scheduling, exposing its functions as MCP tools and reaching 88.2% execution success across 110 tasks without expert intervention.
 
+- [SALM: A Multi-Agent Framework for Language Model-Driven Social Network Simulation](https://arxiv.org/abs/2505.09081) · 2025-05
+  - `arxiv:2505.09081` · cited by 1: ZJ
+  - summary: TODO
+
 - [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) · 2025-05
   - `gh:strands-agents/harness-sdk` · cited by 1: HE
   - summary: Strands Agents is a Python/TypeScript SDK for building model- and cloud-agnostic agents with built-in context management, hooks, and guardrails, so you can swap providers without rewriting agent logic.
@@ -203,7 +311,8 @@
   - summary: ECON recasts multi-LLM coordination as an incomplete-information game and computes a Bayesian Nash equilibrium via hierarchical RL, letting each agent respond optimally to beliefs about co-agents without costly inter-agent exchange, beating existing multi-LLM methods 11.2% on average with a provably tighter regret bound.
 
 - [GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](https://arxiv.org/abs/2507.21035) · 2025-07
-  - `arxiv:2507.21035` · cited by 1: LJ
+  - `arxiv:2507.21035` · cited by 2: LJ, ZJ
+  - related: <https://github.com/Liu-Hy/GenoMAS>
   - summary: GenoMAS orchestrates six typed LLM agents through a guided-planning framework (advance/revise/bypass/backtrack) for gene-expression analysis, combining structured-workflow reliability with agentic adaptability to beat prior methods 10.61% and 16.85% on data preprocessing and gene identification.
 
 - [The Future is Agentic: Definitions, Perspectives, and Open Challenges of Multi-Agent Recommender Systems](https://arxiv.org/abs/2507.02097) · 2025-07
@@ -243,7 +352,7 @@
   - summary: Cache-to-Cache lets LLMs communicate by directly fusing and projecting each other's KV-cache instead of generating and re-reading text, using a learnable gate to pick which layers benefit, reaching 6.4-14.2% higher accuracy and 2.5x lower latency than text-based multi-LLM communication.
 
 - [CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards](https://arxiv.org/abs/2510.08529) · 2025-10
-  - `arxiv:2510.08529` · cited by 1: LJ
+  - `arxiv:2510.08529` · cited by 2: LJ, ZJ
   - summary: Intrinsic rewards derived from inter-agent discussion, no external supervision.
 
 - [Thought Communication in Multiagent Collaboration](https://arxiv.org/abs/2510.20733) · 2025-10
@@ -323,7 +432,7 @@
   - summary: EvoConfig uses an expert-diagnosis module plus a self-evolving mechanism where expert agents adjust error-fixing priorities in real time to build correct software runtime environments, matching state-of-the-art on standard repos and beating it by 7.1% on the harder Envbench.
 
 - [Hive](https://github.com/aden-hive/hive) · 2026-01
-  - `gh:aden-hive/hive` · cited by 1: HE
+  - `gh:aden-hive/hive` · cited by 2: HE, KY
   - summary: Goal-driven self-improving agents auto-generating agent graphs.
 
 - [HoneyTrap: Deceiving LLM Attackers with Resilient Multi-Agent Defense](https://arxiv.org/pdf/2601.04034v1) · 2026-01
@@ -471,7 +580,7 @@
   - summary: 110+ task benchmark for buyer-seller negotiation.
 
 - [AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/pdf/2602.17607) · 2026-02
-  - `arxiv:2602.17607` · cited by 1: VA
+  - `arxiv:2602.17607` · cited by 2: VA, ZJ
   - summary: Writes, debugs and validates classical PDE solvers end-to-end.
 
 - [Building a C Compiler with a Team of Parallel Claudes](https://www.anthropic.com/engineering/building-c-compiler) · 2026-02
@@ -527,11 +636,16 @@
   - summary: Introduces MANBENCH to measure the Mandela effect (collective false-memory formation) in LLM multi-agent systems across four task types and five interaction protocols, and shows prompt- and alignment-level defenses cut it by 74.40% on average.
 
 - [bernstein](https://github.com/sipyourdrink-ltd/bernstein) · 2026-03
-  - `gh:sipyourdrink-ltd/bernstein` · cited by 1: HE
+  - `gh:sipyourdrink-ltd/bernstein` · cited by 2: HE, KY
   - summary: Orchestrates 40+ CLI agents with worktree isolation and an HMAC-chained audit log.
 
+- [Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration](https://arxiv.org/abs/2603.06859) · 2026-03
+  - `arxiv:2603.06859` · cited by 1: ZJ
+  - related: <https://github.com/EIT-EAST-Lab/C3>
+  - summary: TODO
+
 - [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) · 2026-03
-  - `gh:jackchen-me/open-multi-agent` · cited by 1: HE
+  - `gh:jackchen-me/open-multi-agent` · cited by 2: HE, KY
   - summary: One call decomposes a goal into a task DAG and runs it in parallel.
 
 - [Orca](https://github.com/stablyai/orca) · 2026-03
@@ -543,7 +657,8 @@
   - summary: Sandcastle runs multiple coding agents in isolated sandboxes, handling branch and commit strategy automatically so you can parallelize agents or build review pipelines without them stepping on each other's changes.
 
 - [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/pdf/2604.01658) · 2026-04
-  - `arxiv:2604.01658` · cited by 1: VA
+  - `arxiv:2604.01658` · cited by 2: VA, ZJ
+  - related: <https://github.com/Human-Agent-Society/CORAL>
   - summary: Long-running self-evolving systems with shared memory; 3–10× over evolutionary search.
 
 - [Harmonist](https://github.com/GammaLabTechnologies/harmonist) · 2026-04
@@ -582,25 +697,30 @@
   - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce` · cited by 1: HE
   - summary: Covers three BUILD 2026 additions to Microsoft Agent Framework: Agent Harness (built-in context compaction and file memory), Foundry Hosted Agents (scale-to-zero deployment), and CodeAct, which has the model write executable Python instead of tool calls for 52% faster runs and 64% fewer tokens.
 
-- [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/pdf/2606.08878) · 2026-06
-  - `arxiv:2606.08878` · cited by 1: VA
-  - summary: Multi-agent orchestration prompting benchmark (2026).
-
 - [waggle](https://github.com/modiqo/waggle) · 2026-07
   - `gh:modiqo/waggle` · cited by 1: HE
   - summary: Waggle replaces pasting full context between agents with ~30-byte tokens that resolve lazily to only what's needed, cutting token overhead and giving you a receipt of exactly what each subagent actually read.
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+15 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [agency-swarm](https://github.com/VRSEN/agency-swarm)
+  - `gh:vrsen/agency-swarm` · cited by 1: KY
+  - summary: TODO
+
 - [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://openreview.net/forum?id=EHg5GDnyq1)
   - `openreview:EHg5GDnyq1` · cited by 1: LJ
   - summary: NEEDS-SOURCE
+
+- [CAMEL](https://github.com/camel-ai/camel)
+  - `gh:camel-ai/camel` · cited by 1: ZJ
+  - related: <https://github.com/101dotxyz/GPTeam> <https://github.com/OpenBMB/AgentVerse> <https://github.com/geekan/MetaGPT> <https://github.com/langroid/langroid>
+  - summary: TODO
 
 - [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://openreview.net/forum?id=FQepisCUWu)
   - `openreview:FQepisCUWu` · cited by 1: LJ
@@ -618,6 +738,22 @@
   - `url:https://sciencedirect.com/science/article/pii/S0005109824004291` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [Maestro Orchestrate](https://github.com/josstei/maestro-orchestrate)
+  - `gh:josstei/maestro-orchestrate` · cited by 1: KY
+  - summary: TODO
+
+- [Multi-Agent AI](https://www.youtube.com/watch?v=SrLcGdVOb9w)
+  - `url:https://youtube.com/watch?v=SrLcGdVOb9w` · cited by 1: BK
+  - summary: TODO
+
+- [Multi-Agent Systems in the Era of LLMs](https://www.youtube.com/watch?v=ntjOxjZMaac)
+  - `url:https://youtube.com/watch?v=ntjOxjZMaac` · cited by 1: BK
+  - summary: TODO
+
+- [Swarm](https://github.com/openai/swarm)
+  - `gh:openai/swarm` · cited by 1: KY
+  - summary: TODO
+
 - [Swarm Autonomy: From Agent Functionalization to Machine Intelligence](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956)
   - `url:https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956` · cited by 1: LJ
   - summary: NEEDS-SOURCE
@@ -625,3 +761,7 @@
 - [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/)
   - `url:https://openai.com/index/the-next-evolution-of-the-agents-sdk` · cited by 1: HE
   - summary: NEEDS-SOURCE
+
+- [To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations](https://fablestudio.github.io/showrunner-agents/static/pdfs/To_Infinity_and_Beyond_SHOW-1_And_Showrunner_Agents_in_Multi_Agent_Simulations.pdf)
+  - `url:https://fablestudio.github.io/showrunner-agents/static/pdfs/To_Infinity_and_Beyond_SHOW-1_And_Showrunner_Agents_in_Multi_Agent_Simulations.pdf` · cited by 1: ZJ
+  - summary: TODO

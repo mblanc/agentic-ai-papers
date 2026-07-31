@@ -1,10 +1,10 @@
 # safety-security-governance
 
-164 entries.
+176 entries.
 
 ## Timeline
 
-145 dated entries, oldest first.
+154 dated entries, oldest first.
 
 - [Energy and Policy Considerations for Modern Deep Learning Research](https://ojs.aaai.org/index.php/AAAI/article/view/7123) · 2020-04
   - `url:https://ojs.aaai.org/index.php/AAAI/article/view/7123` · cited by 1: LJ
@@ -15,12 +15,36 @@
   - summary: Near annotation-free instruction generation from the model itself.
 
 - [E2B](https://github.com/e2b-dev/E2B) · 2023-03
-  - `gh:e2b-dev/e2b` · cited by 1: HE
+  - `gh:e2b-dev/e2b` · cited by 2: HE, KY
   - summary: Sandboxed cloud runtime for agent code execution.
 
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) · 2023-04
   - `gh:nvidia-nemo/guardrails` · cited by 1: HE
   - summary: Open-source toolkit for wiring programmable guardrails into LLM-based conversational systems, controlling topics, tool access, and dialog flow rather than trusting the model's own restraint.
+
+- [Training Socially Aligned Language Models in Simulated Human Society](https://arxiv.org/abs/2305.16960) · 2023-05
+  - `arxiv:2305.16960` · cited by 1: ZJ
+  - summary: TODO
+
+- [DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models](https://arxiv.org/abs/2306.11698) · 2023-06
+  - `arxiv:2306.11698` · cited by 1: BK
+  - summary: TODO
+
+- [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) · 2023-08
+  - `arxiv:2308.07201` · cited by 1: ZJ
+  - summary: TODO
+
+- [How susceptible are LLMs to Logical Fallacies?](https://arxiv.org/abs/2308.09853) · 2023-08
+  - `arxiv:2308.09853` · cited by 1: ZJ
+  - summary: TODO
+
+- [Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/abs/2309.15817) · 2023-09
+  - `arxiv:2309.15817` · cited by 1: ZJ
+  - summary: TODO
+
+- [Representation Engineering: A Top-Down Approach to AI Transparency](https://arxiv.org/abs/2310.01405) · 2023-10
+  - `arxiv:2310.01405` · cited by 1: BK
+  - summary: TODO
 
 - [Evil Geniuses: Delving into the Safety of LLM-based Agents](https://arxiv.org/pdf/2311.11855) · 2023-11
   - `arxiv:2311.11855` · cited by 1: LJ
@@ -97,6 +121,10 @@
 - [Security of AI Agents](https://arxiv.org/pdf/2406.08689) · 2024-06
   - `arxiv:2406.08689` · cited by 1: LJ
   - summary: Systems-level vulnerability view rather than model-level.
+
+- [AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://arxiv.org/abs/2407.12784) · 2024-07
+  - `arxiv:2407.12784` · cited by 1: BK
+  - summary: TODO
 
 - [AGENT SECURITY BENCH (ASB): FORMALIZING AND BENCHMARKING ATTACKS AND DEFENSES IN LLM-BASED AGENTS](https://arxiv.org/pdf/2410.02644?) · 2024-10
   - `arxiv:2410.02644` · cited by 1: LJ
@@ -189,6 +217,14 @@
 - [A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment](https://arxiv.org/abs/2504.15585) · 2025-04
   - `arxiv:2504.15585` · cited by 1: LJ
   - summary: Data, training and deployment as one safety lifecycle.
+
+- [DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks](https://arxiv.org/abs/2504.11358) · 2025-04
+  - `arxiv:2504.11358` · cited by 1: BK
+  - summary: TODO
+
+- [Progent: Programmable Privilege Control for LLM Agents](https://arxiv.org/html/2504.11703v1) · 2025-04
+  - `arxiv:2504.11703` · cited by 1: BK
+  - summary: TODO
 
 - [SAGA: A Security Architecture for Governing AI Agentic Systems](https://arxiv.org/abs/2504.21034) · 2025-04
   - `arxiv:2504.21034` · cited by 1: LJ
@@ -588,7 +624,7 @@
 
 ## Tools & Undated
 
-19 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+22 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://openreview.net/pdf?id=m1YYAQjO3w)
   - `openreview:m1YYAQjO3w` · cited by 1: LJ
@@ -638,6 +674,10 @@
   - `url:https://platform.claude.com/docs/en/agent-sdk/user-input` · cited by 1: HE
   - summary: Documents the canUseTool callback and AskUserQuestion tool that let a Claude Agent SDK app pause execution to get human approval on risky actions or answers to clarifying questions, including allow/deny/modify/redirect response patterns.
 
+- [Extracting Training Data from Large Language Models](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)
+  - `url:https://usenix.org/system/files/sec21-carlini-extracting.pdf` · cited by 1: BK
+  - summary: TODO
+
 - [GitHub Enterprise — Governing Agents](https://wellarchitected.github.com/library/governance/recommendations/governing-agents/)
   - `url:https://wellarchitected.github.com/library/governance/recommendations/governing-agents` · cited by 1: HE
   - summary: TODO
@@ -654,6 +694,10 @@
   - `url:https://genai.owasp.org/llmrisk/llm01-prompt-injection` · cited by 1: HE
   - summary: OWASP's reference entry for LLM01:2025 Prompt Injection, defining direct vs. indirect injection, distinguishing it from jailbreaking, and laying out seven mitigation strategies plus nine real-world attack scenarios.
 
+- [Privtrans: Automatically Partitioning Programs for Privilege Separation](https://dawnsong.io/papers/privtrans.pdf)
+  - `url:https://dawnsong.io/papers/privtrans.pdf` · cited by 1: BK
+  - summary: TODO
+
 - [Prompt Injection — Simon Willison's Series](https://simonwillison.net/series/prompt-injection/)
   - `url:https://simonwillison.net/series/prompt-injection` · cited by 1: HE
   - summary: Simon Willison's long-running series (2022-2025, 24+ posts) tracking prompt injection as a security vulnerability class in LLM-backed software, covering attacks, mitigations, and how the industry's understanding of the problem has evolved.
@@ -665,3 +709,7 @@
 - [Sandbox Agents | OpenAI API Docs](https://developers.openai.com/api/docs/guides/agents/sandboxes)
   - `url:https://developers.openai.com/api/docs/guides/agents/sandboxes` · cited by 1: HE
   - summary: OpenAI's docs on sandbox agents: isolated Unix-like environments with filesystem, shell, packages, and controlled external access that let an agent run stateful work and persist it across multiple runs.
+
+- [The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks](https://www.usenix.org/system/files/sec19-carlini.pdf)
+  - `url:https://usenix.org/system/files/sec19-carlini.pdf` · cited by 1: BK
+  - summary: TODO

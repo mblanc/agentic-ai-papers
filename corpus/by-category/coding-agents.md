@@ -1,13 +1,13 @@
 # coding-agents
 
-22 entries.
+33 entries.
 
 ## Timeline
 
-20 dated entries, oldest first.
+24 dated entries, oldest first.
 
 - [Aider](https://github.com/Aider-AI/aider) · 2023-05
-  - `gh:aider-ai/aider` · cited by 1: HE
+  - `gh:aider-ai/aider` · cited by 2: HE, KY
   - summary: Terminal pair programming with repo-map context and git-aware edits.
 
 - [ToolCoder: Teach Code Generation Models to use API search tools](http://arxiv.org/abs/2305.04032) · 2023-05
@@ -21,6 +21,22 @@
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) · 2024-04
   - `gh:swe-agent/swe-agent` · cited by 1: HE
   - summary: Gives an LLM a purpose-built agent-computer interface to autonomously fix issues in real GitHub repositories, and is the configurable, heavily-documented baseline behind much SWE-bench research.
+
+- [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) · 2024-05
+  - `arxiv:2405.15793` · cited by 1: BK
+  - summary: TODO
+
+- [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://arxiv.org/abs/2407.16741) · 2024-07
+  - `arxiv:2407.16741` · cited by 1: BK
+  - summary: TODO
+
+- [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](https://arxiv.org/abs/2409.16165) · 2024-09
+  - `arxiv:2409.16165` · cited by 1: BK
+  - summary: TODO
+
+- [From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) · 2024-10
+  - `url:https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html` · cited by 1: BK
+  - summary: TODO
 
 - [OpenCode](https://github.com/anomalyco/opencode) · 2025-04
   - `gh:anomalyco/opencode` · cited by 1: HE
@@ -88,12 +104,40 @@
 
 ## Tools & Undated
 
-2 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [SWE Agent](https://github.com/princeton-nlp/swe-agent)
+  - `gh:princeton-nlp/swe-agent` · cited by 2: BK, KY
+  - summary: TODO
 
 - [2026 Agentic Coding Trends Report](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en)
   - `url:https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf` · cited by 1: HE
   - summary: Finds harness configuration alone can swing benchmarks by 5+ points.
 
+- [Cline](https://github.com/cline/cline)
+  - `gh:cline/cline` · cited by 1: KY
+  - summary: TODO
+
 - [Hooks – Codex](https://developers.openai.com/codex/hooks)
   - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
   - summary: Lifecycle hooks for injecting deterministic scripts at loop events.
+
+- [OpenCode](https://github.com/sst/opencode)
+  - `gh:sst/opencode` · cited by 1: KY
+  - summary: TODO
+
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+  - `gh:all-hands-ai/openhands` · cited by 1: KY
+  - summary: TODO
+
+- [OpenHands](https://github.com/xlang-ai/OpenHands)
+  - `gh:xlang-ai/openhands` · cited by 1: BK
+  - summary: TODO
+
+- [Plandex](https://github.com/plandex-ai/plandex)
+  - `gh:plandex-ai/plandex` · cited by 1: KY
+  - summary: TODO
+
+- [RepoAgent](https://github.com/OpenBMB/RepoAgent)
+  - `gh:openbmb/repoagent` · cited by 1: KY
+  - summary: TODO

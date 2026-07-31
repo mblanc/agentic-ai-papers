@@ -1,10 +1,10 @@
 # evaluation-and-benchmarks
 
-150 entries.
+174 entries.
 
 ## Timeline
 
-141 dated entries, oldest first.
+152 dated entries, oldest first.
 
 - [Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance](https://www.computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC) · 2020
   - `url:https://computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC` · cited by 1: LJ
@@ -26,9 +26,29 @@
   - `gh:promptfoo/promptfoo` · cited by 1: HE
   - summary: A CLI/library for evaluating and red-teaming LLM applications across multiple models, used to run quality checks in CI/CD and scan for security vulnerabilities before deployment.
 
+- [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070) · 2023-06
+  - `arxiv:2306.06070` · cited by 2: BK, ZJ
+  - summary: TODO
+
 - [AgentBench](https://github.com/THUDM/AgentBench) · 2023-07
   - `gh:thudm/agentbench` · cited by 1: HE
   - summary: A benchmark evaluating LLMs as autonomous agents across eight interactive environments (OS, databases, web shopping, knowledge graphs), for comparing multi-turn agentic performance beyond single-turn QA.
+
+- [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) · 2023-07
+  - `arxiv:2307.13854` · cited by 2: BK, ZJ
+  - summary: TODO
+
+- [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688) · 2023-08
+  - `arxiv:2308.03688` · cited by 1: ZJ
+  - summary: TODO
+
+- [AgentSims: An Open-Source Sandbox for Large Language Model Evaluation](https://arxiv.org/abs/2308.04026) · 2023-08
+  - `arxiv:2308.04026` · cited by 1: ZJ
+  - summary: TODO
+
+- [BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents](https://arxiv.org/abs/2308.05960) · 2023-08
+  - `arxiv:2308.05960` · cited by 1: ZJ
+  - summary: TODO
 
 - [DeepEval](https://github.com/confident-ai/deepeval) · 2023-08
   - `gh:confident-ai/deepeval` · cited by 1: HE
@@ -45,6 +65,10 @@
 - [LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs](https://arxiv.org/abs/2312.04372) · 2023-12
   - `arxiv:2312.04372` · cited by 1: LJ
   - summary: Autonomous driving with language model programs.
+
+- [T-Eval: Evaluating the Tool Utilization Capability of Large Language Models Step by Step](https://arxiv.org/abs/2312.14033) · 2023-12
+  - `arxiv:2312.14033` · cited by 1: ZJ
+  - summary: TODO
 
 - [Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://aclanthology.org/2024.findings-acl.557/) · 2024
   - `acl:2024.findings-acl.557` · cited by 1: LJ
@@ -94,6 +118,10 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents](https://arxiv.org/abs/2401.13178) · 2024-01
+  - `arxiv:2401.13178` · cited by 1: ZJ
+  - summary: TODO
+
 - [AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning](http://arxiv.org/abs/2402.15506) · 2024-02
   - `arxiv:2402.15506` · cited by 1: LJ
   - summary: Unifies heterogeneous trajectory sources into one training pipeline.
@@ -118,12 +146,21 @@
   - `url:https://dl.acm.org/doi/10.1145/3639476.3639769` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) · 2024-04
+  - `arxiv:2404.07972` · cited by 2: BK, ZJ
+  - summary: TODO
+
 - [Seal-Tools: Self-instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark](https://arxiv.org/pdf/2405.08355) · 2024-05
   - `arxiv:2405.08355` · cited by 1: LJ
   - summary: Self-instruct tool-learning dataset with hard instances and strict metrics.
 
+- [TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models](https://arxiv.org/abs/2405.18027) · 2024-05
+  - `arxiv:2405.18027` · cited by 1: ZJ
+  - summary: TODO
+
 - [GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis](https://arxiv.org/abs/2406.15341) · 2024-06
-  - `arxiv:2406.15341` · cited by 1: LJ
+  - `arxiv:2406.15341` · cited by 2: LJ, ZJ
+  - related: <https://github.com/Liu-Hy/GenoTEX>
   - summary: Gene expression analysis benchmark with a self-correcting multi-agent system.
 
 - [tau-bench](https://github.com/sierra-research/tau-bench) · 2024-06
@@ -131,7 +168,7 @@
   - summary: Simulates dynamic multi-turn conversations between a user and a tool-calling agent operating under domain policy guidelines (airline, retail), for evaluating whether an agent both completes tasks and follows the domain's stated rules.
 
 - [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901) · 2024-07
-  - `arxiv:2407.18901` · cited by 1: LJ
+  - `arxiv:2407.18901` · cited by 2: LJ, ZJ
   - summary: Controllable world of apps and people for interactive coding agents.
 
 - [Baba Is AI: Break the Rules to Beat the Benchmark](https://arxiv.org/pdf/2407.13729) · 2024-07
@@ -154,6 +191,10 @@
   - `arxiv:2410.22584` · cited by 1: LJ
   - summary: Automates benchmark creation through agent interaction.
 
+- [Benchmarking Agentic Workflow Generation](https://arxiv.org/abs/2410.07869) · 2024-10
+  - `arxiv:2410.07869` · cited by 1: ZJ
+  - summary: TODO
+
 - [ML Research Benchmark](https://arxiv.org/pdf/2410.22553) · 2024-10
   - `arxiv:2410.22553` · cited by 1: LJ
   - summary: Seven research-level tasks for agents.
@@ -161,6 +202,10 @@
 - [Revisiting Benchmark and Assessment: An Agent-based Exploratory Dynamic Evaluation Framework for LLMs](https://arxiv.org/pdf/2410.11507) · 2024-10
   - `arxiv:2410.11507` · cited by 1: LJ
   - summary: Automatically generates domain-specific benchmarks from user-provided knowledge sources via RAG, then uses RL-guided multi-turn interaction to adaptively probe a model's knowledge boundaries and stability instead of relying on static single-turn test sets.
+
+- [Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations](https://arxiv.org/pdf/2411.00640) · 2024-11
+  - `arxiv:2411.00640` · cited by 1: BK
+  - summary: TODO
 
 - [Benchmarking Large Language Models for Multi-agent Systems: A Comparative Analysis of AutoGen, CrewAI, and TaskWeaver](https://link.springer.com/chapter/10.1007/978-3-031-70415-4_4) · 2024-11
   - `url:https://link.springer.com/chapter/10.1007/978-3-031-70415-4_4` · cited by 1: LJ
@@ -198,10 +243,6 @@
   - `arxiv:2501.14654` · cited by 1: LJ
   - summary: Virtual EHR environment with clinically derived tasks.
 
-- [STeCa: Step-level Trajectory Calibration for LLM Agent Learning](https://arxiv.org/abs/2502.14276) · 2025-02
-  - `arxiv:2502.14276` · cited by 1: LJ
-  - summary: Builds calibrated trajectories via step-level reward comparison and reflection.
-
 - [Towards Internet-Scale Training For Agents](https://arxiv.org/abs/2502.06776) · 2025-02
   - `arxiv:2502.06776` · cited by 1: LJ
   - summary: Trains web-navigation agents at internet scale without human demonstrations by having an LLM annotate 150k sites with tasks, generate trajectories, and filter successful ones (97% harmful-content accuracy, 82.6% success-judging accuracy), producing a small Qwen3-1.7B agent competitive with much larger frontier models.
@@ -210,9 +251,9 @@
   - `arxiv:2503.03803` · cited by 1: LJ
   - summary: Egocentric life-assistant dataset and QA tasks.
 
-- [Achilles Heel of Distributed Multi-Agent Systems](https://arxiv.org/abs/2504.07461) · 2025-04
-  - `arxiv:2504.07461` · cited by 1: LJ
-  - summary: Free riding and malicious participation in distributed agent systems.
+- [Survey on Evaluation of LLM-based Agents](https://arxiv.org/pdf/2503.16416) · 2025-03
+  - `arxiv:2503.16416` · cited by 1: BK
+  - summary: TODO
 
 - [SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation](https://arxiv.org/pdf/2504.12722) · 2025-04
   - `arxiv:2504.12722` · cited by 1: LJ
@@ -233,6 +274,10 @@
 - [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://arxiv.org/abs/2506.11791) · 2025-06
   - `arxiv:2506.11791` · cited by 1: LJ
   - summary: Real-world software security tasks with a multi-agent dataset scaffold.
+
+- [τ2-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/pdf/2506.07982) · 2025-06
+  - `arxiv:2506.07982` · cited by 1: BK
+  - summary: TODO
 
 - [Establishing Best Practices for Building Rigorous Agentic Benchmarks](https://arxiv.org/abs/2507.02825) · 2025-07
   - `arxiv:2507.02825` · cited by 1: LJ
@@ -530,12 +575,9 @@
   - `gh:sentrux/sentrux` · cited by 1: HE
   - summary: A real-time architectural sensor visualizing code structure and quality via an interactive treemap, giving agents immediate feedback on how their changes affect system architecture so technical debt doesn't silently accumulate.
 
-- [Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation](https://arxiv.org/abs/2604.09549) · 2026-04
-  - `arxiv:2604.09549` · cited by 1: VA
-  - summary: Simulates believable recommender-system users by anchoring their interactions in generated daily-life scenarios (when/where/why they'd engage) and enforcing consistency between an agent's stated thoughts and its actions, showing recommender parameters tuned against the simulation improve real-world engagement.
-
-- [ClawBench: Evaluating Browser Agents on Live Production Websites with Submission-Interception](https://arxiv.org/abs/2604.08523) · 2026-04
-  - `arxiv:2604.08523` · cited by 1: VA
+- [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523) · 2026-04
+  - `arxiv:2604.08523` · cited by 2: VA, ZJ
+  - related: <https://github.com/TIGER-AI-Lab/ClawBench>
   - summary: 153 tasks on 144 live sites, intercepting only the final write; top model 33.3%.
 
 - [mcp-test-harness](https://github.com/vaquarkhan/mcp-test-harness) · 2026-04
@@ -563,8 +605,12 @@
   - summary: A three-phase methodology (Build & Test -> Ship & Monitor -> Learn & Refine) built on five stages — prepare data, run inference, grade traces with adaptive AutoRaters, analyze failures, iterate — specifically to close the gap between changes that look better on a few examples and changes that actually help in production.
 
 - [PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation](https://arxiv.org/pdf/2606.05697) · 2026-06
-  - `arxiv:2606.05697` · cited by 1: VA
+  - `arxiv:2606.05697` · cited by 2: VA, ZJ
   - summary: Trains an LLM to predict how a *specific* persona would judge a UI/UX design and explain why, via contrastive fine-tuning on human rationales plus a reflective step on the model's own failures, reaching human-level realism and generalizing to personas and questions unseen in training.
+
+- [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/pdf/2606.08878) · 2026-06
+  - `arxiv:2606.08878` · cited by 2: VA, ZJ
+  - summary: Multi-agent orchestration prompting benchmark (2026).
 
 - [StaminaBench: Stress-Testing Coding Agents over 100 Interaction Turns](https://arxiv.org/abs/2606.19613) · 2026-06
   - `arxiv:2606.19613` · cited by 1: HE
@@ -572,7 +618,11 @@
 
 ## Tools & Undated
 
-9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+22 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [agent-qa](https://github.com/vostride/agent-qa)
+  - `gh:vostride/agent-qa` · cited by 1: KY
+  - summary: TODO
 
 - [AgentBench: Evaluating LLMs as Agents](https://openreview.net/pdf?id=zAdUB0aCTQ)
   - `openreview:zAdUB0aCTQ` · cited by 1: LJ
@@ -586,6 +636,10 @@
   - `openreview:N9wD4RFWY0` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [BrowseComp: a benchmark for browsing agents](https://openai.com/index/browsecomp/)
+  - `url:https://openai.com/index/browsecomp` · cited by 1: BK
+  - summary: TODO
+
 - [CODET: CODE GENERATION WITH GENERATED TESTS](https://openreview.net/pdf?id=ktrw68Cmu9c)
   - `openreview:ktrw68Cmu9c` · cited by 1: LJ
   - summary: Auto-generates test cases to select among candidate programs.
@@ -598,9 +652,37 @@
   - `openreview:a4sknPttwV` · cited by 1: LJ
   - summary: Whether agents can detect real dataset quality issues in the wild.
 
+- [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
+  - `gh:evoagentx/evoagentx` · cited by 1: KY
+  - summary: TODO
+
+- [Introducing SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/)
+  - `url:https://openai.com/index/introducing-swe-bench-verified` · cited by 1: BK
+  - summary: TODO
+
+- [Latitude](https://github.com/latitude-dev/latitude-llm)
+  - `gh:latitude-dev/latitude-llm` · cited by 1: KY
+  - summary: TODO
+
+- [Lean](https://leanprover.github.io/)
+  - `url:https://leanprover.github.io/` · cited by 1: BK
+  - summary: TODO
+
+- [LeanDojo](https://github.com/lean-dojo/LeanDojo)
+  - `gh:lean-dojo/leandojo` · cited by 1: BK
+  - summary: TODO
+
+- [Manifest](https://github.com/mnfst/manifest)
+  - `gh:mnfst/manifest` · cited by 1: KY
+  - summary: TODO
+
 - [MLE-Bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://openreview.net/pdf?id=6s5uXNWGIh)
   - `openreview:6s5uXNWGIh` · cited by 1: LJ
   - summary: ML engineering tasks from real competitions with baselines.
+
+- [Open-RAG-Eval](https://github.com/vectara/open-rag-eval)
+  - `gh:vectara/open-rag-eval` · cited by 1: KY
+  - summary: TODO
 
 - [SWE-bench](https://www.swebench.com)
   - `url:https://swebench.com/` · cited by 1: HE
@@ -609,3 +691,19 @@
 - [Testing Agent Skills Systematically with Evals](https://developers.openai.com/blog/eval-skills)
   - `url:https://developers.openai.com/blog/eval-skills` · cited by 1: HE
   - summary: Frames evals as checking whether both a model's output and the steps it took match intent, letting teams track concrete skill improvements and catch regressions instead of relying on subjective impressions of whether a change helped.
+
+- [The Tong Test: Evaluating Artificial General Intelligence Through Dynamic Embodied Physical and Social Interactions](https://www.sciencedirect.com/science/article/pii/S209580992300293X)
+  - `url:https://sciencedirect.com/science/article/pii/S209580992300293X` · cited by 1: ZJ
+  - summary: TODO
+
+- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://jykoh.com/vwa)
+  - `url:https://jykoh.com/vwa` · cited by 1: BK
+  - summary: TODO
+
+- [Voice Lab](https://github.com/saharmor/voice-lab)
+  - `gh:saharmor/voice-lab` · cited by 1: KY
+  - summary: TODO
+
+- [WebArena](https://github.com/web-arena-x/webarena)
+  - `gh:web-arena-x/webarena` · cited by 1: ZJ
+  - summary: TODO
