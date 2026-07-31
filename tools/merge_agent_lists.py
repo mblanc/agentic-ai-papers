@@ -210,6 +210,29 @@ def canonical_id(url: str) -> tuple[str, str]:
     return f"url:{normalize_url(u)}", "web"
 
 
+ARXIV_ID_DATE = re.compile(r"^(\d{2})(\d{2})\.\d{4,5}$")
+ACL_ID_YEAR = re.compile(r"^(\d{4})\.")
+
+
+def derive_date(cid: str, id_type: str) -> str:
+    """Best-effort publication date from the canonical id itself — no fetch
+    needed. arXiv ids embed YYMM of submission; ACL Anthology ids embed the
+    venue year (month unknown, so pinned to '-00' to sort first within that
+    year). GitHub repos, openreview hashes, and bare URLs carry no date
+    signal in the id and are left undated."""
+    ident = cid.split(":", 1)[1] if ":" in cid else cid
+    if id_type == "arxiv":
+        m = ARXIV_ID_DATE.match(ident)
+        if m:
+            yy, mm = m.groups()
+            return f"20{yy}-{mm}"
+    elif id_type == "acl":
+        m = ACL_ID_YEAR.match(ident)
+        if m:
+            return f"{m.group(1)}-00"
+    return ""
+
+
 def normalize_url(url: str) -> str:
     s = urlsplit(url.strip())
     host = s.netloc.lower().removeprefix("www.")
@@ -444,7 +467,9 @@ class Entry:
     @property
     def date(self) -> str:
         ds = sorted(d for d in (o.date for o in self.occurrences) if d)
-        return ds[0] if ds else ""
+        if ds:
+            return ds[0]
+        return derive_date(self.cid, self.id_type)
 
     @property
     def related(self) -> list[str]:
@@ -651,19 +676,39 @@ def write_outputs(entries: dict[str, Entry], out: Path, fmt: str) -> None:
     for e in entries.values():
         by_cat[e.category].append(e)
 
+    def render_date(d: str) -> str:
+        # "-00" marks a year-only date (month unknown, e.g. from an ACL id);
+        # show just the year rather than a fake "-00" month.
+        return d[:4] if d.endswith("-00") else d
+
+    def render_entry(e: Entry, lines: list[str]) -> None:
+        when = f" · {render_date(e.date)}" if e.date else ""
+        lines.append(f"- [{e.best_title}]({e.url}){when}")
+        lines.append(f"  - `{e.cid}` · cited by {len(e.sources)}: {', '.join(e.sources)}")
+        if e.related:
+            lines.append("  - related: " + " ".join(f"<{r}>" for r in e.related[:4]))
+        lines.append("  - summary: " + e.summary)
+        lines.append("")
+
     for cat, items in sorted(by_cat.items()):
-        # Links cited by more sources first — cross-list agreement is the
-        # cheapest available proxy for canonical status.
-        items.sort(key=lambda x: (-len(x.sources), x.best_title.lower()))
+        dated = [e for e in items if e.date]
+        undated = [e for e in items if not e.date]
+        # Oldest first: reading top to bottom traces the field's evolution
+        # from foundational work to the current frontier.
+        dated.sort(key=lambda x: (x.date, x.best_title.lower()))
+        undated.sort(key=lambda x: (-len(x.sources), x.best_title.lower()))
+
         lines = [f"# {cat}", "", f"{len(items)} entries.", ""]
-        for e in items:
-            when = f" · {e.date}" if e.date else ""
-            lines.append(f"- [{e.best_title}]({e.url}){when}")
-            lines.append(f"  - `{e.cid}` · cited by {len(e.sources)}: {', '.join(e.sources)}")
-            if e.related:
-                lines.append("  - related: " + " ".join(f"<{r}>" for r in e.related[:4]))
-            lines.append("  - summary: " + e.summary)
-            lines.append("")
+        if dated:
+            lines += ["## Timeline", "", f"{len(dated)} dated entries, oldest first.", ""]
+            for e in dated:
+                render_entry(e, lines)
+        if undated:
+            lines += ["## Tools & Undated", "",
+                      f"{len(undated)} entries with no date derivable from their "
+                      "source (GitHub repos, blog posts, etc.).", ""]
+            for e in undated:
+                render_entry(e, lines)
         (out / "by-category" / f"{cat}.md").write_text("\n".join(lines), encoding="utf-8")
 
     # report

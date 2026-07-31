@@ -2,9 +2,57 @@
 
 56 entries.
 
-- [TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code](https://arxiv.org/abs/2602.06875)
+## Timeline
+
+11 dated entries, oldest first.
+
+- [Where LLM Agents Fail and How They Can Learn From Failures (AgentDebug)](https://arxiv.org/abs/2509.25370) · 2025-09
+  - `arxiv:2509.25370` · cited by 1: HE
+  - summary: Introduces AgentErrorTaxonomy (a modular failure classification across memory, reflection, planning, action, and system layers) and AgentErrorBench (annotated failure trajectories from ALFWorld, GAIA, WebShop), then shows a debugging framework using them lifts task success up to 26% by isolating root causes and generating corrective feedback.
+
+- [Architecting AgentOps Needs CHANGE](https://arxiv.org/pdf/2601.06456v1) · 2026-01
+  - `arxiv:2601.06456` · cited by 1: VA
+  - summary: Argues DevOps/MLOps operational principles don't transfer to agentic systems because their behavior keeps changing after deployment, and proposes CHANGE, a six-capability framework (Contextualize, Harmonize, Anticipate, Negotiate, Generate, Evolve) for architecting AgentOps around continuous co-evolution rather than fixed control loops.
+
+- [Interpreting Agentic Systems: Beyond Model Explanations to System-Level Accountability](https://arxiv.org/pdf/2601.17168v1) · 2026-01
+  - `arxiv:2601.17168` · cited by 1: VA
+  - summary: Gaps in explaining temporal dynamics and compounding decisions.
+
+- [Securing LLM-as-a-Service for Small Businesses: An Industry Case Study of a Distributed Chatbot Deployment Platform](https://arxiv.org/pdf/2601.15528v1) · 2026-01
+  - `arxiv:2601.15528` · cited by 1: VA
+  - summary: An industry case study of a distributed k3s-based platform letting small businesses deploy RAG chatbots with per-tenant isolation and platform-level prompt-injection defenses, validated on a real e-commerce deployment without requiring model retraining.
+
+- [TriCEGAR: A Trace-Driven Abstraction Mechanism for Agentic AI](https://arxiv.org/pdf/2601.22997v1) · 2026-01
+  - `arxiv:2601.22997` · cited by 1: VA
+  - summary: Predicate-tree state abstraction from traces for runtime verification.
+
+- [When AI Agents Touch CI/CD Configurations: Frequency and Success](https://arxiv.org/pdf/2601.17413v1) · 2026-01
+  - `arxiv:2601.17413` · cited by 1: VA
+  - summary: Modification frequency, merge and build success across 8,031 PRs.
+
+- [AgentCgroup: Understanding and Controlling OS Resources of AI Agents](https://arxiv.org/abs/2602.09345) · 2026-02
+  - `arxiv:2602.09345` · cited by 1: HE
+  - summary: Measures OS-level resource behavior in sandboxed coding agents and finds tool-call execution accounts for 55-60% of end-to-end latency with memory (not CPU) as the concurrency bottleneck and up to 15.4x memory spikes, then proposes an eBPF-based controller matched to tool-call-level granularity instead of container-level policies.
+
+- [AgentStepper: Interactive Debugging of Software Development Agents](https://arxiv.org/abs/2602.06593) · 2026-02
+  - `arxiv:2602.06593` · cited by 1: HE
+  - summary: The first interactive debugger for LLM-based software agents, representing trajectories as structured conversations with breakpoints, stepwise execution, and live prompt/tool editing; a user study found it cut bug-identification success from needing extensive effort to 60% success with frustration dropping from 5.4/7 to 2.4/7.
+
+- [From Features to Actions: Explainability in Traditional and Agentic AI Systems](https://arxiv.org/pdf/2602.06841v1) · 2026-02
+  - `arxiv:2602.06841` · cited by 1: VA
+  - summary: Attribution vs trace-based diagnostics for multi-step trajectories.
+
+- [TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code](https://arxiv.org/abs/2602.06875) · 2026-02
   - `arxiv:2602.06875` · cited by 2: HE, VA
   - summary: Instruments LLM-generated code with diagnostic probes to capture runtime traces, then runs causal analysis to localize the true root cause of a bug and learns from prior failed repair attempts via a historical-lesson mechanism, improving Pass@1 up to 34.43% over prior automated repair baselines.
+
+- [AgentTrace: Causal Graph Tracing for Root Cause Analysis in Multi-Agent Systems](https://arxiv.org/abs/2603.14688) · 2026-03
+  - `arxiv:2603.14688` · cited by 1: HE
+  - summary: A lightweight causal-tracing framework that reconstructs causal graphs from multi-agent execution logs and ranks root causes by structural signals without invoking an LLM at debug time, localizing failures faster and more accurately than heuristic or LLM-based baselines.
+
+## Tools & Undated
+
+45 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [5 Production Scaling Challenges for Agentic AI in 2026](https://machinelearningmastery.com/5-production-scaling-challenges-for-agentic-ai-in-2026/)
   - `url:https://machinelearningmastery.com/5-production-scaling-challenges-for-agentic-ai-in-2026` · cited by 1: HE
@@ -17,10 +65,6 @@
 - [agentacct](https://github.com/mikehasa/agentacct)
   - `gh:mikehasa/agentacct` · cited by 1: HE
   - summary: TODO
-
-- [AgentCgroup: Understanding and Controlling OS Resources of AI Agents](https://arxiv.org/abs/2602.09345)
-  - `arxiv:2602.09345` · cited by 1: HE
-  - summary: Measures OS-level resource behavior in sandboxed coding agents and finds tool-call execution accounts for 55-60% of end-to-end latency with memory (not CPU) as the concurrency bottleneck and up to 15.4x memory spikes, then proposes an eBPF-based controller matched to tool-call-level granularity instead of container-level policies.
 
 - [Agentic Development: What It Means for Engineering Infrastructure in 2026](https://www.bunnyshell.com/guides/agentic-development/)
   - `url:https://bunnyshell.com/guides/agentic-development` · cited by 1: HE
@@ -38,14 +82,6 @@
   - `url:https://microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework` · cited by 1: HE
   - summary: Synthesizes constraints from tool schemas and domain policies to automatically pinpoint the first unrecoverable step in an agent's execution, converting heterogeneous logs into a common format and using an LLM judge against a nine-category failure taxonomy.
 
-- [AgentStepper: Interactive Debugging of Software Development Agents](https://arxiv.org/abs/2602.06593)
-  - `arxiv:2602.06593` · cited by 1: HE
-  - summary: The first interactive debugger for LLM-based software agents, representing trajectories as structured conversations with breakpoints, stepwise execution, and live prompt/tool editing; a user study found it cut bug-identification success from needing extensive effort to 60% success with frustration dropping from 5.4/7 to 2.4/7.
-
-- [AgentTrace: Causal Graph Tracing for Root Cause Analysis in Multi-Agent Systems](https://arxiv.org/abs/2603.14688)
-  - `arxiv:2603.14688` · cited by 1: HE
-  - summary: A lightweight causal-tracing framework that reconstructs causal graphs from multi-agent execution logs and ranks root causes by structural signals without invoking an LLM at debug time, localizing failures faster and more accurately than heuristic or LLM-based baselines.
-
 - [AI Agent Cost Optimization Guide 2026: Reduce Spend by 60-80%](https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026)
   - `url:https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026` · cited by 1: HE
   - summary: NEEDS-SOURCE
@@ -61,10 +97,6 @@
 - [An Update on Recent Claude Code Quality Reports](https://www.anthropic.com/engineering/april-23-postmortem)
   - `url:https://anthropic.com/engineering/april-23-postmortem` · cited by 1: HE
   - summary: Three independent harness-level changes compounding into visible regression. Best postmortem in the corpus.
-
-- [Architecting AgentOps Needs CHANGE](https://arxiv.org/pdf/2601.06456v1)
-  - `arxiv:2601.06456` · cited by 1: VA
-  - summary: Argues DevOps/MLOps operational principles don't transfer to agentic systems because their behavior keeps changing after deployment, and proposes CHANGE, a six-capability framework (Contextualize, Harmonize, Anticipate, Negotiate, Generate, Evolve) for architecting AgentOps around continuous co-evolution rather than fixed control loops.
 
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix)
   - `gh:arize-ai/phoenix` · cited by 1: HE
@@ -123,10 +155,6 @@
   - `url:https://infoworld.com/article/4138748/finops-for-agents-loop-limits-tool-call-caps-and-the-new-unit-economics-of-agentic-saas.html` · cited by 1: HE
   - summary: Frames agent cost governance as a FinOps discipline where loop limits, tool-call caps, token budgets, and timeouts are the guardrails that stop runaway costs when an agent hits an edge case and retries excessively.
 
-- [From Features to Actions: Explainability in Traditional and Agentic AI Systems](https://arxiv.org/pdf/2602.06841v1)
-  - `arxiv:2602.06841` · cited by 1: VA
-  - summary: Attribution vs trace-based diagnostics for multi-step trajectories.
-
 - [Future AGI](https://github.com/future-agi/future-agi)
   - `gh:future-agi/future-agi` · cited by 1: HE
   - summary: An open-source platform unifying evaluation, tracing, simulation, and guardrails for agents in one system, aimed at replacing a stitched-together stack of separate observability tools with one closed feedback loop.
@@ -142,10 +170,6 @@
 - [How We Build Azure SRE Agent with Agentic Workflows](https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753)
   - `url:https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753` · cited by 1: HE
   - summary: 35,000+ production incidents; time-to-mitigation 40.5 hours → 3 minutes.
-
-- [Interpreting Agentic Systems: Beyond Model Explanations to System-Level Accountability](https://arxiv.org/pdf/2601.17168v1)
-  - `arxiv:2601.17168` · cited by 1: VA
-  - summary: Gaps in explaining temporal dynamics and compounding decisions.
 
 - [Introducing BigQuery Agent Analytics](https://cloud.google.com/blog/products/data-analytics/introducing-bigquery-agent-analytics/)
   - `url:https://cloud.google.com/blog/products/data-analytics/introducing-bigquery-agent-analytics` · cited by 1: HE
@@ -195,10 +219,6 @@
   - `url:https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring` · cited by 1: HE
   - summary: METR's red-team exercise against Anthropic's internal agent-monitoring systems found several novel vulnerabilities (since patched) but nothing that undermined Anthropic's Opus 4.6 sabotage-risk claims, producing a reusable covert-attack trajectory set to strengthen future monitoring.
 
-- [Securing LLM-as-a-Service for Small Businesses: An Industry Case Study of a Distributed Chatbot Deployment Platform](https://arxiv.org/pdf/2601.15528v1)
-  - `arxiv:2601.15528` · cited by 1: VA
-  - summary: An industry case study of a distributed k3s-based platform letting small businesses deploy RAG chatbots with per-tenant isolation and platform-level prompt-injection defenses, validated on a real e-commerce deployment without requiring model retraining.
-
 - [State of Agent Engineering 2026](https://www.langchain.com/state-of-agent-engineering)
   - `url:https://langchain.com/state-of-agent-engineering` · cited by 1: HE
   - summary: A survey of 1,300+ professionals finding 57% of organizations now run agents in production, with quality as the primary remaining barrier and observability (89% adoption) now considered essential rather than optional.
@@ -207,10 +227,6 @@
   - `gh:syncause/debug-skill` · cited by 1: HE
   - summary: An agent debugging skill that captures runtime traces and stack traces before an agent attempts a fix, replacing guesswork about root cause with evidence so repairs are backed by concrete data.
 
-- [TriCEGAR: A Trace-Driven Abstraction Mechanism for Agentic AI](https://arxiv.org/pdf/2601.22997v1)
-  - `arxiv:2601.22997` · cited by 1: VA
-  - summary: Predicate-tree state abstraction from traces for runtime verification.
-
 - [Weights & Biases Weave](https://github.com/wandb/weave)
   - `gh:wandb/weave` · cited by 1: HE
   - summary: A toolkit for logging, tracing, and evaluating generative AI applications end to end, bringing structure and reproducibility to agent development from experimentation through production.
@@ -218,11 +234,3 @@
 - [What Is an Agent Harness? Running Governed Managed Agents in Production](https://www.truefoundry.com/blog/agent-harness-managed-ai-agents)
   - `url:https://truefoundry.com/blog/agent-harness-managed-ai-agents` · cited by 1: HE
   - summary: Argues the agent harness — the runtime layer managing the plan-act-observe loop, tool routing, sandboxing, and approvals — is the real infrastructure decision in agentic AI, and that building it in-house per team is wasteful duplication a managed harness should replace.
-
-- [When AI Agents Touch CI/CD Configurations: Frequency and Success](https://arxiv.org/pdf/2601.17413v1)
-  - `arxiv:2601.17413` · cited by 1: VA
-  - summary: Modification frequency, merge and build success across 8,031 PRs.
-
-- [Where LLM Agents Fail and How They Can Learn From Failures (AgentDebug)](https://arxiv.org/abs/2509.25370)
-  - `arxiv:2509.25370` · cited by 1: HE
-  - summary: Introduces AgentErrorTaxonomy (a modular failure classification across memory, reflection, planning, action, and system layers) and AgentErrorBench (annotated failure trajectories from ALFWorld, GAIA, WebShop), then shows a debugging framework using them lifts task success up to 26% by isolating root causes and generating corrective feedback.

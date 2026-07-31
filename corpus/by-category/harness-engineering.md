@@ -2,9 +2,65 @@
 
 80 entries.
 
-- [A Scheduler-Theoretic Framework for LLM Agent Execution](https://arxiv.org/abs/2604.11378)
+## Timeline
+
+13 dated entries, oldest first.
+
+- [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314) · 2023-06
+  - `arxiv:2306.03314` · cited by 1: LJ
+  - summary: An early multi-agent collaboration framework built around case studies of Auto-GPT, BabyAGI, and API-integrating Gorilla, explicitly cataloguing looping, security, scalability, evaluation, and ethics as the open challenges for multi-agent LLM systems.
+
+- [Live-SWE-agent: Autonomous Software Agent with Self-Evolving Harness](https://arxiv.org/html/2511.13646v3) · 2025-11
+  - `arxiv:2511.13646` · cited by 1: HE
+  - summary: The first agent that autonomously evolves its own scaffold at runtime while solving real software problems, starting from a minimal bash-only agent and reaching 77.4% on SWE-bench Verified without test-time scaling, beating all existing software agents including proprietary ones.
+
+- [Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents](https://arxiv.org/pdf/2601.15322v1) · 2026-01
+  - `arxiv:2601.15322` · cited by 1: VA
+  - summary: Measures trajectory determinism and evidence-conditioned faithfulness.
+
+- [Agents Learn Their Runtime: Interpreter Persistence as Training-Time Semantics](https://arxiv.org/abs/2603.01209) · 2026-03
+  - `arxiv:2603.01209` · cited by 1: HE
+  - summary: Mismatching runtime persistence to training-time semantics costs either correctness or 3.5× tokens.
+
+- [Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned](https://arxiv.org/abs/2603.05344) · 2026-03
+  - `arxiv:2603.05344` · cited by 1: HE
+  - summary: Practitioner paper on eager-construction scaffolding and compound multi-model architecture.
+
+- [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) · 2026-03
+  - `arxiv:2603.28052` · cited by 1: HE
+  - summary: Meta-Harness searches over an LLM application's harness code itself (not just prompts) using an agentic proposer with filesystem access to prior candidates' traces, improving a context-management baseline by 7.7 points at 4x fewer tokens and beating hand-engineered baselines on TerminalBench-2.
+
+- [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723) · 2026-03
+  - `arxiv:2603.25723` · cited by 1: HE
+  - summary: Externalizes control logic as portable natural-language artifacts run by a shared runtime.
+
+- [A Scheduler-Theoretic Framework for LLM Agent Execution](https://arxiv.org/abs/2604.11378) · 2026-04
   - `arxiv:2604.11378` · cited by 1: HE
   - summary: Surveys 70 projects; 60% use the plain agent loop, and maps the alternatives' trade-offs.
+
+- [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071) · 2026-04
+  - `arxiv:2604.18071` · cited by 1: HE
+  - summary: Empirical study of 70 public agent systems across five recurring design dimensions.
+
+- [The Design Space of Today's and Future AI Agent Systems](https://arxiv.org/abs/2604.14228) · 2026-04
+  - `arxiv:2604.14228` · cited by 1: HE
+  - summary: Reverse-engineers a production agent's five-stage progressive compaction and hook pipeline.
+
+- [Code as Agent Harness](https://arxiv.org/abs/2605.18747) · 2026-05
+  - `arxiv:2605.18747` · cited by 1: HE
+  - summary: Survey arguing code is the substrate unifying harness interface, mechanism and multi-agent scaling.
+
+- [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) · 2026-06
+  - `arxiv:2606.09498` · cited by 1: HE
+  - summary: Self-Harness lets an agent improve its own operating harness with no human engineer via a three-stage loop (mine model-specific weaknesses from traces, propose minimal harness edits, validate via regression testing before accepting), lifting held-out pass rates by 15-21 points across three different base model families on Terminal-Bench-2.0.
+
+- [What makes a harness a harness: necessary and sufficient conditions for an agent harness](https://arxiv.org/abs/2606.10106) · 2026-06
+  - `arxiv:2606.10106` · cited by 1: HE
+  - summary: Constitutive definition via four necessary elements; applied as an inclusion test to real harnesses.
+
+## Tools & Undated
+
+67 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](https://claude.com/blog/harnessing-claudes-intelligence)
   - `url:https://claude.com/blog/harnessing-claudes-intelligence` · cited by 1: HE
@@ -13,10 +69,6 @@
 - [agentic-harness-engineering](https://github.com/china-qijizhifeng/agentic-harness-engineering)
   - `gh:china-qijizhifeng/agentic-harness-engineering` · cited by 1: HE
   - summary: An observability system that evolves a coding agent's harness (prompts, tools, memory) through iterative evaluate-analyze-improve cycles while keeping the base model fixed, lifting GPT-5.4 from 69.7% to 77.0% pass rate with evolved harnesses transferring across models.
-
-- [Agents Learn Their Runtime: Interpreter Persistence as Training-Time Semantics](https://arxiv.org/abs/2603.01209)
-  - `arxiv:2603.01209` · cited by 1: HE
-  - summary: Mismatching runtime persistence to training-time semantics costs either correctness or 3.5× tokens.
 
 - [AgentSPEX](https://github.com/ScaleML/AgentSPEX)
   - `gh:scaleml/agentspex` · cited by 1: HE
@@ -29,10 +81,6 @@
 - [AOHP](https://github.com/aohp-os/aohp)
   - `gh:aohp-os/aohp` · cited by 1: HE
   - summary: An OS-level agent harness on Android letting agents compose personalized services by orchestrating system APIs, CLIs, and app GUIs directly, instead of being limited to fixed developer-defined app interfaces.
-
-- [Architectural Design Decisions in AI Agent Harnesses](https://arxiv.org/abs/2604.18071)
-  - `arxiv:2604.18071` · cited by 1: HE
-  - summary: Empirical study of 70 public agent systems across five recurring design dimensions.
 
 - [AutoAgent](https://github.com/kevinrgu/autoagent)
   - `gh:kevinrgu/autoagent` · cited by 1: HE
@@ -54,10 +102,6 @@
   - `gh:browser-use/browser-harness` · cited by 1: HE
   - summary: A thin CDP-based harness that connects LLMs directly to real browsers, writing missing helper code on the fly during execution so repetitive browser-interaction patterns get automated away rather than re-solved each time.
 
-- [Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned](https://arxiv.org/abs/2603.05344)
-  - `arxiv:2603.05344` · cited by 1: HE
-  - summary: Practitioner paper on eager-construction scaffolding and compound multi-model architecture.
-
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
   - `url:https://platform.claude.com/docs/en/agent-sdk/overview` · cited by 1: HE
   - summary: The Agent SDK exposes the same tools, agent loop, and context management that power Claude Code as a library (Python/TypeScript), so builders get autonomous tool execution, hooks, subagents, and MCP support without implementing a tool loop themselves.
@@ -65,10 +109,6 @@
 - [ClawGUI](https://github.com/ZJU-REAL/ClawGUI)
   - `gh:zju-real/clawgui` · cited by 1: HE
   - summary: A GUI-agent framework unifying online RL training, standardized evaluation, and real-device deployment into one system, so training environments, benchmarks, and production deployment don't have to be solved as three separate problems.
-
-- [Code as Agent Harness](https://arxiv.org/abs/2605.18747)
-  - `arxiv:2605.18747` · cited by 1: HE
-  - summary: Survey arguing code is the substrate unifying harness interface, mechanism and multi-agent scaling.
 
 - [CodeWhale](https://github.com/Hmbown/CodeWhale)
   - `gh:hmbown/codewhale` · cited by 1: HE
@@ -182,10 +222,6 @@
   - `gh:tianshi-xu/life-harness` · cited by 1: HE
   - summary: Lifecycle-aware runtime layer; gains transfer across 18 model backbones.
 
-- [Live-SWE-agent: Autonomous Software Agent with Self-Evolving Harness](https://arxiv.org/html/2511.13646v3)
-  - `arxiv:2511.13646` · cited by 1: HE
-  - summary: The first agent that autonomously evolves its own scaffold at runtime while solving real software problems, starting from a minimal bash-only agent and reaching 77.4% on SWE-bench Verified without test-time scaling, beating all existing software agents including proprietary ones.
-
 - [Loop Engineering](https://github.com/cobusgreyling/loop-engineering)
   - `gh:cobusgreyling/loop-engineering` · cited by 1: HE
   - summary: A framework for designing the control systems that orchestrate coding agents over time, providing CLI tools (loop-audit, loop-init, loop-cost) and safety checklists to move from manual prompting toward L1-L3 autonomy.
@@ -198,25 +234,13 @@
   - `gh:canvas-org/meta-agent` · cited by 1: HE
   - summary: A harness optimizer that reads execution traces from the current harness, proposes a targeted change, evaluates it on a held-out split, and keeps it only if the score improves, rewriting prompts and control flow around a frozen model.
 
-- [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052)
-  - `arxiv:2603.28052` · cited by 1: HE
-  - summary: Meta-Harness searches over an LLM application's harness code itself (not just prompts) using an agentic proposer with filesystem access to prior candidates' traces, improving a context-management baseline by 7.7 points at 4x fewer tokens and beating hand-engineered baselines on TerminalBench-2.
-
 - [metaharness](https://github.com/SuperagenticAI/metaharness)
   - `gh:superagenticai/metaharness` · cited by 1: HE
   - summary: An open-source library for optimizing the executable harness code around agentic coding systems (repo instructions, validation logic, test flows) through an iterative loop that stores evidence per proposal, making harness engineering repeatable and inspectable.
 
-- [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314)
-  - `arxiv:2306.03314` · cited by 1: LJ
-  - summary: An early multi-agent collaboration framework built around case studies of Auto-GPT, BabyAGI, and API-integrating Gorilla, explicitly cataloguing looping, security, scalability, evaluation, and ethics as the open challenges for multi-agent LLM systems.
-
 - [nanobot](https://github.com/HKUDS/nanobot)
   - `gh:hkuds/nanobot` · cited by 1: HE
   - summary: ~4,000-line personal assistant framework with MCP and skills.
-
-- [Natural-Language Agent Harnesses](https://arxiv.org/abs/2603.25723)
-  - `arxiv:2603.25723` · cited by 1: HE
-  - summary: Externalizes control logic as portable natural-language artifacts run by a shared runtime.
 
 - [neosigmaai/auto-harness](https://github.com/neosigmaai/auto-harness)
   - `gh:neosigmaai/auto-harness` · cited by 1: HE
@@ -250,10 +274,6 @@
   - `gh:raphaelchristi/harness-evolver` · cited by 1: HE
   - summary: A Claude Code plugin that autonomously evolves prompts, routing, and architecture via multi-agent optimization backed by LangSmith, proposing, evaluating, and merging harness changes through a self-organizing loop.
 
-- [Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents](https://arxiv.org/pdf/2601.15322v1)
-  - `arxiv:2601.15322` · cited by 1: VA
-  - summary: Measures trajectory determinism and evidence-conditioned faithfulness.
-
 - [retro-harness](https://github.com/wbopan/retro-harness)
   - `gh:wbopan/retro-harness` · cited by 1: HE
   - summary: RHO (Retrospective Harness Optimization) improves an agent's harness purely from its own past trajectories with no labels or validation set, lifting SWE-Bench Pro performance from 59% to 78% in the reported case.
@@ -269,10 +289,6 @@
 - [RyanAlberts/best-of-Agent-Harnesses](https://github.com/RyanAlberts/best-of-Agent-Harnesses)
   - `gh:ryanalberts/best-of-agent-harnesses` · cited by 1: HE
   - summary: A curated, ranked list of 140+ agent harnesses — the orchestration infrastructure converting model reasoning into sustained, tool-using, error-recovering behavior — comparable by autonomy level and recovery tier.
-
-- [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498)
-  - `arxiv:2606.09498` · cited by 1: HE
-  - summary: Self-Harness lets an agent improve its own operating harness with no human engineer via a three-stage loop (mine model-specific weaknesses from traces, propose minimal harness edits, validate via regression testing before accepting), lifting held-out pass rates by 15-21 points across three different base model families on Terminal-Bench-2.0.
 
 - [Skill Issue: Harness Engineering for Coding Agents](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents)
   - `url:https://humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents` · cited by 1: HE
@@ -302,10 +318,6 @@
   - `url:https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode` · cited by 1: HE
   - summary: Three loop responsibilities, multi-provider routing, PR-gated eval suite.
 
-- [The Design Space of Today's and Future AI Agent Systems](https://arxiv.org/abs/2604.14228)
-  - `arxiv:2604.14228` · cited by 1: HE
-  - summary: Reverse-engineers a production agent's five-stage progressive compaction and hook pipeline.
-
 - [Tuning the harness, not the model: a Nemotron 3 Ultra playbook](https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook)
   - `url:https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook` · cited by 1: HE
   - summary: Achieves near-frontier performance by tuning Nemotron 3 Ultra's harness (system prompt, tool descriptions, middleware) instead of its weights, mining execution traces for failure patterns to iteratively refine the scaffolding until the model stops fighting its own infrastructure.
@@ -317,7 +329,3 @@
 - [Unrolling the Codex Agent Loop](https://openai.com/index/unrolling-the-codex-agent-loop/)
   - `url:https://openai.com/index/unrolling-the-codex-agent-loop` · cited by 1: HE
   - summary: Step-by-step decomposition of one loop iteration and where each component plugs in.
-
-- [What makes a harness a harness: necessary and sufficient conditions for an agent harness](https://arxiv.org/abs/2606.10106)
-  - `arxiv:2606.10106` · cited by 1: HE
-  - summary: Constitutive definition via four necessary elements; applied as an inclusion test to real harnesses.
