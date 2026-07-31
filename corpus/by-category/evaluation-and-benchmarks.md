@@ -1,6 +1,6 @@
 # evaluation-and-benchmarks
 
-151 entries.
+150 entries.
 
 - [A Systemic Evaluation of Multimodal RAG Privacy](https://arxiv.org/pdf/2601.17644v2)
   - `arxiv:2601.17644` · cited by 1: VA
@@ -549,10 +549,6 @@
 - [TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks](https://arxiv.org/pdf/2412.14161)
   - `arxiv:2412.14161` · cited by 1: LJ
   - summary: Simulates a whole software company; consequential long-horizon work tasks.
-
-- [ToolQA: A Dataset for LLM Question Answering with External Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
-  - summary: ToolQA tests genuine tool-use reasoning (not memorization) by minimizing overlap with pretraining data and providing 13 specialized external-knowledge tools, exposing specific gaps in existing tool-augmented LLMs on hallucination and numerical reasoning.
 
 - [Toward Architecture-Aware Evaluation Metrics for LLM Agents](https://arxiv.org/pdf/2601.19583v1)
   - `arxiv:2601.19583` · cited by 1: VA

@@ -1,6 +1,6 @@
 # tool-use-and-protocols
 
-96 entries.
+103 entries.
 
 - [A2A Protocol](https://github.com/a2aproject/A2A)
   - `gh:a2aproject/a2a` · cited by 1: HE
@@ -154,9 +154,21 @@
   - `url:https://platform.openai.com/docs/guides/function-calling` · cited by 1: HE
   - summary: The de facto JSON Schema conventions and parallel calling.
 
+- [GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution](https://arxiv.org/pdf/2307.08775)
+  - `arxiv:2307.08775` · cited by 1: LJ
+  - summary: Generalizable, efficient tool resolution decoupled from the main model.
+
 - [Google Developers: Closing the Knowledge Gap with Agent Skills](https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/)
   - `url:https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills` · cited by 1: HE
   - summary: ADK skills with a 117-prompt evaluation harness.
+
+- [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html)
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html` · cited by 1: LJ
+  - summary: Gorilla is a fine-tuned LLaMA model trained with Retriever-Aware Training that beats GPT-4 at writing correct API calls and adapts to documentation changes at test time via a paired retriever, substantially reducing hallucinated API usage.
+
+- [GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction](https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_411)
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html` · cited by 1: LJ
+  - summary: GPT4Tools self-generates instruction-following data (via self-instruction plus LoRA) to teach open-source models like LLaMA to use multimodal tools, improving both known-tool accuracy and zero-shot generalization to unseen tools.
 
 - [Hermes Agent: Unified Streaming for Real-Time Agent Workflows](https://juliangoldie.com/hermes-agent-unified-streaming/)
   - `url:https://juliangoldie.com/hermes-agent-unified-streaming` · cited by 1: HE
@@ -246,6 +258,10 @@
   - `arxiv:2408.01875` · cited by 1: LJ
   - summary: Unsupervised retrieval via query synthesis and multi-view ranking.
 
+- [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](http://arxiv.org/abs/2306.06624)
+  - `arxiv:2306.06624` · cited by 1: LJ
+  - summary: RestGPT connects an LLM to real-world RESTful APIs via coarse-to-fine online planning for task decomposition and API selection, plus a dedicated API executor for parameter formulation and response parsing, evaluated on a new benchmark (RestBench) of real-world scenarios with gold solution paths.
+
 - [SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments](https://arxiv.org/pdf/2601.09750v1)
   - `arxiv:2601.09750` · cited by 1: VA
   - summary: A conversational tool-use interface built on the OPACA framework for dynamic tool discovery and integration, letting new domain-specific tools be added without retraining and comparing several agentic prompting strategies for selecting and executing them.
@@ -330,13 +346,25 @@
   - `arxiv:2601.06328` · cited by 1: VA
   - summary: 5,571 tools across 204 apps with injected failures for robustness testing.
 
+- [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html)
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html` · cited by 1: LJ
+  - summary: Represents each of many tools as a learned 'toolken' embedding a frozen LLM can emit like a token, adding new tools without fine-tuning or in-context demos across numerical reasoning, KBQA, and embodied tasks.
+
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](http://arxiv.org/abs/2307.16789)
   - `arxiv:2307.16789` · cited by 1: LJ
   - summary: Large-scale API corpus plus a DFS-based decision strategy for tool selection.
 
+- [ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph](http://arxiv.org/abs/2403.00839)
+  - `arxiv:2403.00839` · cited by 1: LJ
+  - summary: Organizes thousands of tools as a graph the model traverses.
+
 - [ToolPlanner: A Tool Augmented LLM for Multi Granularity Instructions with Path Planning and Feedback](http://arxiv.org/abs/2409.14826)
   - `arxiv:2409.14826` · cited by 1: LJ
   - summary: Path planning plus feedback over multi-granularity instructions.
+
+- [ToolQA: A Dataset for LLM Question Answering with External Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html)
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
+  - summary: ToolQA tests genuine tool-use reasoning (not memorization) by minimizing overlap with pretraining data and providing 13 specialized external-knowledge tools, exposing specific gaps in existing tool-augmented LLMs on hallucination and numerical reasoning.
 
 - [ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents](https://arxiv.org/pdf/2602.02548v1)
   - `arxiv:2602.02548` · cited by 1: VA

@@ -1,6 +1,6 @@
 # multi-agent
 
-153 entries.
+154 entries.
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
@@ -145,6 +145,10 @@
 - [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
   - `arxiv:2307.07924` · cited by 1: LJ
   - summary: Virtual software company staffed by role-playing agents.
+
+- [ChatDev: Communicative Agents for Software Development](https://aclanthology.org/2024.acl-long.810/)
+  - `acl:2024.acl-long.810` · cited by 1: LJ
+  - summary: ChatDev coordinates specialized LLM agents through a structured 'chat chain' across design, coding, and testing phases, showing natural language works best for design decisions while programming-language communication works best for debugging.
 
 - [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://openreview.net/forum?id=FQepisCUWu)
   - `openreview:FQepisCUWu` · cited by 1: LJ

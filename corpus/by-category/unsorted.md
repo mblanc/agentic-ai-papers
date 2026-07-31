@@ -1,6 +1,6 @@
 # unsorted
 
-102 entries.
+93 entries.
 
 - [4D-ARE: 4-Dimensional Attribution-Driven Agent Requirements Engineering](https://arxiv.org/pdf/2601.04556v1)
   - `arxiv:2601.04556` · cited by 1: VA
@@ -114,10 +114,6 @@
   - `arxiv:2601.01569` · cited by 1: VA
   - summary: CaveAgent inverts the usual tool-use paradigm by making a persistent Python runtime (not the LLM's text context) the primary workspace, letting complex objects like DataFrames persist across turns as external memory, reducing context drift on tasks that overflow JSON- or code-based agents.
 
-- [ChatDev: Communicative Agents for Software Development](https://aclanthology.org/2024.acl-long.810/)
-  - `acl:2024.acl-long.810` · cited by 1: LJ
-  - summary: ChatDev coordinates specialized LLM agents through a structured 'chat chain' across design, coding, and testing phases, showing natural language works best for design decisions while programming-language communication works best for debugging.
-
 - [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427)
   - `arxiv:2309.02427` · cited by 1: LJ
   - summary: Modular memory, action space and decision procedure. The most useful organizing framework in the pre-2026 literature.
@@ -186,25 +182,13 @@
   - `arxiv:2602.01644` · cited by 1: VA
   - summary: A 742-work survey unifying agentic capability with spatial reasoning across scale, distinguishing spatial grounding (real geometry/physics) from symbolic grounding (image-text association) and arguing perception alone doesn't confer agency, identifying hierarchical memory, GNN-LLM integration, and world models as the three load-bearing capabilities.
 
-- [GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution](https://arxiv.org/pdf/2307.08775)
-  - `arxiv:2307.08775` · cited by 1: LJ
-  - summary: Generalizable, efficient tool resolution decoupled from the main model.
-
 - [Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1)
   - `arxiv:2602.05636` · cited by 1: VA
   - summary: Constrains an LLM's generative freedom with executable Pydantic schemas plus specialized critic/architect agent roles to produce structurally valid creative artifacts (demonstrated on tabletop game design), showing multi-agent specialization drives the largest quality gains while schema validation eliminates structural errors entirely.
 
-- [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html` · cited by 1: LJ
-  - summary: Gorilla is a fine-tuned LLaMA model trained with Retriever-Aware Training that beats GPT-4 at writing correct API calls and adapts to documentation changes at test time via a paired retriever, substantially reducing hallucinated API usage.
-
 - [GPT-3: Its Nature, Scope, Limits, and Consequences](https://link.springer.com/article/10.1007/s11023-020-09548-1)
   - `url:https://link.springer.com/article/10.1007/s11023-020-09548-1` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction](https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_411)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html` · cited by 1: LJ
-  - summary: GPT4Tools self-generates instruction-following data (via self-instruction plus LoRA) to teach open-source models like LLaMA to use multimodal tools, improving both known-tool accuracy and zero-shot generalization to unseen tools.
 
 - [ICLR 2026 MemAgents Workshop](https://sites.google.com/view/memagent-iclr26/)
   - `url:https://sites.google.com/view/memagent-iclr26` · cited by 1: HE
@@ -241,10 +225,6 @@
 - [Motif: Intrinsic Motivation from Artificial Intelligence Feedback](https://arxiv.org/pdf/2310.00166)
   - `arxiv:2310.00166` · cited by 1: LJ
   - summary: Turns LLM priors into intrinsic rewards for an RL agent.
-
-- [No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning](https://arxiv.org/pdf/2601.06794v1)
-  - `arxiv:2601.06794` · cited by 1: VA
-  - summary: ECHO jointly evolves an RL agent's policy and its natural-language critic in a synchronized loop instead of using a static offline critic, using saturation-aware gain shaping to keep learning going past plateaus, yielding more stable training and better long-horizon success in open-world environments.
 
 - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922)
   - `url:https://dl.acm.org/doi/10.1145/3442188.3445922` · cited by 1: LJ
@@ -290,10 +270,6 @@
   - `arxiv:2601.16507` · cited by 1: VA
   - summary: REprompt grounds automated prompt engineering in requirements-engineering principles via a multi-agent optimization pipeline, producing system and user prompts that better conform to formal software requirement specifications than existing prompt-optimization methods.
 
-- [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](http://arxiv.org/abs/2306.06624)
-  - `arxiv:2306.06624` · cited by 1: LJ
-  - summary: RestGPT connects an LLM to real-world RESTful APIs via coarse-to-fine online planning for task decomposition and API selection, plus a dedicated API executor for parameter formulation and response parsing, evaluated on a new benchmark (RestBench) of real-world scenarios with gold solution paths.
-
 - [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf)
   - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
   - summary: Masks tokens by their informativeness rather than randomly, adding a Token-specific Label Smoothing step so masked-language pretraining focuses learning on under-explored tokens instead of uniformly random ones, improving 10 downstream tasks by 1.4-2.1 points on average across different pretrained models.
@@ -318,10 +294,6 @@
   - `arxiv:2601.05467` · cited by 1: VA
   - summary: STELP safely executes LLM-generated code in production by transpiling and running it in a controlled environment, addressing that traditional human review and security testing are impractical for real-time, headless code-generation-and-execution loops.
 
-- [Submit your paper at](https://forms.office.com/r/sW0Zzymi5b)
-  - `url:https://forms.office.com/r/sW0Zzymi5b` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
 - [Task-Aware LLM Council with Adaptive Decision Pathways for Decision Support](https://arxiv.org/pdf/2601.22662v1)
   - `arxiv:2601.22662` · cited by 1: VA
   - summary: TALC routes each decision point to whichever LLM in a council has a matching success-memory profile for that context, combining model-based and historical-utility signals to guide Monte Carlo Tree Search, beating strong baselines on WebShop, HumanEval, and Game of 24.
@@ -329,10 +301,6 @@
 - [Textual Equilibrium Propagation for Deep Compound AI Systems](https://arxiv.org/pdf/2601.21064v2)
   - `arxiv:2601.21064` · cited by 1: VA
   - summary: TEP fixes two depth-scaling failure modes in global textual-feedback optimization (exploding and vanishing textual gradients) with a local, equilibrium-propagation-inspired two-phase update, improving accuracy and efficiency over global methods like TextGrad as system depth grows.
-
-- [Thanks to](https://linux.do)
-  - `url:https://linux.do/` · cited by 1: HE
-  - summary: NEEDS-SOURCE
 
 - [The Path Ahead for Agentic AI: Challenges and Opportunities](https://arxiv.org/pdf/2601.02749v1)
   - `arxiv:2601.02749` · cited by 1: VA
@@ -345,10 +313,6 @@
 - [To Retrieve or To Think? An Agentic Approach for Context Evolution](https://arxiv.org/pdf/2601.08747v2)
   - `arxiv:2601.08747` · cited by 1: VA
   - summary: Decides per step whether to retrieve or reason over existing context.
-
-- [ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph](http://arxiv.org/abs/2403.00839)
-  - `arxiv:2403.00839` · cited by 1: LJ
-  - summary: Organizes thousands of tools as a graph the model traverses.
 
 - [Toward Safe and Responsible AI Agents: A Three-Pillar Model for Transparency, Accountability, and Trustworthiness](https://arxiv.org/pdf/2601.06223v1)
   - `arxiv:2601.06223` · cited by 1: VA

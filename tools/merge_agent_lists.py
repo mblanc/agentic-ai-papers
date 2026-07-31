@@ -154,6 +154,15 @@ SKIP_URL_SUBSTRINGS = (
 )
 IMAGE_EXT = (".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp")
 
+# Boilerplate section headers, not content. A link under "Contributing" is a
+# submission form, not a paper; a link under "Acknowledgments" is a thank-you,
+# not a tool. Matched against the leaf heading only, so this can't accidentally
+# swallow a source's real "Table of Contents" nesting (VoltAgent files its
+# entire paper list under one).
+SKIP_SECTION_LEAVES = re.compile(
+    r"\bcontributing\b|\backnowledg|\blicense\b|\bstar history\b", re.I
+)
+
 # Paper lists commonly write one item as:
 #   - **Title.** *Authors.* [[paper](url)] [[code](url)] [[project page](url)]
 # Those trailing links are satellites of the item, not separate entries. Left
@@ -252,8 +261,11 @@ TAXONOMY: list[tuple[str, list[str]]] = [
         # Tool-centric verbs, not bare "tool" — bare "tool" wrongly pulled a
         # prompt-injection defense and the LangChain SDK out of their homes.
         r"\btool[- ]?(?:use|using|augment|learn|retriev|call|invok|invocat|"
-        r"creat|manipulat|integrat|token|maker|planner|selection|instruct)",
-        r"\b(?:external|massive|multi[- ]?)tools?\b", r"\bchain of tools?\b",
+        r"creat|manipulat|integrat|token|maker|planner|selection|instruct|resolution)",
+        # "massive tools", "external tools" as separate words — the original
+        # pattern required them fused with no space and so never matched.
+        r"\b(?:external|massive|multi[- ]?) ?tools?\b", r"\bchain of tools?\b",
+        r"\buse tools?\b", r"\bmassive apis?\b", r"\breal.?world (?:restful )?apis?\b",
     ]),
     ("planning-and-reasoning", [
         r"\bplan(?:ning|ner)?\b", r"reason", r"chain.?of.?thought", r"\bcot\b",
@@ -265,6 +277,7 @@ TAXONOMY: list[tuple[str, list[str]]] = [
         r"multi.?agent", r"\bswarm\b", r"orchestrat", r"\bdebate\b",
         r"\bcollaborat", r"\bcooperat", r"role.?play", r"\bcrew\b", r"\bsubagent",
         r"\bautogen\b", r"\bcamel\b", r"agent society", r"\bhandoff",
+        r"communicative agents",
     ]),
     ("evaluation-and-benchmarks", [
         r"\beval", r"benchmark", r"\bbench\b", r"swe.?bench", r"webarena",
@@ -306,7 +319,7 @@ TAXONOMY: list[tuple[str, list[str]]] = [
     ("training-and-optimization", [
         r"\bfine.?tun", r"\brl\b", r"reinforcement", r"\bdpo\b", r"\bppo\b",
         r"\bdistill", r"agent tuning", r"\btraject", r"\bgepa\b", r"\bdspy\b",
-        r"prompt optim", r"self.?evolv", r"\bcurricul",
+        r"prompt optim", r"self.?evolv", r"\bcurricul", r"co.?evolving critic",
     ]),
     ("embodied-and-robotics", [
         r"\bembodied\b", r"\brobot", r"\bmanipulat", r"\bminecraft\b",
@@ -509,6 +522,9 @@ def parse_markdown(md: str, source_key: str) -> list[Occurrence]:
 
         line = strip_badges(line)
         section_path = " > ".join(s for s in stack if s)
+        leaf = stack[-1] if stack else ""
+        if SKIP_SECTION_LEAVES.search(leaf):
+            continue
 
         found = [
             (clean_text(m.group(1)), m.group(3).strip("<>"), m.start())

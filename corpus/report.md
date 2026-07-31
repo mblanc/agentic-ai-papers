@@ -1,20 +1,20 @@
 # Dedup report
 
-Canonical entries: **1122**
+Canonical entries: **1120**
 
-Summaries kept from seed: **1120** (100%) — remainder need the write-summaries pass.
+Summaries kept from seed: **1118** (100%) — remainder need the write-summaries pass.
 
 ## Entries per source
 
-- `HE`: 414
+- `HE`: 413
 - `VA`: 373
-- `LJ`: 340
+- `LJ`: 339
 
 ## Cross-source overlap
 
 | cited by N sources | entries |
 | --- | --- |
-| 1 | 1117 |
+| 1 | 1115 |
 | 2 | 5 |
 
 ## Category sizes
@@ -22,19 +22,19 @@ Summaries kept from seed: **1120** (100%) — remainder need the write-summaries
 | category | entries |
 | --- | --- |
 | safety-security-governance | 164 |
-| multi-agent | 153 |
-| evaluation-and-benchmarks | 151 |
-| unsorted | 102 |
-| tool-use-and-protocols | 96 |
+| multi-agent | 154 |
+| evaluation-and-benchmarks | 150 |
+| tool-use-and-protocols | 103 |
+| unsorted | 93 |
 | harness-engineering | 80 |
 | memory | 70 |
 | planning-and-reasoning | 66 |
 | observability-and-ops | 56 |
 | surveys-and-foundations | 42 |
 | context-engineering | 35 |
-| rag-and-retrieval | 28 |
+| rag-and-retrieval | 27 |
 | coding-agents | 22 |
-| training-and-optimization | 16 |
+| training-and-optimization | 17 |
 | simulation-and-social | 14 |
 | frameworks-and-sdks | 10 |
 | web-gui-computer-use | 8 |

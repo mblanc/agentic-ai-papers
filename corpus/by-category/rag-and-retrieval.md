@@ -1,6 +1,6 @@
 # rag-and-retrieval
 
-28 entries.
+27 entries.
 
 - [Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward](https://arxiv.org/abs/2508.12800)
   - `arxiv:2508.12800` · cited by 1: LJ
@@ -89,10 +89,6 @@
 - [Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems](https://arxiv.org/pdf/2601.10681v1)
   - `arxiv:2601.10681` · cited by 1: VA
   - summary: Balances relevance, coverage and redundancy under strict token budgets.
-
-- [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html` · cited by 1: LJ
-  - summary: Represents each of many tools as a learned 'toolken' embedding a frozen LLM can emit like a token, adding new tools without fine-tuning or in-context demos across numerical reasoning, KBQA, and embodied tasks.
 
 - [Topo-RAG: Topology-aware retrieval for hybrid text-table documents](https://arxiv.org/pdf/2601.10215v1)
   - `arxiv:2601.10215` · cited by 1: VA

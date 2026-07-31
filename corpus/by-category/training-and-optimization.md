@@ -1,6 +1,6 @@
 # training-and-optimization
 
-16 entries.
+17 entries.
 
 - [AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering](https://arxiv.org/pdf/2601.04620v1)
   - `arxiv:2601.04620` · cited by 1: VA
@@ -29,6 +29,10 @@
 - [JitRL: Just-In-Time Reinforcement Learning for Continual Learning in LLM Agents Without Gradient Updates](https://arxiv.org/pdf/2601.18510v1)
   - `arxiv:2601.18510` · cited by 1: VA
   - summary: Adapts a deployed LLM agent at test time with no gradient updates by retrieving similar past trajectories to estimate action advantages and directly modulating output logits, proven to be the closed-form solution of KL-constrained policy optimization, beating full fine-tuning at 30x lower cost.
+
+- [No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning](https://arxiv.org/pdf/2601.06794v1)
+  - `arxiv:2601.06794` · cited by 1: VA
+  - summary: ECHO jointly evolves an RL agent's policy and its natural-language critic in a synchronized loop instead of using a static offline critic, using saturation-aware gain shaping to keep learning going past plateaus, yielding more stable training and better long-horizon success in open-world environments.
 
 - [OpenTinker: Separating Concerns in Agentic Reinforcement Learning](https://arxiv.org/pdf/2601.07376v1)
   - `arxiv:2601.07376` · cited by 1: VA
