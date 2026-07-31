@@ -292,11 +292,11 @@
 
 - [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](http://arxiv.org/abs/2306.06624)
   - `arxiv:2306.06624` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
+  - summary: RestGPT connects an LLM to real-world RESTful APIs via coarse-to-fine online planning for task decomposition and API selection, plus a dedicated API executor for parameter formulation and response parsing, evaluated on a new benchmark (RestBench) of real-world scenarios with gold solution paths.
 
 - [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf)
   - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
-  - summary: RestGPT connects an LLM to real-world RESTful APIs via coarse-to-fine online planning for task decomposition and API selection, plus a dedicated API executor for parameter formulation and response parsing, evaluated on a new benchmark (RestBench) of real-world scenarios with gold solution paths.
+  - summary: Masks tokens by their informativeness rather than randomly, adding a Token-specific Label Smoothing step so masked-language pretraining focuses learning on under-explored tokens instead of uniformly random ones, improving 10 downstream tasks by 1.4-2.1 points on average across different pretrained models.
 
 - [Self-Rewarding Language Models](https://arxiv.org/pdf/2401.10020)
   - `arxiv:2401.10020` · cited by 1: LJ

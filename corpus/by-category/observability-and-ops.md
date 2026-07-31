@@ -1,6 +1,6 @@
 # observability-and-ops
 
-55 entries.
+56 entries.
 
 - [TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code](https://arxiv.org/abs/2602.06875)
   - `arxiv:2602.06875` · cited by 2: HE, VA
@@ -13,6 +13,10 @@
 - [A Dev's Guide to Production-Ready AI Agents](https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents)
   - `url:https://cloud.google.com/blog/products/ai-machine-learning/a-devs-guide-to-production-ready-ai-agents` · cited by 1: HE
   - summary: Recommends agent-specific production infrastructure (session management, persistent memory, authenticated tool integration, real-time logging) plus a staged sandbox-to-canary-to-full-production rollout rather than deploying agents directly.
+
+- [agentacct](https://github.com/mikehasa/agentacct)
+  - `gh:mikehasa/agentacct` · cited by 1: HE
+  - summary: TODO
 
 - [AgentCgroup: Understanding and Controlling OS Resources of AI Agents](https://arxiv.org/abs/2602.09345)
   - `arxiv:2602.09345` · cited by 1: HE
