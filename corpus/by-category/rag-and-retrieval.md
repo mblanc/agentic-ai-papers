@@ -1,10 +1,10 @@
 # rag-and-retrieval
 
-40 entries.
+47 entries.
 
 ## Timeline
 
-28 dated entries, oldest first.
+31 dated entries, oldest first.
 
 - [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://aclanthology.org/2023.acl-long.499/) · 2023
   - `acl:2023.acl-long.499` · cited by 1: LJ
@@ -14,13 +14,18 @@
   - `url:https://ojs.aaai.org/index.php/AIIDE/article/view/27539` · cited by 1: LJ
   - summary: An AI-native narrative game where a player steers an LLM-driven king and spoken keywords materialize as in-game objects, using generative models as a core mechanic rather than a feature.
 
+- [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://arxiv.org/abs/2402.14207) · 2024-02
+  - `arxiv:2402.14207` · cited by 1: ZJ
+  - related: <https://github.com/stanford-oval/storm>
+  - summary: STORM writes Wikipedia-style articles from scratch by first simulating multi-perspective interview conversations with a retrieval-grounded expert to build an outline, and on a fresh-topic dataset it beats baselines on organization and coverage while surfacing new failure modes like source-bias transfer.
+
 - [AgentSquare: Automatic LLM Agent Search in Modular Design Space](https://arxiv.org/abs/2410.06153) · 2024-10
   - `arxiv:2410.06153` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Searches over modular agent designs automatically.
 
 - [OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs](https://arxiv.org/abs/2411.14199) · 2024-11
   - `arxiv:2411.14199` · cited by 1: BK
-  - summary: TODO
+  - summary: Retrieval-augmented synthesis over scientific literature.
 
 - [Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward](https://arxiv.org/abs/2508.12800) · 2025-08
   - `arxiv:2508.12800` · cited by 1: LJ
@@ -78,6 +83,10 @@
   - `arxiv:2601.21912` · cited by 1: VA
   - summary: MCTS step-level rewards to locate flawed reasoning in multi-hop retrieval.
 
+- [Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG](https://arxiv.org/pdf/2601.07192v1) · 2026-01
+  - `arxiv:2601.07192` · cited by 1: VA
+  - summary: Relink builds a query-specific evidence graph on the fly instead of trusting a static knowledge graph, filling gaps with latent relations mined from the source corpus and improving EM by 5.4% and F1 by 5.2% over leading GraphRAG baselines.
+
 - [SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation](https://arxiv.org/pdf/2601.11199v1) · 2026-01
   - `arxiv:2601.11199` · cited by 1: VA
   - summary: Enforces access-control and privacy in RAG during retrieval rather than via prompt instructions, so sensitive passages never reach the model, staying resilient to prompt injection and up to 58% better on privacy score.
@@ -93,6 +102,10 @@
 - [Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems](https://arxiv.org/pdf/2601.10681v1) · 2026-01
   - `arxiv:2601.10681` · cited by 1: VA
   - summary: Balances relevance, coverage and redundancy under strict token budgets.
+
+- [To Retrieve or To Think? An Agentic Approach for Context Evolution](https://arxiv.org/pdf/2601.08747v2) · 2026-01
+  - `arxiv:2601.08747` · cited by 1: VA
+  - summary: ACE lets an orchestrator agent decide per-step whether to retrieve new evidence or just reason over what it already has, instead of retrieving at every step by default, cutting unnecessary retrieval while improving accuracy and token efficiency on multi-hop QA.
 
 - [Topo-RAG: Topology-aware retrieval for hybrid text-table documents](https://arxiv.org/pdf/2601.10215v1) · 2026-01
   - `arxiv:2601.10215` · cited by 1: VA
@@ -120,7 +133,24 @@
 
 ## Tools & Undated
 
-12 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+16 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
+  - `gh:assafelovic/gpt-researcher` · cited by 2: KY, ZJ
+  - summary: Autonomous research agent that plans sub-questions, scrapes and cross-checks dozens of sources in parallel, and writes a cited report, with MCP support to plug in your own data connectors.
+
+- [Storm](https://github.com/stanford-oval/storm)
+  - `gh:stanford-oval/storm` · cited by 2: KY, ZJ
+  - summary: Stanford's system for turning a topic into a full, cited Wikipedia-style report by simulating multi-perspective research conversations before writing, rather than a single retrieve-then-generate pass.
+
+- [BGPT](https://bgpt.pro)
+  - `url:https://bgpt.pro/` · cited by 1: ZJ
+  - related: <https://github.com/connerlambden/bgpt-mcp/blob/main/EVIDENCE_DEMO.md>
+  - summary: MCP server that hands agents structured full-text evidence from scientific papers, methods, sample sizes, quantitative results, not just titles and abstracts, for grounding literature-review or fact-checking agents.
+
+- [BlockAGI](https://github.com/blockpipe/blockagi)
+  - `gh:blockpipe/blockagi` · cited by 1: KY
+  - summary: A LangChain-based research agent that iteratively searches, gathers and refines information on a topic (originally crypto research) and streams its progress live through a web dashboard.
 
 - [CodeAlmanac](https://github.com/AlmanacCode/codealmanac)
   - `gh:almanaccode/codealmanac` · cited by 1: KY
@@ -132,7 +162,7 @@
 
 - [LLocalSearch](https://github.com/nilsherzig/LLocalSearch)
   - `gh:nilsherzig/llocalsearch` · cited by 1: KY
-  - summary: TODO
+  - summary: Local search aggregator with a chain of LLM agents and visible progress.
 
 - [Local GPT](https://github.com/PromtEngineer/localGPT)
   - `gh:promtengineer/localgpt` · cited by 1: KY
@@ -140,7 +170,7 @@
 
 - [MemClaw](https://github.com/caura-ai/caura-memclaw)
   - `gh:caura-ai/caura-memclaw` · cited by 1: KY
-  - summary: TODO
+  - summary: Governed shared memory for agent fleets with permissions and audit trails.
 
 - [On Architecture of LLM agents](http://www.injoit.ru/index.php/j1/article/view/2057)
   - `url:https://injoit.ru/index.php/j1/article/view/2057` · cited by 1: LJ
@@ -148,19 +178,19 @@
 
 - [piia-engram](https://github.com/Patdolitse/piia-engram)
   - `gh:patdolitse/piia-engram` · cited by 1: KY
-  - summary: TODO
+  - summary: Local-first cross-tool memory for any MCP-compatible client.
 
 - [Private GPT](https://github.com/imartinez/privateGPT)
   - `gh:imartinez/privategpt` · cited by 1: KY
-  - summary: TODO
+  - summary: Fully local document Q&A.
 
 - [SAGE](https://github.com/l33tdawg/sage)
   - `gh:l33tdawg/sage` · cited by 1: KY
-  - summary: TODO
+  - summary: Institutional memory where each write passes BFT consensus before commit.
 
 - [Screenpipe](https://github.com/screenpipe/screenpipe)
   - `gh:screenpipe/screenpipe` · cited by 1: KY
-  - summary: TODO
+  - summary: Continuous local screen/mic capture with OCR and semantic search as agent context.
 
 - [Second Brain AI Agent](https://github.com/flepied/second-brain-agent)
   - `gh:flepied/second-brain-agent` · cited by 1: KY
@@ -168,4 +198,4 @@
 
 - [Statewave](https://github.com/smaramwbc/statewave)
   - `gh:smaramwbc/statewave` · cited by 1: KY
-  - summary: TODO
+  - summary: Memory runtime turning events into structured memories with consolidation and supersession.

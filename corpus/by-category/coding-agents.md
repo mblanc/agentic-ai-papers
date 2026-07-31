@@ -1,10 +1,10 @@
 # coding-agents
 
-69 entries.
+76 entries.
 
 ## Timeline
 
-25 dated entries, oldest first.
+30 dated entries, oldest first.
 
 - [Aider](https://github.com/Aider-AI/aider) · 2023-05
   - `gh:aider-ai/aider` · cited by 2: HE, KY
@@ -24,19 +24,19 @@
 
 - [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) · 2024-05
   - `arxiv:2405.15793` · cited by 1: BK
-  - summary: TODO
+  - summary: Argued the *interface* the agent sees matters as much as the model; the ACI concept.
 
 - [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](https://arxiv.org/abs/2407.16741) · 2024-07
   - `arxiv:2407.16741` · cited by 1: BK
-  - summary: TODO
+  - summary: Open platform where agents get a sandboxed shell, browser and editor.
 
 - [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](https://arxiv.org/abs/2409.16165) · 2024-09
   - `arxiv:2409.16165` · cited by 1: BK
-  - summary: TODO
+  - summary: Tooling, not model scale, drove vulnerability-discovery gains.
 
 - [From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) · 2024-10
   - `url:https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html` · cited by 1: BK
-  - summary: TODO
+  - summary: Project Zero's agent finding real memory-safety bugs in production code.
 
 - [OpenCode](https://github.com/anomalyco/opencode) · 2025-04
   - `gh:anomalyco/opencode` · cited by 1: HE
@@ -45,6 +45,14 @@
 - [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) · 2025-06
   - `arxiv:2506.13131` · cited by 1: LJ
   - summary: Evolutionary coding agent that autonomously improves and discovers algorithms.
+
+- [AI Agent for Reverse-Engineering Legacy Finite-Difference Code](https://arxiv.org/pdf/2601.18381v1) · 2026-01
+  - `arxiv:2601.18381` · cited by 1: VA
+  - summary: A RAG-plus-LangGraph agent reverse-engineers legacy Fortran finite-difference code by building a knowledge graph from the source, then translates it into the Devito framework with Pydantic-constrained code synthesis and RL-style feedback to keep improving the translation over time.
+
+- [AI builds, We Analyze: An Empirical Study of AI-Generated Build Code Quality](https://arxiv.org/pdf/2601.16839v1) · 2026-01
+  - `arxiv:2601.16839` · cited by 1: VA
+  - summary: Mining GitHub's AIDev dataset of agent-authored PRs, this study finds 364 maintainability/security build-code smells from AI agents but also cases where agents clean up existing smells, and flags that over 61% of these PRs get merged with barely any review.
 
 - [Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests](https://arxiv.org/pdf/2601.04886v2) · 2026-01
   - `arxiv:2601.04886` · cited by 1: VA
@@ -90,9 +98,17 @@
   - `arxiv:2601.14470` · cited by 1: VA
   - summary: Token consumption by SDLC stage, identifying cost drivers.
 
+- [Understanding Dominant Themes in Reviewing Agentic AI-authored Code](https://arxiv.org/pdf/2601.19287v1) · 2026-01
+  - `arxiv:2601.19287` · cited by 1: VA
+  - summary: Mining 19,450 review comments across 3,177 AI-agent-authored pull requests turns up a 12-theme taxonomy of what reviewers actually flag, mostly documentation gaps, refactoring needs, and style, plus recurring testing and security concerns, with an LLM annotator matching human labels 78.6% of the time.
+
 - [Who Writes the Docs in SE 3.0? Agent vs. Human Documentation Pull Requests](https://arxiv.org/pdf/2601.20171v1) · 2026-01
   - `arxiv:2601.20171` · cited by 1: VA
   - summary: Agent vs human documentation PRs and human intervention patterns.
+
+- [Will It Survive? Deciphering the Fate of AI-Generated Code in Open Source](https://arxiv.org/pdf/2601.16809v1) · 2026-01
+  - `arxiv:2601.16809` · cited by 1: VA
+  - summary: Tracking over 200,000 code units across 201 open-source projects finds AI-authored code actually survives longer than human code, a 15.8-point lower modification rate, but for different reasons: more corrective fixes, fewer adaptive changes, suggesting the real bottleneck is organizational review practices, not generation quality.
 
 - [Why Are AI Agent Involved Pull Requests (Fix-Related) Remain Unmerged? An Empirical Study](https://arxiv.org/pdf/2602.00164v1) · 2026-02
   - `arxiv:2602.00164` · cited by 1: VA
@@ -102,17 +118,21 @@
   - `url:https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents` · cited by 1: HE
   - summary: An open-source framework for building internal coding agents by composing on Deep Agents and LangGraph rather than forking, so teams swap in their own sandboxes, models, and tools while keeping an upgrade path.
 
+- [rasbt/mini-coding-agent](https://github.com/rasbt/mini-coding-agent) · 2026-04
+  - `gh:rasbt/mini-coding-agent` · cited by 1: HE
+  - summary: A deliberately minimal, readable Python implementation of a coding-agent harness, written to teach the core loop (read files, edit, run, observe) rather than to be a production tool.
+
 - [Introducing dynamic workflows in Claude Code](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) · 2026-05
   - `url:https://claude.com/blog/introducing-dynamic-workflows-in-claude-code` · cited by 1: HE
   - summary: Plan lives in executable JavaScript that fans out to hundreds of parallel subagents.
 
 ## Tools & Undated
 
-44 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+46 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [DSPy](https://github.com/stanfordnlp/dspy)
   - `gh:stanfordnlp/dspy` · cited by 2: BK, KY
-  - summary: TODO
+  - summary: Declarative modules with compiled/optimized prompts; treats the pipeline as the thing you tune.
 
 - [MetaGPT](https://github.com/geekan/MetaGPT)
   - `gh:geekan/metagpt` · cited by 2: KY, ZJ
@@ -136,15 +156,19 @@
 
 - [AgentRun](https://github.com/Jonathan-Adly/AgentRun)
   - `gh:jonathan-adly/agentrun` · cited by 1: KY
-  - summary: TODO
+  - summary: Safe sandboxed execution of AI-generated Python.
 
 - [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
   - `gh:agentsmesh/agentsmesh` · cited by 1: KY
-  - summary: TODO
+  - summary: Remote agent workstations with PTY sandbox and git worktree isolation.
+
+- [AIDE](https://github.com/WecoAI/aideml)
+  - `gh:wecoai/aideml` · cited by 1: KY
+  - summary: A tree-search agent that treats ML engineering as code search: it drafts a solution script, runs it, reads the error/metric, and iteratively rewrites nodes in a solution tree until it converges on a working, better-scoring pipeline.
 
 - [amux](https://github.com/mixpeek/amux)
   - `gh:mixpeek/amux` · cited by 1: KY
-  - summary: TODO
+  - summary: Multiplexes dozens of parallel sessions with dashboard, watchdog and A2A REST API.
 
 - [blade-deepseek](https://github.com/echoVic/blade-deepseek)
   - `gh:echovic/blade-deepseek` · cited by 1: KY
@@ -160,15 +184,15 @@
 
 - [Cline](https://github.com/cline/cline)
   - `gh:cline/cline` · cited by 1: KY
-  - summary: TODO
+  - summary: Open-source IDE coding agent with full transparency over model actions.
 
 - [Codel](https://github.com/semanser/codel)
   - `gh:semanser/codel` · cited by 1: KY
-  - summary: TODO
+  - summary: Autonomous agent with terminal, browser and editor.
 
 - [ctop](https://github.com/aakashadesara/ctop)
   - `gh:aakashadesara/ctop` · cited by 1: KY
-  - summary: TODO
+  - summary: htop for coding agents: CPU, memory, tokens, context window, cost.
 
 - [DB GPT](https://github.com/csunny/DB-GPT)
   - `gh:csunny/db-gpt` · cited by 1: KY
@@ -176,11 +200,11 @@
 
 - [Devika](https://github.com/stitionai/devika)
   - `gh:stitionai/devika` · cited by 1: KY
-  - summary: TODO
+  - summary: Decomposes high-level instructions, researches, then writes code.
 
 - [Dorothy](https://github.com/Charlie85270/Dorothy)
   - `gh:charlie85270/dorothy` · cited by 1: KY
-  - summary: TODO
+  - summary: Desktop orchestration of multiple CLI agents with Kanban and automations.
 
 - [fractal](https://github.com/plasma-ai/fractal)
   - `gh:plasma-ai/fractal` · cited by 1: KY
@@ -188,15 +212,19 @@
 
 - [Frontman](https://www.github.com/frontman-ai/frontman)
   - `gh:frontman-ai/frontman` · cited by 1: KY
-  - summary: TODO
+  - summary: Browser-resident agent reading live DOM and component tree, editing source with hot reload.
+
+- [GPT Engineer](https://github.com/AntonOsika/gpt-engineer)
+  - `gh:antonosika/gpt-engineer` · cited by 1: ZJ
+  - summary: One of the earliest "describe what you want, get a whole codebase" CLI agents — archived now but the direct precursor to Lovable, worth knowing for the lineage.
 
 - [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)
   - `gh:pythagora-io/gpt-pilot` · cited by 1: KY
-  - summary: TODO
+  - summary: Builds apps step by step with developer checkpoints.
 
 - [Greywall](https://github.com/GreyhavenHQ/greywall)
   - `gh:greyhavenhq/greywall` · cited by 1: KY
-  - summary: TODO
+  - summary: Deny-by-default command sandbox with filesystem isolation and transparent network proxy.
 
 - [h5i](https://github.com/h5i-dev/h5i)
   - `gh:h5i-dev/h5i` · cited by 1: KY
@@ -212,11 +240,11 @@
 
 - [Maestro](https://github.com/RunMaestro/Maestro)
   - `gh:runmaestro/maestro` · cited by 1: KY
-  - summary: TODO
+  - summary: Desktop command centre running parallel agents with event automation and group chat.
 
 - [Maestro Orchestrate](https://github.com/josstei/maestro-orchestrate)
   - `gh:josstei/maestro-orchestrate` · cited by 1: KY
-  - summary: TODO
+  - summary: 22 specialized agents in 4-phase workflows with least-privilege tiers.
 
 - [MicroAgent](https://github.com/aymenfurter/microagents)
   - `gh:aymenfurter/microagents` · cited by 1: KY
@@ -228,11 +256,11 @@
 
 - [Nous](https://github.com/TrafficGuard/nous)
   - `gh:trafficguard/nous` · cited by 1: KY
-  - summary: TODO
+  - summary: TypeScript platform spanning autonomous, developer and code-review agents.
 
 - [OpenCode](https://github.com/sst/opencode)
   - `gh:sst/opencode` · cited by 1: KY
-  - summary: TODO
+  - summary: Terminal-native coding agent.
 
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
   - `gh:all-hands-ai/openhands` · cited by 1: KY
@@ -248,7 +276,7 @@
 
 - [Plandex](https://github.com/plandex-ai/plandex)
   - `gh:plandex-ai/plandex` · cited by 1: KY
-  - summary: TODO
+  - summary: Coding engine aimed at large multi-file tasks with staged diffs.
 
 - [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI)
   - `gh:chakkaradeep/pycodeagi` · cited by 1: KY
@@ -256,19 +284,19 @@
 
 - [RepoAgent](https://github.com/OpenBMB/RepoAgent)
   - `gh:openbmb/repoagent` · cited by 1: KY
-  - summary: TODO
+  - summary: Repository-level documentation generation and comprehension.
 
 - [ReviewCerberus](https://github.com/Kirill89/reviewcerberus)
   - `gh:kirill89/reviewcerberus` · cited by 1: KY
-  - summary: TODO
+  - summary: Branch-diff code review across security, performance and quality.
 
 - [Stakpak](https://github.com/stakpak/agent)
   - `gh:stakpak/agent` · cited by 1: KY
-  - summary: TODO
+  - summary: DevOps agent for securing and deploying production infrastructure.
 
 - [SuperAGI](https://github.com/TransformerOptimus/SuperAGI)
   - `gh:transformeroptimus/superagi` · cited by 1: KY
-  - summary: TODO
+  - summary: Dev-first autonomous agent framework.
 
 - [ThinkGPT](https://github.com/alaeddine-13/thinkgpt)
   - `gh:alaeddine-13/thinkgpt` · cited by 1: KY

@@ -1,10 +1,10 @@
 # surveys-and-foundations
 
-43 entries.
+50 entries.
 
 ## Timeline
 
-38 dated entries, oldest first.
+44 dated entries, oldest first.
 
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) · 2021-08
   - `arxiv:2108.07258` · cited by 1: LJ
@@ -20,7 +20,7 @@
 
 - [Interactive Natural Language Processing](https://arxiv.org/abs/2305.13246) · 2023-05
   - `arxiv:2305.13246` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Early framing of interaction as the organizing principle.
 
 - [A survey on large language model based autonomous agents](https://arxiv.org/abs/2308.11432) · 2023-08
   - `arxiv:2308.11432` · cited by 2: LJ, ZJ
@@ -48,7 +48,7 @@
 
 - [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents](https://arxiv.org/abs/2401.00812) · 2024-01
   - `arxiv:2401.00812` · cited by 1: ZJ
-  - summary: TODO
+  - summary: How code specifically empowers agent behaviour.
 
 - [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459) · 2024-01
   - `arxiv:2401.05459` · cited by 2: LJ, ZJ
@@ -124,7 +124,7 @@
 
 - [A Survey on Large Language Model based Human-Agent Systems](https://arxiv.org/abs/2505.00753) · 2025-05
   - `arxiv:2505.00753` · cited by 1: ZJ
-  - summary: TODO
+  - summary: The human-in-the-loop literature, surveyed.
 
 - [A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools](https://arxiv.org/abs/2506.20743) · 2025-06
   - `arxiv:2506.20743` · cited by 1: LJ
@@ -151,9 +151,33 @@
   - related: <https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers>
   - summary: Dual taxonomy of capabilities and applications, RL as the integrating mechanism.
 
+- [From Everything-is-a-File to Files-Are-All-You-Need: How Unix Philosophy Informs the Design of Agentic AI Systems](https://arxiv.org/pdf/2601.11672v1) · 2026-01
+  - `arxiv:2601.11672` · cited by 1: VA
+  - summary: This piece traces Unix's "everything is a file" principle through DevOps and Infrastructure-as-Code to argue that agentic AI systems built on the same file/code-based, uniform-interface abstractions end up more maintainable, auditable and operationally robust.
+
+- [Semantic Laundering in AI Agent Architectures: Why Tool Boundaries Do Not Confer Epistemic Warrant](https://arxiv.org/pdf/2601.08333v1) · 2026-01
+  - `arxiv:2601.08333` · cited by 1: VA
+  - summary: Argues that LLM agent architectures systematically launder unwarranted claims into trusted facts just by having them cross an architecturally-trusted interface, and proves that under standard architectural assumptions this circular self-licensing can't be fixed by scaling, better models, or LLM-as-judge checks.
+
+- [The Path Ahead for Agentic AI: Challenges and Opportunities](https://arxiv.org/pdf/2601.02749v1) · 2026-01
+  - `arxiv:2601.02749` · cited by 1: VA
+  - summary: A survey framing the shift from passive LLMs to agentic systems around reasoning-action-reflection loops, mapping the perception/memory/planning/tool-execution architecture and flagging verifiable planning, multi-agent coordination, and governance as the open research priorities.
+
+- [Toward self-coding information systems](https://arxiv.org/pdf/2601.14132v1) · 2026-01
+  - `arxiv:2601.14132` · cited by 1: VA
+  - summary: A position paper proposing 'self-coding information systems': software that evaluates its own need to adapt, then writes, tests, and redeploys its own source code at runtime, sketching a formal definition and research directions rather than a working system.
+
+- [A Practical Guide to Agentic AI Transition in Organizations](https://arxiv.org/pdf/2602.10122v1) · 2026-02
+  - `arxiv:2602.10122` · cited by 1: VA
+  - summary: A field-experience writeup on rolling out agentic AI across multiple organizations, arguing the real blockers are treating agent workflows like normal software projects and leaving AI task ownership fuzzy, and proposing a human-as-orchestrator operating model instead.
+
 - [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/) · 2026-02
   - `url:https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem` · cited by 1: HE
   - summary: ADK ecosystem patterns for wiring external services without losing state coherence.
+
+- [World Models as an Intermediary between Agents and the Real World](https://arxiv.org/pdf/2602.00785v1) · 2026-02
+  - `arxiv:2602.00785` · cited by 1: VA
+  - summary: Argues that RL-trained agents haven't matched their game/math/code wins in robotics, ML engineering, or science because real-world actions are too expensive to sample for reward, and that world models, used as a stand-in for costly real interaction, are the way past that bottleneck.
 
 - [Ranking Engineer Agent (REA): Meta's Autonomous AI System for Ads Ranking](https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/) · 2026-03
   - `url:https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation` · cited by 1: HE
@@ -161,7 +185,7 @@
 
 ## Tools & Undated
 
-5 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+6 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)
   - `url:https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents` · cited by 1: HE
@@ -174,6 +198,10 @@
 - [AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways](https://dl.acm.org/doi/abs/10.1145/3716628)
   - `url:https://dl.acm.org/doi/abs/10.1145/3716628` · cited by 1: LJ
   - summary: NEEDS-SOURCE
+
+- [GPT-3: Its Nature, Scope, Limits, and Consequences](https://link.springer.com/article/10.1007/s11023-020-09548-1)
+  - `url:https://link.springer.com/article/10.1007/s11023-020-09548-1` · cited by 1: LJ
+  - summary: Runs GPT-3 through mathematical, semantic (Turing Test), and ethical tests and shows it fails all three despite fluent output, a citation for pushing back on treating scale alone as a path to general intelligence.
 
 - [TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs](https://spj.science.org/doi/10.34133/icomputing.0063)
   - `url:https://spj.science.org/doi/10.34133/icomputing.0063` · cited by 1: LJ

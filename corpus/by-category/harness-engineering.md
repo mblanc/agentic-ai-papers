@@ -1,10 +1,14 @@
 # harness-engineering
 
-80 entries.
+89 entries.
 
 ## Timeline
 
-71 dated entries, oldest first.
+76 dated entries, oldest first.
+
+- [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) · 2023-08
+  - `gh:anthropics/claude-cookbooks` · cited by 1: HE
+  - summary: Anthropic's own notebook collection showing worked patterns for using Claude - tool use, RAG, PDF/vision, prompt caching, sub-agent orchestration - as copyable starting code rather than API reference docs.
 
 - [Pipecat](https://github.com/pipecat-ai/pipecat) · 2023-12
   - `gh:pipecat-ai/pipecat` · cited by 2: HE, KY
@@ -22,6 +26,14 @@
   - `gh:bytedance/deer-flow` · cited by 1: HE
   - summary: An open-source agent orchestration platform with sandboxed execution, persistent memory, extensible skills, and sub-agent decomposition, providing the runtime infrastructure for multi-step tasks rather than just a prompting layer.
 
+- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) · 2025-06
+  - `gh:shareai-lab/learn-claude-code` · cited by 1: HE
+  - summary: A nano Claude-Code-style agent harness built from scratch to show that a bash tool plus a loop is basically all a coding agent needs — an educational rebuild, not a competitor.
+
+- [awslabs/agentcore-samples](https://github.com/awslabs/agentcore-samples) · 2025-07
+  - `gh:awslabs/agentcore-samples` · cited by 1: HE
+  - summary: AWS's sample code for Bedrock AgentCore, covering the runtime, gateway, identity and memory-management pieces you need to take an agent from prototype into a production deployment on AWS.
+
 - [Continual Harness](https://github.com/sethkarten/continual-harness) · 2025-07
   - `gh:sethkarten/continual-harness` · cited by 1: HE
   - summary: A reference implementation letting agents refine their own prompts, sub-agents, skills, and memory mid-episode via online adaptation, evaluated on Pokémon games as part of the PokeAgent benchmark for long-horizon reasoning.
@@ -37,6 +49,10 @@
 - [Live-SWE-agent: Autonomous Software Agent with Self-Evolving Harness](https://arxiv.org/html/2511.13646v3) · 2025-11
   - `arxiv:2511.13646` · cited by 1: HE
   - summary: The first agent that autonomously evolves its own scaffold at runtime while solving real software problems, starting from a minimal bash-only agent and reaching 77.4% on SWE-bench Verified without test-time scaling, beating all existing software agents including proprietary ones.
+
+- [CaveAgent: Transforming LLMs into Stateful Runtime Operators](https://arxiv.org/pdf/2601.01569v3) · 2026-01
+  - `arxiv:2601.01569` · cited by 1: VA
+  - summary: CaveAgent treats the LLM as a runtime operator rather than a text generator, keeping a persistent Python runtime as the actual state store (DataFrames and all survive across turns) so long multi-turn tasks stop suffering context drift, and its verifiable runtime state doubles as a reward signal for RL training without human labeling.
 
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) · 2026-01
   - `gh:hmbown/codewhale` · cited by 1: HE
@@ -214,6 +230,10 @@
   - `arxiv:2604.14228` · cited by 1: HE
   - summary: Reverse-engineers a production agent's five-stage progressive compaction and hook pipeline.
 
+- [agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) · 2026-05
+  - `gh:denissergeevitch/agents-best-practices` · cited by 1: HE
+  - summary: An installable Agent Skill (for Claude Code, Codex, etc.) that encodes harness-design discipline - the model proposes actions, the harness validates/authorizes/executes/records - and helps audit or refactor an agent's runtime around that pattern.
+
 - [AOHP](https://github.com/aohp-os/aohp) · 2026-05
   - `gh:aohp-os/aohp` · cited by 1: HE
   - summary: An OS-level agent harness on Android letting agents compose personalized services by orchestrating system APIs, CLIs, and app GUIs directly, instead of being limited to fixed developer-defined app interfaces.
@@ -292,7 +312,16 @@
 
 ## Tools & Undated
 
-9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+13 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+
+- [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
+  - `gh:significant-gravitas/auto-gpt` · cited by 1: ZJ
+  - related: <https://github.com/hwchase17/langchain> <https://huggingface.co/docs/transformers/transformers_agents> <https://github.com/team-openpm/workgpt> <https://github.com/Forethought-Technologies/AutoChain>
+  - summary: One of the first autonomous-agent loops built on GPT-4: give it a goal and it plans, executes, and reflects on its own subtasks in a continuous loop without a human approving each step, kicking off the AutoGPT-style agent wave in 2023.
+
+- [BabyAGI UI](https://github.com/miurla/babyagi-ui)
+  - `gh:miurla/babyagi-ui` · cited by 1: KY
+  - summary: A Next.js web front-end for BabyAGI's task-loop agent, giving the create-prioritize-execute cycle a ChatGPT-like UI instead of a bare terminal script.
 
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
   - `url:https://platform.claude.com/docs/en/agent-sdk/overview` · cited by 1: HE
@@ -302,9 +331,13 @@
   - `url:https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking` · cited by 1: HE
   - summary: Reasoning-budget control; thinking blocks must survive tool-result round-trips.
 
+- [Gobii](https://github.com/gobii-ai/gobii-platform)
+  - `gh:gobii-ai/gobii-platform` · cited by 1: KY
+  - summary: A self-hostable platform for running long-lived, always-on agents that wake on schedules or events, drive a real browser, call external systems, and can be reached directly by email/text like an employee - not just a one-shot prompt-response loop.
+
 - [Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime](https://www.preprints.org/manuscript/202603.1756/v2)
   - `url:https://preprints.org/manuscript/202603.1756/v2` · cited by 1: ZJ
-  - summary: TODO
+  - summary: `ZJ`'s newest entry; independent 2026 formalization of the harness layer.
 
 - [HyperAgents: Self-Improving AI Systems](https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026/)
   - `url:https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026` · cited by 1: HE
@@ -317,6 +350,10 @@
 - [Learn Harness Engineering](https://walkinglabs.github.io/learn-harness-engineering/en/)
   - `url:https://walkinglabs.github.io/learn-harness-engineering/en` · cited by 1: HE
   - summary: Teaches harnesses as closed-loop working systems that keep coding agents reliable by constraining behavior with explicit rules and maintaining context across long-running tasks via state management and verification.
+
+- [MateClaw](https://github.com/matevip/mateclaw)
+  - `gh:matevip/mateclaw` · cited by 1: KY
+  - summary: Self-hosted, single-JAR agent harness (Spring Boot + Vue) built for teams, with multi-user workspaces and approval gates on sensitive actions so IT can actually sign off on it.
 
 - [Skill Issue: Harness Engineering for Coding Agents](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents)
   - `url:https://humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents` · cited by 1: HE

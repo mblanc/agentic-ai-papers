@@ -2,7 +2,7 @@
 
 Canonical entries: **1529**
 
-Summaries kept from seed: **1117** (73%) — remainder need the write-summaries pass.
+Summaries kept from seed: **1375** (90%) — remainder need the write-summaries pass.
 
 ## Entries per source
 
@@ -60,22 +60,22 @@ One canonical id, two unrelated titles. Check the source before trusting either.
 
 | category | entries |
 | --- | --- |
-| multi-agent | 188 |
-| safety-security-governance | 176 |
-| evaluation-and-benchmarks | 174 |
-| unsorted | 143 |
-| planning-and-reasoning | 142 |
-| tool-use-and-protocols | 125 |
+| multi-agent | 202 |
+| safety-security-governance | 191 |
+| evaluation-and-benchmarks | 180 |
+| planning-and-reasoning | 149 |
+| tool-use-and-protocols | 133 |
 | memory | 94 |
-| harness-engineering | 80 |
-| coding-agents | 69 |
-| frameworks-and-sdks | 60 |
-| observability-and-ops | 57 |
-| surveys-and-foundations | 43 |
-| rag-and-retrieval | 40 |
-| simulation-and-social | 37 |
+| harness-engineering | 89 |
+| coding-agents | 76 |
+| frameworks-and-sdks | 73 |
+| observability-and-ops | 62 |
+| surveys-and-foundations | 50 |
+| rag-and-retrieval | 47 |
+| simulation-and-social | 40 |
 | context-engineering | 35 |
-| training-and-optimization | 24 |
-| domain-applications | 17 |
-| web-gui-computer-use | 15 |
-| embodied-and-robotics | 10 |
+| domain-applications | 34 |
+| training-and-optimization | 34 |
+| web-gui-computer-use | 16 |
+| unsorted | 13 |
+| embodied-and-robotics | 11 |

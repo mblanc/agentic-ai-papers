@@ -40,7 +40,7 @@
 
 - [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) · 2023-05
   - `arxiv:2305.10250` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Ebbinghaus-inspired forgetting curve over stored conversation memory.
 
 - [Monotonic Location Attention for Length Generalization](https://arxiv.org/abs/2305.20019) · 2023-05
   - `arxiv:2305.20019` · cited by 1: ZJ
@@ -68,7 +68,7 @@
 
 - [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://arxiv.org/abs/2305.11554) · 2023-05
   - `arxiv:2305.11554` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Tools as learned embeddings ("toolkens") on a frozen model.
 
 - [Unlimiformer: Long-Range Transformers with Unlimited Length Input](https://arxiv.org/abs/2305.01625) · 2023-05
   - `arxiv:2305.01625` · cited by 1: ZJ
@@ -76,7 +76,7 @@
 
 - [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://arxiv.org/abs/2306.03901) · 2023-06
   - `arxiv:2306.03901` · cited by 1: ZJ
-  - summary: TODO
+  - summary: SQL database as symbolic memory with explicit read/write chains.
 
 - [mem0](https://github.com/mem0ai/mem0) · 2023-06
   - `gh:mem0ai/mem0` · cited by 1: HE
@@ -101,7 +101,7 @@
 
 - [JARVIS-1: Open-world Multi-task Agents with Memory-Augmented Multimodal Language Models](https://arxiv.org/abs/2311.05997) · 2023-11
   - `arxiv:2311.05997` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Multimodal memory-augmented open-world Minecraft agent.
 
 - [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) · 2024-04
   - `arxiv:2404.13501` · cited by 2: LJ, ZJ
@@ -109,7 +109,7 @@
 
 - [HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models](https://arxiv.org/abs/2405.14831) · 2024-05
   - `arxiv:2405.14831` · cited by 2: BK, ZJ
-  - summary: TODO
+  - summary: Hippocampal-indexing analogy for single-step multi-hop retrieval.
 
 - [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271) · 2024-06
   - `arxiv:2406.04271` · cited by 1: ZJ
@@ -381,7 +381,7 @@
 
 - [Cortex Memory](https://github.com/sopaco/cortex-mem)
   - `gh:sopaco/cortex-mem` · cited by 1: KY
-  - summary: TODO
+  - summary: Extraction, vector search and automated optimization with REST/MCP/CLI and dashboard.
 
 - [Memgpt](https://github.com/cpacker/memgpt)
   - `gh:cpacker/memgpt` · cited by 1: KY

@@ -1,10 +1,10 @@
 # simulation-and-social
 
-37 entries.
+40 entries.
 
 ## Timeline
 
-30 dated entries, oldest first.
+32 dated entries, oldest first.
 
 - [Ethical and social risks of harm from Language Models](https://arxiv.org/abs/2112.04359) · 2021-12
   - `arxiv:2112.04359` · cited by 1: LJ
@@ -52,7 +52,7 @@
 
 - [Epidemic Modeling with Generative Agents](https://arxiv.org/abs/2307.04986) · 2023-07
   - `arxiv:2307.04986` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Agents reason about their own protective behaviour, producing epidemic curves.
 
 - [Personality Traits in Large Language Models](https://arxiv.org/abs/2307.00184) · 2023-07
   - `arxiv:2307.00184` · cited by 1: ZJ
@@ -60,7 +60,7 @@
 
 - [S^3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984) · 2023-07
   - `arxiv:2307.14984` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Emotion, attitude and behaviour propagation in a simulated network.
 
 - [Using large language models to simulate multiple humans and replicate human subject studies](https://proceedings.mlr.press/v202/aher23a/aher23a.pdf) · 2023-07
   - `url:https://proceedings.mlr.press/v202/aher23a/aher23a.pdf` · cited by 1: LJ
@@ -81,6 +81,10 @@
 - [Taken out of context: On measuring situational awareness in LLMs](https://arxiv.org/abs/2309.00667) · 2023-09
   - `arxiv:2309.00667` · cited by 1: ZJ
   - summary: TODO
+
+- [CompeteAI: Understanding the Competition Dynamics in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512) · 2023-10
+  - `arxiv:2310.17512` · cited by 1: LJ
+  - summary: CompeteAI simulates a virtual town of GPT-4 restaurant and customer agents competing rather than cooperating, and the emergent competitive strategies it observes line up with established market and sociological theory at both the individual and aggregate level.
 
 - [On Generative Agents in Recommendation](https://arxiv.org/abs/2310.10108) · 2023-10
   - `arxiv:2310.10108` · cited by 1: LJ
@@ -104,7 +108,7 @@
 
 - [Emergence of Social Norms in Generative Agent Societies: Principles and Architecture](https://arxiv.org/abs/2403.08251) · 2024-03
   - `arxiv:2403.08251` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Norm creation, representation, spreading and compliance.
 
 - [Simulating Human-like Daily Activities with Desire-driven Autonomy](https://arxiv.org/abs/2412.06435) · 2024-12
   - `arxiv:2412.06435` · cited by 1: LJ
@@ -122,13 +126,17 @@
   - `arxiv:2601.05384` · cited by 1: VA
   - summary: Adapts classic Asch-style experiments to show LLM agents conform to group pressure in line with Social Impact Theory, so agents near-perfect in isolation become manipulable under social influence, a multi-agent security risk.
 
+- [Emulating Aggregate Human Choice Behavior and Biases with GPT Conversational Agents](https://arxiv.org/pdf/2602.05597v1) · 2026-02
+  - `arxiv:2602.05597` · cited by 1: VA
+  - summary: After collecting 1,100 people's biased responses to decision scenarios delivered as chatbot dialogues, the authors show GPT-4/GPT-5 can reproduce those individual-level cognitive biases (including how cognitive load shifts them) with notable precision, though the two model generations don't match human behavior equally well.
+
 - [Gender Dynamics and Homophily in a Social Network of LLM Agents](https://arxiv.org/pdf/2602.02606v1) · 2026-02
   - `arxiv:2602.02606` · cited by 1: VA
   - summary: 70K+ autonomous agents studied for emergent bias.
 
 ## Tools & Undated
 
-7 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Camel-AutoGPT](https://github.com/SamurAIGPT/Camel-AutoGPT)
   - `gh:samuraigpt/camel-autogpt` · cited by 1: KY
@@ -136,7 +144,11 @@
 
 - [Enclave](https://github.com/yuanzui0728/enclave)
   - `gh:yuanzui0728/enclave` · cited by 1: KY
-  - summary: TODO
+  - summary: Self-hosted AI social world with autonomous residents.
+
+- [GPTeam](https://github.com/101dotxyz/GPTeam)
+  - `gh:101dotxyz/gpteam` · cited by 1: ZJ
+  - summary: Spins up a team of GPT-4 agents with distinct roles and memory that pursue a shared goal in a simulated environment, in the Stanford generative-agents vein rather than a production tool.
 
 - [LLM Agents as Programmable Subjects: Assays and Benchmarks for Agentic Behavior and Alignment](https://www.preprints.org/manuscript/202510.0476)
   - `url:https://preprints.org/manuscript/202510.0476` · cited by 1: ZJ
@@ -144,7 +156,7 @@
 
 - [MiroShark](https://github.com/aaronjmars/MiroShark)
   - `gh:aaronjmars/miroshark` · cited by 1: KY
-  - summary: TODO
+  - summary: Swarm engine simulating Twitter, Reddit and prediction markets hour-by-hour.
 
 - [Simulating Human Society with Large Language Model Agents: City, Social Media, and Economic System](https://dl.acm.org/doi/10.1145/3589335.3641253)
   - `url:https://dl.acm.org/doi/10.1145/3589335.3641253` · cited by 1: LJ
@@ -152,8 +164,8 @@
 
 - [SkyAGI](https://github.com/litanlitudan/skyagi)
   - `gh:litanlitudan/skyagi` · cited by 1: KY
-  - summary: TODO
+  - summary: Human-behaviour simulation in LLM agents.
 
 - [Voyager](https://github.com/MineDojo/Voyager)
   - `gh:minedojo/voyager` · cited by 1: KY
-  - summary: TODO
+  - summary: Reference implementation of the skill-library agent.

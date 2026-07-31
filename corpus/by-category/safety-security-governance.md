@@ -1,10 +1,14 @@
 # safety-security-governance
 
-176 entries.
+191 entries.
 
 ## Timeline
 
-154 dated entries, oldest first.
+163 dated entries, oldest first.
+
+- [Defending Against Neural Fake News](https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html) · 2019
+  - `url:https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html` · cited by 1: LJ
+  - summary: Introduces Grover, a model that writes fake news from a headline, then shows the same model repurposed as a detector catches its own output at 92% accuracy versus 73% for other classifiers, the case for releasing dangerous generators to build their own defenses.
 
 - [Energy and Policy Considerations for Modern Deep Learning Research](https://ojs.aaai.org/index.php/AAAI/article/view/7123) · 2020-04
   - `url:https://ojs.aaai.org/index.php/AAAI/article/view/7123` · cited by 1: LJ
@@ -28,11 +32,15 @@
 
 - [DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models](https://arxiv.org/abs/2306.11698) · 2023-06
   - `arxiv:2306.11698` · cited by 1: BK
-  - summary: TODO
+  - summary: Multi-dimensional trustworthiness assessment across eight perspectives.
 
 - [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) · 2023-08
   - `arxiv:2308.07201` · cited by 1: ZJ
   - summary: TODO
+
+- [Enhancing Trust in LLM-Based AI Automation Agents: New Considerations and Future Challenges](https://arxiv.org/abs/2308.05391) · 2023-08
+  - `arxiv:2308.05391` · cited by 1: ZJ
+  - summary: A literature-review paper on why trust in LLM-based automation agents needs fresh scrutiny now that no-code tools make deploying them trivial, cataloging which trust gaps current products still leave open for the research community to fix.
 
 - [How susceptible are LLMs to Logical Fallacies?](https://arxiv.org/abs/2308.09853) · 2023-08
   - `arxiv:2308.09853` · cited by 1: ZJ
@@ -40,11 +48,11 @@
 
 - [Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/abs/2309.15817) · 2023-09
   - `arxiv:2309.15817` · cited by 1: ZJ
-  - summary: TODO
+  - summary: ToolEmu: emulated tools to surface risk without real consequences.
 
 - [Representation Engineering: A Top-Down Approach to AI Transparency](https://arxiv.org/abs/2310.01405) · 2023-10
   - `arxiv:2310.01405` · cited by 1: BK
-  - summary: TODO
+  - summary: Top-down transparency via representation reading and control.
 
 - [Evil Geniuses: Delving into the Safety of LLM-based Agents](https://arxiv.org/pdf/2311.11855) · 2023-11
   - `arxiv:2311.11855` · cited by 1: LJ
@@ -124,7 +132,7 @@
 
 - [AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases](https://arxiv.org/abs/2407.12784) · 2024-07
   - `arxiv:2407.12784` · cited by 1: BK
-  - summary: TODO
+  - summary: Poisons the memory/KB rather than the prompt.
 
 - [AGENT SECURITY BENCH (ASB): FORMALIZING AND BENCHMARKING ATTACKS AND DEFENSES IN LLM-BASED AGENTS](https://arxiv.org/pdf/2410.02644?) · 2024-10
   - `arxiv:2410.02644` · cited by 1: LJ
@@ -220,11 +228,11 @@
 
 - [DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks](https://arxiv.org/abs/2504.11358) · 2025-04
   - `arxiv:2504.11358` · cited by 1: BK
-  - summary: TODO
+  - summary: Detection framed as a minimax game against adaptive injection.
 
 - [Progent: Programmable Privilege Control for LLM Agents](https://arxiv.org/html/2504.11703v1) · 2025-04
   - `arxiv:2504.11703` · cited by 1: BK
-  - summary: TODO
+  - summary: Policy language for least-privilege tool execution.
 
 - [SAGA: A Security Architecture for Governing AI Agentic Systems](https://arxiv.org/abs/2504.21034) · 2025-04
   - `arxiv:2504.21034` · cited by 1: LJ
@@ -306,6 +314,10 @@
   - `arxiv:2601.12449` · cited by 1: VA
   - summary: AgenTRIM reconstructs an agent's actual tool interface from code and traces offline, then enforces per-step least-privilege tool access at runtime, cutting attack success on AgentDojo without touching the agent's reasoning or hurting task performance.
 
+- [Autonomous Agents on Blockchains: Standards, Execution Models, and Trust Boundaries](https://arxiv.org/pdf/2601.04583v1) · 2026-01
+  - `arxiv:2601.04583` · cited by 1: VA
+  - summary: A 317-paper survey mapping how AI agents interact with blockchains — from read-only analytics up to autonomous multi-agent transactions — that builds a threat model spanning prompt injection to private-key compromise and proposes a Transaction Intent Schema plus Policy Decision Record so agent-initiated transactions are auditable rather than just "trust the agent."
+
 - [BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents](https://arxiv.org/pdf/2601.04566v2) · 2026-01
   - `arxiv:2601.04566` · cited by 1: VA
   - summary: BackdoorAgent maps how backdoor triggers persist and propagate across an agent's planning, memory, and tool-use stages, finding trigger persistence in up to 78% of memory-stage attacks across QA, code, web, and driving agents.
@@ -337,6 +349,10 @@
 - [DRAINCODE: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning](https://arxiv.org/pdf/2601.20615v3) · 2026-01
   - `arxiv:2601.20615` · cited by 1: VA
   - summary: Poisons the retrieved context fed to a RAG code-generation system to force much longer outputs, driving up to 85% more latency and 49% more energy use per request without touching the model itself.
+
+- [Faramesh: A Protocol-Agnostic Execution Control Plane for Autonomous Agent Systems](https://arxiv.org/pdf/2601.17744v1) · 2026-01
+  - `arxiv:2601.17744` · cited by 1: VA
+  - summary: Faramesh puts a non-bypassable authorization checkpoint (Action Authorization Boundary) in front of every agent action, canonicalizing intent across frameworks and logging PERMIT/DEFER/DENY decisions as an append-only, hash-keyed provenance trail so organizations get enforceable governance and deterministic replay without re-running the agent's reasoning.
 
 - [From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching](https://arxiv.org/pdf/2601.23088v1) · 2026-01
   - `arxiv:2601.23088` · cited by 1: VA
@@ -390,9 +406,17 @@
   - `arxiv:2601.19174` · cited by 1: VA
   - summary: SHIELD is a multi-agent, self-healing defense framework against LLM resource-exhaustion (sponge) attacks, pairing a three-stage detection agent with a knowledge-updating and prompt-optimization loop that adapts as attacks evolve.
 
+- [Should I Have Expressed a Different Intent? Counterfactual Generation for LLM-Based Autonomous Control](https://arxiv.org/pdf/2601.20090v2) · 2026-01
+  - `arxiv:2601.20090` · cited by 1: VA
+  - summary: Gives LLM-driven control agents a way to answer 'what if I'd phrased my request differently' with statistical teeth: conformal counterfactual generation produces a set of outcomes guaranteed to contain the true counterfactual at a chosen confidence level, tested on wireless network control.
+
 - [Sifting the Noise: A Comparative Study of LLM Agents in Vulnerability False Positive Filtering](https://arxiv.org/pdf/2601.22952v1) · 2026-01
   - `arxiv:2601.22952` · cited by 1: VA
   - summary: Compares Aider, OpenHands and SWE-agent on triage.
+
+- [STELP: Secure Transpilation and Execution of LLM-Generated Programs](https://arxiv.org/pdf/2601.05467v3) · 2026-01
+  - `arxiv:2601.05467` · cited by 1: VA
+  - summary: STELP sandboxes and transpiles LLM-generated code before executing it so vulnerabilities, poisoned data, and hallucinated calls can't take down production systems, and it ships with a human-validated dataset of insecure code snippets to benchmark against.
 
 - [StepShield: When, Not Whether to Intervene on Rogue Agents](https://arxiv.org/pdf/2601.22136v1) · 2026-01
   - `arxiv:2601.22136` · cited by 1: VA
@@ -405,6 +429,14 @@
 - [Taming Various Privilege Escalation in LLM-Based Agent Systems: A Mandatory Access Control Framework](https://arxiv.org/pdf/2601.11893v1) · 2026-01
   - `arxiv:2601.11893` · cited by 1: VA
   - summary: SEAgent is a mandatory access control framework (attribute-based, built on an information-flow graph over agent-tool interactions) for stopping privilege escalation in LLM agent systems, including a confused-deputy-style attack unique to multi-agent setups.
+
+- [Toward Safe and Responsible AI Agents: A Three-Pillar Model for Transparency, Accountability, and Trustworthiness](https://arxiv.org/pdf/2601.06223v1) · 2026-01
+  - `arxiv:2601.06223` · cited by 1: VA
+  - summary: Proposes a transparency-accountability-trustworthiness framework for staging AI agent autonomy the way self-driving cars staged their autonomy levels, backed by ongoing work from the Stanford Deliberative Democracy Lab and a cross-industry Safe AI Agent Consortium.
+
+- [When Agents See Humans as the Outgroup: Belief-Dependent Bias in LLM-Powered Agents](https://arxiv.org/pdf/2601.00240v2) · 2026-01
+  - `arxiv:2601.00240` · cited by 1: VA
+  - summary: LLM agents don't just carry demographic bias, they form in-group loyalty toward other agents and treat humans as an outgroup under minimal us-vs-them framing, and a 'Belief Poisoning Attack' can deliberately trigger this bias against humans.
 
 - [When Personalization Legitimizes Risks: Uncovering Safety Vulnerabilities in Personalized Dialogue Agents](https://arxiv.org/pdf/2601.17887v1) · 2026-01
   - `arxiv:2601.17887` · cited by 1: VA
@@ -473,6 +505,10 @@
 - [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) · 2026-02
   - `gh:nvidia/openshell` · cited by 1: HE
   - summary: Sandboxed runtime for autonomous AI agents that enforces policy on file, network, and process access, letting agent builders grant credentials and external service access without opening the door to exfiltration.
+
+- [Persuasion Propagation in LLM Agents](https://arxiv.org/pdf/2602.00851v1) · 2026-02
+  - `arxiv:2602.00851` · cited by 1: VA
+  - summary: Priming a coding or web-research agent with a belief before it starts work skews its behavior far more than persuading it mid-task: belief-prefilled agents run 26.9% fewer searches and visit 16.9% fewer sources than neutral ones, a manipulation vector most agent evals don't check for.
 
 - [StackOne Defender](https://github.com/stackoneHQ/defender) · 2026-02
   - `gh:stackonehq/defender` · cited by 1: HE
@@ -624,7 +660,7 @@
 
 ## Tools & Undated
 
-22 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+28 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://openreview.net/pdf?id=m1YYAQjO3w)
   - `openreview:m1YYAQjO3w` · cited by 1: LJ
@@ -662,6 +698,10 @@
   - `url:https://dl.acm.org/doi/pdf/10.1145/3674399.3674445` · cited by 1: LJ
   - summary: Blockchain proof-of-thought for Byzantine-robust multi-agent coordination.
 
+- [Building Governed AI Agents](https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook)
+  - `url:https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook` · cited by 1: HE
+  - summary: OpenAI cookbook walks through building a multi-agent firm assistant with three layers of governance, SDK guardrails, an org-wide policy package, and tracing, then tuning guardrail precision/recall instead of hand-reviewing every output.
+
 - [CLAS 2024: The Competition for LLM and Agent Safety](https://openreview.net/pdf?id=GIDw94AlZK)
   - `openreview:GIDw94AlZK` · cited by 1: LJ
   - summary: Three-track community competition; useful for eval design.
@@ -674,9 +714,13 @@
   - `url:https://platform.claude.com/docs/en/agent-sdk/user-input` · cited by 1: HE
   - summary: Documents the canUseTool callback and AskUserQuestion tool that let a Claude Agent SDK app pause execution to get human approval on risky actions or answers to clarifying questions, including allow/deny/modify/redirect response patterns.
 
+- [Cynative](https://github.com/cynative/cynative)
+  - `gh:cynative/cynative` · cited by 1: KY
+  - summary: A read-only CLI agent that reasons across your GitHub/GitLab repos, cloud accounts (AWS/GCP/Azure) and Kubernetes runtime as one system to hunt for security issues and hand back verified, cited answers instead of a scanner's flat findings list.
+
 - [Extracting Training Data from Large Language Models](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)
   - `url:https://usenix.org/system/files/sec21-carlini-extracting.pdf` · cited by 1: BK
-  - summary: TODO
+  - summary: Verbatim memorization is extractable at scale.
 
 - [GitHub Enterprise — Governing Agents](https://wellarchitected.github.com/library/governance/recommendations/governing-agents/)
   - `url:https://wellarchitected.github.com/library/governance/recommendations/governing-agents` · cited by 1: HE
@@ -690,9 +734,17 @@
   - `url:https://nango.dev/` · cited by 1: HE
   - summary: Nango is a developer platform for building and running integrations against 900+ APIs, handling auth and generating integration code so products and AI agents can call third-party services without hand-rolling each connector.
 
+- [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922)
+  - `url:https://dl.acm.org/doi/10.1145/3442188.3445922` · cited by 1: LJ
+  - summary: Argues against the ever-bigger-language-model trend: unaudited web-scale training data, high environmental and financial cost, and the risk that fluent output gets mistaken for understanding, and recommends documenting datasets and weighing costs before a training run.
+
 - [OWASP LLM01:2025 — Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
   - `url:https://genai.owasp.org/llmrisk/llm01-prompt-injection` · cited by 1: HE
   - summary: OWASP's reference entry for LLM01:2025 Prompt Injection, defining direct vs. indirect injection, distinguishing it from jailbreaking, and laying out seven mitigation strategies plus nine real-world attack scenarios.
+
+- [Predictability and Surprise in Large Generative Models](https://dl.acm.org/doi/abs/10.1145/3531146.3533229)
+  - `url:https://dl.acm.org/doi/abs/10.1145/3531146.3533229` · cited by 1: LJ
+  - summary: Names the core deployment risk in scaling laws: loss is predictable in aggregate, but the specific capabilities and failure modes that show up at a given scale are not, so shipping a bigger model is a bet with unknown downside.
 
 - [Privtrans: Automatically Partitioning Programs for Privilege Separation](https://dawnsong.io/papers/privtrans.pdf)
   - `url:https://dawnsong.io/papers/privtrans.pdf` · cited by 1: BK
@@ -710,6 +762,14 @@
   - `url:https://developers.openai.com/api/docs/guides/agents/sandboxes` · cited by 1: HE
   - summary: OpenAI's docs on sandbox agents: isolated Unix-like environments with filesystem, shell, packages, and controlled external access that let an agent run stateful work and persist it across multiple runs.
 
+- [SuperAgent](https://github.com/homanp/superagent)
+  - `gh:homanp/superagent` · cited by 1: KY
+  - summary: Pivoted from an agent-building framework to an SDK for guarding agents in production — blocking prompt injections, redacting PII/secrets, and running red-team scenarios against your own agent.
+
 - [The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks](https://www.usenix.org/system/files/sec19-carlini.pdf)
   - `url:https://usenix.org/system/files/sec19-carlini.pdf` · cited by 1: BK
-  - summary: TODO
+  - summary: Quantifies unintended memorization with exposure metrics.
+
+- [ToolEmu](https://github.com/ryoungj/ToolEmu)
+  - `gh:ryoungj/toolemu` · cited by 1: ZJ
+  - summary: Emulates realistic tools and environments with an LM so you can safely surface the risky failure modes of tool-using agents (data leaks, destructive actions) before ever touching real systems, ICLR'24 spotlight.

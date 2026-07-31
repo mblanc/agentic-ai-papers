@@ -1,14 +1,18 @@
 # observability-and-ops
 
-57 entries.
+62 entries.
 
 ## Timeline
 
-48 dated entries, oldest first.
+53 dated entries, oldest first.
 
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) · 2022-11
   - `gh:arize-ai/phoenix` · cited by 2: HE, KY
   - summary: Open-source agent tracing, evaluation and observability.
+
+- [Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://www.jmlr.org/papers/v24/23-0069.html) · 2023
+  - `url:https://jmlr.org/papers/v24/23-0069.html` · cited by 1: LJ
+  - summary: Full lifecycle carbon accounting puts training a 176B-parameter BLOOM at 25 tonnes CO2eq for compute alone, 50 tonnes once manufacturing and full operations are counted, a rare hard number for weighing model size against environmental cost.
 
 - [Helicone](https://github.com/Helicone/helicone) · 2023-01
   - `gh:helicone/helicone` · cited by 1: HE
@@ -29,6 +33,10 @@
 - [AgentOps](https://github.com/AgentOps-AI/agentops) · 2023-08
   - `gh:agentops-ai/agentops` · cited by 1: HE
   - summary: A Python SDK giving session replays, real-time analytics, and cost tracking across agent frameworks (CrewAI, OpenAI Agents, LangChain), positioned as a devtool platform rather than just a logging library.
+
+- [LLM As DBA](https://arxiv.org/abs/2308.05481) · 2023-08
+  - `arxiv:2308.05481` · cited by 1: ZJ
+  - summary: D-Bot diagnoses database performance issues by mining maintenance docs and running tree-of-thought root-cause analysis across a team of collaborating LLMs, aimed at cutting the manual grind of triaging thousands of cloud DB instances.
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) · 2023-09
   - `gh:traceloop/openllmetry` · cited by 1: HE
@@ -62,6 +70,10 @@
   - `arxiv:2601.06456` · cited by 1: VA
   - summary: Argues DevOps/MLOps operational principles don't transfer to agentic systems because their behavior keeps changing after deployment, and proposes CHANGE, a six-capability framework (Contextualize, Harmonize, Anticipate, Negotiate, Generate, Evolve) for architecting AgentOps around continuous co-evolution rather than fixed control loops.
 
+- [Balancing Sustainability And Performance: The Role Of Small-Scale LLMs In Agentic AI Systems](https://arxiv.org/pdf/2601.19311v2) · 2026-01
+  - `arxiv:2601.19311` · cited by 1: VA
+  - summary: A comparison of model sizes in a real multi-agent deployment finds smaller open-weight LLMs can cut power draw without hurting responsiveness or output quality, and lays out batching and resource-management tactics for running agent fleets more sustainably.
+
 - [Building Observable AI Agents: Temporal Now Integrates with Braintrust](https://temporal.io/blog/building-observable-ai-agents-temporal-now-integrates-with-braintrust) · 2026-01
   - `url:https://temporal.io/blog/building-observable-ai-agents-temporal-now-integrates-with-braintrust` · cited by 1: HE
   - summary: Integrates Temporal's durable workflow execution with Braintrust's observability so every Temporal Workflow and Activity becomes a full-context Braintrust span, giving agent tracing that survives infrastructure failures.
@@ -78,9 +90,17 @@
   - `gh:syncause/debug-skill` · cited by 1: HE
   - summary: An agent debugging skill that captures runtime traces and stack traces before an agent attempts a fix, replacing guesswork about root cause with evidence so repairs are backed by concrete data.
 
+- [The Why Behind the Action: Unveiling Internal Drivers via Agentic Attribution](https://arxiv.org/pdf/2601.15075v2) · 2026-01
+  - `arxiv:2601.15075` · cited by 1: VA
+  - summary: Agentic attribution traces which past events and context snippets actually drove an agent's decision, combining component-level temporal-likelihood dynamics with sentence-level perturbation analysis to debug why an agent did what it did.
+
 - [TriCEGAR: A Trace-Driven Abstraction Mechanism for Agentic AI](https://arxiv.org/pdf/2601.22997v1) · 2026-01
   - `arxiv:2601.22997` · cited by 1: VA
   - summary: Predicate-tree state abstraction from traces for runtime verification.
+
+- [When Agents Fail: A Comprehensive Study of Bugs in LLM Agents with Automated Labeling](https://arxiv.org/pdf/2601.15232v1) · 2026-01
+  - `arxiv:2601.15232` · cited by 1: VA
+  - summary: The first systematic study of LLM-agent bugs mines 1,187 bug reports from Stack Overflow, GitHub, and Hugging Face across seven agent frameworks to build a root-cause taxonomy, then shows a ReAct-based bug-annotator (BugReAct) on Gemini 2.5 Flash can label bug characteristics automatically for about a cent per post.
 
 - [When AI Agents Touch CI/CD Configurations: Frequency and Success](https://arxiv.org/pdf/2601.17413v1) · 2026-01
   - `arxiv:2601.17413` · cited by 1: VA

@@ -1,10 +1,10 @@
 # multi-agent
 
-188 entries.
+202 entries.
 
 ## Timeline
 
-174 dated entries, oldest first.
+182 dated entries, oldest first.
 
 - [Language Model Cascades](https://arxiv.org/abs/2207.10342) · 2022-07
   - `arxiv:2207.10342` · cited by 1: ZJ
@@ -24,7 +24,7 @@
 
 - [Emergent autonomous scientific research capabilities of large language models](https://arxiv.org/abs/2304.05332) · 2023-04
   - `arxiv:2304.05332` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Coscientist: autonomous design and execution of real experiments.
 
 - [Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models](https://arxiv.org/abs/2304.13835) · 2023-04
   - `arxiv:2304.13835` · cited by 1: ZJ
@@ -160,7 +160,7 @@
 
 - [Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View](https://arxiv.org/abs/2310.02124) · 2023-10
   - `arxiv:2310.02124` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Conformity and consensus dynamics in agent collaboration.
 
 - [Lumos: Learning Agents with Unified Data, Modular Design, and Open-Source LLMs](https://arxiv.org/pdf/2311.05657.pdf) · 2023-11
   - `arxiv:2311.05657` · cited by 1: ZJ
@@ -201,6 +201,10 @@
 - [Debating with More Persuasive LLMs Leads to More Truthful Answers](https://arxiv.org/abs/2402.06782) · 2024-02
   - `arxiv:2402.06782` · cited by 1: LJ
   - summary: Shows debate between two LLM 'experts' arguing opposite answers helps a weaker non-expert judge (model or human) find the truth more reliably than direct answering, and that optimizing debaters for persuasiveness further improves the non-expert's ability to identify correct answers.
+
+- [More Agents Is All You Need](https://arxiv.org/abs/2402.05120) · 2024-02
+  - `arxiv:2402.05120` · cited by 1: LJ
+  - summary: Just sampling more independent LLM instances and majority-voting their answers, with no fancier orchestration, reliably improves accuracy as you add agents, and the gains scale with how hard the task is.
 
 - [ProAgent: Building Proactive Cooperative Agents with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219) · 2024-03
   - `url:https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219` · cited by 1: LJ
@@ -387,6 +391,10 @@
   - `arxiv:2601.21936` · cited by 1: VA
   - summary: Role-structured courtroom debate for auditable high-stakes decisions.
 
+- [Architecting Agentic Communities using Design Patterns](https://arxiv.org/pdf/2601.03624v2) · 2026-01
+  - `arxiv:2601.03624` · cited by 1: VA
+  - summary: A design-pattern catalog for building governed "agentic communities" — LLM agents, agentic AI entities and humans coordinating under formal, enterprise-grade collaboration agreements — validated against a clinical-trial-matching case study so accountability and legal/ethical rules aren't bolted on after the fact.
+
 - [Bayesian Orchestration of Multi-LLM Agents for Cost-Aware Sequential Decision-Making](https://arxiv.org/pdf/2601.01522v1) · 2026-01
   - `arxiv:2601.01522` · cited by 1: VA
   - summary: Treats multiple LLMs as likelihood models rather than classifiers for cost-asymmetric sequential decisions (hiring, triage, fraud), aggregating contrastive-prompted likelihoods via Bayesian updating, cutting resume-screening cost 34% ($294K) and improving demographic parity 45% versus the best single-LLM baseline.
@@ -563,6 +571,10 @@
   - `arxiv:2601.23228` · cited by 1: VA
   - summary: Per-action process rewards for credit assignment when finetuning teams.
 
+- [Task-Aware LLM Council with Adaptive Decision Pathways for Decision Support](https://arxiv.org/pdf/2601.22662v1) · 2026-01
+  - `arxiv:2601.22662` · cited by 1: VA
+  - summary: TALC routes each decision to whichever LLM in a council has the best track record on similar past tasks, fusing that memory with MCTS-based value estimates to guide search, and beats strong baselines on WebShop, HumanEval, and Game of 24.
+
 - [The End of Reward Engineering: How LLMs Are Redefining Multi-Agent Coordination](https://arxiv.org/pdf/2601.08237v1) · 2026-01
   - `arxiv:2601.08237` · cited by 1: VA
   - summary: Argues language objectives replace hand-crafted reward functions.
@@ -579,9 +591,25 @@
   - `arxiv:2601.10120` · cited by 1: VA
   - summary: Decentralized agents construct heterogeneous topologies without iterative coordination.
 
+- [Transitive Expert Error and Routing Problems in Complex AI Systems](https://arxiv.org/pdf/2601.04416v1) · 2026-01
+  - `arxiv:2601.04416` · cited by 1: VA
+  - summary: Names and formalizes 'Transitive Expert Error,' the systematic confidence-vs-correctness failure that shows up right at the boundary between what a domain expert (or mixture-of-experts route) knows and doesn't, identifying two causal mechanisms and proposing detection signatures plus architectural fixes.
+
+- [When Numbers Start Talking: Implicit Numerical Coordination Among LLM-Based Agents](https://arxiv.org/pdf/2601.03846v1) · 2026-01
+  - `arxiv:2601.03846` · cited by 1: VA
+  - summary: A game-theoretic study of LLM agents coordinating covertly through indirect, non-linguistic signals embedded in their actions rather than explicit messages, mapping when this implicit signaling emerges across four canonical game settings.
+
 - [AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions](https://arxiv.org/pdf/2602.06008v1) · 2026-02
   - `arxiv:2602.06008` · cited by 1: VA
   - summary: 110+ task benchmark for buyer-seller negotiation.
+
+- [Autonomous Data Processing using Meta-Agents](https://arxiv.org/pdf/2602.00307v1) · 2026-02
+  - `arxiv:2602.00307` · cited by 1: VA
+  - summary: ADP-MA uses a meta-agent to plan and spin up specialized ground-level agents for data-processing pipelines on the fly, tracking pipeline efficiency and reusing agents across runs instead of hand-designing a fixed pipeline per dataset.
+
+- [Autonomous Question Formation for Large Language Model-Driven AI Systems](https://arxiv.org/pdf/2602.01556v1) · 2026-02
+  - `arxiv:2602.01556` · cited by 1: VA
+  - summary: Instead of taking tasks as given, this framework has an LLM system formulate its own questions from internal state, environment and other agents' behavior before picking what to do next, and in a multi-agent simulation the environment- and agent-aware prompting cuts negative outcomes by over 60% versus static-prompt baselines.
 
 - [AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/pdf/2602.17607) · 2026-02
   - `arxiv:2602.17607` · cited by 2: VA, ZJ
@@ -606,6 +634,10 @@
 - [Evolving Interpretable Constitutions for Multi-Agent Coordination](https://arxiv.org/pdf/2602.00755v1) · 2026-02
   - `arxiv:2602.00755` · cited by 1: VA
   - summary: LLM-driven genetic programming discovering behavioural norms.
+
+- [Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1) · 2026-02
+  - `arxiv:2602.05636` · cited by 1: VA
+  - summary: Generative Ontology constrains LLM output with executable Pydantic schemas via DSPy so a multi-agent pipeline (Mechanics Architect, Theme Weaver, Balance Critic) can generate structurally valid tabletop-game designs instead of the usual hallucinated, incoherent artifacts; on their GameGrammar benchmark, giving agents distinct roles significantly improves fun and depth scores (d=1.12, d=1.59) versus a single generator.
 
 - [H-AdminSim: A Multi-Agent Simulator for Realistic Hospital Administrative Workflows](https://arxiv.org/pdf/2602.05407v1) · 2026-02
   - `arxiv:2602.05407` · cited by 1: VA
@@ -707,7 +739,7 @@
 
 ## Tools & Undated
 
-14 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+20 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
@@ -715,7 +747,11 @@
 
 - [agency-swarm](https://github.com/VRSEN/agency-swarm)
   - `gh:vrsen/agency-swarm` · cited by 1: KY
-  - summary: TODO
+  - summary: Agent framework over the Assistants API.
+
+- [AgentK](https://github.com/mikekelly/AgentK)
+  - `gh:mikekelly/agentk` · cited by 1: KY
+  - summary: A self-bootstrapping agent kernel where an orchestrator (Hermes) spins up new agents and tools on the fly, written as plain Python files, to grow its own capabilities as tasks demand.
 
 - [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://openreview.net/forum?id=EHg5GDnyq1)
   - `openreview:EHg5GDnyq1` · cited by 1: LJ
@@ -730,6 +766,10 @@
   - `openreview:FQepisCUWu` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [ClaudeClaw](https://github.com/sbusso/claudeclaw)
+  - `gh:sbusso/claudeclaw` · cited by 1: KY
+  - summary: Uses Claude as an orchestrator to drive and coordinate other agent tools (like OpenClaw) instead of running a single agent loop directly.
+
 - [Codex SDK](https://developers.openai.com/codex/sdk)
   - `url:https://developers.openai.com/codex/sdk` · cited by 1: HE
   - summary: The Codex SDK gives programmatic control over local Codex agents via TypeScript and Python libraries, letting developers start, continue, and resume agent threads with structured prompts for CI/CD and custom engineering workflows.
@@ -738,21 +778,37 @@
   - `url:https://ieeesmc.org/cai-2026/tutorial-3-engineering-trustworthy-multi-agent-systems` · cited by 1: HE
   - summary: A practical tutorial on enterprise-ready multi-agent system design covering architecture, memory, observability, and evaluation, emphasizing guardrails, fact-checking, and objective alignment as required safety layers for production trustworthiness.
 
+- [Langroid](https://github.com/langroid/langroid)
+  - `gh:langroid/langroid` · cited by 1: ZJ
+  - summary: Multi-agent Python framework built around message-passing Task objects, so agents (each with its own LLM, tools and memory) can delegate sub-tasks to each other instead of you hand-coding a control loop.
+
 - [Linear formation control of multi-agent systems](https://www.sciencedirect.com/science/article/pii/S0005109824004291)
   - `url:https://sciencedirect.com/science/article/pii/S0005109824004291` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
+- [llama-agents](https://github.com/run-llama/llama-agents)
+  - `gh:run-llama/llama-agents` · cited by 1: KY
+  - summary: LlamaIndex's event-driven, async orchestration layer for turning a set of agents into microservices that pass control to each other via a message queue instead of one monolithic loop.
+
 - [Multi-Agent AI](https://www.youtube.com/watch?v=SrLcGdVOb9w)
   - `url:https://youtube.com/watch?v=SrLcGdVOb9w` · cited by 1: BK
-  - summary: TODO
+  - summary: Lecture on multi-agent systems from a game-solving perspective.
 
 - [Multi-Agent Systems in the Era of LLMs](https://www.youtube.com/watch?v=ntjOxjZMaac)
   - `url:https://youtube.com/watch?v=ntjOxjZMaac` · cited by 1: BK
-  - summary: TODO
+  - summary: DeepMind view on multi-agent directions.
+
+- [Orkas](https://github.com/Orkas-AI/Orkas)
+  - `gh:orkas-ai/orkas` · cited by 1: KY
+  - summary: Local-first desktop app where a commander LLM dispatches a team of sub-agents in parallel or series and they refine their own skills through reflection, with your choice of backing LLM providers.
+
+- [SocraticAI](https://github.com/RunzheYang/SocraticAI)
+  - `gh:runzheyang/socraticai` · cited by 1: ZJ
+  - summary: Has several LLM agents interrogate each other and the user in a Socratic back-and-forth to surface assumptions and reach a reasoned answer, without needing hand-tuned prompts.
 
 - [Swarm](https://github.com/openai/swarm)
   - `gh:openai/swarm` · cited by 1: KY
-  - summary: TODO
+  - summary: OpenAI's educational lightweight handoff-based orchestration.
 
 - [Swarm Autonomy: From Agent Functionalization to Machine Intelligence](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956)
   - `url:https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956` · cited by 1: LJ

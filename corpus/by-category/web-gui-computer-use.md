@@ -1,6 +1,6 @@
 # web-gui-computer-use
 
-15 entries.
+16 entries.
 
 ## Timeline
 
@@ -8,11 +8,11 @@
 
 - [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) · 2022-07
   - `arxiv:2207.01206` · cited by 1: BK
-  - summary: TODO
+  - summary: Simulated e-commerce site with instruction-following and reward; early practical web-agent benchmark.
 
 - [WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?](https://arxiv.org/abs/2403.07718) · 2024-03
   - `arxiv:2403.07718` · cited by 1: BK
-  - summary: TODO
+  - summary: Common knowledge-work tasks on a real enterprise platform.
 
 - [Anthropic Computer Use Demo](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo) · 2024-08
   - `gh:anthropics/anthropic-quickstarts` · cited by 1: HE
@@ -24,7 +24,7 @@
 
 - [AGUVIS: Unified Pure Vision Agents For Autonomous GUI Interaction](https://arxiv.org/pdf/2412.04454) · 2024-12
   - `arxiv:2412.04454` · cited by 1: BK
-  - summary: TODO
+  - summary: Pure-vision unified GUI agents without accessibility-tree dependence.
 
 - [CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation](https://arxiv.org/pdf/2601.21253v1) · 2026-01
   - `arxiv:2601.21253` · cited by 1: VA
@@ -44,19 +44,23 @@
 
 ## Tools & Undated
 
-6 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+7 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AgentGPT](https://github.com/reworkd/AgentGPT)
   - `gh:reworkd/agentgpt` · cited by 2: KY, ZJ
-  - summary: TODO
+  - summary: Browser-based autonomous agent runner.
 
 - [Actionbook](https://github.com/actionbook/actionbook)
   - `gh:actionbook/actionbook` · cited by 1: KY
-  - summary: TODO
+  - summary: Parallel action CLI running many actions across many sites at once.
 
 - [invisible-playwright](https://github.com/feder-cr/invisible_playwright)
   - `gh:feder-cr/invisible_playwright` · cited by 1: KY
-  - summary: TODO
+  - summary: Stealth-patched Firefox behind a drop-in Playwright interface.
+
+- [Language models can solve computer tasks](https://openreview.net/pdf?id=M6OmjAZ4CX)
+  - `openreview:M6OmjAZ4CX` · cited by 1: LJ
+  - summary: RCI prompting has an LLM agent recursively criticize and improve its own output to drive computer tasks from natural language, hitting state-of-the-art on MiniWoB++ with just a handful of demonstrations per task instead of the tens of thousands SL/RL approaches need, and no task-specific reward function at all.
 
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents)
   - `gh:xlang-ai/openagents` · cited by 1: KY
@@ -68,4 +72,4 @@
 
 - [Steel Browser](https://github.com/steel-dev/steel-browser)
   - `gh:steel-dev/steel-browser` · cited by 1: KY
-  - summary: TODO
+  - summary: Browser infrastructure for agents with session-backed automation and extraction.

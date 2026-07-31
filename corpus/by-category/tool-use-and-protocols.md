@@ -1,10 +1,10 @@
 # tool-use-and-protocols
 
-125 entries.
+133 entries.
 
 ## Timeline
 
-117 dated entries, oldest first.
+120 dated entries, oldest first.
 
 - [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332) · 2021-12
   - `arxiv:2112.09332` · cited by 2: LJ, ZJ
@@ -12,7 +12,7 @@
 
 - [TALM: Tool Augmented Language Models](https://arxiv.org/abs/2205.12255) · 2022-05
   - `arxiv:2205.12255` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Combines non-differentiable tools with LMs for real-time/private data.
 
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/) · 2023
   - `acl:2023.emnlp-main.187` · cited by 1: LJ
@@ -48,19 +48,19 @@
 
 - [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) · 2023-02
   - `arxiv:2302.04761` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Self-supervised API-call insertion; showed tool use can be learned from a handful of demos.
 
 - [ART: Automatic multi-step reasoning and tool-use for large language models](https://arxiv.org/abs/2303.09014) · 2023-03
   - `arxiv:2303.09014` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Retrieves reasoning-program demonstrations from a task library.
 
 - [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/abs/2303.17580) · 2023-03
   - `arxiv:2303.17580` · cited by 1: ZJ
-  - summary: TODO
+  - summary: LLM as controller routing subtasks to specialist models.
 
 - [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](https://arxiv.org/abs/2303.11381) · 2023-03
   - `arxiv:2303.11381` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Prompting for multimodal reasoning and action.
 
 - [outlines](https://github.com/dottxt-ai/outlines) · 2023-03
   - `gh:dottxt-ai/outlines` · cited by 1: HE
@@ -68,7 +68,7 @@
 
 - [TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs](https://arxiv.org/abs/2303.16434) · 2023-03
   - `arxiv:2303.16434` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Connecting foundation models to millions of APIs.
 
 - [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/abs/2303.04671) · 2023-03
   - `arxiv:2303.04671` · cited by 1: ZJ
@@ -76,7 +76,7 @@
 
 - [Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models](https://arxiv.org/abs/2304.09842) · 2023-04
   - `arxiv:2304.09842` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Plug-and-play compositional reasoning over heterogeneous modules.
 
 - [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376) · 2023-04
   - `arxiv:2304.05376` · cited by 2: LJ, ZJ
@@ -89,11 +89,11 @@
 - [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/pdf/2305.11738.pdf) · 2023-05
   - `arxiv:2305.11738` · cited by 1: ZJ
   - related: <https://github.com/microsoft/ProphetNet/tree/master/CRITIC>
-  - summary: TODO
+  - summary: Verify-then-correct using external tools rather than self-judgment alone.
 
 - [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334) · 2023-05
   - `arxiv:2305.15334` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Retriever-aware training over a large API corpus; reduced hallucinated calls.
 
 - [Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning](https://arxiv.org/abs/2305.14909) · 2023-05
   - `arxiv:2305.14909` · cited by 1: ZJ
@@ -109,7 +109,7 @@
 
 - [Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow](https://arxiv.org/abs/2306.07209) · 2023-06
   - `arxiv:2306.07209` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Autonomous workflow bridging large data sources and humans.
 
 - [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](http://arxiv.org/abs/2306.05301) · 2023-06
   - `arxiv:2306.05301` · cited by 1: LJ
@@ -125,24 +125,24 @@
 
 - [Gentopia: A Collaborative Platform for Tool-Augmented LLMs](https://arxiv.org/abs/2308.04030) · 2023-08
   - `arxiv:2308.04030` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Collaborative platform for tool-augmented agents.
 
 - [ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving](https://arxiv.org/abs/2309.17452) · 2023-09
   - `arxiv:2309.17452` · cited by 1: ZJ
   - related: <https://github.com/microsoft/ToRA>
-  - summary: TODO
+  - summary: Tool-integrated reasoning for mathematical problem solving.
 
 - [Symbol-LLM: Towards Foundational Symbol-centric Interface For Large Language Models](https://arxiv.org/abs/2311.09278) · 2023-11
   - `arxiv:2311.09278` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Symbol-centric interface as a foundation for tool interaction.
 
 - [CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update](https://arxiv.org/abs/2312.10908) · 2023-12
   - `arxiv:2312.10908` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Closed-loop visual assistant that updates its tools from feedback.
 
 - [GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension](https://arxiv.org/pdf/2312.17294.pdf) · 2023-12
   - `arxiv:2312.17294` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Autonomously extends its own toolset from GitHub repositories.
 
 - [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html) · 2024
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html` · cited by 1: LJ
@@ -168,6 +168,10 @@
   - `gh:composiohq/composio` · cited by 1: HE
   - summary: 250+ SaaS APIs as agent-ready actions with managed OAuth.
 
+- [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) · 2024-02
+  - `arxiv:2402.01030` · cited by 1: LJ
+  - summary: CodeAct has LLM agents emit executable Python instead of JSON or text actions and run it through a real interpreter to react to feedback, beating traditional action formats by up to 20% across 17 models, with an open dataset (CodeActInstruct) that fine-tunes Llama2/Mistral into agents that can debug themselves without losing general ability.
+
 - [ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph](http://arxiv.org/abs/2403.00839) · 2024-03
   - `arxiv:2403.00839` · cited by 1: LJ
   - summary: Organizes thousands of tools as a graph the model traverses.
@@ -183,7 +187,7 @@
 
 - [Tulip Agent -- Enabling LLM-Based Agents to Solve Tasks Using Large Tool Libraries](https://arxiv.org/abs/2407.21778) · 2024-07
   - `arxiv:2407.21778` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Solves tasks against tool libraries too large to fit in context.
 
 - [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](http://arxiv.org/abs/2408.01875) · 2024-08
   - `arxiv:2408.01875` · cited by 1: LJ
@@ -191,7 +195,7 @@
 
 - [OneGen: Efficient One-Pass Unified Generation and Retrieval for LLMs](https://arxiv.org/abs/2409.05152) · 2024-09
   - `arxiv:2409.05152` · cited by 1: ZJ
-  - summary: TODO
+  - summary: One-pass unified generation and retrieval.
 
 - [ToolPlanner: A Tool Augmented LLM for Multi Granularity Instructions with Path Planning and Feedback](http://arxiv.org/abs/2409.14826) · 2024-09
   - `arxiv:2409.14826` · cited by 1: LJ
@@ -325,6 +329,10 @@
   - `gh:microsoft/skills` · cited by 1: HE
   - summary: Defining, versioning and distributing skills across platforms.
 
+- [Optimizing Agentic Workflows using Meta-tools](https://arxiv.org/pdf/2601.22037v2) · 2026-01
+  - `arxiv:2601.22037` · cited by 1: VA
+  - summary: AWO mines an agent's own execution traces for repeated tool-call sequences and compiles them into single deterministic 'meta-tools,' cutting LLM calls by up to 11.9% and lifting task success by up to 4.2 points.
+
 - [SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments](https://arxiv.org/pdf/2601.09750v1) · 2026-01
   - `arxiv:2601.09750` · cited by 1: VA
   - summary: A conversational tool-use interface built on the OPACA framework for dynamic tool discovery and integration, letting new domain-specific tools be added without retraining and comparing several agentic prompting strategies for selecting and executing them.
@@ -356,6 +364,10 @@
 - [When Single-Agent with Skills Replace Multi-Agent Systems and When They Fail](https://arxiv.org/pdf/2601.04748v2) · 2026-01
   - `arxiv:2601.04748` · cited by 1: VA
   - summary: Scaling limits and phase transitions in skill selection as libraries grow.
+
+- [XGrammar 2: Dynamic and Efficient Structured Generation Engine for Agentic LLMs](https://arxiv.org/pdf/2601.04426v1) · 2026-01
+  - `arxiv:2601.04426` · cited by 1: VA
+  - summary: XGrammar-2 speeds up structured generation for agent workloads that switch output structure mid-request, using tag-triggered dispatch and cross-request grammar caching to compile over 6x faster than prior structured-generation engines with near-zero serving overhead.
 
 - [Malicious Agent Skills in the Wild: A Large-Scale Security Empirical Study](https://arxiv.org/pdf/2602.06547v1) · 2026-02
   - `arxiv:2602.06547` · cited by 1: VA
@@ -479,11 +491,15 @@
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+13 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Announcing Official MCP Support for Google Services](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services)
   - `url:https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services` · cited by 1: HE
   - summary: Managed MCP endpoints with IAM, audit logging and discovery as platform primitives.
+
+- [BMTools](https://github.com/OpenBMB/BMTools)
+  - `gh:openbmb/bmtools` · cited by 1: ZJ
+  - summary: An open-source toolkit for building and chaining ChatGPT-plugin-style tools, letting a model call external APIs (search, weather, code execution, etc.) through a common plugin interface.
 
 - [Function Calling — OpenAI Docs](https://platform.openai.com/docs/guides/function-calling)
   - `url:https://platform.openai.com/docs/guides/function-calling` · cited by 1: HE
@@ -497,9 +513,21 @@
   - `url:https://python.useinstructor.com/` · cited by 1: HE
   - summary: Pydantic models for structured extraction with retry and validation feedback.
 
+- [joinly](https://github.com/joinly-ai/joinly)
+  - `gh:joinly-ai/joinly` · cited by 1: KY
+  - summary: Drops an MCP-speaking agent into a live Zoom/Meet/Teams call so it can listen, transcribe, and act on meeting content in real time instead of summarizing a recording after the fact.
+
+- [LLama Cpp Agent](https://github.com/Maximilian-Winter/llama-cpp-agent)
+  - `gh:maximilian-winter/llama-cpp-agent` · cited by 1: KY
+  - summary: Wrapper around llama.cpp that gets structured function calls and JSON output working even from local models that were never fine-tuned for tool use, including parallel calls.
+
 - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
   - `url:https://modelcontextprotocol.io/introduction` · cited by 1: HE
   - summary: Open protocol standardizing agent access to tools, data and services.
+
+- [RestGPT](https://github.com/Yifan-Song793/RestGPT)
+  - `gh:yifan-song793/restgpt` · cited by 1: KY
+  - summary: Agent that plans and executes multi-step tasks by calling real-world RESTful APIs directly, instead of relying on a fixed toolset wrapped as functions.
 
 - [Shell + Skills + Compaction: Tips for Long-Running Agents](https://developers.openai.com/blog/skills-shell-tips)
   - `url:https://developers.openai.com/blog/skills-shell-tips` · cited by 1: HE
@@ -508,6 +536,10 @@
 - [Tool Use — Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
   - `url:https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview` · cited by 1: HE
   - summary: Client vs server execution models and strict schema enforcement.
+
+- [WorkGPT](https://github.com/team-openpm/workgpt)
+  - `gh:team-openpm/workgpt` · cited by 1: ZJ
+  - summary: Small TypeScript library that hands GPT-4 a directive plus an array of OpenAPI-described APIs and lets it converse back and forth until the task is done, leaning on the OpenPM registry for ready-made API wrappers.
 
 - [Writing Effective Tools for Agents](https://www.anthropic.com/engineering/writing-effective-tools-for-agents)
   - `url:https://anthropic.com/engineering/writing-effective-tools-for-agents` · cited by 1: HE
