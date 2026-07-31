@@ -133,7 +133,13 @@ def check_wiki_links(wiki: Path, corpus: Path) -> list[str]:
         # their example citations are deliberately placeholders, not real ids.
         if page.name.startswith("_"):
             continue
-        for cid in re.findall(r"\{\{(arxiv:[^}]+|gh:[^}]+)\}\}", page.read_text(encoding="utf-8")):
+        # All five canonical id prefixes (see docs/TAXONOMY.md §2) — url: and
+        # acl:/openreview: citations were previously unchecked here, which let
+        # a couple of trailing-slash id mismatches ship silently.
+        for cid in re.findall(
+            r"\{\{(arxiv:[^}]+|gh:[^}]+|url:[^}]+|acl:[^}]+|openreview:[^}]+)\}\}",
+            page.read_text(encoding="utf-8"),
+        ):
             if cid not in known:
                 errs.append(f"{page} cites unknown entry {{{{{cid}}}}}")
     return errs

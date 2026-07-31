@@ -24,7 +24,7 @@ the primary remaining barrier {{url:https://langchain.com/state-of-agent-enginee
 That maturity shows up as a genuinely crowded, converging tool landscape:
 general LLM/agent observability platforms (Langfuse
 {{gh:langfuse/langfuse}}, Opik {{gh:comet-ml/opik}}, Weave
-{{gh:wandb/weave}}, Braintrust {{url:https://braintrust.dev}}), gateway-style
+{{gh:wandb/weave}}, Braintrust {{url:https://braintrust.dev/}}), gateway-style
 cost/routing layers (Helicone {{gh:helicone/helicone}}), and
 OpenTelemetry-native instrumentation purpose-built for LLM calls (OpenLLMetry
 {{gh:traceloop/openllmetry}}, Pydantic Logfire {{gh:pydantic/logfire}}) have
