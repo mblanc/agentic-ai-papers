@@ -4,11 +4,19 @@
 
 ## Timeline
 
-32 dated entries, oldest first.
+37 dated entries, oldest first.
 
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) · 2021-08
   - `arxiv:2108.07258` · cited by 1: LJ
   - summary: Named the category; emergence and homogenization as the two central dynamics.
+
+- [Foundation Models and Fair Use](https://www.jmlr.org/papers/v24/23-0569.html) · 2023
+  - `url:https://jmlr.org/papers/v24/23-0569.html` · cited by 1: LJ
+  - summary: Legal exposure from training on copyrighted data plus technical mitigations.
+
+- [LLaMA: Open and Efficient Foundation Language Models](https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/) · 2023-02
+  - `url:https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models` · cited by 1: LJ
+  - summary: Trains a 7B-65B foundation model family on trillions of tokens from public data only, showing LLaMA-13B beats GPT-3 (175B) on most benchmarks and LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B, and releases all weights to researchers.
 
 - [Inferring the Goals of Communicating Agents from Actions and Instructions](https://arxiv.org/abs/2306.16207) · 2023-06
   - `arxiv:2306.16207` · cited by 1: LJ
@@ -25,6 +33,10 @@
 - [The rise and potential of large language model based agents: a survey](https://arxiv.org/abs/2309.07864) · 2023-09
   - `arxiv:2309.07864` · cited by 1: LJ
   - summary: Traces the concept of 'agent' from its philosophical roots into AI, proposes a brain/perception/action framework for LLM-based agents, and surveys single-agent, multi-agent, and human-agent cooperation scenarios plus emergent agent-society phenomena.
+
+- [Large Language Model based Multi-Agents: A Survey of Progress and Challenges](https://www.ijcai.org/proceedings/2024/0890.pdf) · 2024
+  - `url:https://ijcai.org/proceedings/2024/0890.pdf` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
 
 - [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568) · 2024-01
   - `arxiv:2401.03568` · cited by 1: LJ
@@ -78,6 +90,10 @@
   - `arxiv:2404.11584` · cited by 1: LJ
   - summary: Reasoning, planning and tool calling across real implementations.
 
+- [Deconstructing The Ethics of Large Language Models from Long-standing Issues to New-emerging Dilemmas: A Surveyhttps://ui.adsabs.harvard.edu/](https://ui.adsabs.harvard.edu/abs/2024arXiv240605392D/abstract) · 2024-06
+  - `url:https://ui.adsabs.harvard.edu/abs/2024arXiv240605392D/abstract` · cited by 1: LJ
+  - summary: Survey from long-standing issues to newly emerging dilemmas.
+
 - [The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies](https://arxiv.org/pdf/2407.19354) · 2024-07
   - `arxiv:2407.19354` · cited by 1: LJ
   - summary: Threats, impacts and defenses with worked cases.
@@ -130,13 +146,17 @@
   - `arxiv:2509.02547` · cited by 1: LJ
   - summary: Dual taxonomy of capabilities and applications, RL as the integrating mechanism.
 
+- [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/) · 2026-02
+  - `url:https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem` · cited by 1: HE
+  - summary: ADK ecosystem patterns for wiring external services without losing state coherence.
+
 - [Ranking Engineer Agent (REA): Meta's Autonomous AI System for Ads Ranking](https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/) · 2026-03
   - `url:https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation` · cited by 1: HE
   - summary: Multi-day ML pipeline automation with hibernate-and-wake checkpointing.
 
 ## Tools & Undated
 
-10 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+5 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)
   - `url:https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents` · cited by 1: HE
@@ -149,26 +169,6 @@
 - [AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways](https://dl.acm.org/doi/abs/10.1145/3716628)
   - `url:https://dl.acm.org/doi/abs/10.1145/3716628` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Deconstructing The Ethics of Large Language Models from Long-standing Issues to New-emerging Dilemmas: A Surveyhttps://ui.adsabs.harvard.edu/](https://ui.adsabs.harvard.edu/abs/2024arXiv240605392D/abstract)
-  - `url:https://ui.adsabs.harvard.edu/abs/2024arXiv240605392D/abstract` · cited by 1: LJ
-  - summary: Survey from long-standing issues to newly emerging dilemmas.
-
-- [Foundation Models and Fair Use](https://www.jmlr.org/papers/v24/23-0569.html)
-  - `url:https://jmlr.org/papers/v24/23-0569.html` · cited by 1: LJ
-  - summary: Legal exposure from training on copyrighted data plus technical mitigations.
-
-- [Large Language Model based Multi-Agents: A Survey of Progress and Challenges](https://www.ijcai.org/proceedings/2024/0890.pdf)
-  - `url:https://ijcai.org/proceedings/2024/0890.pdf` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
-- [LLaMA: Open and Efficient Foundation Language Models](https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/)
-  - `url:https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models` · cited by 1: LJ
-  - summary: Trains a 7B-65B foundation model family on trillions of tokens from public data only, showing LLaMA-13B beats GPT-3 (175B) on most benchmarks and LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B, and releases all weights to researchers.
-
-- [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/)
-  - `url:https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem` · cited by 1: HE
-  - summary: ADK ecosystem patterns for wiring external services without losing state coherence.
 
 - [TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs](https://spj.science.org/doi/10.34133/icomputing.0063)
   - `url:https://spj.science.org/doi/10.34133/icomputing.0063` · cited by 1: LJ

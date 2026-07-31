@@ -4,7 +4,11 @@
 
 ## Timeline
 
-3 dated entries, oldest first.
+4 dated entries, oldest first.
+
+- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://proceedings.mlr.press/v162/huang22a.html) · 2022-07
+  - `url:https://proceedings.mlr.press/v162/huang22a.html` · cited by 1: LJ
+  - summary: Shows a large enough LLM can decompose a high-level goal like 'make breakfast' into mid-level steps with no training, then adds a step that maps each to an admissible action, substantially improving executability in VirtualHome.
 
 - [Language Models Meet World Models: Embodied Experiences Enhance Language Models](https://arxiv.org/abs/2305.10626.pdf) · 2023-05
   - `arxiv:2305.10626` · cited by 1: LJ
@@ -17,11 +21,3 @@
 - [VirtualEnv: A Platform for Embodied AI Research](https://arxiv.org/pdf/2601.07553v2) · 2026-01
   - `arxiv:2601.07553` · cited by 1: VA
   - summary: Unreal Engine 5 platform for embodied navigation and manipulation benchmarks.
-
-## Tools & Undated
-
-1 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://proceedings.mlr.press/v162/huang22a.html)
-  - `url:https://proceedings.mlr.press/v162/huang22a.html` · cited by 1: LJ
-  - summary: Shows a large enough LLM can decompose a high-level goal like 'make breakfast' into mid-level steps with no training, then adds a step that maps each to an admissible action, substantially improving executability in VirtualHome.

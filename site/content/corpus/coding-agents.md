@@ -4,7 +4,7 @@
 
 ## Timeline
 
-18 dated entries, oldest first.
+20 dated entries, oldest first.
 
 - [Aider](https://github.com/Aider-AI/aider) · 2023-05
   - `gh:aider-ai/aider` · cited by 1: HE
@@ -78,9 +78,17 @@
   - `arxiv:2602.00164` · cited by 1: VA
   - summary: 8,106 fix-related PRs from five agents, with rejection reasons.
 
+- [Open SWE: An Open-Source Framework for Internal Coding Agents](https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/) · 2026-03
+  - `url:https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents` · cited by 1: HE
+  - summary: An open-source framework for building internal coding agents by composing on Deep Agents and LangGraph rather than forking, so teams swap in their own sandboxes, models, and tools while keeping an upgrade path.
+
+- [Introducing dynamic workflows in Claude Code](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) · 2026-05
+  - `url:https://claude.com/blog/introducing-dynamic-workflows-in-claude-code` · cited by 1: HE
+  - summary: Plan lives in executable JavaScript that fans out to hundreds of parallel subagents.
+
 ## Tools & Undated
 
-4 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+2 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [2026 Agentic Coding Trends Report](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en)
   - `url:https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf` · cited by 1: HE
@@ -89,11 +97,3 @@
 - [Hooks – Codex](https://developers.openai.com/codex/hooks)
   - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
   - summary: Lifecycle hooks for injecting deterministic scripts at loop events.
-
-- [Introducing dynamic workflows in Claude Code](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)
-  - `url:https://claude.com/blog/introducing-dynamic-workflows-in-claude-code` · cited by 1: HE
-  - summary: Plan lives in executable JavaScript that fans out to hundreds of parallel subagents.
-
-- [Open SWE: An Open-Source Framework for Internal Coding Agents](https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/)
-  - `url:https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents` · cited by 1: HE
-  - summary: An open-source framework for building internal coding agents by composing on Deep Agents and LangGraph rather than forking, so teams swap in their own sandboxes, models, and tools while keeping an upgrade path.

@@ -4,11 +4,15 @@
 
 ## Timeline
 
-25 dated entries, oldest first.
+26 dated entries, oldest first.
 
 - [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://aclanthology.org/2023.acl-long.499/) · 2023
   - `acl:2023.acl-long.499` · cited by 1: LJ
   - summary: The first Chinese long-form QA dataset built on interactive web search, recording 125k human search actions so models can be trained to browse and synthesize answers that match human ones about a third of the time.
+
+- [Language as reality: a co-creative storytelling game experience in 1001 nights using generative AI](https://ojs.aaai.org/index.php/AIIDE/article/view/27539) · 2023-10
+  - `url:https://ojs.aaai.org/index.php/AIIDE/article/view/27539` · cited by 1: LJ
+  - summary: An AI-native narrative game where a player steers an LLM-driven king and spoken keywords materialize as in-game objects, using generative models as a core mechanic rather than a feature.
 
 - [Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward](https://arxiv.org/abs/2508.12800) · 2025-08
   - `arxiv:2508.12800` · cited by 1: LJ
@@ -108,11 +112,7 @@
 
 ## Tools & Undated
 
-2 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [Language as reality: a co-creative storytelling game experience in 1001 nights using generative AI](https://ojs.aaai.org/index.php/AIIDE/article/view/27539)
-  - `url:https://ojs.aaai.org/index.php/AIIDE/article/view/27539` · cited by 1: LJ
-  - summary: An AI-native narrative game where a player steers an LLM-driven king and spoken keywords materialize as in-game objects, using generative models as a core mechanic rather than a feature.
+1 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [On Architecture of LLM agents](http://www.injoit.ru/index.php/j1/article/view/2057)
   - `url:https://injoit.ru/index.php/j1/article/view/2057` · cited by 1: LJ

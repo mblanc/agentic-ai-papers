@@ -4,7 +4,7 @@
 
 ## Timeline
 
-82 dated entries, oldest first.
+95 dated entries, oldest first.
 
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/) · 2023
   - `acl:2023.emnlp-main.187` · cited by 1: LJ
@@ -18,9 +18,25 @@
   - `acl:2023.findings-emnlp.462` · cited by 1: LJ
   - summary: Separates tool creation from tool use: the LLM writes its own tool via documentation and code when no existing API fits, then executes it, outperforming chain-of-thought and program-of-thought baselines on math and tabular reasoning.
 
+- [GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction](https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_411) · 2023
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html` · cited by 1: LJ
+  - summary: GPT4Tools self-generates instruction-following data (via self-instruction plus LoRA) to teach open-source models like LLaMA to use multimodal tools, improving both known-tool accuracy and zero-shot generalization to unseen tools.
+
 - [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting](https://aclanthology.org/2023.acl-short.130/) · 2023
   - `acl:2023.acl-short.130` · cited by 1: LJ
   - summary: Uses chain-of-thought prompting to let GPT-3 call multiple external tools (calculator, retriever) mid-reasoning on numerical-plus-knowledge tasks, beating strong baselines on NumGLUE.
+
+- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html) · 2023
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html` · cited by 1: LJ
+  - summary: Trains a model to decide which API to call, when, and with what arguments in a fully self-supervised way from a handful of demonstrations per tool, the origin point for teaching LLMs tool use without manual annotation.
+
+- [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html) · 2023
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html` · cited by 1: LJ
+  - summary: Represents each of many tools as a learned 'toolken' embedding a frozen LLM can emit like a token, adding new tools without fine-tuning or in-context demos across numerical reasoning, KBQA, and embodied tasks.
+
+- [ToolQA: A Dataset for LLM Question Answering with External Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html) · 2023
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
+  - summary: ToolQA tests genuine tool-use reasoning (not memorization) by minimizing overlap with pretraining data and providing 13 specialized external-knowledge tools, exposing specific gaps in existing tool-augmented LLMs on hallucination and numerical reasoning.
 
 - [outlines](https://github.com/dottxt-ai/outlines) · 2023-03
   - `gh:dottxt-ai/outlines` · cited by 1: HE
@@ -49,6 +65,10 @@
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](http://arxiv.org/abs/2307.16789) · 2023-07
   - `arxiv:2307.16789` · cited by 1: LJ
   - summary: Large-scale API corpus plus a DFS-based decision strategy for tool selection.
+
+- [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html) · 2024
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html` · cited by 1: LJ
+  - summary: Gorilla is a fine-tuned LLaMA model trained with Retriever-Aware Training that beats GPT-4 at writing correct API calls and adapts to documentation changes at test time via a paired retriever, substantially reducing hallucinated API usage.
 
 - [LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error](https://aclanthology.org/2024.acl-long.570/) · 2024
   - `acl:2024.acl-long.570` · cited by 1: LJ
@@ -137,6 +157,10 @@
 - [superpowers](https://github.com/obra/superpowers) · 2025-10
   - `gh:obra/superpowers` · cited by 1: HE
   - summary: Cross-harness skills packaging TDD, subagent development and review gates.
+
+- [Code Execution with MCP: Building More Efficient Agents](https://www.anthropic.com/engineering/code-execution-with-mcp) · 2025-11
+  - `url:https://anthropic.com/engineering/code-execution-with-mcp` · cited by 1: HE
+  - summary: Have agents write code against MCP servers rather than calling tools directly; up to 98.7% token cut.
 
 - [MCP Streamable HTTP Transport](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) · 2025-11
   - `url:https://modelcontextprotocol.io/specification/2025-11-25/basic/transports` · cited by 1: HE
@@ -262,6 +286,10 @@
   - `gh:vinkius-labs/vurb.ts` · cited by 1: HE
   - summary: TypeScript framework for *authoring* MCP servers with PII redaction and state-gated visibility.
 
+- [What's New with GitHub Copilot Coding Agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/) · 2026-02
+  - `url:https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent` · cited by 1: HE
+  - summary: `.github/agents/` files, self-review and security scanning as harness primitives.
+
 - [AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness](https://arxiv.org/abs/2603.03329) · 2026-03
   - `arxiv:2603.03329` · cited by 1: HE
   - summary: Synthesizes runtime constraint guards from tool schemas; smaller model beats larger.
@@ -278,9 +306,21 @@
   - `arxiv:2603.13417` · cited by 1: HE
   - summary: Three protocol gaps that break production: identity, tool budgeting, error semantics.
 
+- [Developer's Guide to AI Agent Protocols](https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols/) · 2026-03
+  - `url:https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols` · cited by 1: HE
+  - summary: Maps six interop protocols (MCP, A2A, UCP, AP2, A2UI, AG-UI) to boundary problems.
+
+- [Google Developers: Closing the Knowledge Gap with Agent Skills](https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/) · 2026-03
+  - `url:https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills` · cited by 1: HE
+  - summary: ADK skills with a 117-prompt evaluation harness.
+
 - [SkillTester: Benchmarking Utility and Security of Agent Skills](https://arxiv.org/abs/2603.28815) · 2026-03
   - `arxiv:2603.28815` · cited by 1: HE
   - summary: Evaluates skills on capability, robustness and security before deployment.
+
+- [The 2026 MCP Roadmap](https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/) · 2026-03
+  - `url:https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap` · cited by 1: HE
+  - summary: Scaling transport, `.well-known` discovery, Tasks primitive, enterprise extensions.
 
 - [Tool Annotations as Risk Vocabulary](https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations/) · 2026-03
   - `url:https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations` · cited by 1: HE
@@ -302,6 +342,10 @@
   - `arxiv:2604.14572` · cited by 1: VA
   - summary: Compiles a corpus into a navigable skill tree, replacing retrieval with traversal.
 
+- [Dataverse Skills: Your Coding Agent Now Speaks Dataverse](https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse) · 2026-04
+  - `url:https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse` · cited by 1: HE
+  - summary: Domain skills as curated execution strategies across MCP, SDK and raw API.
+
 - [EigentSearch-Q+](https://arxiv.org/abs/2604.07927) · 2026-04
   - `arxiv:2604.07927` · cited by 1: HE
   - summary: Dedicated reasoning tools that externalize intermediate decisions as typed arguments.
@@ -314,6 +358,10 @@
   - `gh:microsoft/skillopt` · cited by 1: HE
   - summary: Treats skills as optimizable parameters improved by trajectory feedback.
 
+- [You can't whisper at an AI agent](https://stripe.dev/blog/ai-steering-experiments) · 2026-05
+  - `url:https://stripe.dev/blog/ai-steering-experiments` · cited by 1: HE
+  - summary: Stripe's steering experiments find 'hard' constraints (errors, explicit blocking instructions) reliably redirect agent tool use while 'soft' cues (warnings, hints) get ignored, because agents pursue a narrow goal-directed path rather than exploring context the way a human developer would.
+
 - [zerolang](https://github.com/vercel-labs/zerolang) · 2026-05
   - `gh:vercel-labs/zerolang` · cited by 1: HE
   - summary: Agents edit code through a compiler-derived ProgramGraph instead of text patches.
@@ -321,6 +369,10 @@
 - [AIP: A Graph Representation for Learning and Governing Agent Skills](https://arxiv.org/abs/2606.04781) · 2026-06
   - `arxiv:2606.04781` · cited by 1: HE
   - summary: Compiles skills to typed execution graphs; pass rate 53%→67% and skills become auditable.
+
+- [Announcing the Agentic Resource Discovery specification](https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/) · 2026-06
+  - `url:https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification` · cited by 1: HE
+  - summary: Runtime discovery of MCP servers and A2A agents via domain catalogs and trust manifests.
 
 - [On Effectiveness and Efficiency of Agentic Tool-calling and RL Training](https://arxiv.org/pdf/2606.00135) · 2026-06
   - `arxiv:2606.00135` · cited by 1: VA
@@ -336,43 +388,15 @@
 
 ## Tools & Undated
 
-21 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Announcing Official MCP Support for Google Services](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services)
   - `url:https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services` · cited by 1: HE
   - summary: Managed MCP endpoints with IAM, audit logging and discovery as platform primitives.
 
-- [Announcing the Agentic Resource Discovery specification](https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/)
-  - `url:https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification` · cited by 1: HE
-  - summary: Runtime discovery of MCP servers and A2A agents via domain catalogs and trust manifests.
-
-- [Code Execution with MCP: Building More Efficient Agents](https://www.anthropic.com/engineering/code-execution-with-mcp)
-  - `url:https://anthropic.com/engineering/code-execution-with-mcp` · cited by 1: HE
-  - summary: Have agents write code against MCP servers rather than calling tools directly; up to 98.7% token cut.
-
-- [Dataverse Skills: Your Coding Agent Now Speaks Dataverse](https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse)
-  - `url:https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse` · cited by 1: HE
-  - summary: Domain skills as curated execution strategies across MCP, SDK and raw API.
-
-- [Developer's Guide to AI Agent Protocols](https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols/)
-  - `url:https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols` · cited by 1: HE
-  - summary: Maps six interop protocols (MCP, A2A, UCP, AP2, A2UI, AG-UI) to boundary problems.
-
 - [Function Calling — OpenAI Docs](https://platform.openai.com/docs/guides/function-calling)
   - `url:https://platform.openai.com/docs/guides/function-calling` · cited by 1: HE
   - summary: The de facto JSON Schema conventions and parallel calling.
-
-- [Google Developers: Closing the Knowledge Gap with Agent Skills](https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/)
-  - `url:https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills` · cited by 1: HE
-  - summary: ADK skills with a 117-prompt evaluation harness.
-
-- [Gorilla: Large Language Model Connected with Massive APIs](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html` · cited by 1: LJ
-  - summary: Gorilla is a fine-tuned LLaMA model trained with Retriever-Aware Training that beats GPT-4 at writing correct API calls and adapts to documentation changes at test time via a paired retriever, substantially reducing hallucinated API usage.
-
-- [GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction](https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_411)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/e393677793767624f2821cec8bdd02f1-Abstract-Conference.html` · cited by 1: LJ
-  - summary: GPT4Tools self-generates instruction-following data (via self-instruction plus LoRA) to teach open-source models like LLaMA to use multimodal tools, improving both known-tool accuracy and zero-shot generalization to unseen tools.
 
 - [Hermes Agent: Unified Streaming for Real-Time Agent Workflows](https://juliangoldie.com/hermes-agent-unified-streaming/)
   - `url:https://juliangoldie.com/hermes-agent-unified-streaming` · cited by 1: HE
@@ -390,34 +414,10 @@
   - `url:https://developers.openai.com/blog/skills-shell-tips` · cited by 1: HE
   - summary: Versioned skill bundles; negative examples raised routing accuracy 73%→85%.
 
-- [The 2026 MCP Roadmap](https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/)
-  - `url:https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap` · cited by 1: HE
-  - summary: Scaling transport, `.well-known` discovery, Tasks primitive, enterprise extensions.
-
 - [Tool Use — Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
   - `url:https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview` · cited by 1: HE
   - summary: Client vs server execution models and strict schema enforcement.
 
-- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html` · cited by 1: LJ
-  - summary: Trains a model to decide which API to call, when, and with what arguments in a fully self-supervised way from a handful of demonstrations per tool, the origin point for teaching LLMs tool use without manual annotation.
-
-- [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd1a81c882cd45f64958da6284f4a3f-Abstract-Conference.html` · cited by 1: LJ
-  - summary: Represents each of many tools as a learned 'toolken' embedding a frozen LLM can emit like a token, adding new tools without fine-tuning or in-context demos across numerical reasoning, KBQA, and embodied tasks.
-
-- [ToolQA: A Dataset for LLM Question Answering with External Tools](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
-  - summary: ToolQA tests genuine tool-use reasoning (not memorization) by minimizing overlap with pretraining data and providing 13 specialized external-knowledge tools, exposing specific gaps in existing tool-augmented LLMs on hallucination and numerical reasoning.
-
-- [What's New with GitHub Copilot Coding Agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/)
-  - `url:https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent` · cited by 1: HE
-  - summary: `.github/agents/` files, self-review and security scanning as harness primitives.
-
 - [Writing Effective Tools for Agents](https://www.anthropic.com/engineering/writing-effective-tools-for-agents)
   - `url:https://anthropic.com/engineering/writing-effective-tools-for-agents` · cited by 1: HE
   - summary: Tool design as agent UX: naming, schemas, error surfaces, return conventions.
-
-- [You can't whisper at an AI agent](https://stripe.dev/blog/ai-steering-experiments)
-  - `url:https://stripe.dev/blog/ai-steering-experiments` · cited by 1: HE
-  - summary: Stripe's steering experiments find 'hard' constraints (errors, explicit blocking instructions) reliably redirect agent tool use while 'soft' cues (warnings, hints) get ignored, because agents pursue a narrow goal-directed path rather than exploring context the way a human developer would.

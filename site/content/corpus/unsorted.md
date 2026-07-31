@@ -4,7 +4,15 @@
 
 ## Timeline
 
-79 dated entries, oldest first.
+82 dated entries, oldest first.
+
+- [Defending Against Neural Fake News](https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html) · 2019
+  - `url:https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html` · cited by 1: LJ
+  - summary: Grover; generation and detection as two sides of one model.
+
+- [Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://www.jmlr.org/papers/v24/23-0069.html) · 2023
+  - `url:https://jmlr.org/papers/v24/23-0069.html` · cited by 1: LJ
+  - summary: Full life-cycle accounting including inference.
 
 - [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf) · 2023
   - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
@@ -45,6 +53,10 @@
 - [Self-Rewarding Language Models](https://arxiv.org/pdf/2401.10020) · 2024-01
   - `arxiv:2401.10020` · cited by 1: LJ
   - summary: Model acts as its own judge during training, removing the fixed reward model ceiling.
+
+- [Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support](https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945/) · 2024-01
+  - `url:https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945` · cited by 1: LJ
+  - summary: A qualitative analysis of 120 Reddit posts (2,917 comments) about an LLM-based mental-wellbeing chatbot (Replika), finding real benefits (on-demand non-judgmental support, confidence-building) alongside real harms (inability to filter harmful content, overdependence, social stigma).
 
 - [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/abs/2402.01030) · 2024-02
   - `arxiv:2402.01030` · cited by 1: LJ
@@ -324,7 +336,7 @@
 
 ## Tools & Undated
 
-14 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+11 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Balancing autonomy and expertise in autonomous synthesis laboratories](https://doi.org/10.1038/s43588-025-00769-x)
   - `url:https://doi.org/10.1038/s43588-025-00769-x` · cited by 1: LJ
@@ -338,17 +350,9 @@
   - `openreview:Vf6RDObyEF` · cited by 1: LJ
   - summary: Uses reward consistency to filter unreliable self-generated preference data.
 
-- [Defending Against Neural Fake News](https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html)
-  - `url:https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html` · cited by 1: LJ
-  - summary: Grover; generation and detection as two sides of one model.
-
 - [Empowering biomedical discovery with AI agents](https://www.cell.com/cell/fulltext/S0092-8674(24)
   - `url:https://cell.com/cell/fulltext/S0092-8674(24` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://www.jmlr.org/papers/v24/23-0069.html)
-  - `url:https://jmlr.org/papers/v24/23-0069.html` · cited by 1: LJ
-  - summary: Full life-cycle accounting including inference.
 
 - [Evolutionary optimization of model merging recipes](https://www.nature.com/articles/s42256-024-00975-8)
   - `url:https://nature.com/articles/s42256-024-00975-8` · cited by 1: LJ
@@ -377,7 +381,3 @@
 - [Predictability and Surprise in Large Generative Models](https://dl.acm.org/doi/abs/10.1145/3531146.3533229)
   - `url:https://dl.acm.org/doi/abs/10.1145/3531146.3533229` · cited by 1: LJ
   - summary: Loss is predictable, capabilities are not; the governance problem that follows.
-
-- [Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support](https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945/)
-  - `url:https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945` · cited by 1: LJ
-  - summary: A qualitative analysis of 120 Reddit posts (2,917 comments) about an LLM-based mental-wellbeing chatbot (Replika), finding real benefits (on-demand non-judgmental support, confidence-building) alongside real harms (inability to filter harmful content, overdependence, social stigma).

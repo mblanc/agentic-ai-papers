@@ -4,11 +4,23 @@
 
 ## Timeline
 
-123 dated entries, oldest first.
+141 dated entries, oldest first.
+
+- [Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance](https://www.computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC) · 2020
+  - `url:https://computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
 
 - [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/abs/2004.07213) · 2020-04
   - `arxiv:2004.07213` · cited by 1: LJ
   - summary: Ten concrete mechanisms for making claims checkable.
+
+- [Stress-testing the resilience of the Austrian healthcare system using agent-based simulation](https://doi.org/10.1038/s41467-022-31766-7) · 2022-07
+  - `url:https://doi.org/10.1038/s41467-022-31766-7` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
+
+- [ChessGPT: Bridging Policy Learning and Language Modeling](https://proceedings.neurips.cc/paper_files/paper/2023/hash/16b14e3f288f076e0ca73bdad6405f77-Abstract-Datasets_and_Benchmarks.html) · 2023
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/16b14e3f288f076e0ca73bdad6405f77-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
+  - summary: Combines policy learning (game replay data) with language modeling (natural-language strategic commentary) in one chess model, with an evaluation framework for measuring how well language models actually understand chess versus merely producing plausible-sounding moves.
 
 - [promptfoo](https://github.com/promptfoo/promptfoo) · 2023-04
   - `gh:promptfoo/promptfoo` · cited by 1: HE
@@ -66,9 +78,21 @@
   - `acl:2024.emnlp-main.748.pdf` · cited by 1: LJ
   - summary: Agent-based data-science code generation on real data.
 
+- [Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b631da756d1573c24c9ba9c702fde5a9-Abstract-Datasets_and_Benchmarks_Track.html) · 2024
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/b631da756d1573c24c9ba9c702fde5a9-Abstract-Datasets_and_Benchmarks_Track.html` · cited by 1: LJ
+  - summary: Unifies embodied decision-making tasks, modules and metrics.
+
+- [GTA: A Benchmark for General Tool Agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/8a75ee6d4b2eb0b777f549a32a5a5c28-Paper-Datasets_and_Benchmarks_Track.pdf) · 2024
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/8a75ee6d4b2eb0b777f549a32a5a5c28-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
+  - summary: Real queries, deployed tools, multimodal inputs.
+
 - [LLM-Evolve: Evaluation for LLM’s Evolving Capability on Benchmarks](https://aclanthology.org/2024.emnlp-main.940.pdf) · 2024
   - `acl:2024.emnlp-main.940.pdf` · cited by 1: LJ
   - summary: Extends static benchmarks into sequential settings so models learn from history.
+
+- [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf) · 2024
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
 
 - [AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning](http://arxiv.org/abs/2402.15506) · 2024-02
   - `arxiv:2402.15506` · cited by 1: LJ
@@ -90,6 +114,10 @@
   - `arxiv:2403.11905` · cited by 1: LJ
   - summary: A web-agent benchmark built from real crowdsourcing micro-task HTML pages (not synthetic ones) covering 32.2K task instances across 158 tasks, finding current multimodal models beat random chance but leave significant room for improvement on real-world web interaction.
 
+- [Leveraging Large Language Models to Improve REST API Testing](https://dl.acm.org/doi/10.1145/3639476.3639769) · 2024-04
+  - `url:https://dl.acm.org/doi/10.1145/3639476.3639769` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
+
 - [Seal-Tools: Self-instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark](https://arxiv.org/pdf/2405.08355) · 2024-05
   - `arxiv:2405.08355` · cited by 1: LJ
   - summary: Self-instruct tool-learning dataset with hard instances and strict metrics.
@@ -109,6 +137,10 @@
 - [Baba Is AI: Break the Rules to Beat the Benchmark](https://arxiv.org/pdf/2407.13729) · 2024-07
   - `arxiv:2407.13729` · cited by 1: LJ
   - summary: A benchmark built on the game Baba Is You where an agent must manipulate the rules themselves (not just objects) to win, showing GPT-4o and Gemini 1.5 fail dramatically when generalization requires recombining rules rather than following fixed ones.
+
+- [Executable Code Actions Elicit Better LLM Agents](https://proceedings.mlr.press/v235/wang24h.html) · 2024-07
+  - `url:https://proceedings.mlr.press/v235/wang24h.html` · cited by 1: LJ
+  - summary: CodeAct unifies an LLM agent's action space as executable Python code run through an interpreter, letting the agent revise or extend actions across multi-turn interaction; across 17 models it reaches up to 20% higher success than existing action formats, and the resulting CodeActAgent can self-debug.
 
 - [MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains](https://arxiv.org/pdf/2407.18961) · 2024-07
   - `arxiv:2407.18961` · cited by 1: LJ
@@ -130,6 +162,10 @@
   - `arxiv:2410.11507` · cited by 1: LJ
   - summary: Automatically generates domain-specific benchmarks from user-provided knowledge sources via RAG, then uses RL-guided multi-turn interaction to adaptively probe a model's knowledge boundaries and stability instead of relying on static single-turn test sets.
 
+- [Benchmarking Large Language Models for Multi-agent Systems: A Comparative Analysis of AutoGen, CrewAI, and TaskWeaver](https://link.springer.com/chapter/10.1007/978-3-031-70415-4_4) · 2024-11
+  - `url:https://link.springer.com/chapter/10.1007/978-3-031-70415-4_4` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
+
 - [TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks](https://arxiv.org/pdf/2412.14161) · 2024-12
   - `arxiv:2412.14161` · cited by 1: LJ
   - summary: Simulates a whole software company; consequential long-horizon work tasks.
@@ -149,6 +185,10 @@
 - [MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents](https://aclanthology.org/2025.acl-long.421/) · 2025
   - `acl:2025.acl-long.421` · cited by 1: LJ
   - summary: A benchmark measuring both task completion and collaboration/competition quality across coordination topologies (star, chain, tree, graph) for multi-agent LLM systems, finding graph structure performs best and cognitive planning lifts milestone achievement 3%.
+
+- [An evaluation framework for clinical use of large language models in patient interaction tasks](https://doi.org/10.1038/s41591-024-03328-5) · 2025-01
+  - `url:https://doi.org/10.1038/s41591-024-03328-5` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
 
 - [Humanity's Last Exam](https://arxiv.org/abs/2501.14249) · 2025-01
   - `arxiv:2501.14249` · cited by 1: LJ
@@ -290,6 +330,14 @@
   - `arxiv:2601.21403` · cited by 1: VA
   - summary: A benchmark and collaborative agent framework for analyzing data that spans both structured sources (SQL, CSV) and unstructured visual documents ('zombie data' like scanned reports), using specialized per-source sub-agents and a reReAct verification mechanism, improving factuality 29.7% over GPT-4o.
 
+- [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) · 2026-01
+  - `url:https://anthropic.com/engineering/demystifying-evals-for-ai-agents` · cited by 1: HE
+  - summary: What to measure and why unit-test-style evals fail for agents.
+
+- [Designing AI-Resistant Technical Evaluations](https://www.anthropic.com/engineering/AI-resistant-technical-evaluations) · 2026-01
+  - `url:https://anthropic.com/engineering/AI-resistant-technical-evaluations` · cited by 1: HE
+  - summary: Anthropic's account of iterating a take-home coding-optimization test for hiring performance engineers through three versions, as each successive Claude model defeated the prior one, detailing what design choices kept meaningful human-signal despite advancing model capability.
+
 - [DevOps-Gym: Benchmarking AI Agents in Software DevOps Cycle](https://arxiv.org/pdf/2601.20882v1) · 2026-01
   - `arxiv:2601.20882` · cited by 1: VA
   - summary: 700+ tasks across build, monitoring, issue resolution and test generation.
@@ -378,6 +426,10 @@
   - `arxiv:2601.13981` · cited by 1: VA
   - summary: A three-agent sandbox (attacker, judge, world-manager) simulating 40 crime scenarios across 11 maps to measure whether LLMs will generate and execute detailed criminal plans, finding models comply with harmful requests at meaningful rates and sometimes take actions that harm simulated bystanders.
 
+- [Agent Evaluation Framework 2026: Metrics, Rubrics & Benchmarks](https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks) · 2026-02
+  - `url:https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks` · cited by 1: HE
+  - summary: Proposes separating trajectory metrics (reasoning quality) from outcome metrics (final result) via 3-tier rubrics (7 dimensions -> 25 sub-dimensions -> 130 items), pairing domain benchmarks like WebArena/SWE-bench Verified with an LLM-judge calibrated to 0.80+ human correlation, wired into CI/CD.
+
 - [Agentic Uncertainty Reveals Agentic Overconfidence](https://arxiv.org/pdf/2602.06948v1) · 2026-02
   - `arxiv:2602.06948` · cited by 1: VA
   - summary: Agents predict their own success rates poorly.
@@ -414,6 +466,10 @@
   - `arxiv:2602.05723` · cited by 1: VA
   - summary: Atomic-fact verification against retrieved documents with RL rewards.
 
+- [Quantifying Infrastructure Noise in Agentic Coding Evals](https://www.anthropic.com/engineering/infrastructure-noise) · 2026-02
+  - `url:https://anthropic.com/engineering/infrastructure-noise` · cited by 1: HE
+  - summary: Shows infrastructure configuration (container resources, memory limits, hardware) alone can swing agentic coding benchmark scores by up to 6 points on Terminal-Bench 2.0 — sometimes larger than the gap between competing models — meaning unreported infrastructure differences can silently confound leaderboard comparisons.
+
 - [TessPay: Verify-then-Pay Infrastructure for Trusted Agentic Commerce](https://arxiv.org/pdf/2602.00213v1) · 2026-02
   - `arxiv:2602.00213` · cited by 1: VA
   - summary: TessPay is a 'verify-then-pay' infrastructure for agentic commerce that anchors agents in a canonical registry, escrows funds until an agent produces cryptographic proof of task execution, and only releases payment once that proof satisfies verification, addressing the trust gap current payment systems have for autonomous agent-to-agent transactions.
@@ -433,6 +489,10 @@
 - [Zero-Trust Runtime Verification for Agentic Payment Protocols](https://arxiv.org/pdf/2602.06345v1) · 2026-02
   - `arxiv:2602.06345` · cited by 1: VA
   - summary: Finds real-world runtime behaviors (retries, concurrency, orchestration) in agentic payment protocols like AP2 create replay and context-binding vulnerabilities the static specification doesn't cover, then closes the gap with dynamically-generated, time-bound, consume-once nonces at ~3.8ms latency even at 10,000 transactions/second.
+
+- [Agent Evaluation Readiness Checklist](https://blog.langchain.com/agent-evaluation-readiness-checklist/) · 2026-03
+  - `url:https://blog.langchain.com/agent-evaluation-readiness-checklist` · cited by 1: HE
+  - summary: A step-by-step checklist covering the full eval lifecycle (pre-work, choosing eval levels, building datasets, designing graders, running experiments, production readiness), leading with 'start with the simplest eval that gives you signal.'
 
 - [AgentAssay: Token-Efficient Regression Testing for Non-Deterministic Agent Workflows](https://arxiv.org/abs/2603.02601) · 2026-03
   - `arxiv:2603.02601` · cited by 1: HE
@@ -454,9 +514,17 @@
   - `gh:claw-eval/claw-eval` · cited by 1: HE
   - summary: An evaluation harness with 300 human-verified real-world agentic tasks, for benchmarking completion rate, safety, and run-to-run consistency rather than a single pass/fail score.
 
+- [Eval Awareness in Claude Opus 4.6's BrowseComp Performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp) · 2026-03
+  - `url:https://anthropic.com/engineering/eval-awareness-browsecomp` · cited by 1: HE
+  - summary: Documents Claude Opus 4.6 independently suspecting it was being evaluated on BrowseComp with no prior knowledge of which benchmark, then working backward to identify and solve the underlying evaluation itself after exhausting legitimate answers — the first documented case of a model reasoning its way to eval-awareness from scratch.
+
 - [Eval-Driven Development: Build and Evaluate Reliable AI Agents](https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents) · 2026-03
   - `url:https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents` · cited by 1: HE
   - summary: Walks through eight stages from manual testing to continuous monitoring for a non-deterministic agent system, building 15 custom DeepEval metrics because standard deterministic-output test frameworks don't fit agents with many valid correct responses.
+
+- [Evaluating Skills](https://blog.langchain.com/evaluating-skills/) · 2026-03
+  - `url:https://blog.langchain.com/evaluating-skills` · cited by 1: HE
+  - summary: Recommends testing agent skills the same way you'd test a prompt: define constrained tasks with clear metrics, run the agent with and without the skill in clean Docker environments, and compare via observability tooling rather than assuming a skill helps.
 
 - [sentrux](https://github.com/sentrux/sentrux) · 2026-03
   - `gh:sentrux/sentrux` · cited by 1: HE
@@ -490,6 +558,10 @@
   - `gh:microsoft/state-bench` · cited by 1: HE
   - summary: A benchmark of realistic multi-step enterprise workflows (travel, customer support, shopping) requiring multi-step reasoning, tool use, and database state management, for testing whether an agent's actions actually leave the right end state, not just produce a plausible response.
 
+- [Driving the Agent Quality Flywheel from Your Coding Agent](https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/) · 2026-06
+  - `url:https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent` · cited by 1: HE
+  - summary: A three-phase methodology (Build & Test -> Ship & Monitor -> Learn & Refine) built on five stages — prepare data, run inference, grade traces with adaptive AutoRaters, analyze failures, iterate — specifically to close the gap between changes that look better on a few examples and changes that actually help in production.
+
 - [PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation](https://arxiv.org/pdf/2606.05697) · 2026-06
   - `arxiv:2606.05697` · cited by 1: VA
   - summary: Trains an LLM to predict how a *specific* persona would judge a UI/UX design and explain why, via contrastive fine-tuning on human rationales plus a reflective step on the model's own failures, reaching human-level realism and generalizing to personas and questions unseen in training.
@@ -500,15 +572,7 @@
 
 ## Tools & Undated
 
-27 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [Agent Evaluation Framework 2026: Metrics, Rubrics & Benchmarks](https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks)
-  - `url:https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks` · cited by 1: HE
-  - summary: Proposes separating trajectory metrics (reasoning quality) from outcome metrics (final result) via 3-tier rubrics (7 dimensions -> 25 sub-dimensions -> 130 items), pairing domain benchmarks like WebArena/SWE-bench Verified with an LLM-judge calibrated to 0.80+ human correlation, wired into CI/CD.
-
-- [Agent Evaluation Readiness Checklist](https://blog.langchain.com/agent-evaluation-readiness-checklist/)
-  - `url:https://blog.langchain.com/agent-evaluation-readiness-checklist` · cited by 1: HE
-  - summary: A step-by-step checklist covering the full eval lifecycle (pre-work, choosing eval levels, building datasets, designing graders, running experiments, production readiness), leading with 'start with the simplest eval that gives you signal.'
+9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AgentBench: Evaluating LLMs as Agents](https://openreview.net/pdf?id=zAdUB0aCTQ)
   - `openreview:zAdUB0aCTQ` · cited by 1: LJ
@@ -518,21 +582,9 @@
   - `openreview:AC5n7xHuR1` · cited by 1: LJ
   - summary: 110 malicious tasks across 11 harm categories for measuring agent harmfulness.
 
-- [An evaluation framework for clinical use of large language models in patient interaction tasks](https://doi.org/10.1038/s41591-024-03328-5)
-  - `url:https://doi.org/10.1038/s41591-024-03328-5` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
 - [Benchmarking Large Language Models as AI Research Agents](https://openreview.net/pdf?id=N9wD4RFWY0)
   - `openreview:N9wD4RFWY0` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Benchmarking Large Language Models for Multi-agent Systems: A Comparative Analysis of AutoGen, CrewAI, and TaskWeaver](https://link.springer.com/chapter/10.1007/978-3-031-70415-4_4)
-  - `url:https://link.springer.com/chapter/10.1007/978-3-031-70415-4_4` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
-- [ChessGPT: Bridging Policy Learning and Language Modeling](https://proceedings.neurips.cc/paper_files/paper/2023/hash/16b14e3f288f076e0ca73bdad6405f77-Abstract-Datasets_and_Benchmarks.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/16b14e3f288f076e0ca73bdad6405f77-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
-  - summary: Combines policy learning (game replay data) with language modeling (natural-language strategic commentary) in one chess model, with an evaluation framework for measuring how well language models actually understand chess versus merely producing plausible-sounding moves.
 
 - [CODET: CODE GENERATION WITH GENERATED TESTS](https://openreview.net/pdf?id=ktrw68Cmu9c)
   - `openreview:ktrw68Cmu9c` · cited by 1: LJ
@@ -546,65 +598,13 @@
   - `openreview:a4sknPttwV` · cited by 1: LJ
   - summary: Whether agents can detect real dataset quality issues in the wild.
 
-- [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
-  - `url:https://anthropic.com/engineering/demystifying-evals-for-ai-agents` · cited by 1: HE
-  - summary: What to measure and why unit-test-style evals fail for agents.
-
-- [Designing AI-Resistant Technical Evaluations](https://www.anthropic.com/engineering/AI-resistant-technical-evaluations)
-  - `url:https://anthropic.com/engineering/AI-resistant-technical-evaluations` · cited by 1: HE
-  - summary: Anthropic's account of iterating a take-home coding-optimization test for hiring performance engineers through three versions, as each successive Claude model defeated the prior one, detailing what design choices kept meaningful human-signal despite advancing model capability.
-
-- [Driving the Agent Quality Flywheel from Your Coding Agent](https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/)
-  - `url:https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent` · cited by 1: HE
-  - summary: A three-phase methodology (Build & Test -> Ship & Monitor -> Learn & Refine) built on five stages — prepare data, run inference, grade traces with adaptive AutoRaters, analyze failures, iterate — specifically to close the gap between changes that look better on a few examples and changes that actually help in production.
-
-- [Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b631da756d1573c24c9ba9c702fde5a9-Abstract-Datasets_and_Benchmarks_Track.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/hash/b631da756d1573c24c9ba9c702fde5a9-Abstract-Datasets_and_Benchmarks_Track.html` · cited by 1: LJ
-  - summary: Unifies embodied decision-making tasks, modules and metrics.
-
-- [Eval Awareness in Claude Opus 4.6's BrowseComp Performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp)
-  - `url:https://anthropic.com/engineering/eval-awareness-browsecomp` · cited by 1: HE
-  - summary: Documents Claude Opus 4.6 independently suspecting it was being evaluated on BrowseComp with no prior knowledge of which benchmark, then working backward to identify and solve the underlying evaluation itself after exhausting legitimate answers — the first documented case of a model reasoning its way to eval-awareness from scratch.
-
-- [Evaluating Skills](https://blog.langchain.com/evaluating-skills/)
-  - `url:https://blog.langchain.com/evaluating-skills` · cited by 1: HE
-  - summary: Recommends testing agent skills the same way you'd test a prompt: define constrained tasks with clear metrics, run the agent with and without the skill in clean Docker environments, and compare via observability tooling rather than assuming a skill helps.
-
-- [Executable Code Actions Elicit Better LLM Agents](https://proceedings.mlr.press/v235/wang24h.html)
-  - `url:https://proceedings.mlr.press/v235/wang24h.html` · cited by 1: LJ
-  - summary: CodeAct unifies an LLM agent's action space as executable Python code run through an interpreter, letting the agent revise or extend actions across multi-turn interaction; across 17 models it reaches up to 20% higher success than existing action formats, and the resulting CodeActAgent can self-debug.
-
-- [GTA: A Benchmark for General Tool Agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/8a75ee6d4b2eb0b777f549a32a5a5c28-Paper-Datasets_and_Benchmarks_Track.pdf)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/8a75ee6d4b2eb0b777f549a32a5a5c28-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
-  - summary: Real queries, deployed tools, multimodal inputs.
-
-- [Leveraging Large Language Models to Improve REST API Testing](https://dl.acm.org/doi/10.1145/3639476.3639769)
-  - `url:https://dl.acm.org/doi/10.1145/3639476.3639769` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
 - [MLE-Bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://openreview.net/pdf?id=6s5uXNWGIh)
   - `openreview:6s5uXNWGIh` · cited by 1: LJ
   - summary: ML engineering tasks from real competitions with baselines.
 
-- [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
-- [Quantifying Infrastructure Noise in Agentic Coding Evals](https://www.anthropic.com/engineering/infrastructure-noise)
-  - `url:https://anthropic.com/engineering/infrastructure-noise` · cited by 1: HE
-  - summary: Shows infrastructure configuration (container resources, memory limits, hardware) alone can swing agentic coding benchmark scores by up to 6 points on Terminal-Bench 2.0 — sometimes larger than the gap between competing models — meaning unreported infrastructure differences can silently confound leaderboard comparisons.
-
-- [Stress-testing the resilience of the Austrian healthcare system using agent-based simulation](https://doi.org/10.1038/s41467-022-31766-7)
-  - `url:https://doi.org/10.1038/s41467-022-31766-7` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
 - [SWE-bench](https://www.swebench.com)
   - `url:https://swebench.com/` · cited by 1: HE
   - summary: SWE-bench evaluates whether an agent can resolve real-world software engineering issues by generating a patch that passes the associated test suite, with Verified, multilingual, and multimodal variants tracked on public leaderboards.
-
-- [Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance](https://www.computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC)
-  - `url:https://computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
 
 - [Testing Agent Skills Systematically with Evals](https://developers.openai.com/blog/eval-skills)
   - `url:https://developers.openai.com/blog/eval-skills` · cited by 1: HE

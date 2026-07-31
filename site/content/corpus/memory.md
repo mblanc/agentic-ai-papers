@@ -4,7 +4,7 @@
 
 ## Timeline
 
-66 dated entries, oldest first.
+70 dated entries, oldest first.
 
 - [Zep](https://github.com/getzep/zep) · 2023-04
   - `gh:getzep/zep` · cited by 1: HE
@@ -26,6 +26,10 @@
   - `gh:letta-ai/letta` · cited by 1: HE
   - related: <https://www.letta.com/blog/letta-v1-agent>
   - summary: Reference stateful-agent architecture with core/archival/recall tiers.
+
+- [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) · 2024-12
+  - `url:https://anthropic.com/research/building-effective-agents` · cited by 1: HE
+  - summary: Anthropic on composing simple primitives, and when a workflow beats an agent.
 
 - [On the Structural Memory of LLM Agents](https://arxiv.org/abs/2412.15266) · 2024-12
   - `arxiv:2412.15266` · cited by 1: LJ
@@ -74,6 +78,10 @@
 - [Beyond Static Summarization: Proactive Memory Extraction for LLM Agents](https://arxiv.org/pdf/2601.04463v1) · 2026-01
   - `arxiv:2601.04463` · cited by 1: VA
   - summary: Self-questioning loops recover information one-off summarization drops.
+
+- [Building an Agentic Memory System for GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/) · 2026-01
+  - `url:https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot` · cited by 1: HE
+  - summary: GitHub Copilot's cross-agent memory stores learned facts with citations to code locations and re-verifies them just-in-time at recall, so shared memory does not drift as the codebase changes.
 
 - [Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems](https://arxiv.org/pdf/2601.15678v2) · 2026-01
   - `arxiv:2601.15678` · cited by 1: VA
@@ -219,6 +227,10 @@
   - `arxiv:2602.05665` · cited by 1: VA
   - summary: Extraction, storage, retrieval and temporal evolution of graph memory.
 
+- [How We Built Agent Builder's Memory System](https://blog.langchain.com/how-we-built-agent-builders-memory-system/) · 2026-02
+  - `url:https://blog.langchain.com/how-we-built-agent-builders-memory-system` · cited by 1: HE
+  - summary: Implements LangSmith Agent Builder's memory as plain files the agent reads and edits, betting that models handle filesystems well enough to skip specialized memory tooling.
+
 - [Learning to Share: Selective Memory for Efficient Parallel Agentic Systems](https://arxiv.org/pdf/2602.05965v1) · 2026-02
   - `arxiv:2602.05965` · cited by 1: VA
   - summary: Learned controller decides what passes between parallel agent teams.
@@ -255,6 +267,10 @@
   - `arxiv:2604.10352` · cited by 1: HE
   - summary: Treats the context window as OS-style virtual memory managed by the harness (typed pages with validated writeback at every lifecycle boundary), eliminating the state loss agents suffer after compaction or reset, at under 50 microseconds overhead per turn.
 
+- [Continual learning for AI agents](https://blog.langchain.com/continual-learning-for-ai-agents/) · 2026-04
+  - `url:https://blog.langchain.com/continual-learning-for-ai-agents` · cited by 1: HE
+  - summary: Frames agent improvement as happening across three layers (model weights, the harness, and external context/memory) and argues most teams should target the latter two via trace-driven updates rather than retraining.
+
 - [MemPalace](https://github.com/MemPalace/mempalace) · 2026-04
   - `gh:mempalace/mempalace` · cited by 1: HE
   - summary: A local-first memory that stores conversations verbatim and retrieves by semantic search with no summarization step, keeping 96.6% retrieval accuracy without cloud calls.
@@ -270,23 +286,3 @@
 - [MAGE: Memory as Agent-Guided Exploration](https://arxiv.org/abs/2606.06090) · 2026-06
   - `arxiv:2606.06090` · cited by 1: HE
   - summary: Argues long-horizon agent memory should track execution state, not semantic similarity, storing interactions in a state tree with grow/compress/revise operations that isolate erroneous branches, for +7.8-20.4pp success and 55% fewer tokens on MemoryArena.
-
-## Tools & Undated
-
-4 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [Building an Agentic Memory System for GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/)
-  - `url:https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot` · cited by 1: HE
-  - summary: GitHub Copilot's cross-agent memory stores learned facts with citations to code locations and re-verifies them just-in-time at recall, so shared memory does not drift as the codebase changes.
-
-- [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
-  - `url:https://anthropic.com/research/building-effective-agents` · cited by 1: HE
-  - summary: Anthropic on composing simple primitives, and when a workflow beats an agent.
-
-- [Continual learning for AI agents](https://blog.langchain.com/continual-learning-for-ai-agents/)
-  - `url:https://blog.langchain.com/continual-learning-for-ai-agents` · cited by 1: HE
-  - summary: Frames agent improvement as happening across three layers (model weights, the harness, and external context/memory) and argues most teams should target the latter two via trace-driven updates rather than retraining.
-
-- [How We Built Agent Builder's Memory System](https://blog.langchain.com/how-we-built-agent-builders-memory-system/)
-  - `url:https://blog.langchain.com/how-we-built-agent-builders-memory-system` · cited by 1: HE
-  - summary: Implements LangSmith Agent Builder's memory as plain files the agent reads and edits, betting that models handle filesystems well enough to skip specialized memory tooling.

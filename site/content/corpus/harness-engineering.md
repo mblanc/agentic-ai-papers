@@ -4,7 +4,7 @@
 
 ## Timeline
 
-63 dated entries, oldest first.
+72 dated entries, oldest first.
 
 - [Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents](http://arxiv.org/abs/2306.03314) · 2023-06
   - `arxiv:2306.03314` · cited by 1: LJ
@@ -78,6 +78,10 @@
   - `url:https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview` · cited by 1: HE
   - summary: GitHub Agentic Workflows let developers automate repository tasks via AI agents running inside GitHub Actions, described in plain Markdown instead of YAML, with read-only-by-default permissions.
 
+- [Improving Deep Agents with Harness Engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) · 2026-02
+  - `url:https://blog.langchain.com/improving-deep-agents-with-harness-engineering` · cited by 1: HE
+  - summary: Harness-only changes moved a coding agent from rank 30 to top 5 on Terminal Bench 2.0.
+
 - [nanobot](https://github.com/HKUDS/nanobot) · 2026-02
   - `gh:hkuds/nanobot` · cited by 1: HE
   - summary: ~4,000-line personal assistant framework with MCP and skills.
@@ -97,6 +101,10 @@
 - [Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned](https://arxiv.org/abs/2603.05344) · 2026-03
   - `arxiv:2603.05344` · cited by 1: HE
   - summary: Practitioner paper on eager-construction scaffolding and compound multi-model architecture.
+
+- [How Middleware Lets You Customize Your Agent Harness](https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/) · 2026-03
+  - `url:https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness` · cited by 1: HE
+  - summary: Six composable hooks for cross-cutting concerns without touching agent logic.
 
 - [jiji262/awesome-harness-engineering](https://github.com/jiji262/awesome-harness-engineering) · 2026-03
   - `gh:jiji262/awesome-harness-engineering` · cited by 1: HE
@@ -130,9 +138,17 @@
   - `gh:ryanalberts/best-of-agent-harnesses` · cited by 1: HE
   - summary: A curated, ranked list of 140+ agent harnesses — the orchestration infrastructure converting model reasoning into sustained, tool-using, error-recovering behavior — comparable by autonomy level and recovery tier.
 
+- [The Anatomy of an Agent Harness](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) · 2026-03
+  - `url:https://blog.langchain.com/the-anatomy-of-an-agent-harness` · cited by 1: HE
+  - summary: Five composing primitives: filesystem, code execution, sandbox, memory, context management.
+
 - [A Scheduler-Theoretic Framework for LLM Agent Execution](https://arxiv.org/abs/2604.11378) · 2026-04
   - `arxiv:2604.11378` · cited by 1: HE
   - summary: Surveys 70 projects; 60% use the plain agent loop, and maps the alternatives' trade-offs.
+
+- [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](https://claude.com/blog/harnessing-claudes-intelligence) · 2026-04
+  - `url:https://claude.com/blog/harnessing-claudes-intelligence` · cited by 1: HE
+  - summary: Anthropic's own harness-design guidance: lean on tools Claude already understands well, strip out harness assumptions as the model gets more capable, and reserve explicit boundaries for security, cost, and UX rather than over-constraining behavior.
 
 - [agentic-harness-engineering](https://github.com/china-qijizhifeng/agentic-harness-engineering) · 2026-04
   - `gh:china-qijizhifeng/agentic-harness-engineering` · cited by 1: HE
@@ -165,6 +181,14 @@
 - [Harness Books](https://github.com/wquguru/harness-books) · 2026-04
   - `gh:wquguru/harness-books` · cited by 1: HE
   - summary: Two guides on how production coding agents (Claude Code, Codex) are actually engineered — constraint structures, runtime control, query loops, permissions, error recovery, and multi-agent verification patterns.
+
+- [Harness Engineering](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html) · 2026-04
+  - `url:https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html` · cited by 1: HE
+  - summary: Martin Fowler's synthesis: context curation, architectural constraints, entropy management, humans *on* the loop.
+
+- [Harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html) · 2026-04
+  - `url:https://martinfowler.com/articles/harness-engineering.html` · cited by 1: HE
+  - summary: Böckeler's feedforward-guides / feedback-sensors model; separates computational from inferential controls.
 
 - [Harness Engineering: Structured Workflows for AI-Assisted Development](https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development) · 2026-04
   - `url:https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development` · cited by 1: HE
@@ -214,6 +238,10 @@
   - `gh:aattaran/deepclaude` · cited by 1: HE
   - summary: Ports a full agent loop to other backends, isolating loop architecture from model identity.
 
+- [Harness Engineering: How to Build Reliable AI Agents by Engineering the System, Not the Model](https://www.deepset.ai/blog/harness-engineering) · 2026-05
+  - `url:https://deepset.ai/blog/harness-engineering` · cited by 1: HE
+  - summary: Failure-classification framework mapping each failure mode to a harness component.
+
 - [Life-Harness](https://github.com/Tianshi-Xu/Life-Harness) · 2026-05
   - `gh:tianshi-xu/life-harness` · cited by 1: HE
   - summary: Lifecycle-aware runtime layer; gains transfer across 18 model backbones.
@@ -229,6 +257,10 @@
 - [The Coding Harness Behind GitHub Copilot in VS Code](https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode) · 2026-05
   - `url:https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode` · cited by 1: HE
   - summary: Three loop responsibilities, multi-provider routing, PR-gated eval suite.
+
+- [Getting started with loops](https://claude.com/blog/getting-started-with-loops) · 2026-06
+  - `url:https://claude.com/blog/getting-started-with-loops` · cited by 1: HE
+  - summary: Categorizes agent loops into turn-based, goal-based, time-based, and proactive types with different trigger conditions, as a framework for choosing the right loop primitive and managing token usage.
 
 - [Loop Engineering](https://github.com/cobusgreyling/loop-engineering) · 2026-06
   - `gh:cobusgreyling/loop-engineering` · cited by 1: HE
@@ -258,13 +290,13 @@
   - `gh:lopopolo/harness-engineering` · cited by 1: HE
   - summary: A guide and context bundle arguing agent output improves by shaping the surrounding environment (context and tools), not the model, focused on making organizational knowledge and operational context retrievable to coding agents.
 
+- [Tuning the harness, not the model: a Nemotron 3 Ultra playbook](https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook) · 2026-07
+  - `url:https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook` · cited by 1: HE
+  - summary: Achieves near-frontier performance by tuning Nemotron 3 Ultra's harness (system prompt, tool descriptions, middleware) instead of its weights, mining execution traces for failure patterns to iteratively refine the scaffolding until the model stops fighting its own infrastructure.
+
 ## Tools & Undated
 
-17 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence](https://claude.com/blog/harnessing-claudes-intelligence)
-  - `url:https://claude.com/blog/harnessing-claudes-intelligence` · cited by 1: HE
-  - summary: Anthropic's own harness-design guidance: lean on tools Claude already understands well, strip out harness assumptions as the model gets more capable, and reserve explicit boundaries for security, cost, and UX rather than over-constraining behavior.
+8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
   - `url:https://platform.claude.com/docs/en/agent-sdk/overview` · cited by 1: HE
@@ -274,33 +306,9 @@
   - `url:https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking` · cited by 1: HE
   - summary: Reasoning-budget control; thinking blocks must survive tool-result round-trips.
 
-- [Getting started with loops](https://claude.com/blog/getting-started-with-loops)
-  - `url:https://claude.com/blog/getting-started-with-loops` · cited by 1: HE
-  - summary: Categorizes agent loops into turn-based, goal-based, time-based, and proactive types with different trigger conditions, as a framework for choosing the right loop primitive and managing token usage.
-
-- [Harness Engineering](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html)
-  - `url:https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html` · cited by 1: HE
-  - summary: Martin Fowler's synthesis: context curation, architectural constraints, entropy management, humans *on* the loop.
-
-- [Harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html)
-  - `url:https://martinfowler.com/articles/harness-engineering.html` · cited by 1: HE
-  - summary: Böckeler's feedforward-guides / feedback-sensors model; separates computational from inferential controls.
-
-- [Harness Engineering: How to Build Reliable AI Agents by Engineering the System, Not the Model](https://www.deepset.ai/blog/harness-engineering)
-  - `url:https://deepset.ai/blog/harness-engineering` · cited by 1: HE
-  - summary: Failure-classification framework mapping each failure mode to a harness component.
-
-- [How Middleware Lets You Customize Your Agent Harness](https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/)
-  - `url:https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness` · cited by 1: HE
-  - summary: Six composable hooks for cross-cutting concerns without touching agent logic.
-
 - [HyperAgents: Self-Improving AI Systems](https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026/)
   - `url:https://pooya.blog/blog/hyperagents-self-improving-ai-meta-research-2026` · cited by 1: HE
   - summary: NEEDS-SOURCE
-
-- [Improving Deep Agents with Harness Engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/)
-  - `url:https://blog.langchain.com/improving-deep-agents-with-harness-engineering` · cited by 1: HE
-  - summary: Harness-only changes moved a coding agent from rank 30 to top 5 on Terminal Bench 2.0.
 
 - [LangGraph — Low Level Concepts](https://langchain-ai.github.io/langgraph/concepts/low_level/)
   - `url:https://langchain-ai.github.io/langgraph/concepts/low_level` · cited by 1: HE
@@ -313,14 +321,6 @@
 - [Skill Issue: Harness Engineering for Coding Agents](https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents)
   - `url:https://humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents` · cited by 1: HE
   - summary: Frames harness engineering as systematically using configuration points (system prompts, tools, MCP servers, skills, hooks) to improve reliability now, rather than waiting on better base models.
-
-- [The Anatomy of an Agent Harness](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)
-  - `url:https://blog.langchain.com/the-anatomy-of-an-agent-harness` · cited by 1: HE
-  - summary: Five composing primitives: filesystem, code execution, sandbox, memory, context management.
-
-- [Tuning the harness, not the model: a Nemotron 3 Ultra playbook](https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook)
-  - `url:https://blog.langchain.com/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook` · cited by 1: HE
-  - summary: Achieves near-frontier performance by tuning Nemotron 3 Ultra's harness (system prompt, tool descriptions, middleware) instead of its weights, mining execution traces for failure patterns to iteratively refine the scaffolding until the model stops fighting its own infrastructure.
 
 - [Unlocking the Codex Harness: How We Built the App Server](https://openai.com/index/unlocking-the-codex-harness/)
   - `url:https://openai.com/index/unlocking-the-codex-harness` · cited by 1: HE

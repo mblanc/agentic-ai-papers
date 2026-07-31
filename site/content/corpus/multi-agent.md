@@ -4,7 +4,7 @@
 
 ## Timeline
 
-132 dated entries, oldest first.
+146 dated entries, oldest first.
 
 - [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760) · 2023-03
   - `arxiv:2303.17760` · cited by 1: LJ
@@ -82,6 +82,14 @@
   - `acl:2024.acl-long.810` · cited by 1: LJ
   - summary: ChatDev coordinates specialized LLM agents through a structured 'chat chain' across design, coding, and testing phases, showing natural language works best for design decisions while programming-language communication works best for debugging.
 
+- [Coevolving with the Other You: Fine-Tuning LLM with Sequential Cooperative Multi-Agent Reinforcement Learning](https://proceedings.neurips.cc/paper_files/paper/2024/file/1c2b1c8f7d317719a9ce32dd7386ba35-Paper-Conference.pdf) · 2024
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/1c2b1c8f7d317719a9ce32dd7386ba35-Paper-Conference.pdf` · cited by 1: LJ
+  - summary: CORY: cooperative multi-agent RL for fine-tuning, beating PPO on real-world refinement.
+
+- [Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents](https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf) · 2024
+  - `url:https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
+
 - [Exploring Collaboration Mechanisms for LLM Agents](https://aclanthology.org/2024.acl-long.782/) · 2024
   - `acl:2024.acl-long.782` · cited by 1: LJ
   - summary: Builds four LLM-agent 'societies' varying trait (easy-going/overconfident) and thinking pattern (debate/reflection), finding certain collaboration strategies beat prior top approaches while using fewer tokens, and that agents exhibit human-like social behaviors like conformity, grounding the analysis in social psychology theory.
@@ -101,6 +109,10 @@
 - [Debating with More Persuasive LLMs Leads to More Truthful Answers](https://arxiv.org/abs/2402.06782) · 2024-02
   - `arxiv:2402.06782` · cited by 1: LJ
   - summary: Shows debate between two LLM 'experts' arguing opposite answers helps a weaker non-expert judge (model or human) find the truth more reliably than direct answering, and that optimizing debaters for persuasiveness further improves the non-expert's ability to identify correct answers.
+
+- [ProAgent: Building Proactive Cooperative Agents with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219) · 2024-03
+  - `url:https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219` · cited by 1: LJ
+  - summary: ProAgent has an LLM agent infer teammates' intentions from observed behavior and adapt its own policy accordingly, beating fixed-policy baselines by over 10% in Overcooked-AI human-proxy cooperation tests.
 
 - [AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration](https://arxiv.org/pdf/2404.11943) · 2024-04
   - `arxiv:2404.11943` · cited by 1: LJ
@@ -134,6 +146,10 @@
   - `acl:2025.acl-long.389` · cited by 1: LJ
   - summary: CoMet trains LLM agents to interpret and generate metaphors for covert, strategically-evasive communication in social-deduction language games, using a metaphor reasoner refined by self-reflection, improving performance on Undercover and Adversarial Taboo.
 
+- [Chain of Agents: Large language models collaborating on long-context tasks](https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/) · 2025-01
+  - `url:https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks` · cited by 1: LJ
+  - summary: Chain-of-Agents is a training-free framework where sequential worker agents each process a segment of a long document and pass findings forward, with a manager agent synthesizing the accumulated evidence into a final answer.
+
 - [Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains](https://arxiv.org/abs/2501.05707) · 2025-01
   - `arxiv:2501.05707` · cited by 1: LJ
   - summary: Specializes models on multiagent-generated data to preserve diversity.
@@ -157,6 +173,10 @@
 - [A Survey of AI Agent Protocols](https://arxiv.org/abs/2504.16736) · 2025-04
   - `arxiv:2504.16736` · cited by 1: LJ
   - summary: Classification of agent protocols predating the MCP/A2A consolidation.
+
+- [Agent Development Kit: Making it easy to build multi-agent applications](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/) · 2025-04
+  - `url:https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications` · cited by 1: HE
+  - summary: Google's multi-agent topology, tool registration and eval pipeline rationale.
 
 - [Google ADK](https://github.com/google/adk-python) · 2025-04
   - `gh:google/adk-python` · cited by 1: HE
@@ -214,6 +234,10 @@
   - `arxiv:2508.21720` · cited by 1: LJ
   - summary: PosterForest builds a hierarchical 'Poster Tree' representation and runs content/layout agents over it recursively to turn a paper into a scientific poster without any training.
 
+- [Orchestrating Ambient Agents with Temporal](https://temporal.io/blog/orchestrating-ambient-agents-with-temporal) · 2025-09
+  - `url:https://temporal.io/blog/orchestrating-ambient-agents-with-temporal` · cited by 1: HE
+  - summary: Walks through building an always-on crypto trading system as three cooperating agents (broker, execution, judge) on Temporal, using Schedules/Signals/Queries for durable, auditable multi-agent coordination instead of hand-rolled retry logic.
+
 - [Cache-to-Cache: Direct Semantic Communication Between Large Language Models](https://arxiv.org/abs/2510.03215) · 2025-10
   - `arxiv:2510.03215` · cited by 1: LJ
   - summary: Cache-to-Cache lets LLMs communicate by directly fusing and projecting each other's KV-cache instead of generating and re-reading text, using a learnable gate to pick which layers benefit, reaching 6.4-14.2% higher accuracy and 2.5x lower latency than text-based multi-LLM communication.
@@ -225,6 +249,10 @@
 - [Thought Communication in Multiagent Collaboration](https://arxiv.org/abs/2510.20733) · 2025-10
   - `arxiv:2510.20733` · cited by 1: LJ
   - summary: Proposes swapping token-based agent-to-agent messaging for direct latent-thought exchange, proving shared and private thoughts between agents are theoretically identifiable and recoverable without natural language as the bottleneck.
+
+- [How to orchestrate agents using mission control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/) · 2025-12
+  - `url:https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control` · cited by 1: HE
+  - summary: Lets a user assign tasks to Copilot coding agents across repos from one interface, watch real-time session logs, and steer mid-run (pause, refine, restart) rather than managing each agent session separately.
 
 - [A Large-Scale Study on the Development and Issues of Multi-Agent AI Systems](https://arxiv.org/pdf/2601.07136v1) · 2026-01
   - `arxiv:2601.07136` · cited by 1: VA
@@ -446,6 +474,10 @@
   - `arxiv:2602.17607` · cited by 1: VA
   - summary: Writes, debugs and validates classical PDE solvers end-to-end.
 
+- [Building a C Compiler with a Team of Parallel Claudes](https://www.anthropic.com/engineering/building-c-compiler) · 2026-02
+  - `url:https://anthropic.com/engineering/building-c-compiler` · cited by 1: HE
+  - summary: Documents researcher Nicholas Carlini running 16 parallel Claude instances over ~2,000 sessions to build a 100,000-line Rust-based C compiler capable of building the Linux kernel on x86, ARM, and RISC-V.
+
 - [CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction](https://arxiv.org/pdf/2602.06038v1) · 2026-02
   - `arxiv:2602.06038` · cited by 1: VA
   - summary: CommCP calibrates the messages multi-robot agents exchange during collaborative embodied question answering using conformal prediction, reducing receiver distraction from noisy communication and improving task success and exploration efficiency on a new household-scenario benchmark.
@@ -486,6 +518,10 @@
   - `gh:openai/symphony` · cited by 1: HE
   - summary: Symphony deploys autonomous agents to handle whole units of project work so teams manage outcomes rather than babysit individual coding-agent sessions.
 
+- [The Virtual Biotech: Multi-Agent AI Framework for Drug Discovery](https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1) · 2026-02
+  - `url:https://biorxiv.org/content/10.64898/2026.02.23.707551v1` · cited by 1: HE
+  - summary: NEEDS-SOURCE
+
 - [When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](https://arxiv.org/pdf/2602.00428v1) · 2026-02
   - `arxiv:2602.00428` · cited by 1: VA
   - summary: Introduces MANBENCH to measure the Mandela effect (collective false-memory formation) in LLM multi-agent systems across four task types and five interaction protocols, and shows prompt- and alignment-level defenses cut it by 74.40% on average.
@@ -514,17 +550,37 @@
   - `gh:gammalabtechnologies/harmonist` · cited by 1: HE
   - summary: Enforces AI coding protocols through mechanical gates rather than prompted instructions, guaranteeing subagents complete required reviews and update memory before code ships, so engineering rules can't be silently skipped by the model.
 
+- [Microsoft Agent Framework 1.0](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/) · 2026-04
+  - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0` · cited by 1: HE
+  - summary: Announces Microsoft Agent Framework 1.0, a production SDK merging Semantic Kernel and AutoGen into one .NET/Python framework with multi-agent orchestration, middleware, memory, YAML-declarative agents, and multi-provider model support (OpenAI, Anthropic, Gemini, Bedrock).
+
+- [Scaling Managed Agents: Decoupling the Brain from the Hands](https://www.anthropic.com/engineering/managed-agents) · 2026-04
+  - `url:https://anthropic.com/engineering/managed-agents` · cited by 1: HE
+  - summary: Anthropic's Managed Agents decouples the model/harness from the sandbox and session-management layer, so either side can be swapped or fail independently as capabilities evolve instead of hardcoding assumptions about what Claude can't do into the harness.
+
 - [thClaws](https://github.com/thClaws/thClaws) · 2026-04
   - `gh:thclaws/thclaws` · cited by 1: HE
   - summary: thClaws is a single-binary, native-Rust agent workspace (GUI/CLI/headless/web) that runs multiple coordinating agents locally with multi-provider LLM and MCP support, so nothing leaves your machine.
+
+- [Build Long-running AI agents that pause, resume, and never lose context with ADK](https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/) · 2026-05
+  - `url:https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk` · cited by 1: HE
+  - summary: Builds long-running agents (demonstrated as a multi-week onboarding coordinator) using durable state machines, persistent session storage, and webhook-based wake-up instead of replaying conversation history to resume after idle periods.
 
 - [OpenSquilla](https://github.com/opensquilla/opensquilla) · 2026-05
   - `gh:opensquilla/opensquilla` · cited by 1: HE
   - summary: Token-efficient agent that routes each task to the cheapest capable model while keeping behavior consistent across Web UI, CLI, and chat, with persistent memory and 20+ LLM providers supported out of the box.
 
+- [Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A](https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/) · 2026-06
+  - `url:https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a` · cited by 1: HE
+  - summary: Demonstrates a Python extraction agent and a Go compliance-validator agent collaborating on contract compliance via ADK's RemoteA2aAgent abstraction, letting different teams build agents in different languages that interoperate over the A2A protocol.
+
 - [eve](https://github.com/vercel/eve) · 2026-06
   - `gh:vercel/eve` · cited by 1: HE
   - summary: A filesystem-first framework for durable agents where tools, skills, channels, and schedules live in conventional directory locations, making agent projects easier to inspect and extend than scattered configuration-based alternatives.
+
+- [Microsoft Agent Framework at BUILD 2026: Agent Harness, Hosted Agents, CodeAct, and more](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce/) · 2026-06
+  - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce` · cited by 1: HE
+  - summary: Covers three BUILD 2026 additions to Microsoft Agent Framework: Agent Harness (built-in context compaction and file memory), Foundry Hosted Agents (scale-to-zero deployment), and CodeAct, which has the model write executable Python instead of tool calls for 52% faster runs and 64% fewer tokens.
 
 - [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/pdf/2606.08878) · 2026-06
   - `arxiv:2606.08878` · cited by 1: VA
@@ -536,35 +592,15 @@
 
 ## Tools & Undated
 
-22 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
-- [Agent Development Kit: Making it easy to build multi-agent applications](https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/)
-  - `url:https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications` · cited by 1: HE
-  - summary: Google's multi-agent topology, tool registration and eval pipeline rationale.
-
 - [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://openreview.net/forum?id=EHg5GDnyq1)
   - `openreview:EHg5GDnyq1` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A](https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/)
-  - `url:https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a` · cited by 1: HE
-  - summary: Demonstrates a Python extraction agent and a Go compliance-validator agent collaborating on contract compliance via ADK's RemoteA2aAgent abstraction, letting different teams build agents in different languages that interoperate over the A2A protocol.
-
-- [Build Long-running AI agents that pause, resume, and never lose context with ADK](https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/)
-  - `url:https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk` · cited by 1: HE
-  - summary: Builds long-running agents (demonstrated as a multi-week onboarding coordinator) using durable state machines, persistent session storage, and webhook-based wake-up instead of replaying conversation history to resume after idle periods.
-
-- [Building a C Compiler with a Team of Parallel Claudes](https://www.anthropic.com/engineering/building-c-compiler)
-  - `url:https://anthropic.com/engineering/building-c-compiler` · cited by 1: HE
-  - summary: Documents researcher Nicholas Carlini running 16 parallel Claude instances over ~2,000 sessions to build a 100,000-line Rust-based C compiler capable of building the Linux kernel on x86, ARM, and RISC-V.
-
-- [Chain of Agents: Large language models collaborating on long-context tasks](https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/)
-  - `url:https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks` · cited by 1: LJ
-  - summary: Chain-of-Agents is a training-free framework where sequential worker agents each process a segment of a long document and pass findings forward, with a manager agent synthesizing the accumulated evidence into a final answer.
 
 - [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://openreview.net/forum?id=FQepisCUWu)
   - `openreview:FQepisCUWu` · cited by 1: LJ
@@ -574,45 +610,13 @@
   - `url:https://developers.openai.com/codex/sdk` · cited by 1: HE
   - summary: The Codex SDK gives programmatic control over local Codex agents via TypeScript and Python libraries, letting developers start, continue, and resume agent threads with structured prompts for CI/CD and custom engineering workflows.
 
-- [Coevolving with the Other You: Fine-Tuning LLM with Sequential Cooperative Multi-Agent Reinforcement Learning](https://proceedings.neurips.cc/paper_files/paper/2024/file/1c2b1c8f7d317719a9ce32dd7386ba35-Paper-Conference.pdf)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/1c2b1c8f7d317719a9ce32dd7386ba35-Paper-Conference.pdf` · cited by 1: LJ
-  - summary: CORY: cooperative multi-agent RL for fine-tuning, beating PPO on real-world refinement.
-
-- [Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents](https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf)
-  - `url:https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
 - [Engineering Trustworthy Multi-Agent Systems](https://www.ieeesmc.org/cai-2026/tutorial-3-engineering-trustworthy-multi-agent-systems/)
   - `url:https://ieeesmc.org/cai-2026/tutorial-3-engineering-trustworthy-multi-agent-systems` · cited by 1: HE
   - summary: A practical tutorial on enterprise-ready multi-agent system design covering architecture, memory, observability, and evaluation, emphasizing guardrails, fact-checking, and objective alignment as required safety layers for production trustworthiness.
 
-- [How to orchestrate agents using mission control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/)
-  - `url:https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control` · cited by 1: HE
-  - summary: Lets a user assign tasks to Copilot coding agents across repos from one interface, watch real-time session logs, and steer mid-run (pause, refine, restart) rather than managing each agent session separately.
-
 - [Linear formation control of multi-agent systems](https://www.sciencedirect.com/science/article/pii/S0005109824004291)
   - `url:https://sciencedirect.com/science/article/pii/S0005109824004291` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Microsoft Agent Framework 1.0](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/)
-  - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0` · cited by 1: HE
-  - summary: Announces Microsoft Agent Framework 1.0, a production SDK merging Semantic Kernel and AutoGen into one .NET/Python framework with multi-agent orchestration, middleware, memory, YAML-declarative agents, and multi-provider model support (OpenAI, Anthropic, Gemini, Bedrock).
-
-- [Microsoft Agent Framework at BUILD 2026: Agent Harness, Hosted Agents, CodeAct, and more](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce/)
-  - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce` · cited by 1: HE
-  - summary: Covers three BUILD 2026 additions to Microsoft Agent Framework: Agent Harness (built-in context compaction and file memory), Foundry Hosted Agents (scale-to-zero deployment), and CodeAct, which has the model write executable Python instead of tool calls for 52% faster runs and 64% fewer tokens.
-
-- [Orchestrating Ambient Agents with Temporal](https://temporal.io/blog/orchestrating-ambient-agents-with-temporal)
-  - `url:https://temporal.io/blog/orchestrating-ambient-agents-with-temporal` · cited by 1: HE
-  - summary: Walks through building an always-on crypto trading system as three cooperating agents (broker, execution, judge) on Temporal, using Schedules/Signals/Queries for durable, auditable multi-agent coordination instead of hand-rolled retry logic.
-
-- [ProAgent: Building Proactive Cooperative Agents with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219)
-  - `url:https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219` · cited by 1: LJ
-  - summary: ProAgent has an LLM agent infer teammates' intentions from observed behavior and adapt its own policy accordingly, beating fixed-policy baselines by over 10% in Overcooked-AI human-proxy cooperation tests.
-
-- [Scaling Managed Agents: Decoupling the Brain from the Hands](https://www.anthropic.com/engineering/managed-agents)
-  - `url:https://anthropic.com/engineering/managed-agents` · cited by 1: HE
-  - summary: Anthropic's Managed Agents decouples the model/harness from the sandbox and session-management layer, so either side can be swapped or fail independently as capabilities evolve instead of hardcoding assumptions about what Claude can't do into the harness.
 
 - [Swarm Autonomy: From Agent Functionalization to Machine Intelligence](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956)
   - `url:https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956` · cited by 1: LJ
@@ -620,8 +624,4 @@
 
 - [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/)
   - `url:https://openai.com/index/the-next-evolution-of-the-agents-sdk` · cited by 1: HE
-  - summary: NEEDS-SOURCE
-
-- [The Virtual Biotech: Multi-Agent AI Framework for Drug Discovery](https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1)
-  - `url:https://biorxiv.org/content/10.64898/2026.02.23.707551v1` · cited by 1: HE
   - summary: NEEDS-SOURCE

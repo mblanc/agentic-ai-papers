@@ -4,11 +4,15 @@
 
 ## Timeline
 
-49 dated entries, oldest first.
+58 dated entries, oldest first.
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) · 2022-10
   - `arxiv:2210.03629` · cited by 1: HE
   - summary: Interleaves reasoning traces with actions in a Thought/Action/Observation loop; the structure nearly every agent harness still uses.
+
+- [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html) · 2023
+  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html` · cited by 1: LJ
+  - summary: DEPS interleaves describing, explaining, planning, and a learnable goal-selector that reorders sub-goals by estimated completion difficulty, becoming the first zero-shot agent to robustly clear 70+ Minecraft tasks and nearly doubling prior performance.
 
 - [Large Language Models are Better Reasoners with Self-Verification](https://aclanthology.org/2023.findings-emnlp.167.pdf) · 2023
   - `acl:2023.findings-emnlp.167.pdf` · cited by 1: LJ
@@ -17,6 +21,10 @@
 - [Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents](https://arxiv.org/pdf/2302.01560) · 2023-02
   - `arxiv:2302.01560` · cited by 1: LJ
   - summary: Interactive planning with goal selection for open-world multi-task agents.
+
+- [Plan-and-Execute Agents](https://blog.langchain.com/plan-and-execute-agents/) · 2023-05
+  - `url:https://blog.langchain.com/plan-and-execute-agents` · cited by 1: HE
+  - summary: Separates one-shot planning from execution, replanning only when needed.
 
 - [TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage](https://arxiv.org/abs/2308.03427) · 2023-08
   - `arxiv:2308.03427` · cited by 1: LJ
@@ -33,6 +41,14 @@
 - [TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](http://arxiv.org/abs/2311.11315) · 2023-11
   - `arxiv:2311.11315` · cited by 1: LJ
   - summary: Adds an API retriever (to fit within token limits), a fine-tuned planner, and an adaptive demo selector (for hard-to-distinguish APIs) on top of TPTU, validated on a real commercial system as well as an open academic benchmark.
+
+- [Large Language Models lack essential metacognition for reliable medical reasoning](https://doi.org/10.1038/s41467-024-55628-6) · 2024
+  - `url:https://doi.org/10.1038/s41467-024-55628-6` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
+
+- [Refining Guideline Knowledge for Agent Planning Using Textgrad](https://www.computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2) · 2024
+  - `url:https://computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2` · cited by 1: LJ
+  - summary: NEEDS-SOURCE
 
 - [Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios](https://arxiv.org/abs/2401.17167) · 2024-01
   - `arxiv:2401.17167` · cited by 1: LJ
@@ -98,6 +114,10 @@
   - `arxiv:2508.21365` · cited by 1: LJ
   - summary: Reformulates game-playing RL as language modeling so an LLM generates language-guided policies refined by online RL against environment feedback, closing the declarative-vs-procedural-knowledge gap at far lower data cost while still producing natural-language explanations for its decisions.
 
+- [Effective Harnesses for Long-Running Agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) · 2025-11
+  - `url:https://anthropic.com/engineering/effective-harnesses-for-long-running-agents` · cited by 1: HE
+  - summary: Initializer-then-worker handoff so progress survives across context windows.
+
 - [A2RAG: Adaptive Agentic Graph Retrieval for Cost-Aware and Reliable Reasoning](https://arxiv.org/pdf/2601.21162v1) · 2026-01
   - `arxiv:2601.21162` · cited by 1: VA
   - summary: Verifies evidence sufficiency and escalates retrieval effort progressively.
@@ -117,6 +137,10 @@
 - [Breaking Up with Normatively Monolithic Agency with GRACE: A Reason-Based Neuro-Symbolic Architecture for Safe and Ethical AI Alignment](https://arxiv.org/pdf/2601.10520v2) · 2026-01
   - `arxiv:2601.10520` · cited by 1: VA
   - summary: A neuro-symbolic architecture that separates moral reasoning (a deontic-logic Moral Module) from instrumental decision-making (a wrapped Decision-Making Module), with a Guard enforcing compliance, aiming to make agent alignment interpretable and contestable rather than baked into one opaque policy.
+
+- [Choosing the Right Multi-Agent Architecture](https://blog.langchain.com/choosing-the-right-multi-agent-architecture/) · 2026-01
+  - `url:https://blog.langchain.com/choosing-the-right-multi-agent-architecture` · cited by 1: HE
+  - summary: Four patterns with data: subagents process 67% fewer tokens than skills multi-domain.
 
 - [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/pdf/2601.09667v2) · 2026-01
   - `arxiv:2601.09667` · cited by 1: VA
@@ -190,6 +214,10 @@
   - `arxiv:2602.06039` · cited by 1: VA
   - summary: Rewires agent connections each reasoning round instead of fixed topology.
 
+- [Multi-Agent Workflows Often Fail. Here's How to Engineer Ones That Don't.](https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/) · 2026-02
+  - `url:https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont` · cited by 1: HE
+  - summary: Treat handoffs as distributed-system interfaces with typed schemas.
+
 - [ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems](https://arxiv.org/pdf/2602.01848v1) · 2026-02
   - `arxiv:2602.01848` · cited by 1: VA
   - summary: Subtask trees running in parallel to exceed single-context limits.
@@ -198,60 +226,32 @@
   - `arxiv:2602.16873` · cited by 1: HE
   - summary: Selects topology from the task dependency graph; 12–23% over model selection.
 
+- [Building NVIDIA Nemotron 3 Agents for Reasoning, Multimodal RAG, Voice, and Safety](https://developer.nvidia.com/blog/building-nvidia-nemotron-3-agents-for-reasoning-multimodal-rag-voice-and-safety/) · 2026-03
+  - `url:https://developer.nvidia.com/blog/building-nvidia-nemotron-3-agents-for-reasoning-multimodal-rag-voice-and-safety` · cited by 1: HE
+  - summary: NVIDIA's Nemotron 3 Super is an open hybrid Mamba-Transformer mixture-of-experts model activating 12B parameters per pass with a 1M-token context, tuned for coding, math, and function-calling in multi-agent settings.
+
+- [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps) · 2026-03
+  - `url:https://anthropic.com/engineering/harness-design-long-running-apps` · cited by 1: HE
+  - summary: Multi-session harness design; every component encodes an assumption that will expire.
+
 - [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) · 2026-04
   - `gh:esengine/deepseek-reasonix` · cited by 1: HE
   - summary: A DeepSeek-native terminal coding agent engineered around prefix-cache stability to keep token costs low, distributed as a single dependency-free static binary with config-driven, multi-model, plugin-extensible design.
 
 ## Tools & Undated
 
-17 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Agent Planning with World Knowledge Model](https://openreview.net/pdf?id=j6kJSS9O6I)
   - `openreview:j6kJSS9O6I` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
-- [Building NVIDIA Nemotron 3 Agents for Reasoning, Multimodal RAG, Voice, and Safety](https://developer.nvidia.com/blog/building-nvidia-nemotron-3-agents-for-reasoning-multimodal-rag-voice-and-safety/)
-  - `url:https://developer.nvidia.com/blog/building-nvidia-nemotron-3-agents-for-reasoning-multimodal-rag-voice-and-safety` · cited by 1: HE
-  - summary: NVIDIA's Nemotron 3 Super is an open hybrid Mamba-Transformer mixture-of-experts model activating 12B parameters per pass with a 1M-token context, tuned for coding, math, and function-calling in multi-agent settings.
-
-- [Choosing the Right Multi-Agent Architecture](https://blog.langchain.com/choosing-the-right-multi-agent-architecture/)
-  - `url:https://blog.langchain.com/choosing-the-right-multi-agent-architecture` · cited by 1: HE
-  - summary: Four patterns with data: subagents process 67% fewer tokens than skills multi-domain.
-
 - [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://openreview.net/pdf?id=Sx038qxjek)
   - `openreview:Sx038qxjek` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
-- [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html)
-  - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html` · cited by 1: LJ
-  - summary: DEPS interleaves describing, explaining, planning, and a learnable goal-selector that reorders sub-goals by estimated completion difficulty, becoming the first zero-shot agent to robustly clear 70+ Minecraft tasks and nearly doubling prior performance.
-
-- [Effective Harnesses for Long-Running Agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
-  - `url:https://anthropic.com/engineering/effective-harnesses-for-long-running-agents` · cited by 1: HE
-  - summary: Initializer-then-worker handoff so progress survives across context windows.
-
 - [Enhancing Robot Task Planning: Integrating Environmental Information and Feedback Insights through Large Language Models](https://ieeexplore.ieee.org/abstract/document/10661782)
   - `url:https://ieeexplore.ieee.org/abstract/document/10661782` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
-- [Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
-  - `url:https://anthropic.com/engineering/harness-design-long-running-apps` · cited by 1: HE
-  - summary: Multi-session harness design; every component encodes an assumption that will expire.
-
-- [Large Language Models lack essential metacognition for reliable medical reasoning](https://doi.org/10.1038/s41467-024-55628-6)
-  - `url:https://doi.org/10.1038/s41467-024-55628-6` · cited by 1: LJ
-  - summary: NEEDS-SOURCE
-
-- [Multi-Agent Workflows Often Fail. Here's How to Engineer Ones That Don't.](https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/)
-  - `url:https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont` · cited by 1: HE
-  - summary: Treat handoffs as distributed-system interfaces with typed schemas.
-
-- [Plan-and-Execute Agents](https://blog.langchain.com/plan-and-execute-agents/)
-  - `url:https://blog.langchain.com/plan-and-execute-agents` · cited by 1: HE
-  - summary: Separates one-shot planning from execution, replanning only when needed.
-
-- [Refining Guideline Knowledge for Agent Planning Using Textgrad](https://www.computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2)
-  - `url:https://computer.org/csdl/proceedings-article/ickg/2024/088200a102/24sKrMSCxr2` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
 - [Run Long-Horizon Tasks with Codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex/)
