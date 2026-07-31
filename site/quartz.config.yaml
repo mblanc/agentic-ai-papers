@@ -9,7 +9,7 @@ configuration:
   locale: en-US
   # TODO: replace once this repo is pushed to GitHub and Pages is enabled,
   # e.g. "<your-github-username>.github.io/agentic-ai-papers"
-  baseUrl: REPLACE_ME.github.io/agentic-ai-papers
+  baseUrl: mblanc.github.io/agentic-ai-papers
   ignorePatterns:
     - private
     - templates
