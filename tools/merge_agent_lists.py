@@ -214,12 +214,17 @@ ARXIV_ID_DATE = re.compile(r"^(\d{2})(\d{2})\.\d{4,5}$")
 ACL_ID_YEAR = re.compile(r"^(\d{4})\.")
 
 
-def derive_date(cid: str, id_type: str) -> str:
-    """Best-effort publication date from the canonical id itself — no fetch
-    needed. arXiv ids embed YYMM of submission; ACL Anthology ids embed the
-    venue year (month unknown, so pinned to '-00' to sort first within that
-    year). GitHub repos, openreview hashes, and bare URLs carry no date
-    signal in the id and are left undated."""
+URL_DATE = re.compile(r"/(20\d{2})[/-](\d{2})[/-]\d{2}(?:[/-]|$)|/(20\d{2})[/-](\d{2})/")
+
+
+def derive_date(cid: str, url: str) -> str:
+    """Best-effort publication date from the id/url — no fetch needed. arXiv
+    ids embed YYMM of submission; ACL Anthology ids embed the venue year
+    (month unknown, so pinned to '-00' to sort first within that year); some
+    blog URLs embed a full YYYY/MM/DD path. GitHub repos and openreview
+    hashes carry no date signal at all without a network call — see
+    seed_date / tools/fetch_github_dates.py for those."""
+    id_type = cid.split(":", 1)[0] if ":" in cid else ""
     ident = cid.split(":", 1)[1] if ":" in cid else cid
     if id_type == "arxiv":
         m = ARXIV_ID_DATE.match(ident)
@@ -230,6 +235,10 @@ def derive_date(cid: str, id_type: str) -> str:
         m = ACL_ID_YEAR.match(ident)
         if m:
             return f"{m.group(1)}-00"
+    m = URL_DATE.search(url)
+    if m:
+        yyyy, mm = (m.group(1), m.group(2)) if m.group(1) else (m.group(3), m.group(4))
+        return f"{yyyy}-{mm}"
     return ""
 
 
@@ -459,6 +468,11 @@ class Entry:
     category: str = FALLBACK
     categories: list[str] = field(default_factory=list)
     summary: str = "TODO"
+    # Fetched out-of-band (e.g. GitHub repo creation date) and persisted in
+    # curated.jsonl the same way a hand-written summary is — occurrence dates
+    # and id-derived dates come free at crawl time; this is the only date
+    # source that requires a network call, so it's cached via the seed.
+    seed_date: str = ""
 
     @property
     def sources(self) -> list[str]:
@@ -469,7 +483,9 @@ class Entry:
         ds = sorted(d for d in (o.date for o in self.occurrences) if d)
         if ds:
             return ds[0]
-        return derive_date(self.cid, self.id_type)
+        if self.seed_date:
+            return self.seed_date
+        return derive_date(self.cid, self.url)
 
     @property
     def related(self) -> list[str]:
@@ -652,6 +668,7 @@ def build(sources: list[dict], seed: dict[str, dict] | None = None) -> dict[str,
         e.category, e.categories = classify(title_blob, section_blob, e.url)
         if seed and e.cid in seed:
             e.summary = seed[e.cid].get("summary", "TODO")
+            e.seed_date = seed[e.cid].get("date", "")
         else:
             e.summary = "TODO"
     return entries

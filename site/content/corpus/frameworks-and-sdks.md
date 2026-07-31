@@ -4,11 +4,19 @@
 
 ## Timeline
 
-7 dated entries, oldest first.
+10 dated entries, oldest first.
+
+- [LangChain](https://github.com/langchain-ai/langchain) · 2022-10
+  - `gh:langchain-ai/langchain` · cited by 1: LJ
+  - summary: The widely-used framework for building LLM applications and agents, standardizing model access, tool integration, and composition with built-in monitoring and debugging.
 
 - [AutoAgents: A Framework for Automatic Agent Generation](https://arxiv.org/abs/2309.17288) · 2023-09
   - `arxiv:2309.17288` · cited by 1: LJ
   - summary: Generates the agent roster for a task rather than fixing it upfront.
+
+- [huggingface/smolagents](https://github.com/huggingface/smolagents) · 2024-12
+  - `gh:huggingface/smolagents` · cited by 1: HE
+  - summary: Minimal code-writing agents in very few lines.
 
 - [SPeCtrum: A Grounded Framework for Multidimensional Identity Representation in LLM-Based Agent](https://arxiv.org/abs/2502.08599) · 2025-02
   - `arxiv:2502.08599` · cited by 1: LJ
@@ -34,18 +42,6 @@
   - `arxiv:2601.02314` · cited by 1: VA
   - summary: Audits whether an agent's chain-of-thought actually drives its answers by running causal interventions on reasoning steps, revealing a 'faithfulness gap' where traces rationalize predetermined outputs (violation density up to 0.77).
 
-## Tools & Undated
-
-3 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [huggingface/smolagents](https://github.com/huggingface/smolagents)
-  - `gh:huggingface/smolagents` · cited by 1: HE
-  - summary: Minimal code-writing agents in very few lines.
-
-- [LangChain](https://github.com/langchain-ai/langchain)
-  - `gh:langchain-ai/langchain` · cited by 1: LJ
-  - summary: The widely-used framework for building LLM applications and agents, standardizing model access, tool integration, and composition with built-in monitoring and debugging.
-
-- [mastra-ai/workshop-mastracode](https://github.com/mastra-ai/workshop-mastracode)
+- [mastra-ai/workshop-mastracode](https://github.com/mastra-ai/workshop-mastracode) · 2026-02
   - `gh:mastra-ai/workshop-mastracode` · cited by 1: HE
   - summary: A hands-on workshop that builds MastraCode, an open-source coding agent, teaching the core pieces: execution harness, memory, modes, streaming, and tool policies.

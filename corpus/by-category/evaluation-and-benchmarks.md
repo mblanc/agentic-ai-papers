@@ -4,15 +4,31 @@
 
 ## Timeline
 
-111 dated entries, oldest first.
+123 dated entries, oldest first.
 
 - [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/abs/2004.07213) · 2020-04
   - `arxiv:2004.07213` · cited by 1: LJ
   - summary: Ten concrete mechanisms for making claims checkable.
 
+- [promptfoo](https://github.com/promptfoo/promptfoo) · 2023-04
+  - `gh:promptfoo/promptfoo` · cited by 1: HE
+  - summary: A CLI/library for evaluating and red-teaming LLM applications across multiple models, used to run quality checks in CI/CD and scan for security vulnerabilities before deployment.
+
+- [AgentBench](https://github.com/THUDM/AgentBench) · 2023-07
+  - `gh:thudm/agentbench` · cited by 1: HE
+  - summary: A benchmark evaluating LLMs as autonomous agents across eight interactive environments (OS, databases, web shopping, knowledge graphs), for comparing multi-turn agentic performance beyond single-turn QA.
+
+- [DeepEval](https://github.com/confident-ai/deepeval) · 2023-08
+  - `gh:confident-ai/deepeval` · cited by 1: HE
+  - summary: An open-source, Pytest-like LLM/agent evaluation framework covering task completion, tool correctness, and hallucination detection, meant to be run as part of a normal test suite rather than a separate manual process.
+
 - [FireAct: Toward Language Agent Fine-tuning](http://arxiv.org/abs/2310.05915) · 2023-10
   - `arxiv:2310.05915` · cited by 1: LJ
   - summary: Fine-tuning on multi-method agent trajectories.
+
+- [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) · 2023-11
+  - `gh:ukgovernmentbeis/inspect_ai` · cited by 1: HE
+  - summary: A general-purpose LLM/agent evaluation framework from the UK AI Security Institute with built-in prompt-engineering, tool-use, and model-grading components, for running pre-built or custom evaluation suites.
 
 - [LaMPilot: An Open Benchmark Dataset for Autonomous Driving with Language Model Programs](https://arxiv.org/abs/2312.04372) · 2023-12
   - `arxiv:2312.04372` · cited by 1: LJ
@@ -81,6 +97,10 @@
 - [GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis](https://arxiv.org/abs/2406.15341) · 2024-06
   - `arxiv:2406.15341` · cited by 1: LJ
   - summary: Gene expression analysis benchmark with a self-correcting multi-agent system.
+
+- [tau-bench](https://github.com/sierra-research/tau-bench) · 2024-06
+  - `gh:sierra-research/tau-bench` · cited by 1: HE
+  - summary: Simulates dynamic multi-turn conversations between a user and a tool-calling agent operating under domain policy guidelines (airline, retail), for evaluating whether an agent both completes tasks and follows the domain's stated rules.
 
 - [AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901) · 2024-07
   - `arxiv:2407.18901` · cited by 1: LJ
@@ -205,6 +225,10 @@
 - [Self-Improving LLM Agents at Test-Time](https://arxiv.org/abs/2510.07841) · 2025-10
   - `arxiv:2510.07841` · cited by 1: LJ
   - summary: Agent spots its own uncertain predictions, synthesizes similar examples, fine-tunes on them.
+
+- [Confucius Code Agent (CCA)](https://github.com/facebookresearch/cca-swebench) · 2025-12
+  - `gh:facebookresearch/cca-swebench` · cited by 1: HE
+  - summary: Production coding agent organized around Agent/User/Developer experience; 59% Resolve@1 on SWE-Bench-Pro.
 
 - [A Systemic Evaluation of Multimodal RAG Privacy](https://arxiv.org/pdf/2601.17644v2) · 2026-01
   - `arxiv:2601.17644` · cited by 1: VA
@@ -418,9 +442,25 @@
   - `arxiv:2603.20075` · cited by 1: HE
   - summary: The first agentic harness purpose-built for fixing LLVM compiler bugs, pairing agent-friendly LLVM tools with a reproducible bug benchmark; frontier models see a 60% performance drop on compiler bugs versus common software bugs, while the paper's minimal specialized agent still beats the state of the art by ~22%.
 
+- [Amazon Bedrock AgentCore Evaluations Is Now Generally Available](https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/) · 2026-03
+  - `url:https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available` · cited by 1: HE
+  - summary: AWS Bedrock AgentCore Evaluations reaches general availability with 13 built-in evaluators for response quality, safety, and task completion, plus custom evaluators and observability integration for monitoring production agents.
+
 - [Characterizing Faults in Agentic AI](https://arxiv.org/abs/2603.06847) · 2026-03
   - `arxiv:2603.06847` · cited by 1: HE
   - summary: An empirical study mining 13,602 issues/PRs across 40 repos into 385 analyzed faults, producing a taxonomy of 34 agentic-AI fault types across four architectural dimensions, validated by 145 practitioners, with data-schema mismatches and state-management complexity as recurring root causes.
+
+- [Claw-Eval](https://github.com/claw-eval/claw-eval) · 2026-03
+  - `gh:claw-eval/claw-eval` · cited by 1: HE
+  - summary: An evaluation harness with 300 human-verified real-world agentic tasks, for benchmarking completion rate, safety, and run-to-run consistency rather than a single pass/fail score.
+
+- [Eval-Driven Development: Build and Evaluate Reliable AI Agents](https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents) · 2026-03
+  - `url:https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents` · cited by 1: HE
+  - summary: Walks through eight stages from manual testing to continuous monitoring for a non-deterministic agent system, building 15 custom DeepEval metrics because standard deterministic-output test frameworks don't fit agents with many valid correct responses.
+
+- [sentrux](https://github.com/sentrux/sentrux) · 2026-03
+  - `gh:sentrux/sentrux` · cited by 1: HE
+  - summary: A real-time architectural sensor visualizing code structure and quality via an interactive treemap, giving agents immediate feedback on how their changes affect system architecture so technical debt doesn't silently accumulate.
 
 - [Beyond Offline A/B Testing: Context-Aware Agent Simulation for Recommender System Evaluation](https://arxiv.org/abs/2604.09549) · 2026-04
   - `arxiv:2604.09549` · cited by 1: VA
@@ -429,6 +469,10 @@
 - [ClawBench: Evaluating Browser Agents on Live Production Websites with Submission-Interception](https://arxiv.org/abs/2604.08523) · 2026-04
   - `arxiv:2604.08523` · cited by 1: VA
   - summary: 153 tasks on 144 live sites, intercepting only the final write; top model 33.3%.
+
+- [mcp-test-harness](https://github.com/vaquarkhan/mcp-test-harness) · 2026-04
+  - `gh:vaquarkhan/mcp-test-harness` · cited by 1: HE
+  - summary: A Pytest-style CLI framework for automated functional, regression, and performance testing of MCP servers, for gating server changes in CI/CD instead of manual testing via the MCP Inspector.
 
 - [OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models](https://arxiv.org/abs/2604.10866) · 2026-04
   - `arxiv:2604.10866` · cited by 1: HE
@@ -442,6 +486,10 @@
   - `arxiv:2605.27922` · cited by 1: HE
   - summary: A diagnostic benchmark of 106 sandboxed tasks across 5,194 execution trajectories showing agent performance varies substantially by model-harness pairing, not model alone, arguing agent capability should be reported at the model-harness configuration level rather than attributed to the base model.
 
+- [STATE-Bench](https://github.com/microsoft/STATE-Bench) · 2026-05
+  - `gh:microsoft/state-bench` · cited by 1: HE
+  - summary: A benchmark of realistic multi-step enterprise workflows (travel, customer support, shopping) requiring multi-step reasoning, tool use, and database state management, for testing whether an agent's actions actually leave the right end state, not just produce a plausible response.
+
 - [PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation](https://arxiv.org/pdf/2606.05697) · 2026-06
   - `arxiv:2606.05697` · cited by 1: VA
   - summary: Trains an LLM to predict how a *specific* persona would judge a UI/UX design and explain why, via contrastive fine-tuning on human rationales plus a reflective step on the model's own failures, reaching human-level realism and generalizing to personas and questions unseen in training.
@@ -452,7 +500,7 @@
 
 ## Tools & Undated
 
-39 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+27 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Agent Evaluation Framework 2026: Metrics, Rubrics & Benchmarks](https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks)
   - `url:https://galileo.ai/blog/agent-evaluation-framework-metrics-rubrics-benchmarks` · cited by 1: HE
@@ -462,10 +510,6 @@
   - `url:https://blog.langchain.com/agent-evaluation-readiness-checklist` · cited by 1: HE
   - summary: A step-by-step checklist covering the full eval lifecycle (pre-work, choosing eval levels, building datasets, designing graders, running experiments, production readiness), leading with 'start with the simplest eval that gives you signal.'
 
-- [AgentBench](https://github.com/THUDM/AgentBench)
-  - `gh:thudm/agentbench` · cited by 1: HE
-  - summary: A benchmark evaluating LLMs as autonomous agents across eight interactive environments (OS, databases, web shopping, knowledge graphs), for comparing multi-turn agentic performance beyond single-turn QA.
-
 - [AgentBench: Evaluating LLMs as Agents](https://openreview.net/pdf?id=zAdUB0aCTQ)
   - `openreview:zAdUB0aCTQ` · cited by 1: LJ
   - summary: NEEDS-SOURCE
@@ -473,10 +517,6 @@
 - [AgentHarm: Benchmarking Robustness of LLM Agents on Harmful Tasks](https://openreview.net/pdf?id=AC5n7xHuR1)
   - `openreview:AC5n7xHuR1` · cited by 1: LJ
   - summary: 110 malicious tasks across 11 harm categories for measuring agent harmfulness.
-
-- [Amazon Bedrock AgentCore Evaluations Is Now Generally Available](https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/)
-  - `url:https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available` · cited by 1: HE
-  - summary: AWS Bedrock AgentCore Evaluations reaches general availability with 13 built-in evaluators for response quality, safety, and task completion, plus custom evaluators and observability integration for monitoring production agents.
 
 - [An evaluation framework for clinical use of large language models in patient interaction tasks](https://doi.org/10.1038/s41591-024-03328-5)
   - `url:https://doi.org/10.1038/s41591-024-03328-5` · cited by 1: LJ
@@ -494,17 +534,9 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/16b14e3f288f076e0ca73bdad6405f77-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
   - summary: Combines policy learning (game replay data) with language modeling (natural-language strategic commentary) in one chess model, with an evaluation framework for measuring how well language models actually understand chess versus merely producing plausible-sounding moves.
 
-- [Claw-Eval](https://github.com/claw-eval/claw-eval)
-  - `gh:claw-eval/claw-eval` · cited by 1: HE
-  - summary: An evaluation harness with 300 human-verified real-world agentic tasks, for benchmarking completion rate, safety, and run-to-run consistency rather than a single pass/fail score.
-
 - [CODET: CODE GENERATION WITH GENERATED TESTS](https://openreview.net/pdf?id=ktrw68Cmu9c)
   - `openreview:ktrw68Cmu9c` · cited by 1: LJ
   - summary: Auto-generates test cases to select among candidate programs.
-
-- [Confucius Code Agent (CCA)](https://github.com/facebookresearch/cca-swebench)
-  - `gh:facebookresearch/cca-swebench` · cited by 1: HE
-  - summary: Production coding agent organized around Agent/User/Developer experience; 59% Resolve@1 on SWE-Bench-Pro.
 
 - [CRAB: Cross-platfrom agent benchmark for multi-modal embodied language model agents](https://openreview.net/pdf?id=kyExS4V0H7)
   - `openreview:kyExS4V0H7` · cited by 1: LJ
@@ -513,10 +545,6 @@
 - [DCA-Bench: A Benchmark for Dataset Curation Agents](https://openreview.net/pdf?id=a4sknPttwV)
   - `openreview:a4sknPttwV` · cited by 1: LJ
   - summary: Whether agents can detect real dataset quality issues in the wild.
-
-- [DeepEval](https://github.com/confident-ai/deepeval)
-  - `gh:confident-ai/deepeval` · cited by 1: HE
-  - summary: An open-source, Pytest-like LLM/agent evaluation framework covering task completion, tool correctness, and hallucination detection, meant to be run as part of a normal test suite rather than a separate manual process.
 
 - [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
   - `url:https://anthropic.com/engineering/demystifying-evals-for-ai-agents` · cited by 1: HE
@@ -538,10 +566,6 @@
   - `url:https://anthropic.com/engineering/eval-awareness-browsecomp` · cited by 1: HE
   - summary: Documents Claude Opus 4.6 independently suspecting it was being evaluated on BrowseComp with no prior knowledge of which benchmark, then working backward to identify and solve the underlying evaluation itself after exhausting legitimate answers — the first documented case of a model reasoning its way to eval-awareness from scratch.
 
-- [Eval-Driven Development: Build and Evaluate Reliable AI Agents](https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents)
-  - `url:https://developers.redhat.com/articles/2026/03/23/eval-driven-development-build-evaluate-ai-agents` · cited by 1: HE
-  - summary: Walks through eight stages from manual testing to continuous monitoring for a non-deterministic agent system, building 15 custom DeepEval metrics because standard deterministic-output test frameworks don't fit agents with many valid correct responses.
-
 - [Evaluating Skills](https://blog.langchain.com/evaluating-skills/)
   - `url:https://blog.langchain.com/evaluating-skills` · cited by 1: HE
   - summary: Recommends testing agent skills the same way you'd test a prompt: define constrained tasks with clear metrics, run the agent with and without the skill in clean Docker environments, and compare via observability tooling rather than assuming a skill helps.
@@ -554,17 +578,9 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/8a75ee6d4b2eb0b777f549a32a5a5c28-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
   - summary: Real queries, deployed tools, multimodal inputs.
 
-- [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)
-  - `gh:ukgovernmentbeis/inspect_ai` · cited by 1: HE
-  - summary: A general-purpose LLM/agent evaluation framework from the UK AI Security Institute with built-in prompt-engineering, tool-use, and model-grading components, for running pre-built or custom evaluation suites.
-
 - [Leveraging Large Language Models to Improve REST API Testing](https://dl.acm.org/doi/10.1145/3639476.3639769)
   - `url:https://dl.acm.org/doi/10.1145/3639476.3639769` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [mcp-test-harness](https://github.com/vaquarkhan/mcp-test-harness)
-  - `gh:vaquarkhan/mcp-test-harness` · cited by 1: HE
-  - summary: A Pytest-style CLI framework for automated functional, regression, and performance testing of MCP servers, for gating server changes in CI/CD instead of manual testing via the MCP Inspector.
 
 - [MLE-Bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://openreview.net/pdf?id=6s5uXNWGIh)
   - `openreview:6s5uXNWGIh` · cited by 1: LJ
@@ -574,21 +590,9 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/5d413e48f84dc61244b6be550f1cd8f5-Paper-Datasets_and_Benchmarks_Track.pdf` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
-- [promptfoo](https://github.com/promptfoo/promptfoo)
-  - `gh:promptfoo/promptfoo` · cited by 1: HE
-  - summary: A CLI/library for evaluating and red-teaming LLM applications across multiple models, used to run quality checks in CI/CD and scan for security vulnerabilities before deployment.
-
 - [Quantifying Infrastructure Noise in Agentic Coding Evals](https://www.anthropic.com/engineering/infrastructure-noise)
   - `url:https://anthropic.com/engineering/infrastructure-noise` · cited by 1: HE
   - summary: Shows infrastructure configuration (container resources, memory limits, hardware) alone can swing agentic coding benchmark scores by up to 6 points on Terminal-Bench 2.0 — sometimes larger than the gap between competing models — meaning unreported infrastructure differences can silently confound leaderboard comparisons.
-
-- [sentrux](https://github.com/sentrux/sentrux)
-  - `gh:sentrux/sentrux` · cited by 1: HE
-  - summary: A real-time architectural sensor visualizing code structure and quality via an interactive treemap, giving agents immediate feedback on how their changes affect system architecture so technical debt doesn't silently accumulate.
-
-- [STATE-Bench](https://github.com/microsoft/STATE-Bench)
-  - `gh:microsoft/state-bench` · cited by 1: HE
-  - summary: A benchmark of realistic multi-step enterprise workflows (travel, customer support, shopping) requiring multi-step reasoning, tool use, and database state management, for testing whether an agent's actions actually leave the right end state, not just produce a plausible response.
 
 - [Stress-testing the resilience of the Austrian healthcare system using agent-based simulation](https://doi.org/10.1038/s41467-022-31766-7)
   - `url:https://doi.org/10.1038/s41467-022-31766-7` · cited by 1: LJ
@@ -601,10 +605,6 @@
 - [Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance](https://www.computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC)
   - `url:https://computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [tau-bench](https://github.com/sierra-research/tau-bench)
-  - `gh:sierra-research/tau-bench` · cited by 1: HE
-  - summary: Simulates dynamic multi-turn conversations between a user and a tool-calling agent operating under domain policy guidelines (airline, retail), for evaluating whether an agent both completes tasks and follows the domain's stated rules.
 
 - [Testing Agent Skills Systematically with Evals](https://developers.openai.com/blog/eval-skills)
   - `url:https://developers.openai.com/blog/eval-skills` · cited by 1: HE

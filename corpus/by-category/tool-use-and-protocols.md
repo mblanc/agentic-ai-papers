@@ -4,7 +4,7 @@
 
 ## Timeline
 
-54 dated entries, oldest first.
+82 dated entries, oldest first.
 
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/) · 2023
   - `acl:2023.emnlp-main.187` · cited by 1: LJ
@@ -21,6 +21,10 @@
 - [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of Thought Prompting](https://aclanthology.org/2023.acl-short.130/) · 2023
   - `acl:2023.acl-short.130` · cited by 1: LJ
   - summary: Uses chain-of-thought prompting to let GPT-3 call multiple external tools (calculator, retriever) mid-reasoning on numerical-plus-knowledge tasks, beating strong baselines on NumGLUE.
+
+- [outlines](https://github.com/dottxt-ai/outlines) · 2023-03
+  - `gh:dottxt-ai/outlines` · cited by 1: HE
+  - summary: Constrains sampling by regex/CFG/JSON Schema at the decoding layer.
 
 - [LARGE LANGUAGE MODELS AS TOOL MAKERS](https://arxiv.org/abs/2305.17126) · 2023-05
   - `arxiv:2305.17126` · cited by 1: LJ
@@ -62,6 +66,10 @@
   - `arxiv:2401.06201` · cited by 1: LJ
   - summary: Compresses verbose tool docs into concise instructions.
 
+- [Composio](https://github.com/ComposioHQ/composio) · 2024-02
+  - `gh:composiohq/composio` · cited by 1: HE
+  - summary: 250+ SaaS APIs as agent-ready actions with managed OAuth.
+
 - [ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph](http://arxiv.org/abs/2403.00839) · 2024-03
   - `arxiv:2403.00839` · cited by 1: LJ
   - summary: Organizes thousands of tools as a graph the model traverses.
@@ -78,21 +86,77 @@
   - `arxiv:2409.14826` · cited by 1: LJ
   - summary: Path planning plus feedback over multi-granularity instructions.
 
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector) · 2024-10
+  - `gh:modelcontextprotocol/inspector` · cited by 1: HE
+  - summary: Interactive debugging UI for MCP servers without wiring a full agent.
+
 - [ToolGen: Unified Tool Retrieval and Calling via Generation](http://arxiv.org/abs/2410.03439) · 2024-10
   - `arxiv:2410.03439` · cited by 1: LJ
   - summary: Bakes tools into the vocabulary as tokens, making retrieval a generation step.
+
+- [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) · 2024-11
+  - `gh:appcypher/awesome-mcp-servers` · cited by 1: HE
+  - summary: A curated directory of production and experimental MCP servers spanning file access, databases, APIs, and communication platforms, useful as a lookup when wiring an agent to a new external system.
+
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) · 2024-11
+  - `gh:modelcontextprotocol/servers` · cited by 1: HE
+  - summary: Official reference server implementations; the structural baseline.
+
+- [mcp-agent](https://github.com/lastmile-ai/mcp-agent) · 2024-12
+  - `gh:lastmile-ai/mcp-agent` · cited by 1: HE
+  - summary: Composable workflows, observability and provider-agnostic routing over MCP.
 
 - [ToolCoder: A Systematic Code-Empowered Tool Learning Framework for Large Language Models](http://arxiv.org/abs/2502.11404) · 2025-02
   - `arxiv:2502.11404` · cited by 1: LJ
   - summary: Recasts tool learning as code generation with reusable Python scaffolds.
 
+- [A2A Protocol](https://github.com/a2aproject/A2A) · 2025-03
+  - `gh:a2aproject/a2a` · cited by 1: HE
+  - summary: Agent-to-agent JSON-RPC with Agent Card discovery and task/message/artifact model.
+
+- [agentgateway](https://github.com/agentgateway/agentgateway) · 2025-03
+  - `gh:agentgateway/agentgateway` · cited by 1: HE
+  - summary: Unifies LLM, MCP and A2A gateways into one control plane.
+
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) · 2025-03
+  - `gh:microsoft/playwright-mcp` · cited by 1: HE
+  - summary: Browser automation via accessibility tree rather than screenshots.
+
+- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) · 2025-05
+  - `gh:ag-ui-protocol/ag-ui` · cited by 1: HE
+  - summary: Event protocol for agent-to-frontend streaming, tool rendering and HITL interrupts.
+
 - [VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](https://arxiv.org/abs/2505.19255) · 2025-05
   - `arxiv:2505.19255` · cited by 1: LJ
   - summary: Trains VLMs for multimodal thought chains with visual tools in the RL loop.
 
+- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) · 2025-09
+  - `gh:chromedevtools/chrome-devtools-mcp` · cited by 1: HE
+  - summary: Exposes network, profiling, console and Lighthouse as structured tools.
+
+- [superpowers](https://github.com/obra/superpowers) · 2025-10
+  - `gh:obra/superpowers` · cited by 1: HE
+  - summary: Cross-harness skills packaging TDD, subagent development and review gates.
+
+- [MCP Streamable HTTP Transport](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports) · 2025-11
+  - `url:https://modelcontextprotocol.io/specification/2025-11-25/basic/transports` · cited by 1: HE
+  - summary: Remote MCP deployment; session headers fight horizontal scaling.
+
+- [SkillNet & SkillsBench: Infrastructure for AI Agent Skills at Scale](https://github.com/skillmatic-ai/awesome-agent-skills) · 2025-12
+  - `gh:skillmatic-ai/awesome-agent-skills` · cited by 1: HE
+  - summary: Skill creation/evaluation infrastructure with an 86-task, 11-domain benchmark.
+
 - [Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale](https://arxiv.org/pdf/2601.10338v1) · 2026-01
   - `arxiv:2601.10338` · cited by 1: VA
   - summary: The first large-scale security study of agent 'skills' (42,447 collected, 31,132 analyzed) finds 26.1% contain a vulnerability across prompt injection, data exfiltration, privilege escalation, and supply-chain risk, and that skills bundling executable scripts are 2.12x more likely to be vulnerable than instruction-only ones.
+
+- [agent-device](https://github.com/callstackincubator/agent-device) · 2026-01
+  - `gh:callstackincubator/agent-device` · cited by 1: HE
+  - summary: MCP-native iOS/Android control with semantic targeting and replayable workflows.
+
+- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) · 2026-01
+  - `gh:sickn33/antigravity-awesome-skills` · cited by 1: HE
+  - summary: 1,400+ installable skills with npm installer and role bundles.
 
 - [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](https://arxiv.org/pdf/2601.10955v1) · 2026-01
   - `arxiv:2601.10955` · cited by 1: VA
@@ -142,6 +206,10 @@
   - `arxiv:2601.01241` · cited by 1: VA
   - summary: An audit framework that runs MCP tools under WebAssembly sandboxing or unmodified over stdio to trace source-to-sink data flows, recovering security-sensitive capability declarations for 886 of 1,127 profiled tools across 71 real repositories.
 
+- [Microsoft Skills Framework](https://github.com/microsoft/skills) · 2026-01
+  - `gh:microsoft/skills` · cited by 1: HE
+  - summary: Defining, versioning and distributing skills across platforms.
+
 - [SAGE: Tool-Augmented LLM Task Solving Strategies in Scalable Multi-Agent Environments](https://arxiv.org/pdf/2601.09750v1) · 2026-01
   - `arxiv:2601.09750` · cited by 1: VA
   - summary: A conversational tool-use interface built on the OPACA framework for dynamic tool discovery and integration, letting new domain-specific tools be added without retraining and comparing several agentic prompting strategies for selecting and executing them.
@@ -190,9 +258,21 @@
   - `arxiv:2602.02548` · cited by 1: VA
   - summary: Represents GUI operations as a sequence of learnable tool-token embeddings instead of raw coordinates, using semantic anchoring and a curriculum to reach performance competitive with a 235B model using under 1% of its training data.
 
+- [vurb.ts](https://github.com/vinkius-labs/vurb.ts) · 2026-02
+  - `gh:vinkius-labs/vurb.ts` · cited by 1: HE
+  - summary: TypeScript framework for *authoring* MCP servers with PII redaction and state-gated visibility.
+
 - [AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness](https://arxiv.org/abs/2603.03329) · 2026-03
   - `arxiv:2603.03329` · cited by 1: HE
   - summary: Synthesizes runtime constraint guards from tool schemas; smaller model beats larger.
+
+- [AWS Bedrock AgentCore with WebRTC Support](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/) · 2026-03
+  - `url:https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc` · cited by 1: HE
+  - summary: P2P UDP streaming for sub-800ms voice turn-around.
+
+- [CLI-Anything](https://github.com/HKUDS/CLI-Anything) · 2026-03
+  - `gh:hkuds/cli-anything` · cited by 1: HE
+  - summary: Generates agent-native CLIs for software never designed for automation.
 
 - [Design Patterns for Deploying AI Agents with Model Context Protocol](https://arxiv.org/abs/2603.13417) · 2026-03
   - `arxiv:2603.13417` · cited by 1: HE
@@ -202,9 +282,21 @@
   - `arxiv:2603.28815` · cited by 1: HE
   - summary: Evaluates skills on capability, robustness and security before deployment.
 
+- [Tool Annotations as Risk Vocabulary](https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations/) · 2026-03
+  - `url:https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations` · cited by 1: HE
+  - summary: Four annotation hints as permission inputs; the "lethal trifecta" framing.
+
 - [TopoCurate: Modeling Interaction Topology for Tool-Use Agent Training](https://arxiv.org/abs/2603.01714) · 2026-03
   - `arxiv:2603.01714` · cited by 1: HE
   - summary: Learns topological priors over tool chaining, not just individual calls.
+
+- [Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws) · 2026-04
+  - `gh:aws/agent-toolkit-for-aws` · cited by 1: HE
+  - summary: Official AWS MCP servers, skills and plugins for provisioning and querying resources.
+
+- [agentic-stack](https://github.com/codejunkie99/agentic-stack) · 2026-04
+  - `gh:codejunkie99/agentic-stack` · cited by 1: HE
+  - summary: Portable `.agent/` folder with adapters, addressing harness vendor lock-in.
 
 - [Corpus2Skill: Don't Retrieve, Navigate — Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/pdf/2604.14572) · 2026-04
   - `arxiv:2604.14572` · cited by 1: VA
@@ -214,6 +306,18 @@
   - `arxiv:2604.07927` · cited by 1: HE
   - summary: Dedicated reasoning tools that externalize intermediate decisions as typed arguments.
 
+- [tui-use](https://github.com/onesuper/tui-use) · 2026-04
+  - `gh:onesuper/tui-use` · cited by 1: HE
+  - summary: Programmable interaction with REPLs, debuggers and ncurses apps.
+
+- [SkillOpt](https://github.com/microsoft/SkillOpt) · 2026-05
+  - `gh:microsoft/skillopt` · cited by 1: HE
+  - summary: Treats skills as optimizable parameters improved by trajectory feedback.
+
+- [zerolang](https://github.com/vercel-labs/zerolang) · 2026-05
+  - `gh:vercel-labs/zerolang` · cited by 1: HE
+  - summary: Agents edit code through a compiler-derived ProgramGraph instead of text patches.
+
 - [AIP: A Graph Representation for Learning and Governing Agent Skills](https://arxiv.org/abs/2606.04781) · 2026-06
   - `arxiv:2606.04781` · cited by 1: HE
   - summary: Compiles skills to typed execution graphs; pass rate 53%→67% and skills become auditable.
@@ -222,33 +326,17 @@
   - `arxiv:2606.00135` · cited by 1: VA
   - summary: Shows tool-calling benchmark results are highly sensitive to undocumented implementation choices (seed, system prompt, multi-turn template), making leaderboard rankings unreliable without standardization, then introduces two RL efficiency fixes that cut wasted rollouts and update cost.
 
+- [Ponytail](https://github.com/DietrichGebert/ponytail) · 2026-06
+  - `gh:dietrichgebert/ponytail` · cited by 1: HE
+  - summary: A skill system enforcing a 'laziness ladder' that checks whether code needs to exist or can be reused before an agent writes anything new, cutting code output ~54% and cost ~20% while keeping safety guardrails.
+
+- [The 2026-07-28 MCP Specification Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) · 2026-07
+  - `url:https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate` · cited by 1: HE
+  - summary: The MCP spec's 2026-07-28 release candidate moves to a stateless core that scales over ordinary HTTP and adds extensions for server-rendered UIs (MCP Apps) and long-running work (Tasks).
+
 ## Tools & Undated
 
-49 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
-
-- [A2A Protocol](https://github.com/a2aproject/A2A)
-  - `gh:a2aproject/a2a` · cited by 1: HE
-  - summary: Agent-to-agent JSON-RPC with Agent Card discovery and task/message/artifact model.
-
-- [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
-  - `gh:ag-ui-protocol/ag-ui` · cited by 1: HE
-  - summary: Event protocol for agent-to-frontend streaming, tool rendering and HITL interrupts.
-
-- [Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws)
-  - `gh:aws/agent-toolkit-for-aws` · cited by 1: HE
-  - summary: Official AWS MCP servers, skills and plugins for provisioning and querying resources.
-
-- [agent-device](https://github.com/callstackincubator/agent-device)
-  - `gh:callstackincubator/agent-device` · cited by 1: HE
-  - summary: MCP-native iOS/Android control with semantic targeting and replayable workflows.
-
-- [agentgateway](https://github.com/agentgateway/agentgateway)
-  - `gh:agentgateway/agentgateway` · cited by 1: HE
-  - summary: Unifies LLM, MCP and A2A gateways into one control plane.
-
-- [agentic-stack](https://github.com/codejunkie99/agentic-stack)
-  - `gh:codejunkie99/agentic-stack` · cited by 1: HE
-  - summary: Portable `.agent/` folder with adapters, addressing harness vendor lock-in.
+21 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Announcing Official MCP Support for Google Services](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services)
   - `url:https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services` · cited by 1: HE
@@ -258,33 +346,9 @@
   - `url:https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification` · cited by 1: HE
   - summary: Runtime discovery of MCP servers and A2A agents via domain catalogs and trust manifests.
 
-- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills)
-  - `gh:sickn33/antigravity-awesome-skills` · cited by 1: HE
-  - summary: 1,400+ installable skills with npm installer and role bundles.
-
-- [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
-  - `gh:appcypher/awesome-mcp-servers` · cited by 1: HE
-  - summary: A curated directory of production and experimental MCP servers spanning file access, databases, APIs, and communication platforms, useful as a lookup when wiring an agent to a new external system.
-
-- [AWS Bedrock AgentCore with WebRTC Support](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc/)
-  - `url:https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-webrtc` · cited by 1: HE
-  - summary: P2P UDP streaming for sub-800ms voice turn-around.
-
-- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-  - `gh:chromedevtools/chrome-devtools-mcp` · cited by 1: HE
-  - summary: Exposes network, profiling, console and Lighthouse as structured tools.
-
-- [CLI-Anything](https://github.com/HKUDS/CLI-Anything)
-  - `gh:hkuds/cli-anything` · cited by 1: HE
-  - summary: Generates agent-native CLIs for software never designed for automation.
-
 - [Code Execution with MCP: Building More Efficient Agents](https://www.anthropic.com/engineering/code-execution-with-mcp)
   - `url:https://anthropic.com/engineering/code-execution-with-mcp` · cited by 1: HE
   - summary: Have agents write code against MCP servers rather than calling tools directly; up to 98.7% token cut.
-
-- [Composio](https://github.com/ComposioHQ/composio)
-  - `gh:composiohq/composio` · cited by 1: HE
-  - summary: 250+ SaaS APIs as agent-ready actions with managed OAuth.
 
 - [Dataverse Skills: Your Coding Agent Now Speaks Dataverse](https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse)
   - `url:https://devblogs.microsoft.com/powerplatform/dataverse-skills-your-coding-agent-now-speaks-dataverse` · cited by 1: HE
@@ -318,69 +382,17 @@
   - `url:https://python.useinstructor.com/` · cited by 1: HE
   - summary: Pydantic models for structured extraction with retry and validation feedback.
 
-- [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
-  - `gh:modelcontextprotocol/inspector` · cited by 1: HE
-  - summary: Interactive debugging UI for MCP servers without wiring a full agent.
-
-- [MCP Streamable HTTP Transport](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports)
-  - `url:https://modelcontextprotocol.io/specification/2025-11-25/basic/transports` · cited by 1: HE
-  - summary: Remote MCP deployment; session headers fight horizontal scaling.
-
-- [mcp-agent](https://github.com/lastmile-ai/mcp-agent)
-  - `gh:lastmile-ai/mcp-agent` · cited by 1: HE
-  - summary: Composable workflows, observability and provider-agnostic routing over MCP.
-
-- [Microsoft Skills Framework](https://github.com/microsoft/skills)
-  - `gh:microsoft/skills` · cited by 1: HE
-  - summary: Defining, versioning and distributing skills across platforms.
-
-- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
-  - `gh:microsoft/playwright-mcp` · cited by 1: HE
-  - summary: Browser automation via accessibility tree rather than screenshots.
-
 - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
   - `url:https://modelcontextprotocol.io/introduction` · cited by 1: HE
   - summary: Open protocol standardizing agent access to tools, data and services.
-
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
-  - `gh:modelcontextprotocol/servers` · cited by 1: HE
-  - summary: Official reference server implementations; the structural baseline.
-
-- [outlines](https://github.com/dottxt-ai/outlines)
-  - `gh:dottxt-ai/outlines` · cited by 1: HE
-  - summary: Constrains sampling by regex/CFG/JSON Schema at the decoding layer.
-
-- [Ponytail](https://github.com/DietrichGebert/ponytail)
-  - `gh:dietrichgebert/ponytail` · cited by 1: HE
-  - summary: A skill system enforcing a 'laziness ladder' that checks whether code needs to exist or can be reused before an agent writes anything new, cutting code output ~54% and cost ~20% while keeping safety guardrails.
 
 - [Shell + Skills + Compaction: Tips for Long-Running Agents](https://developers.openai.com/blog/skills-shell-tips)
   - `url:https://developers.openai.com/blog/skills-shell-tips` · cited by 1: HE
   - summary: Versioned skill bundles; negative examples raised routing accuracy 73%→85%.
 
-- [SkillNet & SkillsBench: Infrastructure for AI Agent Skills at Scale](https://github.com/skillmatic-ai/awesome-agent-skills)
-  - `gh:skillmatic-ai/awesome-agent-skills` · cited by 1: HE
-  - summary: Skill creation/evaluation infrastructure with an 86-task, 11-domain benchmark.
-
-- [SkillOpt](https://github.com/microsoft/SkillOpt)
-  - `gh:microsoft/skillopt` · cited by 1: HE
-  - summary: Treats skills as optimizable parameters improved by trajectory feedback.
-
-- [superpowers](https://github.com/obra/superpowers)
-  - `gh:obra/superpowers` · cited by 1: HE
-  - summary: Cross-harness skills packaging TDD, subagent development and review gates.
-
 - [The 2026 MCP Roadmap](https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/)
   - `url:https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap` · cited by 1: HE
   - summary: Scaling transport, `.well-known` discovery, Tasks primitive, enterprise extensions.
-
-- [The 2026-07-28 MCP Specification Release Candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/)
-  - `url:https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate` · cited by 1: HE
-  - summary: The MCP spec's 2026-07-28 release candidate moves to a stateless core that scales over ordinary HTTP and adds extensions for server-rendered UIs (MCP Apps) and long-running work (Tasks).
-
-- [Tool Annotations as Risk Vocabulary](https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations/)
-  - `url:https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations` · cited by 1: HE
-  - summary: Four annotation hints as permission inputs; the "lethal trifecta" framing.
 
 - [Tool Use — Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
   - `url:https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview` · cited by 1: HE
@@ -398,14 +410,6 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/9cb2a7495900f8b602cb10159246a016-Abstract-Datasets_and_Benchmarks.html` · cited by 1: LJ
   - summary: ToolQA tests genuine tool-use reasoning (not memorization) by minimizing overlap with pretraining data and providing 13 specialized external-knowledge tools, exposing specific gaps in existing tool-augmented LLMs on hallucination and numerical reasoning.
 
-- [tui-use](https://github.com/onesuper/tui-use)
-  - `gh:onesuper/tui-use` · cited by 1: HE
-  - summary: Programmable interaction with REPLs, debuggers and ncurses apps.
-
-- [vurb.ts](https://github.com/vinkius-labs/vurb.ts)
-  - `gh:vinkius-labs/vurb.ts` · cited by 1: HE
-  - summary: TypeScript framework for *authoring* MCP servers with PII redaction and state-gated visibility.
-
 - [What's New with GitHub Copilot Coding Agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/)
   - `url:https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent` · cited by 1: HE
   - summary: `.github/agents/` files, self-review and security scanning as harness primitives.
@@ -417,7 +421,3 @@
 - [You can't whisper at an AI agent](https://stripe.dev/blog/ai-steering-experiments)
   - `url:https://stripe.dev/blog/ai-steering-experiments` · cited by 1: HE
   - summary: Stripe's steering experiments find 'hard' constraints (errors, explicit blocking instructions) reliably redirect agent tool use while 'soft' cues (warnings, hints) get ignored, because agents pursue a narrow goal-directed path rather than exploring context the way a human developer would.
-
-- [zerolang](https://github.com/vercel-labs/zerolang)
-  - `gh:vercel-labs/zerolang` · cited by 1: HE
-  - summary: Agents edit code through a compiler-derived ProgramGraph instead of text patches.

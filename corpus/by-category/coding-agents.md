@@ -4,11 +4,27 @@
 
 ## Timeline
 
-14 dated entries, oldest first.
+18 dated entries, oldest first.
+
+- [Aider](https://github.com/Aider-AI/aider) · 2023-05
+  - `gh:aider-ai/aider` · cited by 1: HE
+  - summary: Terminal pair programming with repo-map context and git-aware edits.
 
 - [ToolCoder: Teach Code Generation Models to use API search tools](http://arxiv.org/abs/2305.04032) · 2023-05
   - `arxiv:2305.04032` · cited by 1: LJ
   - summary: Teaches a code-generation model to call an API-search tool while coding so it stops inventing non-existent or wrong APIs, adding 6.21% pass@1 and letting a small model rival GPT-3.5 on library-heavy tasks.
+
+- [OpenHands](https://github.com/OpenHands/OpenHands) · 2024-03
+  - `gh:openhands/openhands` · cited by 1: HE
+  - summary: A self-hosted control center for running coding agents and automations locally or across backends, wiring them into GitHub and Slack to drive real developer workflows.
+
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent) · 2024-04
+  - `gh:swe-agent/swe-agent` · cited by 1: HE
+  - summary: Gives an LLM a purpose-built agent-computer interface to autonomously fix issues in real GitHub repositories, and is the configurable, heavily-documented baseline behind much SWE-bench research.
+
+- [OpenCode](https://github.com/anomalyco/opencode) · 2025-04
+  - `gh:anomalyco/opencode` · cited by 1: HE
+  - summary: An open-source terminal coding agent offering a full-access 'build' mode and a read-only 'plan' mode for writing and exploring code across projects.
 
 - [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) · 2025-06
   - `arxiv:2506.13131` · cited by 1: LJ
@@ -64,15 +80,11 @@
 
 ## Tools & Undated
 
-8 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+4 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [2026 Agentic Coding Trends Report](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en)
   - `url:https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf` · cited by 1: HE
   - summary: Finds harness configuration alone can swing benchmarks by 5+ points.
-
-- [Aider](https://github.com/Aider-AI/aider)
-  - `gh:aider-ai/aider` · cited by 1: HE
-  - summary: Terminal pair programming with repo-map context and git-aware edits.
 
 - [Hooks – Codex](https://developers.openai.com/codex/hooks)
   - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
@@ -85,15 +97,3 @@
 - [Open SWE: An Open-Source Framework for Internal Coding Agents](https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/)
   - `url:https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents` · cited by 1: HE
   - summary: An open-source framework for building internal coding agents by composing on Deep Agents and LangGraph rather than forking, so teams swap in their own sandboxes, models, and tools while keeping an upgrade path.
-
-- [OpenCode](https://github.com/anomalyco/opencode)
-  - `gh:anomalyco/opencode` · cited by 1: HE
-  - summary: An open-source terminal coding agent offering a full-access 'build' mode and a read-only 'plan' mode for writing and exploring code across projects.
-
-- [OpenHands](https://github.com/OpenHands/OpenHands)
-  - `gh:openhands/openhands` · cited by 1: HE
-  - summary: A self-hosted control center for running coding agents and automations locally or across backends, wiring them into GitHub and Slack to drive real developer workflows.
-
-- [SWE-agent](https://github.com/SWE-agent/SWE-agent)
-  - `gh:swe-agent/swe-agent` · cited by 1: HE
-  - summary: Gives an LLM a purpose-built agent-computer interface to autonomously fix issues in real GitHub repositories, and is the configurable, heavily-documented baseline behind much SWE-bench research.

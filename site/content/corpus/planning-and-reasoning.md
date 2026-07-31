@@ -4,7 +4,7 @@
 
 ## Timeline
 
-47 dated entries, oldest first.
+49 dated entries, oldest first.
 
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) · 2022-10
   - `arxiv:2210.03629` · cited by 1: HE
@@ -21,6 +21,10 @@
 - [TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage](https://arxiv.org/abs/2308.03427) · 2023-08
   - `arxiv:2308.03427` · cited by 1: LJ
   - summary: Proposes a structured framework for LLM agents with one-step and sequential agent variants and evaluates multiple LLMs on task-planning-plus-tool-use, establishing the baseline TPTU-v2 later extends.
+
+- [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) · 2023-09
+  - `gh:microsoft/taskweaver` · cited by 1: HE
+  - summary: Code-first planner/executor split with plugins for domain knowledge.
 
 - [LATS: Language Agent Tree Search](https://arxiv.org/abs/2310.04406) · 2023-10
   - `arxiv:2310.04406` · cited by 1: HE
@@ -194,9 +198,13 @@
   - `arxiv:2602.16873` · cited by 1: HE
   - summary: Selects topology from the task dependency graph; 12–23% over model selection.
 
+- [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) · 2026-04
+  - `gh:esengine/deepseek-reasonix` · cited by 1: HE
+  - summary: A DeepSeek-native terminal coding agent engineered around prefix-cache stability to keep token costs low, distributed as a single dependency-free static binary with config-driven, multi-model, plugin-extensible design.
+
 ## Tools & Undated
 
-19 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+17 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Agent Planning with World Knowledge Model](https://openreview.net/pdf?id=j6kJSS9O6I)
   - `openreview:j6kJSS9O6I` · cited by 1: LJ
@@ -213,10 +221,6 @@
 - [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://openreview.net/pdf?id=Sx038qxjek)
   - `openreview:Sx038qxjek` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
-  - `gh:esengine/deepseek-reasonix` · cited by 1: HE
-  - summary: A DeepSeek-native terminal coding agent engineered around prefix-cache stability to keep token costs low, distributed as a single dependency-free static binary with config-driven, multi-model, plugin-extensible design.
 
 - [Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html)
   - `url:https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html` · cited by 1: LJ
@@ -237,10 +241,6 @@
 - [Large Language Models lack essential metacognition for reliable medical reasoning](https://doi.org/10.1038/s41467-024-55628-6)
   - `url:https://doi.org/10.1038/s41467-024-55628-6` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver)
-  - `gh:microsoft/taskweaver` · cited by 1: HE
-  - summary: Code-first planner/executor split with plugins for domain knowledge.
 
 - [Multi-Agent Workflows Often Fail. Here's How to Engineer Ones That Don't.](https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/)
   - `url:https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont` · cited by 1: HE

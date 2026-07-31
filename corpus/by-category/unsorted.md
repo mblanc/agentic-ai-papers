@@ -4,11 +4,23 @@
 
 ## Timeline
 
-66 dated entries, oldest first.
+79 dated entries, oldest first.
 
 - [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf) · 2023
   - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
   - summary: Masks tokens by their informativeness rather than randomly, adding a Token-specific Label Smoothing step so masked-language pretraining focuses learning on under-explored tokens instead of uniformly random ones, improving 10 downstream tasks by 1.4-2.1 points on average across different pretrained models.
+
+- [Dify](https://github.com/langgenius/dify) · 2023-04
+  - `gh:langgenius/dify` · cited by 1: LJ
+  - summary: An open-source LLM app development platform combining workflows, RAG, agents, and model management in one interface, for prototyping and deploying AI applications without assembling separate tools.
+
+- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) · 2023-06
+  - `gh:e2b-dev/awesome-ai-agents` · cited by 1: HE
+  - summary: NEEDS-SOURCE
+
+- [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) · 2023-08
+  - `gh:anthropics/claude-cookbooks` · cited by 1: HE
+  - summary: Anthropic's collection of copy-able code examples for building with Claude, covering tool integration, RAG, multimodal inputs, and agentic system patterns.
 
 - [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427) · 2023-09
   - `arxiv:2309.02427` · cited by 1: LJ
@@ -42,6 +54,10 @@
   - `arxiv:2402.05120` · cited by 1: LJ
   - summary: Shows LLM performance scales simply by sampling-and-voting across more agent instances (Agent Forest), a method orthogonal to other enhancement techniques, with the degree of benefit correlated to task difficulty.
 
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) · 2024-04
+  - `gh:shubhamsaboo/awesome-llm-apps` · cited by 1: HE
+  - summary: A collection of 100+ free, open-source, ready-to-use AI agents, agent skills, and RAG applications, for cloning and customizing rather than building from scratch.
+
 - [CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments](https://arxiv.org/abs/2404.18021) · 2024-04
   - `arxiv:2404.18021` · cited by 1: LJ
   - summary: CRISPR-GPT augments an LLM with domain knowledge and external tools to automate CRISPR gene-editing experiment design end to end (system selection, guide RNA design, delivery method, protocols), validated in a real use case and explicitly discussing the ethical/regulatory implications of automating biological design.
@@ -58,9 +74,21 @@
   - `arxiv:2503.03459` · cited by 1: LJ
   - summary: Proposes a Unified Mind Model cognitive architecture grounded in global workspace theory, giving LLM-based agents multi-modal perception, planning, tool use, memory, and reflection as one coherent theory rather than separate bolt-on modules, with an accompanying no-code agent-building engine (MindOS).
 
+- [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) · 2025-04
+  - `gh:hesreallyhim/awesome-claude-code` · cited by 1: HE
+  - summary: A hand-picked collection of tools, skills, and workflow resources specifically for Claude Code, for discovering developer tooling and best practices in that ecosystem.
+
 - [OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](https://arxiv.org/pdf/2504.16918) · 2025-04
   - `arxiv:2504.16918` · cited by 1: VA
   - summary: Four-agent pipeline turning natural-language optimization into solver code; 88% on NLP4LP.
+
+- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) · 2025-06
+  - `gh:shareai-lab/learn-claude-code` · cited by 1: HE
+  - summary: A 20-lesson tutorial building the operational harness around an agent model — tools, knowledge management, permissions, task systems, team coordination — with the framing that 'agency comes from the model' while the harness is the vehicle.
+
+- [awslabs/agentcore-samples](https://github.com/awslabs/agentcore-samples) · 2025-07
+  - `gh:awslabs/agentcore-samples` · cited by 1: HE
+  - summary: Examples and tutorials for Amazon Bedrock AgentCore's framework- and model-agnostic deployment infrastructure, so builders can switch agent frameworks or models without rewriting code.
 
 - [An Auditable Agent Platform For Automated Molecular Optimisation](https://www.arxiv.org/abs/2508.03444) · 2025-08
   - `arxiv:2508.03444` · cited by 1: LJ
@@ -242,6 +270,10 @@
   - `arxiv:2602.01556` · cited by 1: VA
   - summary: Lets an AI system decide *what problem to solve* rather than only executing predefined tasks, by reasoning over internal state, environment, and other agents to form its own questions; inter-agent-aware prompting cut a simulated failure mode by over 60% versus an internally-driven baseline.
 
+- [bradAGI/awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) · 2026-02
+  - `gh:bradagi/awesome-cli-coding-agents` · cited by 1: HE
+  - summary: A curated directory of 90+ terminal-based CLI coding agents and orchestration tools, for discovering and comparing autonomous code-editing tools before adopting one.
+
 - [Emulating Aggregate Human Choice Behavior and Biases with GPT Conversational Agents](https://arxiv.org/pdf/2602.05597v1) · 2026-02
   - `arxiv:2602.05597` · cited by 1: VA
   - summary: Whether agents reproduce aggregate human cognitive biases.
@@ -253,6 +285,10 @@
 - [Generative Ontology: When Structured Knowledge Learns to Create](https://arxiv.org/pdf/2602.05636v1) · 2026-02
   - `arxiv:2602.05636` · cited by 1: VA
   - summary: Constrains an LLM's generative freedom with executable Pydantic schemas plus specialized critic/architect agent roles to produce structurally valid creative artifacts (demonstrated on tabletop game design), showing multi-agent specialization drives the largest quality gains while schema validation eliminates structural errors entirely.
+
+- [ML6 x AISO Agent Workshop](https://github.com/ml6team/AISO-workshop) · 2026-02
+  - `gh:ml6team/aiso-workshop` · cited by 1: HE
+  - summary: A hands-on workshop building an agent from scratch on Google's Agent Development Kit across five milestones (math, PDF reading, web search), teaching practical tool-invocation and multi-source reasoning.
 
 - [Persuasion Propagation in LLM Agents](https://arxiv.org/pdf/2602.00851v1) · 2026-02
   - `arxiv:2602.00851` · cited by 1: VA
@@ -266,45 +302,33 @@
   - `arxiv:2602.05327` · cited by 1: VA
   - summary: ProAct trains agents to internalize lookahead reasoning via two stages (distilling search-tree outcomes into causal chains, then a lightweight Monte-Carlo critic for stable policy optimization), letting a 4B model beat all open-source baselines and rival closed frontier models on long-horizon planning tasks.
 
+- [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) · 2026-02
+  - `gh:voltagent/awesome-ai-agent-papers` · cited by 1: HE
+  - summary: A curated collection of 2026 agent-ecosystem research papers spanning multi-agent coordination, memory/RAG, tooling, evaluation, and security, for tracking the field's current research frontier.
+
 - [World Models as an Intermediary between Agents and the Real World](https://arxiv.org/pdf/2602.00785v1) · 2026-02
   - `arxiv:2602.00785` · cited by 1: VA
   - summary: Argues the bottleneck for agents in high-interaction-cost domains (robotics, ML engineering, science) is the expense of acquiring real reward signals, and that world models — as models of dynamics, reward, and task distribution — should sit between agents and the real world to overcome sample-inefficient off-policy learning.
 
-## Tools & Undated
+- [EvoMap/awesome-agent-evolution](https://github.com/EvoMap/awesome-agent-evolution) · 2026-03
+  - `gh:evomap/awesome-agent-evolution` · cited by 1: HE
+  - summary: A curated directory of agent frameworks, memory systems, and self-improvement projects, for discovering production-ready tools with persistent memory and continuous-learning capability.
 
-27 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+- [rasbt/mini-coding-agent](https://github.com/rasbt/mini-coding-agent) · 2026-04
+  - `gh:rasbt/mini-coding-agent` · cited by 1: HE
+  - summary: A minimal standalone Python coding-agent harness demonstrating workspace context, structured tools, and approval gates, used as an educational reference for how a local coding assistant is actually built.
 
-- [agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices)
+- [agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) · 2026-05
   - `gh:denissergeevitch/agents-best-practices` · cited by 1: HE
   - summary: A provider-neutral Agent Skill for designing production-safe agent harnesses, generating MVP blueprints and auditing tool permissions, approval gates, budgets, and observability so the model proposes actions while the harness validates and records them.
 
-- [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
-  - `gh:anthropics/claude-cookbooks` · cited by 1: HE
-  - summary: Anthropic's collection of copy-able code examples for building with Claude, covering tool integration, RAG, multimodal inputs, and agentic system patterns.
+## Tools & Undated
 
-- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
-  - `gh:e2b-dev/awesome-ai-agents` · cited by 1: HE
-  - summary: NEEDS-SOURCE
-
-- [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
-  - `gh:hesreallyhim/awesome-claude-code` · cited by 1: HE
-  - summary: A hand-picked collection of tools, skills, and workflow resources specifically for Claude Code, for discovering developer tooling and best practices in that ecosystem.
-
-- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
-  - `gh:shubhamsaboo/awesome-llm-apps` · cited by 1: HE
-  - summary: A collection of 100+ free, open-source, ready-to-use AI agents, agent skills, and RAG applications, for cloning and customizing rather than building from scratch.
-
-- [awslabs/agentcore-samples](https://github.com/awslabs/agentcore-samples)
-  - `gh:awslabs/agentcore-samples` · cited by 1: HE
-  - summary: Examples and tutorials for Amazon Bedrock AgentCore's framework- and model-agnostic deployment infrastructure, so builders can switch agent frameworks or models without rewriting code.
+14 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Balancing autonomy and expertise in autonomous synthesis laboratories](https://doi.org/10.1038/s43588-025-00769-x)
   - `url:https://doi.org/10.1038/s43588-025-00769-x` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [bradAGI/awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents)
-  - `gh:bradagi/awesome-cli-coding-agents` · cited by 1: HE
-  - summary: A curated directory of 90+ terminal-based CLI coding agents and orchestration tools, for discovering and comparing autonomous code-editing tools before adopting one.
 
 - [Building Governed AI Agents](https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook)
   - `url:https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook` · cited by 1: HE
@@ -318,10 +342,6 @@
   - `url:https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html` · cited by 1: LJ
   - summary: Grover; generation and detection as two sides of one model.
 
-- [Dify](https://github.com/langgenius/dify)
-  - `gh:langgenius/dify` · cited by 1: LJ
-  - summary: An open-source LLM app development platform combining workflows, RAG, agents, and model management in one interface, for prototyping and deploying AI applications without assembling separate tools.
-
 - [Empowering biomedical discovery with AI agents](https://www.cell.com/cell/fulltext/S0092-8674(24)
   - `url:https://cell.com/cell/fulltext/S0092-8674(24` · cited by 1: LJ
   - summary: NEEDS-SOURCE
@@ -333,10 +353,6 @@
 - [Evolutionary optimization of model merging recipes](https://www.nature.com/articles/s42256-024-00975-8)
   - `url:https://nature.com/articles/s42256-024-00975-8` · cited by 1: LJ
   - summary: Evolutionary search over merge recipes across two spaces.
-
-- [EvoMap/awesome-agent-evolution](https://github.com/EvoMap/awesome-agent-evolution)
-  - `gh:evomap/awesome-agent-evolution` · cited by 1: HE
-  - summary: A curated directory of agent frameworks, memory systems, and self-improvement projects, for discovering production-ready tools with persistent memory and continuous-learning capability.
 
 - [GPT-3: Its Nature, Scope, Limits, and Consequences](https://link.springer.com/article/10.1007/s11023-020-09548-1)
   - `url:https://link.springer.com/article/10.1007/s11023-020-09548-1` · cited by 1: LJ
@@ -354,10 +370,6 @@
   - `openreview:M6OmjAZ4CX` · cited by 1: LJ
   - summary: NEEDS-SOURCE
 
-- [ML6 x AISO Agent Workshop](https://github.com/ml6team/AISO-workshop)
-  - `gh:ml6team/aiso-workshop` · cited by 1: HE
-  - summary: A hands-on workshop building an agent from scratch on Google's Agent Development Kit across five milestones (math, PDF reading, web search), teaching practical tool-invocation and multi-source reasoning.
-
 - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922)
   - `url:https://dl.acm.org/doi/10.1145/3442188.3445922` · cited by 1: LJ
   - summary: The foundational critique of scale-first language modelling.
@@ -366,18 +378,6 @@
   - `url:https://dl.acm.org/doi/abs/10.1145/3531146.3533229` · cited by 1: LJ
   - summary: Loss is predictable, capabilities are not; the governance problem that follows.
 
-- [rasbt/mini-coding-agent](https://github.com/rasbt/mini-coding-agent)
-  - `gh:rasbt/mini-coding-agent` · cited by 1: HE
-  - summary: A minimal standalone Python coding-agent harness demonstrating workspace context, structured tools, and approval gates, used as an educational reference for how a local coding assistant is actually built.
-
-- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
-  - `gh:shareai-lab/learn-claude-code` · cited by 1: HE
-  - summary: A 20-lesson tutorial building the operational harness around an agent model — tools, knowledge management, permissions, task systems, team coordination — with the framing that 'agency comes from the model' while the harness is the vehicle.
-
 - [Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support](https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945/)
   - `url:https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945` · cited by 1: LJ
   - summary: A qualitative analysis of 120 Reddit posts (2,917 comments) about an LLM-based mental-wellbeing chatbot (Replika), finding real benefits (on-demand non-judgmental support, confidence-building) alongside real harms (inability to filter harmful content, overdependence, social stigma).
-
-- [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers)
-  - `gh:voltagent/awesome-ai-agent-papers` · cited by 1: HE
-  - summary: A curated collection of 2026 agent-ecosystem research papers spanning multi-agent coordination, memory/RAG, tooling, evaluation, and security, for tracking the field's current research frontier.

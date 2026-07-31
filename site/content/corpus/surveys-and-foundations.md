@@ -4,7 +4,7 @@
 
 ## Timeline
 
-31 dated entries, oldest first.
+32 dated entries, oldest first.
 
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) · 2021-08
   - `arxiv:2108.07258` · cited by 1: LJ
@@ -130,9 +130,13 @@
   - `arxiv:2509.02547` · cited by 1: LJ
   - summary: Dual taxonomy of capabilities and applications, RL as the integrating mechanism.
 
+- [Ranking Engineer Agent (REA): Meta's Autonomous AI System for Ads Ranking](https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/) · 2026-03
+  - `url:https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation` · cited by 1: HE
+  - summary: Multi-day ML pipeline automation with hibernate-and-wake checkpointing.
+
 ## Tools & Undated
 
-11 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+10 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)
   - `url:https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents` · cited by 1: HE
@@ -161,10 +165,6 @@
 - [LLaMA: Open and Efficient Foundation Language Models](https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/)
   - `url:https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models` · cited by 1: LJ
   - summary: Trains a 7B-65B foundation model family on trillions of tokens from public data only, showing LLaMA-13B beats GPT-3 (175B) on most benchmarks and LLaMA-65B is competitive with Chinchilla-70B and PaLM-540B, and releases all weights to researchers.
-
-- [Ranking Engineer Agent (REA): Meta's Autonomous AI System for Ads Ranking](https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/)
-  - `url:https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation` · cited by 1: HE
-  - summary: Multi-day ML pipeline automation with hibernate-and-wake checkpointing.
 
 - [Supercharge Your AI Agents: The New ADK Integrations Ecosystem](https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/)
   - `url:https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem` · cited by 1: HE

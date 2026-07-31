@@ -4,7 +4,7 @@
 
 ## Timeline
 
-107 dated entries, oldest first.
+132 dated entries, oldest first.
 
 - [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760) · 2023-03
   - `arxiv:2303.17760` · cited by 1: LJ
@@ -22,13 +22,29 @@
   - `arxiv:2305.14325` · cited by 1: LJ
   - summary: The foundational debate result.
 
+- [Vercel AI SDK](https://github.com/vercel/ai) · 2023-05
+  - `gh:vercel/ai` · cited by 1: HE
+  - summary: The AI SDK is a provider-agnostic TypeScript toolkit (OpenAI, Anthropic, Google, more) for building agents and AI apps, with unified tool-calling, structured outputs, and UI-streaming hooks so you're not rewriting integration code per provider.
+
 - [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) · 2023-07
   - `arxiv:2307.07924` · cited by 1: LJ
   - summary: Virtual software company staffed by role-playing agents.
 
+- [LiteLLM](https://github.com/BerriAI/litellm) · 2023-07
+  - `gh:berriai/litellm` · cited by 1: HE
+  - summary: Unified OpenAI-format gateway to 100+ LLM providers (OpenAI, Anthropic, Gemini, Bedrock, Azure, etc.), so agent code doesn't hardcode a provider and gets virtual keys, cost tracking, guardrails, and load balancing for free.
+
+- [AutoGen](https://github.com/microsoft/autogen) · 2023-08
+  - `gh:microsoft/autogen` · cited by 1: HE
+  - summary: A layered, extensible framework for building multi-agent AI applications that act autonomously or alongside humans, offering both high-level APIs for fast prototyping and low-level components for custom architectures.
+
 - [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) · 2023-08
   - `arxiv:2308.08155` · cited by 1: LJ
   - summary: Conversable agents as the primitive; multi-agent systems as structured dialogue.
+
+- [LangGraph](https://github.com/langchain-ai/langgraph) · 2023-08
+  - `gh:langchain-ai/langgraph` · cited by 1: HE
+  - summary: Low-level orchestration framework for building long-running, stateful agents with durable execution, human-in-the-loop checkpoints, and memory management baked in.
 
 - [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352) · 2023-08
   - `arxiv:2308.00352` · cited by 1: LJ
@@ -45,6 +61,10 @@
 - [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/pdf/2310.09233) · 2023-10
   - `arxiv:2310.09233` · cited by 1: LJ
   - summary: AgentCF models both users and items as agents in a recommender system and optimizes them together via collaborative reflection on the gap between simulated and real interactions, implicitly capturing collaborative filtering while producing more human-like personalized behavior.
+
+- [CrewAI](https://github.com/crewAIInc/crewAI) · 2023-10
+  - `gh:crewaiinc/crewai` · cited by 1: HE
+  - summary: A lean Python framework purpose-built for orchestrating autonomous agents with defined roles and tasks, balancing autonomous multi-agent collaboration with precise workflow control for production automations.
 
 - [Evolving Diverse Red-team Language Models in Multi-round Multi-agent Games](https://arxiv.org/pdf/2310.00322) · 2023-10
   - `arxiv:2310.00322` · cited by 1: LJ
@@ -86,9 +106,17 @@
   - `arxiv:2404.11943` · cited by 1: LJ
   - summary: AgentCoord is a visual exploration tool that converts a user's general goal into a structured, executable multi-agent coordination strategy and lets them interactively refine agent relationships and task dependencies rather than hand-writing ambiguous natural-language coordination instructions.
 
+- [Pydantic AI v2](https://github.com/pydantic/pydantic-ai) · 2024-06
+  - `gh:pydantic/pydantic-ai` · cited by 1: HE
+  - summary: Pydantic AI brings Pydantic's type validation to agent-building, giving FastAPI-style ergonomics, multi-provider model support, and built-in Logfire observability so you're not hand-rolling schema validation for LLM outputs.
+
 - [CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis](https://arxiv.org/abs/2407.09811) · 2024-07
   - `arxiv:2407.09811` · cited by 1: LJ
   - summary: CellAgent assigns LLM-driven planner, executor, and evaluator roles to automate single-cell RNA-seq analysis end to end with no human intervention, using hierarchical coordination and self-iterative optimization to pick the right tools and hyperparameters across many tissue and cell types.
+
+- [Mastra](https://github.com/mastra-ai/mastra) · 2024-08
+  - `gh:mastra-ai/mastra` · cited by 1: HE
+  - summary: Opinionated TypeScript framework for AI apps and agents.
 
 - [Large Model Based Agents: State-of-the-Art, Cooperation Paradigms, Security and Privacy, and Future Trends](https://arxiv.org/abs/2409.14457) · 2024-09
   - `arxiv:2409.14457` · cited by 1: LJ
@@ -118,6 +146,10 @@
   - `arxiv:2503.01935` · cited by 1: LJ
   - summary: Evaluates collaboration *and* competition, plus coordination protocols.
 
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) · 2025-03
+  - `gh:openai/openai-agents-python` · cited by 1: HE
+  - summary: Lightweight framework for building multi-agent workflows across OpenAI and 100+ other LLMs, with tool integration, agent-to-agent handoffs, built-in tracing, and human-in-the-loop hooks.
+
 - [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) · 2025-03
   - `arxiv:2503.13657` · cited by 1: LJ
   - summary: MAST failure taxonomy with an LLM-judge pipeline. Pairs directly with the 2026 harness failure work.
@@ -126,9 +158,21 @@
   - `arxiv:2504.16736` · cited by 1: LJ
   - summary: Classification of agent protocols predating the MCP/A2A consolidation.
 
+- [Google ADK](https://github.com/google/adk-python) · 2025-04
+  - `gh:google/adk-python` · cited by 1: HE
+  - summary: Google's open-source, code-first Python framework for building, evaluating, and deploying multi-agent systems via graph-based workflows and structured task delegation, with built-in workflow runtime and local dev tooling.
+
+- [Shopify Roast](https://github.com/Shopify/roast) · 2025-04
+  - `gh:shopify/roast` · cited by 1: HE
+  - summary: Roast is a Ruby DSL for chaining LLM calls, code execution, and shell commands into declarative multi-step workflows ('cogs') without building custom orchestration infrastructure.
+
 - [Foam-Agent: Towards Automated Intelligent CFD Workflows](https://arxiv.org/abs/2505.04997) · 2025-05
   - `arxiv:2505.04997` · cited by 1: LJ
   - summary: Foam-Agent automates the entire CFD simulation workflow from a single natural-language prompt (mesh generation through visualization) via RAG and dependency-aware scheduling, exposing its functions as MCP tools and reaching 88.2% execution success across 110 tasks without expert intervention.
+
+- [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) · 2025-05
+  - `gh:strands-agents/harness-sdk` · cited by 1: HE
+  - summary: Strands Agents is a Python/TypeScript SDK for building model- and cloud-agnostic agents with built-in context management, hooks, and guardrails, so you can swap providers without rewriting agent logic.
 
 - [Adaptive Graph Pruning: A Task-Adaptive Multi-Agent Collaboration Framework](https://arxiv.org/abs/2506.02951) · 2025-06
   - `arxiv:2506.02951` · cited by 1: LJ
@@ -145,6 +189,10 @@
 - [The Future is Agentic: Definitions, Perspectives, and Open Challenges of Multi-Agent Recommender Systems](https://arxiv.org/abs/2507.02097) · 2025-07
   - `arxiv:2507.02097` · cited by 1: LJ
   - summary: This perspective paper formalizes multi-agent recommender systems as agent-environment-protocol triples, then shows on Amazon-2023 data that a single-shot pipeline is often Pareto-efficient and multi-agent decomposition only pays off on high-diversity user histories.
+
+- [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime) · 2025-08
+  - `gh:agentscope-ai/agentscope-runtime` · cited by 1: HE
+  - summary: A production-grade runtime providing secure tool sandboxing, Agent-as-a-Service APIs, and full-stack observability across local, Kubernetes, or serverless deployment without locking builders into one agent framework.
 
 - [Automated Clinical Problem Detection from SOAP Notes using a Collaborative Multi-Agent LLM Architecture](https://arxiv.org/abs/2508.21803) · 2025-08
   - `arxiv:2508.21803` · cited by 1: LJ
@@ -245,6 +293,10 @@
 - [EvoConfig: Self-Evolving Multi-Agent Systems for Efficient Autonomous Environment Configuration](https://arxiv.org/pdf/2601.16489v1) · 2026-01
   - `arxiv:2601.16489` · cited by 1: VA
   - summary: EvoConfig uses an expert-diagnosis module plus a self-evolving mechanism where expert agents adjust error-fixing priorities in real time to build correct software runtime environments, matching state-of-the-art on standard repos and beating it by 7.1% on the harder Envbench.
+
+- [Hive](https://github.com/aden-hive/hive) · 2026-01
+  - `gh:aden-hive/hive` · cited by 1: HE
+  - summary: Goal-driven self-improving agents auto-generating agent graphs.
 
 - [HoneyTrap: Deceiving LLM Attackers with Resilient Multi-Agent Defense](https://arxiv.org/pdf/2601.04034v1) · 2026-01
   - `arxiv:2601.04034` · cited by 1: VA
@@ -402,6 +454,10 @@
   - `arxiv:2602.06526` · cited by 1: VA
   - summary: DREAM uses multi-round LLM debate with opposing initial stances to label missing relevance annotations in IR benchmarks, reaching 95.2% labeling accuracy with only 3.5% human involvement, and uncovers 29,824 missing relevant chunks that had been distorting retriever rankings.
 
+- [Conductor](https://github.com/microsoft/conductor) · 2026-02
+  - `gh:microsoft/conductor` · cited by 1: HE
+  - summary: A CLI for defining multi-agent workflows in version-controlled YAML that execute deterministically without an LLM making routing decisions, for auditable, repeatable orchestration across multiple models.
+
 - [Evolving Interpretable Constitutions for Multi-Agent Coordination](https://arxiv.org/pdf/2602.00755v1) · 2026-02
   - `arxiv:2602.00755` · cited by 1: VA
   - summary: LLM-driven genetic programming discovering behavioural norms.
@@ -414,6 +470,10 @@
   - `arxiv:2602.01011` · cited by 1: VA
   - summary: Self-organizing teams often underperform their single best member.
 
+- [OmniRoute: Multi-Provider LLM Gateway](https://github.com/diegosouzapw/OmniRoute) · 2026-02
+  - `gh:diegosouzapw/omniroute` · cited by 1: HE
+  - summary: Free MIT-licensed AI gateway routing across 290+ providers (90+ free tiers) through one endpoint, aimed at cutting agent costs via fallback routing and 15-95% token compression, with support for 33+ coding tools like Claude Code and Cursor.
+
 - [ORCH: many analyses, one merge — a deterministic multi-agent orchestrator](https://arxiv.org/pdf/2602.01797v1) · 2026-02
   - `arxiv:2602.01797` · cited by 1: VA
   - summary: ORCH replaces stochastic multi-agent routing with a deterministic 'many analyses, one merge' pipeline, gaining over 10 points on MMLU-Pro and 50+ points on GSM8K versus the best single-model baseline.
@@ -422,21 +482,61 @@
   - `arxiv:2602.06232` · cited by 1: VA
   - summary: RuleSmith automates game balancing by having multi-agent LLMs self-play a rule set while Bayesian optimization searches the parameter space, converging on balanced configs without manual playtesting.
 
+- [Symphony](https://github.com/openai/symphony) · 2026-02
+  - `gh:openai/symphony` · cited by 1: HE
+  - summary: Symphony deploys autonomous agents to handle whole units of project work so teams manage outcomes rather than babysit individual coding-agent sessions.
+
 - [When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems](https://arxiv.org/pdf/2602.00428v1) · 2026-02
   - `arxiv:2602.00428` · cited by 1: VA
   - summary: Introduces MANBENCH to measure the Mandela effect (collective false-memory formation) in LLM multi-agent systems across four task types and five interaction protocols, and shows prompt- and alignment-level defenses cut it by 74.40% on average.
+
+- [bernstein](https://github.com/sipyourdrink-ltd/bernstein) · 2026-03
+  - `gh:sipyourdrink-ltd/bernstein` · cited by 1: HE
+  - summary: Orchestrates 40+ CLI agents with worktree isolation and an HMAC-chained audit log.
+
+- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) · 2026-03
+  - `gh:jackchen-me/open-multi-agent` · cited by 1: HE
+  - summary: One call decomposes a goal into a task DAG and runs it in parallel.
+
+- [Orca](https://github.com/stablyai/orca) · 2026-03
+  - `gh:stablyai/orca` · cited by 1: HE
+  - summary: Orca fans a single prompt out across multiple coding agents (Claude Code, Codex, OpenCode) running in parallel git worktrees, then lets you compare and merge the best result.
+
+- [sandcastle](https://github.com/mattpocock/sandcastle) · 2026-03
+  - `gh:mattpocock/sandcastle` · cited by 1: HE
+  - summary: Sandcastle runs multiple coding agents in isolated sandboxes, handling branch and commit strategy automatically so you can parallelize agents or build review pipelines without them stepping on each other's changes.
 
 - [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/pdf/2604.01658) · 2026-04
   - `arxiv:2604.01658` · cited by 1: VA
   - summary: Long-running self-evolving systems with shared memory; 3–10× over evolutionary search.
 
+- [Harmonist](https://github.com/GammaLabTechnologies/harmonist) · 2026-04
+  - `gh:gammalabtechnologies/harmonist` · cited by 1: HE
+  - summary: Enforces AI coding protocols through mechanical gates rather than prompted instructions, guaranteeing subagents complete required reviews and update memory before code ships, so engineering rules can't be silently skipped by the model.
+
+- [thClaws](https://github.com/thClaws/thClaws) · 2026-04
+  - `gh:thclaws/thclaws` · cited by 1: HE
+  - summary: thClaws is a single-binary, native-Rust agent workspace (GUI/CLI/headless/web) that runs multiple coordinating agents locally with multi-provider LLM and MCP support, so nothing leaves your machine.
+
+- [OpenSquilla](https://github.com/opensquilla/opensquilla) · 2026-05
+  - `gh:opensquilla/opensquilla` · cited by 1: HE
+  - summary: Token-efficient agent that routes each task to the cheapest capable model while keeping behavior consistent across Web UI, CLI, and chat, with persistent memory and 20+ LLM providers supported out of the box.
+
+- [eve](https://github.com/vercel/eve) · 2026-06
+  - `gh:vercel/eve` · cited by 1: HE
+  - summary: A filesystem-first framework for durable agents where tools, skills, channels, and schedules live in conventional directory locations, making agent projects easier to inspect and extend than scattered configuration-based alternatives.
+
 - [PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting](https://arxiv.org/pdf/2606.08878) · 2026-06
   - `arxiv:2606.08878` · cited by 1: VA
   - summary: Multi-agent orchestration prompting benchmark (2026).
 
+- [waggle](https://github.com/modiqo/waggle) · 2026-07
+  - `gh:modiqo/waggle` · cited by 1: HE
+  - summary: Waggle replaces pasting full context between agents with ~30-byte tokens that resolve lazily to only what's needed, cutting token overhead and giving you a receipt of exactly what each subagent actually read.
+
 ## Tools & Undated
 
-47 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+22 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
@@ -446,21 +546,9 @@
   - `url:https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications` · cited by 1: HE
   - summary: Google's multi-agent topology, tool registration and eval pipeline rationale.
 
-- [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime)
-  - `gh:agentscope-ai/agentscope-runtime` · cited by 1: HE
-  - summary: A production-grade runtime providing secure tool sandboxing, Agent-as-a-Service APIs, and full-stack observability across local, Kubernetes, or serverless deployment without locking builders into one agent framework.
-
 - [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://openreview.net/forum?id=EHg5GDnyq1)
   - `openreview:EHg5GDnyq1` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [AutoGen](https://github.com/microsoft/autogen)
-  - `gh:microsoft/autogen` · cited by 1: HE
-  - summary: A layered, extensible framework for building multi-agent AI applications that act autonomously or alongside humans, offering both high-level APIs for fast prototyping and low-level components for custom architectures.
-
-- [bernstein](https://github.com/sipyourdrink-ltd/bernstein)
-  - `gh:sipyourdrink-ltd/bernstein` · cited by 1: HE
-  - summary: Orchestrates 40+ CLI agents with worktree isolation and an HMAC-chained audit log.
 
 - [Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A](https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/)
   - `url:https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a` · cited by 1: HE
@@ -490,14 +578,6 @@
   - `url:https://proceedings.neurips.cc/paper_files/paper/2024/file/1c2b1c8f7d317719a9ce32dd7386ba35-Paper-Conference.pdf` · cited by 1: LJ
   - summary: CORY: cooperative multi-agent RL for fine-tuning, beating PPO on real-world refinement.
 
-- [Conductor](https://github.com/microsoft/conductor)
-  - `gh:microsoft/conductor` · cited by 1: HE
-  - summary: A CLI for defining multi-agent workflows in version-controlled YAML that execute deterministically without an LLM making routing decisions, for auditable, repeatable orchestration across multiple models.
-
-- [CrewAI](https://github.com/crewAIInc/crewAI)
-  - `gh:crewaiinc/crewai` · cited by 1: HE
-  - summary: A lean Python framework purpose-built for orchestrating autonomous agents with defined roles and tasks, balancing autonomous multi-agent collaboration with precise workflow control for production automations.
-
 - [Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents](https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf)
   - `url:https://openaccess.thecvf.com/content/CVPR2024/papers/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.pdf` · cited by 1: LJ
   - summary: NEEDS-SOURCE
@@ -506,41 +586,13 @@
   - `url:https://ieeesmc.org/cai-2026/tutorial-3-engineering-trustworthy-multi-agent-systems` · cited by 1: HE
   - summary: A practical tutorial on enterprise-ready multi-agent system design covering architecture, memory, observability, and evaluation, emphasizing guardrails, fact-checking, and objective alignment as required safety layers for production trustworthiness.
 
-- [eve](https://github.com/vercel/eve)
-  - `gh:vercel/eve` · cited by 1: HE
-  - summary: A filesystem-first framework for durable agents where tools, skills, channels, and schedules live in conventional directory locations, making agent projects easier to inspect and extend than scattered configuration-based alternatives.
-
-- [Google ADK](https://github.com/google/adk-python)
-  - `gh:google/adk-python` · cited by 1: HE
-  - summary: Google's open-source, code-first Python framework for building, evaluating, and deploying multi-agent systems via graph-based workflows and structured task delegation, with built-in workflow runtime and local dev tooling.
-
-- [Harmonist](https://github.com/GammaLabTechnologies/harmonist)
-  - `gh:gammalabtechnologies/harmonist` · cited by 1: HE
-  - summary: Enforces AI coding protocols through mechanical gates rather than prompted instructions, guaranteeing subagents complete required reviews and update memory before code ships, so engineering rules can't be silently skipped by the model.
-
-- [Hive](https://github.com/aden-hive/hive)
-  - `gh:aden-hive/hive` · cited by 1: HE
-  - summary: Goal-driven self-improving agents auto-generating agent graphs.
-
 - [How to orchestrate agents using mission control](https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control/)
   - `url:https://github.blog/ai-and-ml/github-copilot/how-to-orchestrate-agents-using-mission-control` · cited by 1: HE
   - summary: Lets a user assign tasks to Copilot coding agents across repos from one interface, watch real-time session logs, and steer mid-run (pause, refine, restart) rather than managing each agent session separately.
 
-- [LangGraph](https://github.com/langchain-ai/langgraph)
-  - `gh:langchain-ai/langgraph` · cited by 1: HE
-  - summary: Low-level orchestration framework for building long-running, stateful agents with durable execution, human-in-the-loop checkpoints, and memory management baked in.
-
 - [Linear formation control of multi-agent systems](https://www.sciencedirect.com/science/article/pii/S0005109824004291)
   - `url:https://sciencedirect.com/science/article/pii/S0005109824004291` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [LiteLLM](https://github.com/BerriAI/litellm)
-  - `gh:berriai/litellm` · cited by 1: HE
-  - summary: Unified OpenAI-format gateway to 100+ LLM providers (OpenAI, Anthropic, Gemini, Bedrock, Azure, etc.), so agent code doesn't hardcode a provider and gets virtual keys, cost tracking, guardrails, and load balancing for free.
-
-- [Mastra](https://github.com/mastra-ai/mastra)
-  - `gh:mastra-ai/mastra` · cited by 1: HE
-  - summary: Opinionated TypeScript framework for AI apps and agents.
 
 - [Microsoft Agent Framework 1.0](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/)
   - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0` · cited by 1: HE
@@ -550,26 +602,6 @@
   - `url:https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce` · cited by 1: HE
   - summary: Covers three BUILD 2026 additions to Microsoft Agent Framework: Agent Harness (built-in context compaction and file memory), Foundry Hosted Agents (scale-to-zero deployment), and CodeAct, which has the model write executable Python instead of tool calls for 52% faster runs and 64% fewer tokens.
 
-- [OmniRoute: Multi-Provider LLM Gateway](https://github.com/diegosouzapw/OmniRoute)
-  - `gh:diegosouzapw/omniroute` · cited by 1: HE
-  - summary: Free MIT-licensed AI gateway routing across 290+ providers (90+ free tiers) through one endpoint, aimed at cutting agent costs via fallback routing and 15-95% token compression, with support for 33+ coding tools like Claude Code and Cursor.
-
-- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent)
-  - `gh:jackchen-me/open-multi-agent` · cited by 1: HE
-  - summary: One call decomposes a goal into a task DAG and runs it in parallel.
-
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)
-  - `gh:openai/openai-agents-python` · cited by 1: HE
-  - summary: Lightweight framework for building multi-agent workflows across OpenAI and 100+ other LLMs, with tool integration, agent-to-agent handoffs, built-in tracing, and human-in-the-loop hooks.
-
-- [OpenSquilla](https://github.com/opensquilla/opensquilla)
-  - `gh:opensquilla/opensquilla` · cited by 1: HE
-  - summary: Token-efficient agent that routes each task to the cheapest capable model while keeping behavior consistent across Web UI, CLI, and chat, with persistent memory and 20+ LLM providers supported out of the box.
-
-- [Orca](https://github.com/stablyai/orca)
-  - `gh:stablyai/orca` · cited by 1: HE
-  - summary: Orca fans a single prompt out across multiple coding agents (Claude Code, Codex, OpenCode) running in parallel git worktrees, then lets you compare and merge the best result.
-
 - [Orchestrating Ambient Agents with Temporal](https://temporal.io/blog/orchestrating-ambient-agents-with-temporal)
   - `url:https://temporal.io/blog/orchestrating-ambient-agents-with-temporal` · cited by 1: HE
   - summary: Walks through building an always-on crypto trading system as three cooperating agents (broker, execution, judge) on Temporal, using Schedules/Signals/Queries for durable, auditable multi-agent coordination instead of hand-rolled retry logic.
@@ -578,37 +610,13 @@
   - `url:https://ojs.aaai.org/index.php/AAAI/article/view/29710/31219` · cited by 1: LJ
   - summary: ProAgent has an LLM agent infer teammates' intentions from observed behavior and adapt its own policy accordingly, beating fixed-policy baselines by over 10% in Overcooked-AI human-proxy cooperation tests.
 
-- [Pydantic AI v2](https://github.com/pydantic/pydantic-ai)
-  - `gh:pydantic/pydantic-ai` · cited by 1: HE
-  - summary: Pydantic AI brings Pydantic's type validation to agent-building, giving FastAPI-style ergonomics, multi-provider model support, and built-in Logfire observability so you're not hand-rolling schema validation for LLM outputs.
-
-- [sandcastle](https://github.com/mattpocock/sandcastle)
-  - `gh:mattpocock/sandcastle` · cited by 1: HE
-  - summary: Sandcastle runs multiple coding agents in isolated sandboxes, handling branch and commit strategy automatically so you can parallelize agents or build review pipelines without them stepping on each other's changes.
-
 - [Scaling Managed Agents: Decoupling the Brain from the Hands](https://www.anthropic.com/engineering/managed-agents)
   - `url:https://anthropic.com/engineering/managed-agents` · cited by 1: HE
   - summary: Anthropic's Managed Agents decouples the model/harness from the sandbox and session-management layer, so either side can be swapped or fail independently as capabilities evolve instead of hardcoding assumptions about what Claude can't do into the harness.
 
-- [Shopify Roast](https://github.com/Shopify/roast)
-  - `gh:shopify/roast` · cited by 1: HE
-  - summary: Roast is a Ruby DSL for chaining LLM calls, code execution, and shell commands into declarative multi-step workflows ('cogs') without building custom orchestration infrastructure.
-
-- [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)
-  - `gh:strands-agents/harness-sdk` · cited by 1: HE
-  - summary: Strands Agents is a Python/TypeScript SDK for building model- and cloud-agnostic agents with built-in context management, hooks, and guardrails, so you can swap providers without rewriting agent logic.
-
 - [Swarm Autonomy: From Agent Functionalization to Machine Intelligence](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956)
   - `url:https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202312956` · cited by 1: LJ
   - summary: NEEDS-SOURCE
-
-- [Symphony](https://github.com/openai/symphony)
-  - `gh:openai/symphony` · cited by 1: HE
-  - summary: Symphony deploys autonomous agents to handle whole units of project work so teams manage outcomes rather than babysit individual coding-agent sessions.
-
-- [thClaws](https://github.com/thClaws/thClaws)
-  - `gh:thclaws/thclaws` · cited by 1: HE
-  - summary: thClaws is a single-binary, native-Rust agent workspace (GUI/CLI/headless/web) that runs multiple coordinating agents locally with multi-provider LLM and MCP support, so nothing leaves your machine.
 
 - [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk/)
   - `url:https://openai.com/index/the-next-evolution-of-the-agents-sdk` · cited by 1: HE
@@ -617,11 +625,3 @@
 - [The Virtual Biotech: Multi-Agent AI Framework for Drug Discovery](https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1)
   - `url:https://biorxiv.org/content/10.64898/2026.02.23.707551v1` · cited by 1: HE
   - summary: NEEDS-SOURCE
-
-- [Vercel AI SDK](https://github.com/vercel/ai)
-  - `gh:vercel/ai` · cited by 1: HE
-  - summary: The AI SDK is a provider-agnostic TypeScript toolkit (OpenAI, Anthropic, Google, more) for building agents and AI apps, with unified tool-calling, structured outputs, and UI-streaming hooks so you're not rewriting integration code per provider.
-
-- [waggle](https://github.com/modiqo/waggle)
-  - `gh:modiqo/waggle` · cited by 1: HE
-  - summary: Waggle replaces pasting full context between agents with ~30-byte tokens that resolve lazily to only what's needed, cutting token overhead and giving you a receipt of exactly what each subagent actually read.
