@@ -538,6 +538,26 @@ CATEGORY_OVERRIDE: dict[str, str] = {
     'url:https://nature.com/articles/s42256-024-00975-8': 'training-and-optimization',
     'url:https://pmc.ncbi.nlm.nih.gov/articles/PMC10785945': 'domain-applications',
     'url:https://proceedings.neurips.cc/paper/2019/hash/3e9f0fc9b2f89e043bc6233994dfcf76-Abstract.html': 'safety-security-governance',
+    # Corrections found while summarizing already-regex-classified entries —
+    # the regex placed these on a keyword coincidence, not the actual topic.
+    'arxiv:2305.05176': 'observability-and-ops',       # FrugalGPT: cost-routing, not planning
+    'arxiv:2304.12244': 'training-and-optimization',   # WizardLM: instruction-tuning data gen
+    'arxiv:2307.14936': 'coding-agents',                # PanGu-Coder2: code-LLM fine-tuning
+    'acl:2025.emnlp-main.956': 'domain-applications',   # RecInter: recsys simulation testbed
+    'arxiv:2601.00930': 'evaluation-and-benchmarks',    # AlignUSER: recsys eval methodology
+    'arxiv:2305.13168': 'memory',                       # GPT-4 for KG construction
+    'arxiv:2207.10342': 'harness-engineering',          # Language Model Cascades: call chaining
+    'arxiv:2307.02757': 'surveys-and-foundations',      # Wireless Multi-Agent AI: telecom survey
+    'arxiv:2308.08708': 'surveys-and-foundations',      # Consciousness in AI: position paper
+    'arxiv:2309.00667': 'evaluation-and-benchmarks',    # Situational awareness benchmark
+    'gh:kubestellar/console': 'observability-and-ops',  # K8s multi-cluster ops dashboard
+    'gh:csunny/db-gpt': 'frameworks-and-sdks',          # full data-agent platform, not just coding
+    'gh:paperclipai/paperclip': 'multi-agent',          # role-based agent-team orchestration
+    'gh:neurocult/agency': 'frameworks-and-sdks',       # general-purpose Go agent library
+    'gh:servicenow/workarena': 'evaluation-and-benchmarks',  # browser-task benchmark
+    'arxiv:2406.11736': 'training-and-optimization',    # ENVISIONS: neural-symbolic self-training
+    'arxiv:2402.05929': 'embodied-and-robotics',        # Interactive Agent Foundation Model
+    'gh:teoslayer/pilotprotocol': 'tool-use-and-protocols',  # P2P agent networking protocol
 }
 
 

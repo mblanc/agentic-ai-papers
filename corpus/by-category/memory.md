@@ -1,26 +1,26 @@
 # memory
 
-94 entries.
+95 entries.
 
 ## Timeline
 
-92 dated entries, oldest first.
+93 dated entries, oldest first.
 
 - [CoLT5: Faster Long-Range Transformers with Conditional Computation](https://arxiv.org/abs/2303.09752) · 2023-03
   - `arxiv:2303.09752` · cited by 1: ZJ
-  - summary: TODO
+  - summary: CoLT5 spends feedforward and attention compute only on the tokens that matter instead of every token, beating LongT5 on speed and on the SCROLLS long-document benchmark while handling inputs up to 64k tokens.
 
 - [ChatLog: Recording and Analyzing ChatGPT Across Time](https://arxiv.org/abs/2304.14106) · 2023-04
   - `arxiv:2304.14106` · cited by 1: ZJ
-  - summary: TODO
+  - summary: ChatLog tracks ChatGPT's answers to the same 21 NLP benchmarks month over month since March 2023, showing capability isn't static and giving you a feature signature stable enough to fingerprint which ChatGPT version wrote a given output.
 
 - [Emergent and Predictable Memorization in Large Language Models](https://arxiv.org/abs/2304.11158) · 2023-04
   - `arxiv:2304.11158` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Builds scaling laws on the Pythia model suite that predict, before training finishes, which training sequences an LLM will end up memorizing verbatim — useful if you care about leaking training data through agent outputs.
 
 - [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System](https://arxiv.org/abs/2304.13343) · 2023-04
   - `arxiv:2304.13343` · cited by 1: ZJ
-  - summary: TODO
+  - summary: The Self-Controlled Memory framework wraps an LLM with a memory stream plus a controller that decides what to keep, letting it handle effectively unlimited input (long dialogues, whole books, meeting transcripts) without retraining and outperforming alternatives on retrieval quality.
 
 - [Zep](https://github.com/getzep/zep) · 2023-04
   - `gh:getzep/zep` · cited by 1: HE
@@ -28,15 +28,19 @@
 
 - [Adapting Language Models to Compress Contexts](https://arxiv.org/abs/2305.14788) · 2023-05
   - `arxiv:2305.14788` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Fine-tunes OPT/Llama-2 to squeeze long context into compact summary vectors the model reads as soft prompts, cutting inference cost while extending effective context and improving retrieval and few-shot performance.
+
+- [ChatGPT/GPT-4 for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) · 2023-05
+  - `arxiv:2305.13168` · cited by 1: ZJ
+  - summary: Benchmarking GPT-4 on entity/relation/event extraction, link prediction and QA finds it's a mediocre few-shot extractor but a strong reasoner over knowledge graphs, which motivates AutoKG, a multi-agent pipeline combining LLMs with external sources for KG construction.
 
 - [Landmark Attention: Random-Access Infinite Context Length for Transformers](https://arxiv.org/abs/2305.16300) · 2023-05
   - `arxiv:2305.16300` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Landmark Attention lets a transformer attend over its full context via retrievable block-level landmark tokens instead of a separate retrieval pipeline, and was used to stretch LLaMA-7B's context past 32k tokens at roughly GPT-4-era length with Transformer-XL-level quality.
 
 - [Learning to Reason and Memorize with Self-Notes](https://arxiv.org/abs/2305.00833) · 2023-05
   - `arxiv:2305.00833` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Lets a model pause mid-generation to write free-form "Self-Notes" it can reread later, giving it working memory and on-the-fly reasoning that beats standard chain-of-thought on multi-step tasks.
 
 - [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) · 2023-05
   - `arxiv:2305.10250` · cited by 1: ZJ
@@ -44,27 +48,27 @@
 
 - [Monotonic Location Attention for Length Generalization](https://arxiv.org/abs/2305.20019) · 2023-05
   - `arxiv:2305.20019` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Shows that interpolating a sequence's forward and reversed encodings with relative attention gets seq2seq models to near-perfect length generalization on lookup/copy tasks, and extends the idea with new location-attention variants for harder cases like SCAN and CFQ.
 
 - [Randomized Positional Encodings Boost Length Generalization of Transformers](https://arxiv.org/abs/2305.16843) · 2023-05
   - `arxiv:2305.16843` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Randomizing positional encodings during training — so the model sees position patterns resembling longer sequences than it was trained on — lifts accuracy on unseen-length algorithmic tasks by 12% on average across 6,000 models and 15 tasks, a cheap fix for transformers that otherwise choke past their training length.
 
 - [RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text](https://arxiv.org/abs/2305.13304) · 2023-05
   - `arxiv:2305.13304` · cited by 1: ZJ
-  - summary: TODO
+  - summary: RecurrentGPT fakes an LSTM's long/short-term memory using natural-language state that gets written to and read from disk between paragraphs, letting an LLM generate arbitrarily long, coherent text (and let you inspect or edit its "memory" directly since it's just plain language).
 
 - [RET-LLM: Towards a General Read-Write Memory for Large Language Models](https://arxiv.org/abs/2305.14322) · 2023-05
   - `arxiv:2305.14322` · cited by 1: ZJ
-  - summary: TODO
+  - summary: RET-LLM gives an LLM an explicit write-read memory that stores facts as subject-predicate-object triplets, so it can extract, save, and later recall knowledge on demand — including handling temporal/date-sensitive questions well.
 
 - [Revisiting Parallel Context Windows: A Frustratingly Simple Alternative and Chain-of-Thought Deterioration](https://arxiv.org/abs/2305.15262) · 2023-05
   - `arxiv:2305.15262` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Pokes holes in Parallel Context Windows: it's missing an obvious weighted-ensemble baseline for few-shot classification, and it degrades on multi-hop reasoning like HotpotQA through outright question misunderstanding — a caution against treating PCW as a solved way to extend context.
 
 - [Small Models are Valuable Plug-ins for Large Language Models](https://arxiv.org/abs/2305.08848) · 2023-05
   - `arxiv:2305.08848` · cited by 1: ZJ
-  - summary: TODO
+  - summary: SuperICL pairs a black-box LLM's in-context learning with a small, locally fine-tuned model plugged in as a tool, beating fine-tuned SOTA baselines on supervised tasks and, as a side effect, making the small model itself better at multilingual and interpretability tasks.
 
 - [ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings](https://arxiv.org/abs/2305.11554) · 2023-05
   - `arxiv:2305.11554` · cited by 1: ZJ
@@ -72,7 +76,7 @@
 
 - [Unlimiformer: Long-Range Transformers with Unlimited Length Input](https://arxiv.org/abs/2305.01625) · 2023-05
   - `arxiv:2305.01625` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Unlimiformer swaps a transformer's cross-attention for a k-NN index lookup over the whole input, so a pretrained model like BART can process a 500,000-token document without truncation or any added parameters — just wrap it around what you already have.
 
 - [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://arxiv.org/abs/2306.03901) · 2023-06
   - `arxiv:2306.03901` · cited by 1: ZJ
@@ -113,7 +117,7 @@
 
 - [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271) · 2024-06
   - `arxiv:2406.04271` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Buffer of Thoughts caches reusable high-level "thought templates" distilled from prior problem-solving and retrieves/adapts them for new tasks, hitting big accuracy gains (20% on Geometric Shapes, 51% on Checkmate-in-One) at about 12% the cost of tree/graph-of-thought prompting.
 
 - [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) · 2024-12
   - `url:https://anthropic.com/research/building-effective-agents` · cited by 1: HE
@@ -385,4 +389,4 @@
 
 - [Memgpt](https://github.com/cpacker/memgpt)
   - `gh:cpacker/memgpt` · cited by 1: KY
-  - summary: TODO
+  - summary: Letta (formerly MemGPT) is an agent framework built around persistent, self-editing memory, so an agent can keep learning across sessions instead of forgetting everything once the context window fills up — usable via a local agent runtime or an SDK you embed in your own app.

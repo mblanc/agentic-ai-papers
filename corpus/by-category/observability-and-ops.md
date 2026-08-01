@@ -1,10 +1,10 @@
 # observability-and-ops
 
-62 entries.
+64 entries.
 
 ## Timeline
 
-53 dated entries, oldest first.
+54 dated entries, oldest first.
 
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) · 2022-11
   - `gh:arize-ai/phoenix` · cited by 2: HE, KY
@@ -17,6 +17,10 @@
 - [Helicone](https://github.com/Helicone/helicone) · 2023-01
   - `gh:helicone/helicone` · cited by 1: HE
   - summary: An LLM gateway and observability platform giving unified access to 100+ models with built-in cost/latency tracking, prompt management, and automatic provider fallback routing.
+
+- [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176) · 2023-05
+  - `arxiv:2305.05176` · cited by 1: ZJ
+  - summary: Learns which combination of cheap-to-expensive LLMs to route each query through, matching GPT-4's accuracy at up to 98% lower API cost.
 
 - [Langfuse](https://github.com/langfuse/langfuse) · 2023-05
   - `gh:langfuse/langfuse` · cited by 1: HE
@@ -208,7 +212,7 @@
 
 - [agentacct](https://github.com/mikehasa/agentacct) · 2026-07
   - `gh:mikehasa/agentacct` · cited by 1: HE
-  - summary: TODO
+  - summary: Local-only dashboard that reads Claude Code and Codex session logs plus MCP-captured task records to show token spend and actual work done per agent/model/day, with nothing leaving your machine — an honest-accounting tool for agent-assisted coding costs.
 
 - [Building Governed Agents: A Framework for Cost, Control, and Compliance](https://www.langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance) · 2026-07
   - `url:https://langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance` · cited by 1: HE
@@ -220,7 +224,7 @@
 
 ## Tools & Undated
 
-9 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+10 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AI Agent Cost Optimization Guide 2026: Reduce Spend by 60-80%](https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026)
   - `url:https://moltbook-ai.com/posts/ai-agent-cost-optimization-2026` · cited by 1: HE
@@ -247,9 +251,13 @@
   - `url:https://techcommunity.microsoft.com/blog/appsonazureblog/how-we-build-azure-sre-agent-with-agentic-workflows/4508753` · cited by 1: HE
   - summary: 35,000+ production incidents; time-to-mitigation 40.5 hours → 3 minutes.
 
+- [KubeStellar Console](https://github.com/kubestellar/console)
+  - `gh:kubestellar/console` · cited by 1: KY
+  - summary: AI-powered dashboard for managing multi-cluster Kubernetes deployments with guided install missions for 250+ CNCF projects.
+
 - [Multi-Modal LangChain agents in Production](https://github.com/steamship-packages/langchain-agent-production-starter)
   - `gh:steamship-packages/langchain-agent-production-starter` · cited by 1: KY
-  - summary: TODO
+  - summary: LangChain + OpenAI starter template that gets a Telegram-connected chatbot with persistent memory, voice, and monetization hooks deployed with minimal setup, aimed at people who want to ship an agent product rather than build deployment infrastructure.
 
 - [OpenObserve: Unified Observability for LLM Agents](https://openobserve.ai/)
   - `url:https://openobserve.ai/` · cited by 1: HE

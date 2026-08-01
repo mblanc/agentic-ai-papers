@@ -1,18 +1,14 @@
 # multi-agent
 
-202 entries.
+200 entries.
 
 ## Timeline
 
-182 dated entries, oldest first.
-
-- [Language Model Cascades](https://arxiv.org/abs/2207.10342) · 2022-07
-  - `arxiv:2207.10342` · cited by 1: ZJ
-  - summary: TODO
+179 dated entries, oldest first.
 
 - [Collaborating with language models for embodied reasoning](https://arxiv.org/abs/2302.00763) · 2023-02
   - `arxiv:2302.00763` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Splits an embodied agent into a Planner (a language model issuing commands) and an Actor plus a Reporter that feeds back what happened, letting the system generalize to new tasks zero-shot and pinpointing where pure LM planning breaks down without environment feedback.
 
 - [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society](https://arxiv.org/abs/2303.17760) · 2023-03
   - `arxiv:2303.17760` · cited by 2: LJ, ZJ
@@ -20,7 +16,7 @@
 
 - [ChatLLM Network: More brains, More intelligence](https://arxiv.org/abs/2304.12998) · 2023-04
   - `arxiv:2304.12998` · cited by 1: ZJ
-  - summary: TODO
+  - summary: ChatLLM Network runs several ChatGPT instances in parallel on the same problem and has a separate ChatGPT consolidate their differing viewpoints, with a feedback loop that updates each instance's prompting — a cheap way to get ensemble-style gains without retraining.
 
 - [Emergent autonomous scientific research capabilities of large language models](https://arxiv.org/abs/2304.05332) · 2023-04
   - `arxiv:2304.05332` · cited by 1: ZJ
@@ -28,15 +24,11 @@
 
 - [Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models](https://arxiv.org/abs/2304.13835) · 2023-04
   - `arxiv:2304.13835` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Collects MultiLIGHT, a group-conversation dataset where multiple role-played characters talk together, to test the two things pairwise-trained dialogue models can't do — deciding when to speak and staying coherent across more than two participants.
 
 - [Self-collaboration Code Generation via ChatGPT](https://arxiv.org/abs/2304.07590) · 2023-04
   - `arxiv:2304.07590` · cited by 2: LJ, ZJ
   - summary: Single model playing analyst/coder/tester roles in sequence.
-
-- [ChatGPT/GPT-4 for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) · 2023-05
-  - `arxiv:2305.13168` · cited by 1: ZJ
-  - summary: TODO
 
 - [Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate](https://arxiv.org/abs/2305.19118) · 2023-05
   - `arxiv:2305.19118` · cited by 2: LJ, ZJ
@@ -48,7 +40,7 @@
 
 - [Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback](https://arxiv.org/abs/2305.10142) · 2023-05
   - `arxiv:2305.10142` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Two LLMs negotiate a buyer/seller deal while a third LLM critiques their moves, and the players use that AI feedback as in-context examples across rounds to actually improve their negotiated price — though only some models are capable of learning from the critique at all.
 
 - [LARGE LANGUAGE MODELS AS TOOL MAKERS](https://arxiv.org/abs/2305.17126) · 2023-05
   - `arxiv:2305.17126` · cited by 2: LJ, ZJ
@@ -72,7 +64,7 @@
 
 - [Building Cooperative Embodied Agents Modularly with Large Language Models](https://arxiv.org/abs/2307.02485) · 2023-07
   - `arxiv:2307.02485` · cited by 1: ZJ
-  - summary: TODO
+  - summary: CoELA gives each embodied agent its own perception/memory/planning stack plus natural-language messaging, so GPT-4-driven agents beat centralized planners on cooperative household tasks (C-WAH, TDW-MAT) and earn more human trust than silent agents in a user study.
 
 - [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924) · 2023-07
   - `arxiv:2307.07924` · cited by 2: LJ, ZJ
@@ -84,15 +76,11 @@
 
 - [RoCo: Dialectic Multi-Robot Collaboration with Large Language Models](https://arxiv.org/abs/2307.04738) · 2023-07
   - `arxiv:2307.04738` · cited by 1: ZJ
-  - summary: TODO
+  - summary: RoCo has multiple robots equipped with LLMs debate task strategy in natural language, then hands the resulting sub-task plans to a multi-arm motion planner, hitting high success rates across its 6-task RoCoBench and letting a human step into the same dialogue to redirect the robots mid-task.
 
 - [Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration](https://arxiv.org/abs/2307.05300) · 2023-07
   - `arxiv:2307.05300` · cited by 1: ZJ
-  - summary: TODO
-
-- [Wireless Multi-Agent Generative AI: From Connected Intelligence to Collective Intelligence](https://arxiv.org/abs/2307.02757) · 2023-07
-  - `arxiv:2307.02757` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Solo Performance Prompting gets cognitive-synergy-style gains from a single LLM by having it role-play multiple personas across a multi-turn self-collaboration, cutting factual errors — but the effect only shows up in GPT-4, not GPT-3.5 or Llama2-13b.
 
 - [AutoGen](https://github.com/microsoft/autogen) · 2023-08
   - `gh:microsoft/autogen` · cited by 3: BK, HE, KY
@@ -104,19 +92,19 @@
 
 - [CGMI: Configurable General Multi-Agent Interaction Framework](https://arxiv.org/abs/2308.12503) · 2023-08
   - `arxiv:2308.12503` · cited by 1: ZJ
-  - summary: TODO
+  - summary: CGMI assigns LLM agents a tree-structured personality plus a memory/reflection/planning skill library and uses it to simulate a full classroom, producing teaching interactions that track real classroom dynamics fairly closely.
 
 - [Exploring the Intersection of Large Language Models and Agent-Based Modeling via Prompt Engineering](https://arxiv.org/abs/2308.07411) · 2023-08
   - `arxiv:2308.07411` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Uses LLM-driven agents to push agent-based social simulation past hand-coded behavior rules, running a two-agent negotiation and a six-agent murder mystery to test how believable prompted personas are as human proxies.
 
 - [GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems](https://arxiv.org/abs/2308.10435) · 2023-08
   - `arxiv:2308.10435` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Puts GPT-4 in the decision loop of a multiagent smart-streetlight IoT system, replacing long neuroevolutionary training with LLM reasoning and getting comparable or better energy-efficient lighting decisions without retraining.
 
 - [InterAct: Exploring the Potentials of ChatGPT as a Cooperative Agent](https://arxiv.org/abs/2308.01552) · 2023-08
   - `arxiv:2308.01552` · cited by 1: ZJ
-  - summary: TODO
+  - summary: InterAct feeds ChatGPT different role-specific prompts (checker, sorter, etc.) and composes them with the base model, hitting a 98% success rate on AlfWorld's household tasks — a case for prompt-engineered role division over a single monolithic agent.
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) · 2023-08
   - `gh:langchain-ai/langgraph` · cited by 1: HE
@@ -128,11 +116,11 @@
 
 - [Neural Amortized Inference for Nested Multi-agent Reasoning](https://arxiv.org/abs/2308.11071) · 2023-08
   - `arxiv:2308.11071` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Nested multi-agent reasoning (modeling what others infer about you inferring them) blows up combinatorially, so this trains a neural network to amortize that recursive inference and gets near-equal accuracy at a fraction of the compute.
 
 - [ProAgent: Building Proactive Cooperative AI with Large Language Models](https://arxiv.org/abs/2308.11339) · 2023-08
   - `arxiv:2308.11339` · cited by 1: ZJ
-  - summary: TODO
+  - summary: ProAgent uses an LLM to read teammates' observed behavior, infer their intent, and adapt its own strategy on the fly, beating self-play and population-based training baselines in Overcooked-AI and improving over prior state of the art by 10%+ when paired with human-proxy teammates.
 
 - [Mindagent: Emergent gaming interaction](https://arxiv.org/pdf/2309.09971) · 2023-09
   - `arxiv:2309.09971` · cited by 2: LJ, ZJ
@@ -148,7 +136,7 @@
 
 - [Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration](https://arxiv.org/abs/2310.00280) · 2023-10
   - `arxiv:2310.00280` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Corex wraps several LLMs into a small toolkit of collaboration modes — Debate, Review, Retrieve — that consistently beats single-model or naive-ensemble prompting on reasoning tasks while staying cheap enough to be practical.
 
 - [CrewAI](https://github.com/crewAIInc/crewAI) · 2023-10
   - `gh:crewaiinc/crewai` · cited by 1: HE
@@ -164,7 +152,7 @@
 
 - [Lumos: Learning Agents with Unified Data, Modular Design, and Open-Source LLMs](https://arxiv.org/pdf/2311.05657.pdf) · 2023-11
   - `arxiv:2311.05657` · cited by 1: ZJ
-  - summary: TODO
+  - summary: LUMOS trains an open-source agent with a separate planning module (subgoal generation) and grounding module (tool actions) on unified cross-task data, and it beats larger open agents and even GPT agents on QA and web tasks while generalizing to tasks it never trained on.
 
 - [War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars](https://arxiv.org/abs/2311.17227) · 2023-11
   - `arxiv:2311.17227` · cited by 1: LJ
@@ -216,7 +204,7 @@
 
 - [CoMM: Collaborative Multi-Agent, Multi-Reasoning-Path Prompting for Complex Problem Solving](https://arxiv.org/abs/2404.17729) · 2024-04
   - `arxiv:2404.17729` · cited by 1: ZJ
-  - summary: TODO
+  - summary: CoMM assigns LLM agents distinct roles and distinct reasoning paths on the same problem team, and shows that varying the reasoning path per role — not just the persona — is what actually helps on hard college-level science questions.
 
 - [Pydantic AI v2](https://github.com/pydantic/pydantic-ai) · 2024-06
   - `gh:pydantic/pydantic-ai` · cited by 1: HE
@@ -228,7 +216,7 @@
 
 - [Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations](https://arxiv.org/abs/2408.15232) · 2024-08
   - `arxiv:2408.15232` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Co-STORM has several LLM agents converse and ask questions on the user's behalf instead of making the user ask everything, organizing what surfaces into a live mind map and report — in human evaluation, 70% of users preferred it to a search engine and 78% to a RAG chatbot.
 
 - [Mastra](https://github.com/mastra-ai/mastra) · 2024-08
   - `gh:mastra-ai/mastra` · cited by 2: HE, KY
@@ -300,7 +288,7 @@
 
 - [SALM: A Multi-Agent Framework for Language Model-Driven Social Network Simulation](https://arxiv.org/abs/2505.09081) · 2025-05
   - `arxiv:2505.09081` · cited by 1: ZJ
-  - summary: TODO
+  - summary: SALM uses a hierarchical prompting architecture and an attention-based memory system to keep LLM-driven social-network simulations stable past 4,000 timesteps, cutting token usage 73% and hitting 80% memory cache hit rates — aimed at anyone whose long-running agent simulations currently drift or blow their token budget.
 
 - [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) · 2025-05
   - `gh:strands-agents/harness-sdk` · cited by 1: HE
@@ -678,7 +666,7 @@
 - [Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration](https://arxiv.org/abs/2603.06859) · 2026-03
   - `arxiv:2603.06859` · cited by 1: ZJ
   - related: <https://github.com/EIT-EAST-Lab/C3>
-  - summary: TODO
+  - summary: C3 fixes the full interaction history and resamples alternative actions to compute exact, unbiased per-agent credit assignment in multi-agent LLM teams, beating approximate baselines on six math/code benchmarks while using fewer training tokens — useful if you've been leave-one-out-ablating agents and getting distorted attribution.
 
 - [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) · 2026-03
   - `gh:jackchen-me/open-multi-agent` · cited by 2: HE, KY
@@ -739,7 +727,7 @@
 
 ## Tools & Undated
 
-20 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+21 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://openreview.net/forum?id=XII0Wp1XA9#discussion)
   - `openreview:XII0Wp1XA9` · cited by 1: LJ
@@ -760,7 +748,7 @@
 - [CAMEL](https://github.com/camel-ai/camel)
   - `gh:camel-ai/camel` · cited by 1: ZJ
   - related: <https://github.com/101dotxyz/GPTeam> <https://github.com/OpenBMB/AgentVerse> <https://github.com/geekan/MetaGPT> <https://github.com/langroid/langroid>
-  - summary: TODO
+  - summary: CAMEL is an open-source multi-agent framework built around role-playing agents that can scale to very large agent populations, aimed at researchers who want to generate synthetic data or run world simulations rather than hand-build a single chatbot.
 
 - [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://openreview.net/forum?id=FQepisCUWu)
   - `openreview:FQepisCUWu` · cited by 1: LJ
@@ -802,6 +790,10 @@
   - `gh:orkas-ai/orkas` · cited by 1: KY
   - summary: Local-first desktop app where a commander LLM dispatches a team of sub-agents in parallel or series and they refine their own skills through reflection, with your choice of backing LLM providers.
 
+- [Paperclip](https://github.com/paperclipai/paperclip)
+  - `gh:paperclipai/paperclip` · cited by 1: KY
+  - summary: Node.js/React app for running a whole team of AI agents (CEO, engineers, marketers) against a business goal with org charts, budgets and governance, positioning itself as the company around individual agent 'employees' rather than a single coding assistant.
+
 - [SocraticAI](https://github.com/RunzheYang/SocraticAI)
   - `gh:runzheyang/socraticai` · cited by 1: ZJ
   - summary: Has several LLM agents interrogate each other and the user in a Socratic back-and-forth to surface assumptions and reach a reasoned answer, without needing hand-tuned prompts.
@@ -820,4 +812,4 @@
 
 - [To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations](https://fablestudio.github.io/showrunner-agents/static/pdfs/To_Infinity_and_Beyond_SHOW-1_And_Showrunner_Agents_in_Multi_Agent_Simulations.pdf)
   - `url:https://fablestudio.github.io/showrunner-agents/static/pdfs/To_Infinity_and_Beyond_SHOW-1_And_Showrunner_Agents_in_Multi_Agent_Simulations.pdf` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Showrunner agents run a persistent multi-agent simulation that tracks each character's history, emotions, relationships and goals, feeding that state to GPT-4 to generate IP-consistent episodes — splitting creative control three ways between the simulation, the user, and the model instead of leaving it all to one prompt.

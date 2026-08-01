@@ -1,6 +1,6 @@
 # safety-security-governance
 
-191 entries.
+192 entries.
 
 ## Timeline
 
@@ -28,7 +28,7 @@
 
 - [Training Socially Aligned Language Models in Simulated Human Society](https://arxiv.org/abs/2305.16960) · 2023-05
   - `arxiv:2305.16960` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Trains language models to align with social norms by having many model copies interact, critique, and revise each other's responses in simulated society rather than imitating a fixed training corpus, improving robustness on alignment benchmarks over standard fine-tuning.
 
 - [DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models](https://arxiv.org/abs/2306.11698) · 2023-06
   - `arxiv:2306.11698` · cited by 1: BK
@@ -36,7 +36,7 @@
 
 - [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) · 2023-08
   - `arxiv:2308.07201` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Runs a panel of LLMs that debate and critique each other's ratings instead of relying on a single judge model, producing text-quality scores that track human judgment better than single-agent LLM evaluators.
 
 - [Enhancing Trust in LLM-Based AI Automation Agents: New Considerations and Future Challenges](https://arxiv.org/abs/2308.05391) · 2023-08
   - `arxiv:2308.05391` · cited by 1: ZJ
@@ -44,7 +44,7 @@
 
 - [How susceptible are LLMs to Logical Fallacies?](https://arxiv.org/abs/2308.09853) · 2023-08
   - `arxiv:2308.09853` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Puts GPT-3.5 and GPT-4 through simulated debates seeded with logical fallacies and finds both models get talked into wrong positions far more often by fallacious arguments than sound ones (41% and 69% more, respectively) — a concrete data point on how easily an LLM agent can be persuaded off-course.
 
 - [Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/abs/2309.15817) · 2023-09
   - `arxiv:2309.15817` · cited by 1: ZJ
@@ -660,7 +660,7 @@
 
 ## Tools & Undated
 
-28 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+29 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://openreview.net/pdf?id=m1YYAQjO3w)
   - `openreview:m1YYAQjO3w` · cited by 1: LJ
@@ -698,6 +698,10 @@
   - `url:https://dl.acm.org/doi/pdf/10.1145/3674399.3674445` · cited by 1: LJ
   - summary: Blockchain proof-of-thought for Byzantine-robust multi-agent coordination.
 
+- [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox/)
+  - `url:https://openai.com/index/building-codex-windows-sandbox` · cited by 1: HE
+  - summary: TODO
+
 - [Building Governed AI Agents](https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook)
   - `url:https://developers.openai.com/cookbook/examples/partners/agentic_governance_guide/agentic_governance_cookbook` · cited by 1: HE
   - summary: OpenAI cookbook walks through building a multi-agent firm assistant with three layers of governance, SDK guardrails, an org-wide policy package, and tracing, then tuning guardrail precision/recall instead of hand-reviewing every output.
@@ -724,7 +728,7 @@
 
 - [GitHub Enterprise — Governing Agents](https://wellarchitected.github.com/library/governance/recommendations/governing-agents/)
   - `url:https://wellarchitected.github.com/library/governance/recommendations/governing-agents` · cited by 1: HE
-  - summary: TODO
+  - summary: GitHub's checklist for running coding/PR agents at enterprise scale: keep enterprise-level policy minimal (audit logging, model allowlists), let orgs layer their own agent and MCP configs on top, and make every agent action auditable and cost-attributable.
 
 - [LangGraph — Human-in-the-Loop Concepts](https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/)
   - `url:https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop` · cited by 1: HE
@@ -748,7 +752,7 @@
 
 - [Privtrans: Automatically Partitioning Programs for Privilege Separation](https://dawnsong.io/papers/privtrans.pdf)
   - `url:https://dawnsong.io/papers/privtrans.pdf` · cited by 1: BK
-  - summary: TODO
+  - summary: Automates privilege separation by splitting a C program into a small trusted monitor and an unprivileged slave from a few programmer annotations, shrinking the code an attacker needs to compromise to gain elevated access — relevant background for anyone designing sandboxed tool-execution boundaries for agents.
 
 - [Prompt Injection — Simon Willison's Series](https://simonwillison.net/series/prompt-injection/)
   - `url:https://simonwillison.net/series/prompt-injection` · cited by 1: HE

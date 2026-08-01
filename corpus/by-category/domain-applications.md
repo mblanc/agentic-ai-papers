@@ -1,10 +1,10 @@
 # domain-applications
 
-34 entries.
+35 entries.
 
 ## Timeline
 
-24 dated entries, oldest first.
+25 dated entries, oldest first.
 
 - [Autoformalization with Large Language Models](https://arxiv.org/abs/2205.12615) · 2022-05
   - `arxiv:2205.12615` · cited by 1: BK
@@ -20,7 +20,7 @@
 
 - [EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education](https://arxiv.org/abs/2308.02773) · 2023-08
   - `arxiv:2308.02773` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Domain-tuned LLM chatbot for education — pretrained on educational material and fine-tuned for Socratic teaching, essay grading and emotional support — released open source with code, data and weights as a template for building subject-specific tutoring agents.
 
 - [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](http://arxiv.org/abs/2308.16505) · 2023-08
   - `arxiv:2308.16505` · cited by 1: LJ
@@ -61,6 +61,10 @@
 - [ImProver: Agent-Based Automated Proof Optimization](https://arxiv.org/abs/2410.04753) · 2024-10
   - `arxiv:2410.04753` · cited by 1: BK
   - summary: Agent-based rewriting of proofs against user-chosen metrics.
+
+- [Beyond Static Testbeds: An Interaction-Centric Agent Simulation Platform for Dynamic Recommender Systems](https://aclanthology.org/2025.emnlp-main.956/) · 2025
+  - `acl:2025.emnlp-main.956` · cited by 1: ZJ
+  - summary: Builds a recommender-system simulator where simulated likes, reviews and purchases actually update item state in real time and spawn merchant-agent replies, reproducing emergent effects like brand loyalty that static offline testbeds can't.
 
 - [Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227) · 2025-01
   - `arxiv:2501.04227` · cited by 1: LJ

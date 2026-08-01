@@ -1,10 +1,10 @@
 # simulation-and-social
 
-40 entries.
+38 entries.
 
 ## Timeline
 
-32 dated entries, oldest first.
+30 dated entries, oldest first.
 
 - [Ethical and social risks of harm from Language Models](https://arxiv.org/abs/2112.04359) · 2021-12
   - `arxiv:2112.04359` · cited by 1: LJ
@@ -16,7 +16,7 @@
 
 - [Theory of Mind May Have Spontaneously Emerged in Large Language Models](https://arxiv.org/abs/2302.02083) · 2023-02
   - `arxiv:2302.02083` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Ran false-belief Theory-of-Mind tests on 11 LLMs and found GPT-4 solved 75% of tasks — matching six-year-old children — while older/smaller models scored zero, suggesting ToM-like reasoning showed up as a byproduct of scaling language ability rather than being explicitly trained in.
 
 - [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) · 2023-04
   - `arxiv:2304.03442` · cited by 2: LJ, ZJ
@@ -24,31 +24,31 @@
 
 - [Toxicity in ChatGPT: Analyzing Persona-assigned Language Models](https://arxiv.org/abs/2304.05335) · 2023-04
   - `arxiv:2304.05335` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Assigning ChatGPT a persona multiplies its toxicity up to 6x across 500,000+ generations, with certain races/groups targeted 3x more than others regardless of persona — a hard data point against shipping persona-based agents without extra safety guardrails.
 
 - [ExpertPrompting: Instructing Large Language Models to be Distinguished Experts](https://arxiv.org/abs/2305.14688) · 2023-05
   - `arxiv:2305.14688` · cited by 1: ZJ
-  - summary: TODO
+  - summary: ExpertPrompting auto-generates a tailored expert persona for each instruction and conditions the answer on it, and the resulting distilled model, ExpertLLaMA, hits 96% of ChatGPT's answer quality while beating other open models of similar size.
 
 - [Playing repeated games with Large Language Models](https://arxiv.org/abs/2305.16867) · 2023-05
   - `arxiv:2305.16867` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Pits LLMs against each other, scripted strategies, and real humans in repeated 2x2 games and finds they play self-interested games like Prisoner's Dilemma well but flub coordination games like Battle of the Sexes — though GPT-4 improves markedly with opponent info and "social chain-of-thought" prompting.
 
 - [Role-Play with Large Language Models](https://arxiv.org/abs/2305.16367) · 2023-05
   - `arxiv:2305.16367` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Reframes dialogue-agent behavior as role-play rather than as evidence of real deception or self-awareness, giving a way to talk about apparent agent "traits" using familiar folk-psychology terms without actually attributing human characteristics the model doesn't have.
 
 - [The Role of Summarization in Generative Agents: A Preliminary Perspective](https://arxiv.org/abs/2305.01253) · 2023-05
   - `arxiv:2305.01253` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Argues summarization is the load-bearing capability behind generative agents that simulate human society, not a side feature, and that architecture choices around it deserve more attention than they're getting.
 
 - [TidyBot: Personalized Robot Assistance with Large Language Models](https://arxiv.org/abs/2305.05658) · 2023-05
   - `arxiv:2305.05658` · cited by 1: ZJ
-  - summary: TODO
+  - summary: TidyBot infers a person's tidying preferences from just a few examples using an LLM's few-shot summarization, then generalizes that preference to new objects — 91.2% accuracy on unseen objects in benchmarks and 85% correct placement on a real mobile manipulator, without per-user retraining.
 
 - [Do LLMs Possess a Personality? Making the MBTI Test an Amazing Evaluation for Large Language Models](https://arxiv.org/abs/2307.16180) · 2023-07
   - `arxiv:2307.16180` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Runs the MBTI test on various LLMs to see if they have a consistent "personality," whether prompting can shift it, and how training data shapes it — a rough-but-usable behavioral fingerprint for comparing models, despite MBTI's own scientific weakness.
 
 - [Epidemic Modeling with Generative Agents](https://arxiv.org/abs/2307.04986) · 2023-07
   - `arxiv:2307.04986` · cited by 1: ZJ
@@ -56,7 +56,7 @@
 
 - [Personality Traits in Large Language Models](https://arxiv.org/abs/2307.00184) · 2023-07
   - `arxiv:2307.00184` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Shows that under specific prompting, some LLMs' personality outputs pass psychometric validity checks (stronger in larger, instruction-tuned models) and can be deliberately dialed to target a chosen human personality profile — tested across 18 models, with obvious implications for how a chatbot persona actually lands with users.
 
 - [S^3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984) · 2023-07
   - `arxiv:2307.14984` · cited by 1: ZJ
@@ -66,21 +66,13 @@
   - `url:https://proceedings.mlr.press/v202/aher23a/aher23a.pdf` · cited by 1: LJ
   - summary: Introduces the 'Turing Experiment', simulating a representative sample of participants rather than one person, and replicates classic economics and psychology studies with LLMs while exposing a 'hyper-accuracy distortion' in GPT-family models.
 
-- [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2308.08708) · 2023-08
-  - `arxiv:2308.08708` · cited by 1: ZJ
-  - summary: TODO
-
 - [Is There Any Social Principle for LLM-Based Agents?](https://arxiv.org/abs/2308.11136) · 2023-08
   - `arxiv:2308.11136` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Argues LLM-agent research shouldn't just optimize for human-centered alignment — it should study the agents' own emergent social dynamics as a field in its own right, proposing a case for agent-specific social science.
 
 - [Exploring large language models for communication games: An empirical study on Werewolf](https://arxiv.org/abs/2309.04658) · 2023-09
   - `arxiv:2309.04658` · cited by 1: LJ
   - summary: Tuning-free framework showing emergent deception and trust.
-
-- [Taken out of context: On measuring situational awareness in LLMs](https://arxiv.org/abs/2309.00667) · 2023-09
-  - `arxiv:2309.00667` · cited by 1: ZJ
-  - summary: TODO
 
 - [CompeteAI: Understanding the Competition Dynamics in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512) · 2023-10
   - `arxiv:2310.17512` · cited by 1: LJ
@@ -104,7 +96,7 @@
 
 - [Can Large Language Model Agents Simulate Human Trust Behaviors?](https://arxiv.org/abs/2402.04559) · 2024-02
   - `arxiv:2402.04559` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Runs GPT-4 agents through classic behavioral-economics Trust Games and finds their trust behavior closely tracks how humans actually play, including trust biases and how trust shifts under pressure — evidence LLM agents can stand in for humans in social-behavior simulations, not just value-alignment tests.
 
 - [Emergence of Social Norms in Generative Agent Societies: Principles and Architecture](https://arxiv.org/abs/2403.08251) · 2024-03
   - `arxiv:2403.08251` · cited by 1: ZJ
@@ -116,7 +108,7 @@
 
 - [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://aclanthology.org/2025.emnlp-main.1562.pdf) · 2025
   - `acl:2025.emnlp-main.1562.pdf` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Names the "Behavior-Realism Gap" in large-scale generative-agent social simulations (personas drifting from real expert/data behavior) and fixes it with PersonaEvolve, an LLM-driven persona optimizer that cut distributional divergence 84% versus baseline on an active-shooter simulation and generalized to new scenarios.
 
 - [CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation](https://arxiv.org/abs/2506.21805) · 2025-06
   - `arxiv:2506.21805` · cited by 2: LJ, ZJ

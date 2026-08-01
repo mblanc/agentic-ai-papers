@@ -1,14 +1,18 @@
 # training-and-optimization
 
-34 entries.
+36 entries.
 
 ## Timeline
 
-28 dated entries, oldest first.
+30 dated entries, oldest first.
 
 - [Self-Evolution Learning for Discriminative Language Model Pretraining](https://aclanthology.org/2023.findings-acl.254.pdf) · 2023
   - `acl:2023.findings-acl.254.pdf` · cited by 1: LJ
   - summary: Masks tokens by their informativeness rather than randomly, adding a Token-specific Label Smoothing step so masked-language pretraining focuses learning on under-explored tokens instead of uniformly random ones, improving 10 downstream tasks by 1.4-2.1 points on average across different pretrained models.
+
+- [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244) · 2023-04
+  - `arxiv:2304.12244` · cited by 1: ZJ
+  - summary: Uses an LLM (Evol-Instruct) to automatically rewrite simple instructions into progressively harder ones instead of hand-authoring complex training data, and the resulting fine-tuned model beats ChatGPT on human-judged high-complexity instructions.
 
 - [SELFEVOLVE: A Code Evolution Framework via Large Language Models](https://arxiv.org/pdf/2306.02907) · 2023-06
   - `arxiv:2306.02907` · cited by 1: LJ
@@ -29,6 +33,10 @@
 - [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) · 2024-04
   - `arxiv:2404.14387` · cited by 1: LJ
   - summary: Four-phase framework; the entry point for this whole category.
+
+- [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736) · 2024-06
+  - `arxiv:2406.11736` · cited by 1: ZJ
+  - summary: Self-training loop where feedback from the task environment filters an LLM's own generated symbolic-reasoning trajectories, letting it improve on neural-symbolic tasks without relying on scarce human-annotated symbolic data.
 
 - [Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy](https://arxiv.org/abs/2407.06813) · 2024-07
   - `arxiv:2407.06813` · cited by 1: LJ
@@ -55,7 +63,7 @@
 - [Towards Efficient Online Tuning of VLM Agents via Counterfactual Soft Reinforcement Learning](https://arxiv.org/abs/2505.03792) · 2025-05
   - `arxiv:2505.03792` · cited by 1: ZJ
   - related: <https://github.com/langfengQ/CoSo>
-  - summary: TODO
+  - summary: Fixes RL exploration for VLM agents by using counterfactual reasoning to figure out which tokens in a generated action actually matter causally, then focusing exploration there instead of treating every token equally — improves sample efficiency and performance on Android control, card games, and embodied tasks.
 
 - [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) · 2025-10
   - `arxiv:2510.16079` · cited by 1: LJ

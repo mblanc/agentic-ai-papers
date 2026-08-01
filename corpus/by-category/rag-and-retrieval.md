@@ -154,11 +154,11 @@
 
 - [CodeAlmanac](https://github.com/AlmanacCode/codealmanac)
   - `gh:almanaccode/codealmanac` · cited by 1: KY
-  - summary: TODO
+  - summary: A local wiki that coding agents maintain themselves — background jobs sync recent agent conversations into markdown pages, prune stale entries, and dedupe knowledge, so context like design rationale and known gotchas persists across sessions instead of living only in chat history.
 
 - [IWE](https://github.com/iwe-org/iwe)
   - `gh:iwe-org/iwe` · cited by 1: KY
-  - summary: TODO
+  - summary: Turns a folder of markdown notes into a linked knowledge graph browsable from your editor and queryable by an AI agent over MCP, keeping everything as plain local files with no proprietary format or cloud dependency.
 
 - [LLocalSearch](https://github.com/nilsherzig/LLocalSearch)
   - `gh:nilsherzig/llocalsearch` · cited by 1: KY
@@ -166,7 +166,7 @@
 
 - [Local GPT](https://github.com/PromtEngineer/localGPT)
   - `gh:promtengineer/localgpt` · cited by 1: KY
-  - summary: TODO
+  - summary: Fully local document-QA platform — hybrid retrieval, query routing and answer verification over your own files, with source attribution, so you get RAG-style document intelligence without any data leaving your machine.
 
 - [MemClaw](https://github.com/caura-ai/caura-memclaw)
   - `gh:caura-ai/caura-memclaw` · cited by 1: KY
@@ -194,7 +194,7 @@
 
 - [Second Brain AI Agent](https://github.com/flepied/second-brain-agent)
   - `gh:flepied/second-brain-agent` · cited by 1: KY
-  - summary: TODO
+  - summary: Watches a directory of markdown notes (Obsidian-style, including embedded PDFs/web pages/YouTube), chunks and embeds them into ChromaDB, and exposes retrieval to an LLM agent over an MCP server — a concrete RAG pipeline for personal notes.
 
 - [Statewave](https://github.com/smaramwbc/statewave)
   - `gh:smaramwbc/statewave` · cited by 1: KY

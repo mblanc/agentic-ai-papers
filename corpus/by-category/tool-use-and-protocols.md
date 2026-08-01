@@ -1,6 +1,6 @@
 # tool-use-and-protocols
 
-133 entries.
+134 entries.
 
 ## Timeline
 
@@ -72,7 +72,7 @@
 
 - [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/abs/2303.04671) · 2023-03
   - `arxiv:2303.04671` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Wires ChatGPT up to a set of vision models (Stable Diffusion, ViT, etc.) via a prompt-based dispatcher so it can take and generate images and chain multi-step visual edits, not just text — an early, hacky but influential template for LLM-as-orchestrator-of-tools.
 
 - [Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models](https://arxiv.org/abs/2304.09842) · 2023-04
   - `arxiv:2304.09842` · cited by 1: ZJ
@@ -84,7 +84,7 @@
 
 - [ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models](https://arxiv.org/abs/2305.14323) · 2023-05
   - `arxiv:2305.14323` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Reframes chain-of-thought tool use as a multi-turn chat rather than a single long prompt, letting a chat LLM alternate between reasoning and tool calls turn-by-turn and picking up 7.9% over the prior best on MATH and HotpotQA.
 
 - [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/pdf/2305.11738.pdf) · 2023-05
   - `arxiv:2305.11738` · cited by 1: ZJ
@@ -97,11 +97,11 @@
 
 - [Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning](https://arxiv.org/abs/2305.14909) · 2023-05
   - `arxiv:2305.14909` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Has an LLM generate PDDL domain models instead of acting as the planner itself, so a proper symbolic planner does the actual search and guarantees plan correctness while the LLM just handles translating problems into and out of PDDL — the authors get it producing usable models for 40+ actions and solving 48 non-trivial household planning tasks.
 
 - [Making Language Models Better Tool Learners with Execution Feedback](https://arxiv.org/abs/2305.13068) · 2023-05
   - `arxiv:2305.13068` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Trains models to call tools selectively rather than reflexively, using execution feedback from actual tool runs (TRICE) to teach them when a tool helps versus when it just adds failure modes on tasks the model could already solve alone.
 
 - [On the Tool Manipulation Capability of Open-source Large Language Models](http://arxiv.org/abs/2305.16504) · 2023-05
   - `arxiv:2305.16504` · cited by 1: LJ
@@ -179,7 +179,7 @@
 - [Agentic Skill Discovery](https://arxiv.org/abs/2405.15019) · 2024-05
   - `arxiv:2405.15019` · cited by 1: ZJ
   - related: <https://github.com/xf-zhao/Agentic-Skill-Discovery>
-  - summary: TODO
+  - summary: Bootstraps a robot's skill library from nothing by having an LLM propose tasks from a scene description, spin up RL runs with LLM-authored reward functions, and have a vision-language model check whether the resulting behavior actually worked — no hand-designed skill list required.
 
 - [Chain of Tools: Large Language Model is an Automatic Multi-tool Learner](http://arxiv.org/abs/2405.16533) · 2024-05
   - `arxiv:2405.16533` · cited by 1: LJ
@@ -491,7 +491,7 @@
 
 ## Tools & Undated
 
-13 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+14 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [Announcing Official MCP Support for Google Services](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services)
   - `url:https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services` · cited by 1: HE
@@ -524,6 +524,10 @@
 - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
   - `url:https://modelcontextprotocol.io/introduction` · cited by 1: HE
   - summary: Open protocol standardizing agent access to tools, data and services.
+
+- [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol)
+  - `gh:teoslayer/pilotprotocol` · cited by 1: KY
+  - summary: Peer-to-peer overlay network for agents — permanent addresses, NAT traversal through a rendezvous service, and AES-256-GCM-encrypted UDP tunnels for direct agent-to-agent traffic — built so no central platform sits in the data path between two agents talking to each other.
 
 - [RestGPT](https://github.com/Yifan-Song793/RestGPT)
   - `gh:yifan-song793/restgpt` · cited by 1: KY

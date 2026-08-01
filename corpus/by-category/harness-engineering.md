@@ -1,10 +1,14 @@
 # harness-engineering
 
-89 entries.
+90 entries.
 
 ## Timeline
 
-76 dated entries, oldest first.
+77 dated entries, oldest first.
+
+- [Language Model Cascades](https://arxiv.org/abs/2207.10342) · 2022-07
+  - `arxiv:2207.10342` · cited by 1: ZJ
+  - summary: Frames chains of LLM calls with control flow — chain-of-thought, verifiers, STaR, selection-inference, tool use — as probabilistic-programming graphical models, giving a common formalism for describing and reasoning about multi-step and multi-model LLM pipelines.
 
 - [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) · 2023-08
   - `gh:anthropics/claude-cookbooks` · cited by 1: HE
@@ -72,7 +76,7 @@
 
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre) · 2026-01
   - `gh:tracer-cloud/opensre` · cited by 1: HE
-  - summary: TODO
+  - summary: Open-source agent framework for investigating and responding to production incidents on your own infrastructure — pulls alert context, logs and metrics, reasons about root cause, and writes up structured investigation reports, wired into 60+ observability/cloud/incident tools; ships as an RL environment with synthetic incident simulations for training and evaluating SRE agents.
 
 - [Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents](https://arxiv.org/pdf/2601.15322v1) · 2026-01
   - `arxiv:2601.15322` · cited by 1: VA

@@ -1,12 +1,12 @@
 # Dedup report
 
-Canonical entries: **1529**
+Canonical entries: **1530**
 
-Summaries kept from seed: **1375** (90%) — remainder need the write-summaries pass.
+Summaries kept from seed: **1524** (100%) — remainder need the write-summaries pass.
 
 ## Entries per source
 
-- `HE`: 413
+- `HE`: 414
 - `VA`: 373
 - `LJ`: 339
 - `ZJ`: 251
@@ -52,7 +52,7 @@ One canonical id, two unrelated titles. Check the source before trusting either.
 
 | cited by N sources | entries |
 | --- | --- |
-| 1 | 1446 |
+| 1 | 1447 |
 | 2 | 80 |
 | 3 | 3 |
 
@@ -60,22 +60,22 @@ One canonical id, two unrelated titles. Check the source before trusting either.
 
 | category | entries |
 | --- | --- |
-| multi-agent | 202 |
-| safety-security-governance | 191 |
-| evaluation-and-benchmarks | 180 |
-| planning-and-reasoning | 149 |
-| tool-use-and-protocols | 133 |
-| memory | 94 |
-| harness-engineering | 89 |
-| coding-agents | 76 |
-| frameworks-and-sdks | 73 |
-| observability-and-ops | 62 |
-| surveys-and-foundations | 50 |
+| multi-agent | 200 |
+| safety-security-governance | 192 |
+| evaluation-and-benchmarks | 183 |
+| planning-and-reasoning | 144 |
+| tool-use-and-protocols | 134 |
+| memory | 95 |
+| harness-engineering | 90 |
+| coding-agents | 73 |
+| frameworks-and-sdks | 71 |
+| observability-and-ops | 64 |
+| surveys-and-foundations | 52 |
 | rag-and-retrieval | 47 |
-| simulation-and-social | 40 |
+| simulation-and-social | 38 |
+| training-and-optimization | 36 |
 | context-engineering | 35 |
-| domain-applications | 34 |
-| training-and-optimization | 34 |
+| domain-applications | 35 |
 | web-gui-computer-use | 16 |
 | unsorted | 13 |
-| embodied-and-robotics | 11 |
+| embodied-and-robotics | 12 |

@@ -1,10 +1,10 @@
 # surveys-and-foundations
 
-50 entries.
+52 entries.
 
 ## Timeline
 
-44 dated entries, oldest first.
+46 dated entries, oldest first.
 
 - [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) · 2021-08
   - `arxiv:2108.07258` · cited by 1: LJ
@@ -22,9 +22,17 @@
   - `arxiv:2305.13246` · cited by 1: ZJ
   - summary: Early framing of interaction as the organizing principle.
 
+- [Wireless Multi-Agent Generative AI: From Connected Intelligence to Collective Intelligence](https://arxiv.org/abs/2307.02757) · 2023-07
+  - `arxiv:2307.02757` · cited by 1: ZJ
+  - summary: Surveys how to run multi-agent generative LLMs on wireless/edge networks — architecture at the network and device level, on-device LLM enablers, and a game-theoretic view of agents cooperating and competing over the air — as groundwork for pushing agentic AI out of the cloud and onto the edge.
+
 - [A survey on large language model based autonomous agents](https://arxiv.org/abs/2308.11432) · 2023-08
   - `arxiv:2308.11432` · cited by 2: LJ, ZJ
   - summary: Unified construction framework; the other canonical survey alongside `XI`'s.
+
+- [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2308.08708) · 2023-08
+  - `arxiv:2308.08708` · cited by 1: ZJ
+  - summary: Turns five neuroscience theories of consciousness (global workspace, higher-order, predictive processing, etc.) into checkable computational "indicator properties," scores current AI systems against them, and concludes none are conscious today but nothing obviously blocks building one that would be.
 
 - [Large Language Model Alignment: A Survey](https://arxiv.org/abs/2309.15025) · 2023-09
   - `arxiv:2309.15025` · cited by 1: LJ
@@ -76,7 +84,7 @@
 
 - [A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond](https://arxiv.org/abs/2403.14734) · 2024-03
   - `arxiv:2403.14734` · cited by 1: ZJ
-  - summary: TODO
+  - summary: 680-paper survey tracing code intelligence from RNN-era code models through today's LLMs across 50+ models and 20+ task categories — the reference if you need the historical map of what's been tried in code generation/understanding before building on top of it.
 
 - [Position Paper: Agent AI Towards a Holistic Intelligence](https://arxiv.org/abs/2403.00833) · 2024-03
   - `arxiv:2403.00833` · cited by 1: LJ

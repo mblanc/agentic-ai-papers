@@ -1,10 +1,10 @@
 # evaluation-and-benchmarks
 
-180 entries.
+183 entries.
 
 ## Timeline
 
-156 dated entries, oldest first.
+158 dated entries, oldest first.
 
 - [Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance](https://www.computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC) · 2020
   - `url:https://computer.org/csdl/proceedings-article/sc/2020/999800a864/1oeOToMWZBC` · cited by 1: LJ
@@ -53,6 +53,10 @@
 - [DeepEval](https://github.com/confident-ai/deepeval) · 2023-08
   - `gh:confident-ai/deepeval` · cited by 1: HE
   - summary: An open-source, Pytest-like LLM/agent evaluation framework covering task completion, tool correctness, and hallucination detection, meant to be run as part of a normal test suite rather than a separate manual process.
+
+- [Taken out of context: On measuring situational awareness in LLMs](https://arxiv.org/abs/2309.00667) · 2023-09
+  - `arxiv:2309.00667` · cited by 1: ZJ
+  - summary: Tests whether a model can tell it's being evaluated versus deployed by fine-tuning it on test descriptions with zero examples and checking if it can still pass the test — both GPT-3 and LLaMA-1 succeed, and better with scale, flagging situational awareness as something to watch for and try to control.
 
 - [FireAct: Toward Language Agent Fine-tuning](http://arxiv.org/abs/2310.05915) · 2023-10
   - `arxiv:2310.05915` · cited by 1: LJ
@@ -355,6 +359,10 @@
   - `arxiv:2601.01743` · cited by 1: VA
   - summary: A taxonomy of agent components, orchestration patterns, and deployment trade-offs (latency vs accuracy, autonomy vs controllability), naming non-determinism, long-horizon credit assignment, and tool variability as the core reasons agent evaluation remains unsolved.
 
+- [AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation](https://arxiv.org/abs/2601.00930) · 2026-01
+  - `arxiv:2601.00930` · cited by 1: ZJ
+  - summary: Trains an LLM agent to act as a synthetic recommender-system user by predicting next states and comparing its choices against real human trajectories to catch and fix suboptimal actions, tracking real user behavior more closely than few-shot-prompted agent baselines.
+
 - [APEX-Agents](https://arxiv.org/pdf/2601.14242v2) · 2026-01
   - `arxiv:2601.14242` · cited by 1: VA
   - summary: APEX-Agents is a 480-task benchmark of long-horizon, cross-application work pulled from real investment-banking, consulting and legal jobs, and even the best agent tested (Gemini 3 Flash, high thinking) only clears 24% Pass@1 — a reminder how far current agents are from real knowledge-work automation.
@@ -634,7 +642,7 @@
 
 ## Tools & Undated
 
-24 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+25 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [agent-qa](https://github.com/vostride/agent-qa)
   - `gh:vostride/agent-qa` · cited by 1: KY
@@ -678,15 +686,15 @@
 
 - [Latitude](https://github.com/latitude-dev/latitude-llm)
   - `gh:latitude-dev/latitude-llm` · cited by 1: KY
-  - summary: TODO
+  - summary: Open-source "Sentry for agents": groups failed LLM traces into tracked issues, runs human-judgment-based evals, and gives multi-turn session and semantic trace search across OpenAI/Anthropic/Bedrock and LangChain/Vercel AI SDK, so you find agent regressions before users report them.
 
 - [Lean](https://leanprover.github.io/)
   - `url:https://leanprover.github.io/` · cited by 1: BK
-  - summary: TODO
+  - summary: Lean is the open-source proof assistant/language (backing mathlib, AWS's Cedar, and a growing pile of AI-assisted-proof work) whose machine-checked kernel is what makes LLM-generated proofs and formal-verification agent pipelines actually trustworthy.
 
 - [LeanDojo](https://github.com/lean-dojo/LeanDojo)
   - `gh:lean-dojo/leandojo` · cited by 1: BK
-  - summary: TODO
+  - summary: Python library that extracts proof states, tactics and premises from Lean 4 repos and lets code interact with the Lean prover programmatically, giving you the data and API layer needed to train or evaluate an automated theorem-proving agent.
 
 - [Manifest](https://github.com/mnfst/manifest)
   - `gh:mnfst/manifest` · cited by 1: KY
@@ -730,4 +738,8 @@
 
 - [WebArena](https://github.com/web-arena-x/webarena)
   - `gh:web-arena-x/webarena` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Self-hostable benchmark with real shopping, Reddit, GitLab and Wikipedia clones plus 812 annotated tasks, for testing whether a web agent can actually click and type its way through realistic multi-step browsing tasks rather than a toy sandbox.
+
+- [WorkArena](https://github.com/ServiceNow/workarena)
+  - `gh:servicenow/workarena` · cited by 1: BK
+  - summary: Benchmark of browser-based knowledge-work tasks on a real ServiceNow instance — 19,912 instances across 33 atomic tasks, plus a WorkArena++ set of 682 compositional tasks — used to score web agents rather than to build one.

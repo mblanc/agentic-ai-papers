@@ -52,12 +52,12 @@
 
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLS01nW3RtgopsNLeM936V4TNSsvvVglLc)
   - `url:https://youtube.com/playlist?list=PLS01nW3RtgopsNLeM936V4TNSsvvVglLc` · cited by 1: BK
-  - summary: · [Spring 2025](https://www.youtube.com/playlist?list=PLS01nW3RtgorL3AW8REU9nGkzhvtn6Egn) · [Fall 2025](https://www.youtube.com/playlist?list=PLS01nW3RtgoqGkm4UeqNeZLccW-OGc1fJ) — Recorded lectures with named guest speakers.
+  - summary: Recorded lecture playlist for UC Berkeley's LLM Agents MOOC, Fall 2024.
 
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLS01nW3RtgorL3AW8REU9nGkzhvtn6Egn)
   - `url:https://youtube.com/playlist?list=PLS01nW3RtgorL3AW8REU9nGkzhvtn6Egn` · cited by 1: BK
-  - summary: TODO
+  - summary: Recorded lecture playlist for UC Berkeley's Advanced LLM Agents MOOC, Spring 2025.
 
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLS01nW3RtgoqGkm4UeqNeZLccW-OGc1fJ)
   - `url:https://youtube.com/playlist?list=PLS01nW3RtgoqGkm4UeqNeZLccW-OGc1fJ` · cited by 1: BK
-  - summary: TODO
+  - summary: Recorded lecture playlist for UC Berkeley's Agentic AI MOOC, Fall 2025.

@@ -1,14 +1,18 @@
 # embodied-and-robotics
 
-11 entries.
+12 entries.
 
 ## Timeline
 
-4 dated entries, oldest first.
+5 dated entries, oldest first.
 
 - [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents](https://proceedings.mlr.press/v162/huang22a.html) · 2022-07
   - `url:https://proceedings.mlr.press/v162/huang22a.html` · cited by 1: LJ
   - summary: Shows a large enough LLM can decompose a high-level goal like 'make breakfast' into mid-level steps with no training, then adds a step that maps each to an admissible action, substantially improving executability in VirtualHome.
+
+- [An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929) · 2024-02
+  - `arxiv:2402.05929` · cited by 1: ZJ
+  - summary: Pretrains one multimodal transformer on robotics trajectories, gameplay, video, and text at once — combining masked visual encoding, language modeling, and next-action prediction — so the same weights drive an action-taking agent across robotics, gaming, and healthcare tasks instead of needing separate task-specific models.
 
 - [VLM Can Be a Good Assistant: Enhancing Embodied Visual Tracking with Self-Improving Vision-Language Models](https://arxiv.org/abs/2505.20718) · 2025-05
   - `arxiv:2505.20718` · cited by 1: LJ
@@ -44,7 +48,7 @@
 
 - [RoboAgent: Generalization and Efficiency in Robot Manipulation via Semantic Augmentations and Action Chunking](https://robopen.github.io/media/roboagent.pdf)
   - `url:https://robopen.github.io/media/roboagent.pdf` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Trains one multi-task manipulation policy from just 7,500 demonstrations using semantic data augmentation and compact action representations, then shows it generalizing to 38 kitchen tasks and beating prior methods by over 40% on unseen situations.
 
 - [SLAC: Simulation-Pretrained Latent Action Space for Whole-Body Real-World RL](https://www.cs.utexas.edu/~pstone/Papers/bib2html/b2hd-jiaheng_hu_2025.html)
   - `url:https://cs.utexas.edu/~pstone/Papers/bib2html/b2hd-jiaheng_hu_2025.html` · cited by 1: BK
@@ -52,4 +56,4 @@
 
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://voyager.minedojo.org/)
   - `url:https://voyager.minedojo.org/` · cited by 1: BK
-  - summary: TODO
+  - summary: GPT-4-driven Minecraft agent that writes and stores executable code as skills, picks its own next goals via a novelty-seeking curriculum, and self-corrects using game feedback — the first LLM agent to sustain open-ended lifelong learning, discovering 3.3x more items and unlocking tech-tree milestones up to 15.3x faster than prior agents, with skills that transfer to entirely new worlds.

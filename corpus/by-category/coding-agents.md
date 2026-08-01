@@ -1,10 +1,10 @@
 # coding-agents
 
-76 entries.
+73 entries.
 
 ## Timeline
 
-30 dated entries, oldest first.
+31 dated entries, oldest first.
 
 - [Aider](https://github.com/Aider-AI/aider) · 2023-05
   - `gh:aider-ai/aider` · cited by 2: HE, KY
@@ -13,6 +13,10 @@
 - [ToolCoder: Teach Code Generation Models to use API search tools](http://arxiv.org/abs/2305.04032) · 2023-05
   - `arxiv:2305.04032` · cited by 1: LJ
   - summary: Teaches a code-generation model to call an API-search tool while coding so it stops inventing non-existent or wrong APIs, adding 6.21% pass@1 and letting a small model rival GPT-3.5 on library-heavy tasks.
+
+- [PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback](https://arxiv.org/abs/2307.14936) · 2023-07
+  - `arxiv:2307.14936` · cited by 1: ZJ
+  - summary: Fine-tunes a code LLM by ranking multiple sampled completions against test execution and teacher feedback rather than plain supervised fine-tuning, hitting 62.2% pass@1 on HumanEval.
 
 - [OpenHands](https://github.com/OpenHands/OpenHands) · 2024-03
   - `gh:openhands/openhands` · cited by 1: HE
@@ -128,7 +132,7 @@
 
 ## Tools & Undated
 
-46 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
+42 entries with no date derivable from their source (GitHub repos, blog posts, etc.).
 
 - [DSPy](https://github.com/stanfordnlp/dspy)
   - `gh:stanfordnlp/dspy` · cited by 2: BK, KY
@@ -136,23 +140,19 @@
 
 - [MetaGPT](https://github.com/geekan/MetaGPT)
   - `gh:geekan/metagpt` · cited by 2: KY, ZJ
-  - summary: TODO
+  - summary: Assigns a team of role-playing agents (product manager, architect, engineer, QA) a standard operating procedure so a one-line requirement comes out as a full software project instead of a single code snippet.
 
 - [SWE Agent](https://github.com/princeton-nlp/swe-agent)
   - `gh:princeton-nlp/swe-agent` · cited by 2: BK, KY
-  - summary: TODO
+  - summary: Wraps issue text, repo search, and file edits into an agent-computer interface purpose-built for bug fixing, and doubles as a harness for offensive-security and competitive-coding challenges (NeurIPS 2024).
 
 - [2026 Agentic Coding Trends Report](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en)
   - `url:https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf` · cited by 1: HE
   - summary: Finds harness configuration alone can swing benchmarks by 5+ points.
 
-- [Agency](https://github.com/neurocult/agency)
-  - `gh:neurocult/agency` · cited by 1: KY
-  - summary: TODO
-
 - [Agent Teams AI](https://github.com/777genius/agent-teams-ai)
   - `gh:777genius/agent-teams-ai` · cited by 1: KY
-  - summary: TODO
+  - summary: Electron app that puts Claude Code, Codex, Cursor and other coding agents on a shared kanban board, where they message each other and review each other's work while you give high-level commands instead of babysitting one agent at a time.
 
 - [AgentRun](https://github.com/Jonathan-Adly/AgentRun)
   - `gh:jonathan-adly/agentrun` · cited by 1: KY
@@ -172,15 +172,15 @@
 
 - [blade-deepseek](https://github.com/echoVic/blade-deepseek)
   - `gh:echovic/blade-deepseek` · cited by 1: KY
-  - summary: TODO
+  - summary: A coding agent built specifically around DeepSeek models rather than being model-agnostic; the repo has since been renamed to orca-agent.
 
 - [Cate](https://github.com/0-AI-UG/cate)
   - `gh:0-ai-ug/cate` · cited by 1: KY
-  - summary: TODO
+  - summary: Infinite-canvas desktop app where each terminal running a coding agent (Claude Code, Codex, etc.) gets its own git worktree and colored territory, so you can watch several agents work in parallel and get notified the moment one needs input.
 
 - [Claude Engineer](https://github.com/Doriandarko/claude-engineer)
   - `gh:doriandarko/claude-engineer` · cited by 1: KY
-  - summary: TODO
+  - summary: CLI and web front-end for Claude 3.5 Sonnet that writes and edits code and can generate new tools for itself mid-session, growing its own capability set as it works.
 
 - [Cline](https://github.com/cline/cline)
   - `gh:cline/cline` · cited by 1: KY
@@ -194,10 +194,6 @@
   - `gh:aakashadesara/ctop` · cited by 1: KY
   - summary: htop for coding agents: CPU, memory, tokens, context window, cost.
 
-- [DB GPT](https://github.com/csunny/DB-GPT)
-  - `gh:csunny/db-gpt` · cited by 1: KY
-  - summary: TODO
-
 - [Devika](https://github.com/stitionai/devika)
   - `gh:stitionai/devika` · cited by 1: KY
   - summary: Decomposes high-level instructions, researches, then writes code.
@@ -208,7 +204,7 @@
 
 - [fractal](https://github.com/plasma-ai/fractal)
   - `gh:plasma-ai/fractal` · cited by 1: KY
-  - summary: TODO
+  - summary: CLI where autonomous coding-agent loops run in their own git worktree and can spawn child loops for separable subtasks, growing a tree shaped to the problem instead of following a fixed plan, bounded by hard caps since it runs without permission prompts by default.
 
 - [Frontman](https://www.github.com/frontman-ai/frontman)
   - `gh:frontman-ai/frontman` · cited by 1: KY
@@ -228,15 +224,11 @@
 
 - [h5i](https://github.com/h5i-dev/h5i)
   - `gh:h5i-dev/h5i` · cited by 1: KY
-  - summary: TODO
+  - summary: Gives every AI coding agent a sandboxed git worktree and logs its prompts, commands and policy decisions for audit, while compressing those logs to cut token overhead by up to 95%.
 
 - [Hooks – Codex](https://developers.openai.com/codex/hooks)
   - `url:https://developers.openai.com/codex/hooks` · cited by 1: HE
   - summary: Lifecycle hooks for injecting deterministic scripts at loop events.
-
-- [KubeStellar Console](https://github.com/kubestellar/console)
-  - `gh:kubestellar/console` · cited by 1: KY
-  - summary: TODO
 
 - [Maestro](https://github.com/RunMaestro/Maestro)
   - `gh:runmaestro/maestro` · cited by 1: KY
@@ -248,11 +240,11 @@
 
 - [MicroAgent](https://github.com/aymenfurter/microagents)
   - `gh:aymenfurter/microagents` · cited by 1: KY
-  - summary: TODO
+  - summary: Agents that rewrite their own prompts and Python code when they fail a task, so behavior improves through self-editing instead of manual prompt tuning.
 
 - [Nanocoder](https://github.com/Nano-Collective/nanocoder)
   - `gh:nano-collective/nanocoder` · cited by 1: KY
-  - summary: TODO
+  - summary: Terminal coding agent built and maintained by a community collective rather than a company, model-agnostic and keeps your code and API keys off anyone else's servers.
 
 - [Nous](https://github.com/TrafficGuard/nous)
   - `gh:trafficguard/nous` · cited by 1: KY
@@ -264,14 +256,10 @@
 
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
   - `gh:all-hands-ai/openhands` · cited by 1: KY
-  - summary: TODO
+  - summary: Platform where an AI agent writes code, runs shell commands and browses the web to carry a software task end to end rather than just answering in a chat window; one of the most-starred open coding-agent projects on GitHub.
 
 - [OpenHands](https://github.com/xlang-ai/OpenHands)
   - `gh:xlang-ai/openhands` · cited by 1: BK
-  - summary: TODO
-
-- [Paperclip](https://github.com/paperclipai/paperclip)
-  - `gh:paperclipai/paperclip` · cited by 1: KY
   - summary: TODO
 
 - [Plandex](https://github.com/plandex-ai/plandex)
@@ -280,7 +268,7 @@
 
 - [PyCodeAGI](https://github.com/chakkaradeep/pyCodeAGI)
   - `gh:chakkaradeep/pycodeagi` · cited by 1: KY
-  - summary: TODO
+  - summary: Early BabyAGI-style script, built on LangChain, that generates a whole Python app from a plain-language description of what you want built.
 
 - [RepoAgent](https://github.com/OpenBMB/RepoAgent)
   - `gh:openbmb/repoagent` · cited by 1: KY
@@ -300,16 +288,16 @@
 
 - [ThinkGPT](https://github.com/alaeddine-13/thinkgpt)
   - `gh:alaeddine-13/thinkgpt` · cited by 1: KY
-  - summary: TODO
+  - summary: Python library that bolts chain-of-thought building blocks onto an LLM call — long-term memory, self-refinement against critiques, and knowledge compression — so you don't hand-roll that reasoning scaffolding yourself (now maintained at jina-ai/thinkgpt).
 
 - [Tura](https://github.com/Tura-AI/tura)
   - `gh:tura-ai/tura` · cited by 1: KY
-  - summary: TODO
+  - summary: Coding agent CLI that, across 348 long-horizon benchmark sessions, used up to 83.1% fewer turns on the rewrite benchmark and lifted the DeepSWE pass rate by up to 16.7 points versus Codex CLI (self-reported).
 
 - [Vision agent](https://github.com/landing-ai/vision-agent)
   - `gh:landing-ai/vision-agent` · cited by 1: KY
-  - summary: TODO
+  - summary: Turns a prompt plus an image or video into runnable vision-model code by picking the right models for you, letting you skip vision-pipeline boilerplate; LandingAI has since deprecated it in favor of Agentic Document Extraction.
 
 - [zeroshot](https://github.com/the-open-engine/zeroshot)
   - `gh:the-open-engine/zeroshot` · cited by 1: KY
-  - summary: TODO
+  - summary: CLI agent loop that won't ship code without sign-off from independent reviewer agents first, aiming for output you can actually trust in prod; works with Claude Code, Codex, OpenCode and Gemini CLI.

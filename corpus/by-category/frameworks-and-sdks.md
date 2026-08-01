@@ -1,10 +1,10 @@
 # frameworks-and-sdks
 
-73 entries.
+71 entries.
 
 ## Timeline
 
-19 dated entries, oldest first.
+17 dated entries, oldest first.
 
 - [LangChain](https://github.com/langchain-ai/langchain) · 2022-10
   - `gh:langchain-ai/langchain` · cited by 1: LJ
@@ -16,7 +16,7 @@
 
 - [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/abs/2309.07870) · 2023-09
   - `arxiv:2309.07870` · cited by 1: ZJ
-  - summary: TODO
+  - summary: Open-source library bundling planning, memory, tool use, multi-agent communication, and symbolic control into one modular stack, aimed at letting non-specialists configure autonomous agents without much coding while keeping it extensible for researchers who need to swap components.
 
 - [AutoAgents: A Framework for Automatic Agent Generation](https://arxiv.org/abs/2309.17288) · 2023-09
   - `arxiv:2309.17288` · cited by 1: LJ
@@ -30,17 +30,9 @@
   - `arxiv:2310.10634` · cited by 1: ZJ
   - summary: Open platform with data, plugin and web agents for real users.
 
-- [An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929) · 2024-02
-  - `arxiv:2402.05929` · cited by 1: ZJ
-  - summary: TODO
-
 - [StateFlow: Enhancing LLM Task-Solving through State-Driven Workflows](https://arxiv.org/abs/2403.11322) · 2024-03
   - `arxiv:2403.11322` · cited by 1: BK
   - summary: Models task solving as explicit state machine transitions.
-
-- [Interactive Evolution: A Neural-Symbolic Self-Training Framework For Large Language Models](https://arxiv.org/abs/2406.11736) · 2024-06
-  - `arxiv:2406.11736` · cited by 1: ZJ
-  - summary: TODO
 
 - [smolagents](https://github.com/huggingface/smolagents) · 2024-12
   - `gh:huggingface/smolagents` · cited by 2: HE, KY
@@ -88,7 +80,7 @@
 
 - [AgentVerse](https://github.com/openbmb/agentverse)
   - `gh:openbmb/agentverse` · cited by 2: KY, ZJ
-  - summary: TODO
+  - summary: Provides two separate multi-agent scaffolds — one assembles LLM agents into an automatic pipeline for task-solving work like software development or consulting, the other builds custom simulation environments for watching agents interact (classrooms, prisoner's dilemma, social-behavior studies).
 
 - [Lagent](https://github.com/InternLM/lagent)
   - `gh:internlm/lagent` · cited by 2: KY, ZJ
@@ -104,11 +96,15 @@
 
 - [Aeon](https://github.com/aaronjmars/aeon)
   - `gh:aaronjmars/aeon` · cited by 1: KY
-  - summary: TODO
+  - summary: Wraps six agent harnesses (Claude Code, Codex, Grok, Kimi, and others) in a GitHub Actions cron loop so each 'skill' — just a markdown file with a prompt — runs unattended: shipping PRs, privately disclosing vulnerabilities, deploying apps, with no approval step in between.
 
 - [AG2](https://github.com/ag2ai/ag2)
   - `gh:ag2ai/ag2` · cited by 1: KY
   - summary: Successor framework from the AutoGen creators.
+
+- [Agency](https://github.com/neurocult/agency)
+  - `gh:neurocult/agency` · cited by 1: KY
+  - summary: Go library for wiring LLM calls, memory and RAG into agent pipelines with an idiomatic Go API, for teams whose agent stack isn't Python.
 
 - [Agent-LLM](https://github.com/Josh-XT/Agent-LLM)
   - `gh:josh-xt/agent-llm` · cited by 1: KY
@@ -128,7 +124,7 @@
 
 - [Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS)
   - `gh:agentlas-ai/agentlas-os` · cited by 1: KY
-  - summary: TODO
+  - summary: Turns a plain-language request into a runnable agent or team that persists in a private, owner-scoped cloud instead of living inside one chat session, and lets you pull in ready-made specialist agents from a public hub; built on the open-source Hephaestus engine and works across Claude Code, Codex, Gemini, and Cursor.
 
 - [Agently](https://github.com/Maplemx/Agently)
   - `gh:maplemx/agently` · cited by 1: ZJ
@@ -156,7 +152,7 @@
 
 - [Botpress](https://github.com/botpress/botpress)
   - `gh:botpress/botpress` · cited by 1: KY
-  - summary: TODO
+  - summary: Chatbot platform with its own CLI/SDK for writing integrations and bots “as code,” plus a hub of pre-built integrations you install rather than write yourself — closer to a hosted assistant platform than a bare agent library.
 
 - [Compound AI Systems & DSPy Framework](https://dspy-docs.vercel.app/)
   - `url:https://dspy-docs.vercel.app/` · cited by 1: BK
@@ -173,6 +169,10 @@
 - [CrewAI](https://github.com/joaomdmoura/crewai)
   - `gh:joaomdmoura/crewai` · cited by 1: KY
   - summary: Role-playing agent crews with tasks and delegation.
+
+- [DB GPT](https://github.com/csunny/DB-GPT)
+  - `gh:csunny/db-gpt` · cited by 1: KY
+  - summary: Open-source agent that talks to your databases in natural language and generates the SQL/analysis to answer, so it's a data agent more than a general-purpose code-writing agent (repo now lives at eosphoros-ai/DB-GPT).
 
 - [DemoGPT](https://github.com/melih-unsal/DemoGPT)
   - `gh:melih-unsal/demogpt` · cited by 1: KY
@@ -196,7 +196,7 @@
 
 - [Hermes Agent](https://github.com/nousresearch/hermes-agent)
   - `gh:nousresearch/hermes-agent` · cited by 1: KY
-  - summary: TODO
+  - summary: Self-hosted terminal agent with a closed learning loop — it writes new skills after complex tasks, improves them with use, and periodically nudges itself to persist memory and build a model of the user across sessions — reachable from Telegram, Discord, and Slack as well as a CLI, and swaps LLM providers with a single command.
 
 - [ix](https://github.com/kreneskyp/ix)
   - `gh:kreneskyp/ix` · cited by 1: KY
@@ -204,7 +204,7 @@
 
 - [llama-agentic-system](https://github.com/meta-llama/llama-agentic-system)
   - `gh:meta-llama/llama-agentic-system` · cited by 1: KY
-  - summary: TODO
+  - summary: Reference client apps for Llama Stack, which bundles the inference server, tool-execution loop, and Llama Guard safety checks into one distribution so an agent script just points at a running stack server instead of wiring those pieces together by hand.
 
 - [LlamaIndex](https://github.com/jerryjliu/llama_index)
   - `gh:jerryjliu/llama_index` · cited by 1: KY
@@ -212,11 +212,11 @@
 
 - [LlamaIndex](https://www.llamaindex.ai/)
   - `url:https://llamaindex.ai/` · cited by 1: BK
-  - summary: TODO
+  - summary: RAG framework whose distinguishing piece is document ingestion — LlamaParse routes tables, charts, and handwritten text to specialized sub-agents with auto-correction loops instead of a single generic OCR pass, and reports better accuracy than general-purpose VLMs at a claimed scale of 1B+ documents processed.
 
 - [LLM Agents](https://github.com/mpaepper/llm_agents)
   - `gh:mpaepper/llm_agents` · cited by 1: KY
-  - summary: TODO
+  - summary: Deliberately minimal ReAct-loop implementation (Thought/Action/Observation) stripped down from LangChain's abstractions to a few hundred lines, useful for reading how a tool-calling agent actually works rather than as production infrastructure.
 
 - [LoongFlow](https://github.com/baidu-baige/LoongFlow)
   - `gh:baidu-baige/loongflow` · cited by 1: KY
@@ -224,7 +224,7 @@
 
 - [Maestro](https://github.com/Doriandarko/maestro)
   - `gh:doriandarko/maestro` · cited by 1: KY
-  - summary: TODO
+  - summary: Splits one objective into sub-tasks with an orchestrator model, executes each with a separate sub-agent model, then refines the results into a final output — a single Python script rather than a package, and via LiteLLM works with Anthropic, OpenAI, Gemini, or local models.
 
 - [Modus](https://github.com/hypermodeinc/modus)
   - `gh:hypermodeinc/modus` · cited by 1: KY
@@ -241,10 +241,6 @@
 - [Phidata](https://github.com/phidatahq/phidata)
   - `gh:phidatahq/phidata` · cited by 1: KY
   - summary: Now renamed Agno: an SDK plus AgentOS runtime for running agent platforms as a service with a Postgres-backed control plane, web UI, and JWT-based access control, aimed at teams who want to own their agent stack rather than rent one.
-
-- [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol)
-  - `gh:teoslayer/pilotprotocol` · cited by 1: KY
-  - summary: TODO
 
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI)
   - `gh:mervinpraison/praisonai` · cited by 1: KY
@@ -276,7 +272,7 @@
 
 - [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)
   - `gh:trpc-group/trpc-agent-go` · cited by 1: KY
-  - summary: TODO
+  - summary: Go-native agent framework — graph-based multi-agent workflows as its answer to LangGraph, MCP/A2A/AG-UI protocol support, and OpenTelemetry tracing built in — for teams who want agent services that fit a Go microservice stack instead of bolting a Python agent onto one.
 
 - [uAgents](https://github.com/fetchai/uAgents)
   - `gh:fetchai/uagents` · cited by 1: KY
@@ -288,15 +284,11 @@
 
 - [Vectara-agentic](https://github.com/vectara/py-vectara-agentic)
   - `gh:vectara/py-vectara-agentic` · cited by 1: KY
-  - summary: TODO
+  - summary: Python wrapper around LlamaIndex's agent classes that turns a Vectara RAG corpus into a callable agent tool in one line, with prebuilt domain tools for finance and legal use cases and built-in hallucination correction checked against the retrieved corpus.
 
 - [VoltAgent](https://github.com/VoltAgent/voltagent)
   - `gh:voltagent/voltagent` · cited by 1: KY
   - summary: TypeScript agent framework with built-in LLM observability.
-
-- [WorkArena](https://github.com/ServiceNow/workarena)
-  - `gh:servicenow/workarena` · cited by 1: BK
-  - summary: TODO
 
 - [xlang](https://github.com/xlang-ai/xlang)
   - `gh:xlang-ai/xlang` · cited by 1: ZJ

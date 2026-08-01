@@ -64,7 +64,7 @@
 
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents)
   - `gh:xlang-ai/openagents` · cited by 1: KY
-  - summary: TODO
+  - summary: Open platform hosting three ready-made agents (Data analysis, Plugins for 200+ third-party tools, and Web browsing) behind a chat UI, meant to make usable language agents available to non-experts while giving developers a full deployable stack to build on.
 
 - [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html)
   - `url:https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html` · cited by 1: LJ
