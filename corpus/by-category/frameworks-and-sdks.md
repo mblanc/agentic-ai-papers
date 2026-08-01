@@ -1,10 +1,10 @@
 # frameworks-and-sdks
 
-71 entries.
+70 entries.
 
 ## Timeline
 
-17 dated entries, oldest first.
+16 dated entries, oldest first.
 
 - [LangChain](https://github.com/langchain-ai/langchain) · 2022-10
   - `gh:langchain-ai/langchain` · cited by 1: LJ
@@ -21,10 +21,6 @@
 - [AutoAgents: A Framework for Automatic Agent Generation](https://arxiv.org/abs/2309.17288) · 2023-09
   - `arxiv:2309.17288` · cited by 1: LJ
   - summary: Generates the agent roster for a task rather than fixing it upfront.
-
-- [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://arxiv.org/abs/2310.02170) · 2023-10
-  - `arxiv:2310.02170` · cited by 2: LJ, ZJ
-  - summary: DyLAN automatically selects a team of agents from candidates using an unsupervised 'Agent Importance Score' from a preliminary trial, then lets them collaborate in a dynamic communication structure per task, improving MMLU accuracy up to 25% over static fixed-team baselines.
 
 - [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) · 2023-10
   - `arxiv:2310.10634` · cited by 1: ZJ

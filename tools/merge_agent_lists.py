@@ -558,6 +558,7 @@ CATEGORY_OVERRIDE: dict[str, str] = {
     'arxiv:2406.11736': 'training-and-optimization',    # ENVISIONS: neural-symbolic self-training
     'arxiv:2402.05929': 'embodied-and-robotics',        # Interactive Agent Foundation Model
     'gh:teoslayer/pilotprotocol': 'tool-use-and-protocols',  # P2P agent networking protocol
+    'arxiv:2310.02170': 'multi-agent',  # DyLAN: dynamic team selection/topology, not a framework
 }
 
 

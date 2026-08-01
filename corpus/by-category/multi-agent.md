@@ -1,10 +1,10 @@
 # multi-agent
 
-200 entries.
+201 entries.
 
 ## Timeline
 
-179 dated entries, oldest first.
+180 dated entries, oldest first.
 
 - [Collaborating with language models for embodied reasoning](https://arxiv.org/abs/2302.00763) · 2023-02
   - `arxiv:2302.00763` · cited by 1: ZJ
@@ -129,6 +129,10 @@
 - [ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs](https://arxiv.org/abs/2309.13007) · 2023-09
   - `arxiv:2309.13007` · cited by 1: LJ
   - summary: ReConcile runs a multi-round round-table debate among diverse LLM agents with confidence-weighted voting, beating single- and multi-agent baselines by up to 11.4% and outperforming GPT-4 on three benchmarks.
+
+- [A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration](https://arxiv.org/abs/2310.02170) · 2023-10
+  - `arxiv:2310.02170` · cited by 2: LJ, ZJ
+  - summary: DyLAN automatically selects a team of agents from candidates using an unsupervised 'Agent Importance Score' from a preliminary trial, then lets them collaborate in a dynamic communication structure per task, improving MMLU accuracy up to 25% over static fixed-team baselines.
 
 - [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/pdf/2310.09233) · 2023-10
   - `arxiv:2310.09233` · cited by 1: LJ

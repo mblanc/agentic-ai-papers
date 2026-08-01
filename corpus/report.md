@@ -60,7 +60,7 @@ One canonical id, two unrelated titles. Check the source before trusting either.
 
 | category | entries |
 | --- | --- |
-| multi-agent | 200 |
+| multi-agent | 201 |
 | safety-security-governance | 192 |
 | evaluation-and-benchmarks | 183 |
 | planning-and-reasoning | 144 |
@@ -68,7 +68,7 @@ One canonical id, two unrelated titles. Check the source before trusting either.
 | memory | 95 |
 | harness-engineering | 90 |
 | coding-agents | 73 |
-| frameworks-and-sdks | 71 |
+| frameworks-and-sdks | 70 |
 | observability-and-ops | 64 |
 | surveys-and-foundations | 52 |
 | rag-and-retrieval | 47 |
